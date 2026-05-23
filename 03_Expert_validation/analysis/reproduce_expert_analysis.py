@@ -7,10 +7,16 @@ from docx.shared import Inches, Pt
 
 
 def find_source_file() -> Path:
+    repo_source = Path(__file__).resolve().parents[1] / "Expert_Responses.xlsx"
+    if repo_source.exists():
+        return repo_source
+
     desktop = Path.home() / "Desktop"
     matches = list(desktop.rglob("Expert_Responses.xlsx"))
     if not matches:
-        raise FileNotFoundError("Expert_Responses.xlsx was not found under the Desktop folder.")
+        raise FileNotFoundError(
+            "Expert_Responses.xlsx was not found in 03_Expert_validation or under the Desktop folder."
+        )
     return matches[0]
 
 
@@ -224,7 +230,7 @@ def main() -> None:
         "clarity, the responses were synthesized thematically rather than reproduced verbatim."
     )
 
-    output = Path.cwd() / "Expert_Validation_Analysis_Report_EN.docx"
+    output = Path.cwd() / "Expert_Survey_Analysis_Report.docx"
     doc.save(output)
     print(output)
 

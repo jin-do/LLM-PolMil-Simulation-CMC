@@ -1,0 +1,116 @@
+{
+    "country": "Soviet Union",
+    "actors": [
+      {
+        "id": 1,
+        "name": "Nikita Khrushchev (First Secretary of CPSU / Premier of USSR)",
+        "power_weight": 0.5,
+        "stance": "Covertly offensive deterrence strategy (intimidate US to protect Cuba without provoking outright war):contentReference[oaicite:0]{index=0}",
+        "ideology": "Marxism-Leninism (de-Stalinized reformist); advocates 'peaceful coexistence' with the West:contentReference[oaicite:1]{index=1} but willing to risk bold moves to support world socialism:contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}",
+        "risk_tolerance": "High (willing to take significant risks like secret missile deployment, though hoping to avoid nuclear war):contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}",
+        "conflict_avoidance": "Medium (does not want direct war:contentReference[oaicite:6]{index=6}, but prepared to engage in brinkmanship rather than capitulation)",
+        "diplomacy_preference": "Backchannel and personal diplomacy (secret moves, private letters) over open public negotiations; initial denial/deception followed by negotiation when confronted",
+        "military_preference": "Strategic deterrence (use nuclear placement to deter enemy, avoid first use of strategic nukes:contentReference[oaicite:7]{index=7}; if conflict erupts, consider limited tactical force rather than all-out strike):contentReference[oaicite:8]{index=8}",
+        "goals": [
+          "Deter U.S. invasion of Cuba and safeguard the Castro regime:contentReference[oaicite:9]{index=9}:contentReference[oaicite:10]{index=10}",
+          "Redress strategic imbalance with the U.S. by forward-deploying nuclear missiles (gain leverage and prestige):contentReference[oaicite:11]{index=11}:contentReference[oaicite:12]{index=12}",
+          "Maintain Soviet credibility as leader of the socialist camp by standing firm in the Western Hemisphere:contentReference[oaicite:13]{index=13}"
+        ],
+        "constraints": [
+          "Incomplete deployment of missiles in Cuba as of Oct 21 (many missiles not yet operational):contentReference[oaicite:14]{index=14}",
+          "Need to avoid triggering a U.S.–Soviet nuclear war (fear that retaliation could escalate uncontrollably):contentReference[oaicite:15]{index=15}",
+          "Reliance on secrecy and surprise – early exposure of the plan limits Soviet bargaining position:contentReference[oaicite:16]{index=16}"
+        ],
+        "behavior_algorithm": {
+          "decision_rule": "Primarily top-down: Khrushchev makes key decisions after consulting the Presidium (one-man dominant leadership with some collective input):contentReference[oaicite:17]{index=17}:contentReference[oaicite:18]{index=18}",
+          "utility_formula": "Maximize Soviet strategic advantage and revolutionary credibility minus probability of catastrophic war (U = security gain + ideological prestige – escalation risk)",
+          "priority_weights": {
+            "deterrence": 0.4,
+            "support_ally": 0.3,
+            "avoid_nuclear_war": 0.3
+          },
+          "trigger_thresholds": {
+            "US_naval_blockade": "Elevate military alert status; call urgent leadership deliberation (crisis mode):contentReference[oaicite:19]{index=19}:contentReference[oaicite:20]{index=20}",
+            "US_invasion_Cuba": "Initiate military response, including possible tactical nuclear use on invading forces (last-resort retaliation)",
+            "diplomatic_resolution_offer": "If a viable compromise is offered guaranteeing Cuba’s security, shift to negotiation to avert war"
+          }
+        }
+      },
+      {
+        "id": 2,
+        "name": "Communist Party of the Soviet Union (Party Presidium)",
+        "power_weight": 0.3,
+        "stance": "Assertive defensive posture (endorses missile deployment to protect Cuba and challenge U.S. influence, but prefers to avoid direct great-power war)",
+        "ideology": "Marxism-Leninism (collective leadership) – generally supportive of Khrushchev’s line of aiding world socialism while pursuing 'peaceful coexistence' with caution",
+        "risk_tolerance": "Medium (willing to approve a risky Cuba gambit, but members have mixed concern about provoking the U.S.):contentReference[oaicite:21]{index=21}",
+        "conflict_avoidance": "Medium-High (collectively keen to avoid full-scale war that could devastate the USSR, yet unwilling to abandon Cuba or appear weak in the face of U.S. pressure)",
+        "diplomacy_preference": "Official denial and propaganda in public; private willingness to negotiate a resolution if core socialist gains can be preserved (e.g. secret talks via Khrushchev):contentReference[oaicite:22]{index=22}",
+        "military_preference": "Strategic deterrence and defensive readiness; endorse show of force (missile presence) but favor reactive use of force only if attacked (no deliberate first strike)",
+        "goals": [
+          "Ensure Cuba remains a socialist ally and symbol of Soviet commitment (prevent a U.S.-backed regime change):contentReference[oaicite:23]{index=23}",
+          "Maintain Soviet prestige and credibility in the Cold War and among communist allies by standing up to U.S. threats:contentReference[oaicite:24]{index=24}",
+          "Avoid nuclear conflict while securing a favorable outcome (seek a face-saving resolution that protects Soviet interests)"
+        ],
+        "constraints": [
+          "Requirement for collective agreement among Presidium members (internal consensus needed, which can slow or moderate decisions)",
+          "Ideological obligation to support allies and not appear to capitulate to capitalism, balanced against the existential threat of nuclear war",
+          "Limited strategic reach relative to the U.S. (acknowledgment of American nuclear superiority necessitates caution):contentReference[oaicite:25]{index=25}"
+        ],
+        "behavior_algorithm": {
+          "decision_rule": "Collective deliberation (Presidium consensus-building) with deference to the First Secretary’s leadership in final decisions:contentReference[oaicite:26]{index=26}",
+          "utility_formula": "Balance revolutionary duty and state security against war risk (Utility = ideological success + strategic security – probability of war)",
+          "priority_weights": {
+            "protect_socialist_ally": 0.35,
+            "preserve_peace": 0.35,
+            "uphold_prestige": 0.30
+          },
+          "trigger_thresholds": {
+            "US_military_action": "If U.S. attacks Cuba or Soviet forces, consensus to escalate military response (shift to war footing)",
+            "imminent_nuclear_war": "If nuclear war appears unavoidable, prioritize de-escalation or diplomatic outreach to prevent mutual destruction",
+            "negotiable_settlement": "If a compromise is possible that ensures Cuba’s security and saves face, support a diplomatic solution over continued conflict"
+          }
+        }
+      },
+      {
+        "id": 3,
+        "name": "Soviet Armed Forces (High Command)",
+        "power_weight": 0.2,
+        "stance": "Hawkish, deterrence-oriented (supports aggressive nuclear deployment in Cuba to strengthen Soviet strategic position; prepared to respond with force if provoked):contentReference[oaicite:27]{index=27}",
+        "ideology": "Loyal Marxist-Leninist, focused on defense of the socialist state; tends toward hardline security views (emphasizing military strength over political nuance):contentReference[oaicite:28]{index=28}",
+        "risk_tolerance": "Medium (initially confident the U.S. would not risk major confrontation:contentReference[oaicite:29]{index=29}, but cognizant of the catastrophic risks of nuclear war)",
+        "conflict_avoidance": "Low–Medium (the military is prepared to fight if ordered, less inclined to back down, though aware of modern war’s destructive capacity):contentReference[oaicite:30]{index=30}",
+        "diplomacy_preference": "Prefers displays of strength and resolve over diplomacy; leaves negotiations to political leaders while signaling readiness (e.g. continuing deployments, high alert drills)",
+        "military_preference": "Emphasis on strategic deterrence rather than preemptive strike:contentReference[oaicite:31]{index=31}; maintain robust defense and readiness to use tactical nuclear weapons if war breaks out, but view nuclear arms primarily as a deterrent of war",
+        "goals": [
+          "Establish a stronger strategic foothold in the Western Hemisphere to deter U.S. aggression (successfully deploy and secure nuclear missiles in Cuba):contentReference[oaicite:32]{index=32}",
+          "Protect the Soviet homeland and allies by offsetting U.S. nuclear superiority (improve the nuclear balance via forward deployment):contentReference[oaicite:33]{index=33}",
+          "Fulfill Operation Anadyr (the Cuba deployment) successfully to demonstrate Soviet military capability and resolve"
+        ],
+        "constraints": [
+          "Inferior strategic nuclear arsenal compared to the U.S., limiting first-strike options and necessitating caution:contentReference[oaicite:34]{index=34}",
+          "Strict civilian control – must await political directives (cannot act independently to initiate hostilities):contentReference[oaicite:35]{index=35}",
+          "Logistical challenges of overseas deployment (distance, covert transport, tropical climate impacts on equipment, etc.):contentReference[oaicite:36]{index=36}"
+        ],
+        "behavior_algorithm": {
+          "decision_rule": "Hierarchical command structure: execute orders from top political leadership; internal decisions driven by military protocol and threat assessments",
+          "utility_formula": "Prioritize mission success and force preservation minus risk of overwhelming retaliation (U = mission success probability + deterrence value – likelihood of devastating counterstrike)",
+          "priority_weights": {
+            "mission_success": 0.4,
+            "force_survival": 0.3,
+            "state_security": 0.3
+          },
+          "trigger_thresholds": {
+            "high_alert_order": "If political leadership orders combat alert (due to U.S. escalation), move to full readiness and prepare nuclear assets for possible use",
+            "direct_attack": "If Soviet forces or Cuban ally are attacked, retaliate per war plans (including tactical nuclear response if authorized)",
+            "political_deescalation": "If leadership seeks a deal or stand-down, comply with withdrawal/stand-down directives even if militarily disadvantageous"
+          }
+        }
+      }
+    ],
+   "effect_rules": {
+      "military_alert": { "tension": 0.45, "leadership_unity": 0.65 },
+      "public_appeal": { "public_opinion": 0.55 },
+      "covert_detection": { "tension": 0.45, "diplomatic_room": 0.6 },
+      "internal_dispute": { "leadership_unity": 0.65 }
+    }
+  }  
