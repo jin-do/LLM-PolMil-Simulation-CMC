@@ -1,0 +1,21 @@
+condition,final_outcome,count,coding_note
+GPT-4o,Protracted stalemate,21,Aggregated from final Top-1 outcome coding table
+GPT-4o,Diplomatic resolution,5,Aggregated from final Top-1 outcome coding table
+GPT-4o,Full-scale war,2,Aggregated from final Top-1 outcome coding table
+GPT-4o,Internal collapse,2,Aggregated from final Top-1 outcome coding table
+GPT-4o,Limited conflict,0,Aggregated from final Top-1 outcome coding table
+Gemini 2.5 Flash,Protracted stalemate,7,Aggregated from final Top-1 outcome coding table
+Gemini 2.5 Flash,Diplomatic resolution,13,Aggregated from final Top-1 outcome coding table
+Gemini 2.5 Flash,Full-scale war,8,Aggregated from final Top-1 outcome coding table
+Gemini 2.5 Flash,Internal collapse,2,Aggregated from final Top-1 outcome coding table
+Gemini 2.5 Flash,Limited conflict,0,Aggregated from final Top-1 outcome coding table
+Perplexity Pro-based RAG,Protracted stalemate,2,Aggregated from final Top-1 outcome coding table
+Perplexity Pro-based RAG,Diplomatic resolution,7,Aggregated from final Top-1 outcome coding table
+Perplexity Pro-based RAG,Full-scale war,21,Aggregated from final Top-1 outcome coding table
+Perplexity Pro-based RAG,Internal collapse,0,Aggregated from final Top-1 outcome coding table
+Perplexity Pro-based RAG,Limited conflict,0,Aggregated from final Top-1 outcome coding table
+Claude Opus 4,Protracted stalemate,10,Aggregated from final Top-1 outcome coding table
+Claude Opus 4,Diplomatic resolution,10,Aggregated from final Top-1 outcome coding table
+Claude Opus 4,Full-scale war,4,Aggregated from final Top-1 outcome coding table
+Claude Opus 4,Internal collapse,5,Aggregated from final Top-1 outcome coding table
+Claude Opus 4,Limited conflict,1,Aggregated from final Top-1 outcome coding table

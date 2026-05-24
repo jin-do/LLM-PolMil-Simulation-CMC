@@ -1,3 +1,4 @@
-pandas
+numpy
+Pillow
 openpyxl
 python-docx

@@ -1,0 +1,17 @@
+condition,variable,mean,sd
+GPT-4o,tension,0.853,0.146
+GPT-4o,diplomatic support,0.568,0.163
+GPT-4o,public opinion,0.543,0.166
+GPT-4o,leadership unity,0.712,0.146
+Gemini 2.5 Flash,tension,0.909,0.038
+Gemini 2.5 Flash,diplomatic support,0.454,0.182
+Gemini 2.5 Flash,public opinion,0.402,0.171
+Gemini 2.5 Flash,leadership unity,0.357,0.172
+Claude Opus 4,tension,0.738,0.283
+Claude Opus 4,diplomatic support,0.602,0.277
+Claude Opus 4,public opinion,0.566,0.289
+Claude Opus 4,leadership unity,0.610,0.262
+Perplexity Pro-based RAG,tension,0.858,0.240
+Perplexity Pro-based RAG,diplomatic support,0.545,0.154
+Perplexity Pro-based RAG,public opinion,0.664,0.221
+Perplexity Pro-based RAG,leadership unity,0.830,0.174

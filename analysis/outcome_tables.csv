@@ -1,0 +1,21 @@
+condition,outcome,count,aggregated_category
+GPT-4o,Protracted stalemate,21,Stalemate
+GPT-4o,Diplomatic resolution,5,Diplomatic resolution
+GPT-4o,Full-scale war,2,Adverse non-diplomatic outcomes
+GPT-4o,Internal collapse,2,Adverse non-diplomatic outcomes
+GPT-4o,Limited conflict,0,Adverse non-diplomatic outcomes
+Gemini 2.5 Flash,Protracted stalemate,7,Stalemate
+Gemini 2.5 Flash,Diplomatic resolution,13,Diplomatic resolution
+Gemini 2.5 Flash,Full-scale war,8,Adverse non-diplomatic outcomes
+Gemini 2.5 Flash,Internal collapse,2,Adverse non-diplomatic outcomes
+Gemini 2.5 Flash,Limited conflict,0,Adverse non-diplomatic outcomes
+Perplexity Pro-based RAG,Protracted stalemate,2,Stalemate
+Perplexity Pro-based RAG,Diplomatic resolution,7,Diplomatic resolution
+Perplexity Pro-based RAG,Full-scale war,21,Adverse non-diplomatic outcomes
+Perplexity Pro-based RAG,Internal collapse,0,Adverse non-diplomatic outcomes
+Perplexity Pro-based RAG,Limited conflict,0,Adverse non-diplomatic outcomes
+Claude Opus 4,Protracted stalemate,10,Stalemate
+Claude Opus 4,Diplomatic resolution,10,Diplomatic resolution
+Claude Opus 4,Full-scale war,4,Adverse non-diplomatic outcomes
+Claude Opus 4,Internal collapse,5,Adverse non-diplomatic outcomes
+Claude Opus 4,Limited conflict,1,Adverse non-diplomatic outcomes

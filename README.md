@@ -1,66 +1,94 @@
-LLM-based Pol-Mil Simulation Framework: Cuban Missile Crisis Case
+# LLM-PolMil-Simulation-CMC
 
-This repository contains the dataset, simulation setup, execution logs, quantitative summaries, statistical validation outputs, and expert validation materials for the study: **"Deriving Strategic Scenarios through Political-Military Simulation Based on Large Language Models (LLMs) V2."**
+## 1. Overview
 
-## Folder Structure
+This repository contains replication materials for a structured LLM-assisted Pol-Mil simulation framework tested in a Cuban Missile Crisis benchmark. The project evaluates whether JSON actor profiles, AHP-documented power weights, and a Variable-Decision Matrix (VDM) can make LLM-assisted scenario generation more traceable, controllable, and auditable.
 
-### 01_Simulation_setup
+This is a proof-of-concept framework evaluation. It is not a predictive model of the Cuban Missile Crisis.
 
-- `soviet_gpt.json` / `us_gpt.json`: JSON-based actor profiles defining strategic stances, decision rules, and risk tolerances.
-- `Variable-Decision Matrix.json`: Variable-decision rules used to evaluate the impact of strategic actions.
-- `Prompt.pdf`: Prompt material used for the simulation setup.
-- `Simulation_Protocol_English.docx`: English simulation protocol and procedural instructions.
+## 2. Repository Structure
 
-### 02_Results_and_Logs
+- `protocols/`: simulation protocol and prompt templates.
+- `actor_json/`: U.S. and Soviet actor JSON profiles used in the final framework.
+- `vdm/`: Variable-Decision Matrix and VDM action-space notes.
+- `runs/raw_logs/`: raw execution logs for final runs, organized by condition.
+- `coding/`: final outcome coding table, coding rules, and expert survey public materials.
+- `analysis/`: statistical scripts, outcome tables, variable summary, and figure inputs.
+- `figures/`: manuscript Figure 1 and Figure 2.
+- `docs/`: data dictionary, file inventory, AHP method note, and replication notes.
 
-- `Raw_Logs/`: Raw execution logs and source files from the model runs. The statistical validation uses the cleaned 30-run summary file for each of the four analyzed model groups in `Quantitative_Summaries/` (N = 120).
-  - `ChatGPT/`: ChatGPT run logs.
-  - `Claude/`: Claude run logs and source spreadsheets.
-  - `Gemini/`: Gemini run logs and source spreadsheet.
-  - `Perplexity/`: Perplexity run logs and source spreadsheet.
-- `Quantitative_Summaries/`: Cleaned model-level summary spreadsheets used for statistical validation.
-  - `GPT.xlsx`
-  - `gemini.xlsx`
-  - `opus 4.xlsx`
-  - `Perplexity.xlsx`
-- `statistical_validation/`: Chi-square validation script and generated statistical outputs.
-  - `reproduce_chi_square.py`: Reproduces the scenario-type chi-square analysis from `Quantitative_Summaries/`.
-  - `scenario_chi_square_summary.xlsx`: Reproduced contingency tables, row percentages, expected counts, data-quality checks, and chi-square results.
-  - `Statistical_Validation_Summary_analyzed_files.docx`: Narrative statistical validation report.
+## 3. Experimental Conditions
 
-### 03_Expert_validation
+Primary frontier LLM comparison:
 
-- `Survey_Form.pdf`: Expert validation questionnaire.
-- `Expert_Responses.xlsx`: Expert response dataset used for validation analysis.
-- `analysis/`: Expert validation analysis script and report.
-  - `reproduce_expert_analysis.py`: Processes expert responses and calculates descriptive statistics.
-  - `Expert_Survey_Analysis_Report.docx`: Expert validation report.
+- GPT-4o
+- Gemini 2.5 Flash
+- Claude Opus 4
 
-## Data Language Note
+Auxiliary system-level condition:
 
-The expert validation data is maintained in its original Korean because the survey was conducted with regional security and military strategy experts in South Korea. Key findings and thematic summaries may be translated or summarized in the manuscript as needed.
+- Perplexity Pro-based retrieval-augmented system
 
-## How to Reproduce
+The Perplexity condition combines generation with retrieval, source ranking, and platform-level information access. It should not be interpreted as a direct foundation-model-only comparison.
 
-Python 3.10+ is recommended. The expert validation script requires `pandas`, `openpyxl`, and `python-docx`.
+## 4. Simulation Framework
 
-```powershell
-python -m pip install -r requirements.txt
+The framework combines:
+
+- JSON actor profiles for actor roles, goals, constraints, preferences, and behavior algorithms.
+- AHP-documented power weights as auditable design assumptions.
+- Variable-Decision Matrix (VDM) rules for action categories, variable-effect deltas, and trigger thresholds.
+- A rule-effect-trigger cycle for turn-by-turn scenario progression.
+
+The VDM is treated as an ex ante rule bundle. Each turn supplied the LLM with the current state, actor JSON, available VDM action categories, variable-effect rules, and trigger thresholds.
+
+## 5. Data and Logs
+
+The final experiment used 120 independent runs: 30 per condition. Final outcomes were coded into five categories and also aggregated into three categories for chi-square testing.
+
+Five-category final outcomes:
+
+- Protracted stalemate
+- Diplomatic resolution
+- Full-scale war
+- Internal collapse
+- Limited conflict
+
+Three-category aggregation:
+
+- Stalemate
+- Diplomatic resolution
+- Adverse non-diplomatic outcomes
+
+## 6. Reproducing Analysis
+
+From the repository root:
+
+```bash
+python analysis/statistical_analysis_script.py
 ```
 
-1. **Scenario setup**: Review the actor profiles, variable-decision matrix, prompt, and protocol in `01_Simulation_setup/`.
-2. **Statistical validation**: Run `reproduce_chi_square.py` from `02_Results_and_Logs/statistical_validation/`.
+Expected values:
 
-   ```powershell
-   cd .\02_Results_and_Logs\statistical_validation
-   python .\reproduce_chi_square.py
-   ```
+- Four-condition aggregated table: chi-square = 37.00, Cramer's V = 0.393
+- Three frontier LLMs only: chi-square = 15.08, Cramer's V = 0.289
 
-   The script reads the four spreadsheets in `..\Quantitative_Summaries\` and writes `scenario_chi_square_summary.xlsx` in the current `statistical_validation/` folder.
+The generated tables are in `analysis/outcome_tables.csv` and `analysis/variable_summary.csv`. Manuscript figures are in `figures/`.
 
-3. **Expert validation**: Run `reproduce_expert_analysis.py` from `03_Expert_validation/analysis/`.
+## 7. Limitations
 
-   ```powershell
-   cd .\03_Expert_validation\analysis
-   python .\reproduce_expert_analysis.py
-   ```
+- Proof-of-concept framework evaluation, not a predictive crisis model.
+- AHP weights are auditable design assumptions, not externally validated behavioral estimates.
+- VDM deltas require sensitivity analysis.
+- Traceability and grounding audits were author-led and require independent coding in future work.
+- The Cuban Missile Crisis is a high-salience historical case likely represented in model pretraining data.
+- Perplexity is structurally different from closed frontier LLM conditions.
+- Expert survey materials are limited to public, non-identifying materials and aggregate notes.
+
+## 8. Citation
+
+Manuscript under review: *A Structured LLM-Assisted Pol-Mil Simulation Framework: Traceability, Scenario Diversity, and Design Control in a Cuban Missile Crisis Testbed*.
+
+## 9. Contact
+
+Contact information should follow the submitted manuscript. Public repository maintainers should avoid posting private reviewer correspondence or sensitive survey data.
