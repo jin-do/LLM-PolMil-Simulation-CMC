@@ -1,5 +1,23 @@
 # Expert Survey Aggregate Note
 
-The expert survey is treated as a preliminary face-validity check for one Gemini-generated scenario set. It used purposive expert sampling with 18 Korean domain experts and does not validate all model conditions or establish external validity.
+The survey used purposive sampling of 18 Korean domain experts. They evaluated one selected Gemini-generated set containing three scenarios after the historical resolution had been introduced. The ratings therefore support only preliminary face validity for that selected set. They do not validate all system conditions or establish external validity.
 
-Public package status: raw response workbook excluded for privacy. Aggregated manuscript values: overall observed-item mean 3.96/5.0 across 105 valid item responses; Q5 mean 4.11. Q1, Q2, and Q4 had 17 valid responses; Q3, Q5, and Q6 had 18 valid responses.
+## Aggregate Calculation
+
+The reported 3.96/5.0 is the unweighted mean of the six item means: each item's mean is calculated from its valid responses, and the six means receive equal weight. It is not the pooled mean of all 105 valid item responses. Because item response counts differ, these are distinct calculations. The reported Q5 mean is 4.11/5.0.
+
+| Item | Valid responses |
+| --- | ---: |
+| Q1 | 17 |
+| Q2 | 17 |
+| Q3 | 18 |
+| Q4 | 17 |
+| Q5 | 18 |
+| Q6 | 18 |
+| Total item responses | 105 |
+
+The total of 105 refers to valid item responses across the six questions, not to the number of participants.
+
+## Public Data Scope
+
+The public package contains the survey instrument and aggregate summary only. The respondent-level response workbook is excluded for privacy.

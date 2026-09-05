@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "analysis_scope": "Conditional reproduction of archived coding; not source-log semantic validation",
+    "input_csv": "coding/final_outcome_coding_run_level.csv",
+    "input_csv_sha256": "3cf4f67b7835a3286cc268606c2883132d231aab8b0cb1cc1cce17aee7dd5be9",
+    "input_rows": 120,
+    "source_coding_unverified": true,
+    "source_coding_unverified_rows": 120,
+    "independent_semantic_validation_performed": false,
+    "record_linkage_scope": "Indexed unique paths checked for file existence; branch, page, and code-selection provenance unresolved",
+    "numerical_values_recode_performed": false,
+    "interpretation": "Conditional archive summaries only; no model-effect inference or established independence of executions",
+    "permutation_assumption": "Exchangeability of coded outcomes across the fixed system labels under the null; not established by this computation",
+    "bootstrap_interpretation": "Within-system multinomial resampling of archived coded rows, conditional on their empirical frequencies; not population uncertainty",
+    "python_version": "3.12.14",
+    "numpy_version": "2.3.5",
+    "random_generator": "numpy.random.default_rng",
+    "bit_generator": "PCG64",
+    "permutation_algorithm": "One rng.permutation(outcomes) per repetition; fixed margins; Pearson chi-square >= observed - 1e-12",
+    "permutation_p_formula": "(exceedances + 1) / (repetitions + 1)",
+    "bootstrap_algorithm": "One rng.multinomial(row_total, row_probabilities) per system per repetition; percentile interval [2.5, 97.5]",
+    "bootstrap_percentile_method": "NumPy default linear interpolation",
+    "bootstrap_absent_category_handling": "Remove all-zero rows/columns for Cramer's V; a one-category draw receives V=0; counts reported per analysis",
+    "variable_summary_sd_ddof": 1
+  },
+  "system_order": [
+    "GPT-4o",
+    "Gemini 2.5 Flash",
+    "Claude Opus 4",
+    "Perplexity Pro"
+  ],
+  "five_category_order": [
+    "Protracted stalemate",
+    "Internal collapse",
+    "Diplomatic resolution",
+    "Full-scale war",
+    "Limited conflict"
+  ],
+  "three_category_order": [
+    "Stalemate",
+    "Diplomatic resolution",
+    "Adverse non-diplomatic outcome"
+  ],
+  "primary_four_system_five_category": {
+    "counts": [
+      [
+        21,
+        2,
+        5,
+        2,
+        0
+      ],
+      [
+        7,
+        2,
+        13,
+        8,
+        0
+      ],
+      [
+        10,
+        5,
+        10,
+        4,
+        1
+      ],
+      [
+        2,
+        0,
+        7,
+        21,
+        0
+      ]
+    ],
+    "chi_square": 57.26666666666667,
+    "df": 12,
+    "permutation_repetitions": 100000,
+    "permutation_seed": 1962,
+    "permutation_exceedances": 0,
+    "permutation_p_plus_one": 9.99990000099999e-06,
+    "cramers_v": 0.39884091323994597,
+    "minimum_expected_count": 0.25,
+    "expected_cells_below_5": 8,
+    "expected_cell_count": 20
+  },
+  "sensitivity_three_standalone_five_category": {
+    "counts": [
+      [
+        21,
+        2,
+        5,
+        2,
+        0
+      ],
+      [
+        7,
+        2,
+        13,
+        8,
+        0
+      ],
+      [
+        10,
+        5,
+        10,
+        4,
+        1
+      ]
+    ],
+    "chi_square": 20.078947368421044,
+    "df": 8,
+    "permutation_repetitions": 100000,
+    "permutation_seed": 1963,
+    "permutation_exceedances": 494,
+    "permutation_p_plus_one": 0.004949950500494995,
+    "cramers_v": 0.33399058011018684,
+    "minimum_expected_count": 0.3333333333333333,
+    "expected_cells_below_5": 9,
+    "expected_cell_count": 15
+  },
+  "sensitivity_four_system_three_category": {
+    "counts": [
+      [
+        21,
+        5,
+        4
+      ],
+      [
+        7,
+        13,
+        10
+      ],
+      [
+        10,
+        10,
+        10
+      ],
+      [
+        2,
+        7,
+        21
+      ]
+    ],
+    "chi_square": 37.0,
+    "df": 6,
+    "permutation_repetitions": 100000,
+    "permutation_seed": 1964,
+    "permutation_exceedances": 1,
+    "permutation_p_plus_one": 1.999980000199998e-05,
+    "cramers_v": 0.39264063297965823,
+    "minimum_expected_count": 8.75,
+    "expected_cells_below_5": 0,
+    "expected_cell_count": 12,
+    "cramers_v_bootstrap_repetitions": 20000,
+    "cramers_v_bootstrap_seed": 1965,
+    "cramers_v_bootstrap_95_resampling_interval": [
+      0.3066445218226714,
+      0.5220896329191486
+    ],
+    "bootstrap_draws_with_absent_categories": 0,
+    "bootstrap_degenerate_draws_assigned_zero_v": 0
+  },
+  "sensitivity_three_standalone_three_category": {
+    "counts": [
+      [
+        21,
+        5,
+        4
+      ],
+      [
+        7,
+        13,
+        10
+      ],
+      [
+        10,
+        10,
+        10
+      ]
+    ],
+    "chi_square": 15.078947368421053,
+    "df": 4,
+    "permutation_repetitions": 100000,
+    "permutation_seed": 1965,
+    "permutation_exceedances": 409,
+    "permutation_p_plus_one": 0.004099959000409996,
+    "cramers_v": 0.2894338090558209,
+    "minimum_expected_count": 8.0,
+    "expected_cells_below_5": 0,
+    "expected_cell_count": 9,
+    "cramers_v_bootstrap_repetitions": 20000,
+    "cramers_v_bootstrap_seed": 1966,
+    "cramers_v_bootstrap_95_resampling_interval": [
+      0.1889331544325837,
+      0.44069400090739774
+    ],
+    "bootstrap_draws_with_absent_categories": 0,
+    "bootstrap_degenerate_draws_assigned_zero_v": 0
+  }
+}

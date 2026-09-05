@@ -1,94 +1,59 @@
 # LLM-PolMil-Simulation-CMC
 
-## 1. Overview
+This repository contains archived materials and a retrospective methodological reanalysis of a structured LLM-assisted political-military simulation using a Cuban Missile Crisis testbed. The workflow combines JSON actor profiles, researcher-set influence weights, a Variable-Decision Matrix (VDM), prompts, and archived conversations.
 
-This repository contains replication materials for a structured LLM-assisted Pol-Mil simulation framework tested in a Cuban Missile Crisis benchmark. The project evaluates whether JSON actor profiles, AHP-documented power weights, and a Variable-Decision Matrix (VDM) can make LLM-assisted scenario generation more traceable, controllable, and auditable.
+The package supports inspection of these artifacts and reproduction of the **existing workbook-coded summaries**. The coding has not been independently validated against the narratives. All 120 rows retain semantic_verification_status=unresolved; their PDF paths are indexed, not semantically certified. The analysis does not establish predictive accuracy, rule compliance, or a causal effect of model architecture.
 
-This is a proof-of-concept framework evaluation. It is not a predictive model of the Cuban Missile Crisis.
+## Archive and revision scope
 
-## 2. Repository Structure
+The original public archive inspected on 5 September 2026 is pinned to commit [d345e7f391bef6f6c60c52d2a5907f0d166384ba](https://github.com/jin-do/LLM-PolMil-Simulation-CMC/tree/d345e7f391bef6f6c60c52d2a5907f0d166384ba). It contained 120 execution PDFs and a 20-row aggregate outcome table. The September reanalysis adds a 120-row index, provenance findings, executable analyses, and a document-marker search. Original PDF logs, JSON inputs, VDM, and protocol/prompt documents are preserved as historical evidence.
 
-- `protocols/`: simulation protocol and prompt templates.
-- `actor_json/`: U.S. and Soviet actor JSON profiles used in the final framework.
-- `vdm/`: Variable-Decision Matrix and VDM action-space notes.
-- `runs/raw_logs/`: raw execution logs for final runs, organized by condition.
-- `coding/`: final outcome coding table, coding rules, and expert survey public materials.
-- `analysis/`: statistical scripts, outcome tables, variable summary, and figure inputs.
-- `figures/`: manuscript Figure 1 and Figure 2.
-- `docs/`: data dictionary, file inventory, AHP method note, and replication notes.
+The four archived system groups are GPT-4o, Gemini 2.5 Flash, Claude Opus 4, and Perplexity Pro, with 30 PDFs per group. These are archive labels, not independently authenticated provider snapshots. Perplexity Pro is a retrieval-augmented system condition; its exclusion is examined in sensitivity analyses. Separate files do not establish independent or exchangeable observations.
 
-## 3. Experimental Conditions
-
-Primary frontier LLM comparison:
-
-- GPT-4o
-- Gemini 2.5 Flash
-- Claude Opus 4
-
-Auxiliary system-level condition:
-
-- Perplexity Pro-based retrieval-augmented system
-
-The Perplexity condition combines generation with retrieval, source ranking, and platform-level information access. It should not be interpreted as a direct foundation-model-only comparison.
-
-## 4. Simulation Framework
-
-The framework combines:
-
-- JSON actor profiles for actor roles, goals, constraints, preferences, and behavior algorithms.
-- AHP-documented power weights as auditable design assumptions.
-- Variable-Decision Matrix (VDM) rules for action categories, variable-effect deltas, and trigger thresholds.
-- A rule-effect-trigger cycle for turn-by-turn scenario progression.
-
-The VDM is treated as an ex ante rule bundle. Each turn supplied the LLM with the current state, actor JSON, available VDM action categories, variable-effect rules, and trigger thresholds.
-
-## 5. Data and Logs
-
-The final experiment used 120 independent runs: 30 per condition. Final outcomes were coded into five categories and also aggregated into three categories for chi-square testing.
-
-Five-category final outcomes:
-
-- Protracted stalemate
-- Diplomatic resolution
-- Full-scale war
-- Internal collapse
-- Limited conflict
-
-Three-category aggregation:
-
-- Stalemate
-- Diplomatic resolution
-- Adverse non-diplomatic outcomes
-
-## 6. Reproducing Analysis
+## Reproducing the coded-data analysis
 
 From the repository root:
 
-```bash
-python analysis/statistical_analysis_script.py
-```
+~~~bash
+python -m pip install -r requirements.txt
+python analysis/reanalyze_outcomes.py
+python analysis/generate_figures.py
+~~~
 
-Expected values:
+The primary table retains all five original outcome categories. The three further calculations are exploratory sensitivity analyses, not preregistered tests.
 
-- Four-condition aggregated table: chi-square = 37.00, Cramer's V = 0.393
-- Three frontier LLMs only: chi-square = 15.08, Cramer's V = 0.289
+| Analysis | Pearson discrepancy statistic | Cramer's V | Conditional random-label reference p |
+| --- | ---: | ---: | ---: |
+| Four systems, five categories: primary | 57.266667 | 0.398841 | 0.0000099999 |
+| Excluding Perplexity, five categories | 20.078947 | 0.333991 | 0.0049499505 |
+| Four systems, three categories | 37.000000 | 0.392641 | 0.0000199998 |
+| Excluding Perplexity, three categories | 15.078947 | 0.289434 | 0.0040999590 |
 
-The generated tables are in `analysis/outcome_tables.csv` and `analysis/variable_summary.csv`. Manuscript figures are in `figures/`.
+Each reference p value uses 100,000 label reallocations and the plus-one correction. The two three-category analyses also use 20,000 within-group bootstrap draws. Seeds, input hash, environment, and full results are recorded in [analysis/reanalysis_results.json](analysis/reanalysis_results.json).
 
-## 7. Limitations
+The [companion notebook](analysis/reproduce_audit.ipynb) exposes the calculation and input-identity checks. Its saved marker checks inspect the existing audit outputs; a fresh PDF extraction uses the separate audit command below.
 
-- Proof-of-concept framework evaluation, not a predictive crisis model.
-- AHP weights are auditable design assumptions, not externally validated behavioral estimates.
-- VDM deltas require sensitivity analysis.
-- Traceability and grounding audits were author-led and require independent coding in future work.
-- The Cuban Missile Crisis is a high-salience historical case likely represented in model pretraining data.
-- Perplexity is structurally different from closed frontier LLM conditions.
-- Expert survey materials are limited to public, non-identifying materials and aggregate notes.
+These calculations reproduce association in the archived coding. They do not verify the coding itself. Exchangeability and valid within-group resampling are unestablished, so the p values and bootstrap intervals are conditional reference quantities, not population inference or estimates of crisis probabilities.
 
-## 8. Citation
+## Reproducing the document-marker search
 
-Manuscript under review: *A Structured LLM-Assisted Pol-Mil Simulation Framework: Traceability, Scenario Diversity, and Design Control in a Cuban Missile Crisis Testbed*.
+~~~bash
+python analysis/audit_traceability.py
+~~~
 
-## 9. Contact
+The script searches the full extracted PDF text after whitespace normalization; user prompts, generated responses, and other captured text are not separated. All 120 PDFs meet the text-length criterion and contain artifact references, four state-dimension labels, and trigger/threshold language. A result-log label occurs in 119; a generic variable-status label in 113; and the stricter reconfirm-variable-status phrase in 111. All five metadata-label patterns jointly occur in 0 PDFs, and the specified independent-checker phrase occurs in 0.
 
-Contact information should follow the submitted manuscript. Public repository maintainers should avoid posting private reviewer correspondence or sensitive survey data.
+These are **text-marker counts**, not compliance rates. A phrase hit does not prove valid populated metadata or independent checking; a missing phrase does not prove that an external record never existed. Pattern definitions, hit pages, counts, and representative snippets are supplied in the audit outputs. See [replication notes](docs/replication_notes.md).
+
+## Evidence limitations
+
+- The 120-row index reproduces local workbook records and matching file numbers. Branch, page, and selection-rule provenance remains unresolved. Targeted GPT-4o-01 and GPT-4o-02 comparisons identify discrepancies without assigning replacement codes or values. See the [provenance audit](docs/provenance_audit.md).
+- Inputs intended for an October 14 start contain later information. The original documents also contain unresolved source markers and inconsistent scale descriptions. See [input artifact caveats](docs/input_artifact_caveats.md).
+- The archive does not establish a randomized comparison of information modes, a frozen final configuration, complete generation metadata, or independent transition verification.
+- Expert ratings concern one selected Gemini-generated scenario set and support preliminary face validity only. The public package contains an instrument and aggregate note, not individual responses.
+
+The [data dictionary](docs/data_dictionary.md), [design notes](docs/final_experiment_design_notes.md), and [file inventory](docs/file_inventory.md) identify what each artifact can support.
+
+## Manuscript
+
+The accompanying manuscript is *Auditing Traceability and Outcome Variation in a Structured LLM-Assisted Pol-Mil Simulation: A Methodological Reanalysis of a Cuban Missile Crisis Testbed*. The archive and survey are reused data; the methodological audit and reanalysis should not be presented as a new execution experiment. The original snapshot identifier above refers to the historical archive, not to a later release of the revised package.

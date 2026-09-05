@@ -9,9 +9,9 @@ Gemini 2.5 Flash,public opinion,0.402,0.171
 Gemini 2.5 Flash,leadership unity,0.357,0.172
 Claude Opus 4,tension,0.738,0.283
 Claude Opus 4,diplomatic support,0.602,0.277
-Claude Opus 4,public opinion,0.566,0.289
+Claude Opus 4,public opinion,0.566,0.224
 Claude Opus 4,leadership unity,0.610,0.262
-Perplexity Pro-based RAG,tension,0.858,0.240
-Perplexity Pro-based RAG,diplomatic support,0.545,0.154
-Perplexity Pro-based RAG,public opinion,0.664,0.221
-Perplexity Pro-based RAG,leadership unity,0.830,0.174
+Perplexity Pro,tension,0.858,0.240
+Perplexity Pro,diplomatic support,0.545,0.154
+Perplexity Pro,public opinion,0.664,0.221
+Perplexity Pro,leadership unity,0.830,0.174
