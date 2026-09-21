@@ -1,0 +1,128 @@
+[
+  {
+    "review_id": "CR-CLA-07-T1US",
+    "check_id": "CLA-07-SEM2-T1_US_ROLE",
+    "run_id": "CLA-07",
+    "metric_key": "T1_US_ROLE",
+    "legacy_status": "준수",
+    "proposed_status": "위반",
+    "tier": "clear"
+  },
+  {
+    "review_id": "CR-GPT-28-T1US",
+    "check_id": "A2-GPT-28-T1_US_ROLE",
+    "run_id": "GPT-28",
+    "metric_key": "T1_US_ROLE",
+    "legacy_status": "준수",
+    "proposed_status": "위반",
+    "tier": "clear"
+  },
+  {
+    "review_id": "CR-PER-23-T1US",
+    "check_id": "SEM-B-V2-PER-23-T1_US_ROLE",
+    "run_id": "PER-23",
+    "metric_key": "T1_US_ROLE",
+    "legacy_status": "준수",
+    "proposed_status": "위반",
+    "tier": "clear"
+  },
+  {
+    "review_id": "CR-CLA-14-T1US",
+    "check_id": "CLA-14-SEM2-T1_US_ROLE",
+    "run_id": "CLA-14",
+    "metric_key": "T1_US_ROLE",
+    "legacy_status": "준수",
+    "proposed_status": "판정 불가",
+    "tier": "boundary"
+  },
+  {
+    "review_id": "CR-CLA-29-T1US",
+    "check_id": "CLA-29-SEM2-T1_US_ROLE",
+    "run_id": "CLA-29",
+    "metric_key": "T1_US_ROLE",
+    "legacy_status": "준수",
+    "proposed_status": "판정 불가",
+    "tier": "boundary"
+  },
+  {
+    "review_id": "CR-GPT-29-T1US",
+    "check_id": "A2-GPT-29-T1_US_ROLE",
+    "run_id": "GPT-29",
+    "metric_key": "T1_US_ROLE",
+    "legacy_status": "준수",
+    "proposed_status": "판정 불가",
+    "tier": "boundary"
+  },
+  {
+    "review_id": "CR-GEM-08-T1US",
+    "check_id": "A2-GEM-08-T1_US_ROLE",
+    "run_id": "GEM-08",
+    "metric_key": "T1_US_ROLE",
+    "legacy_status": "준수",
+    "proposed_status": "판정 불가",
+    "tier": "boundary"
+  },
+  {
+    "review_id": "CR-GEM-12-T1US",
+    "check_id": "GEM-12-SEM2-T1_US_ROLE",
+    "run_id": "GEM-12",
+    "metric_key": "T1_US_ROLE",
+    "legacy_status": "준수",
+    "proposed_status": "판정 불가",
+    "tier": "boundary"
+  },
+  {
+    "review_id": "CR-GEM-19-T1US",
+    "check_id": "GEM-19-SEM2-T1_US_ROLE",
+    "run_id": "GEM-19",
+    "metric_key": "T1_US_ROLE",
+    "legacy_status": "준수",
+    "proposed_status": "판정 불가",
+    "tier": "boundary"
+  },
+  {
+    "review_id": "CR-GEM-26-T1US",
+    "check_id": "SEM-B-V2-GEM-26-T1_US_ROLE",
+    "run_id": "GEM-26",
+    "metric_key": "T1_US_ROLE",
+    "legacy_status": "준수",
+    "proposed_status": "판정 불가",
+    "tier": "boundary"
+  },
+  {
+    "review_id": "CR-GEM-28-T1US",
+    "check_id": "SEM-B-V2-GEM-28-T1_US_ROLE",
+    "run_id": "GEM-28",
+    "metric_key": "T1_US_ROLE",
+    "legacy_status": "준수",
+    "proposed_status": "판정 불가",
+    "tier": "boundary"
+  },
+  {
+    "review_id": "CR-PER-11-T4_PARENT_COVERAGE",
+    "check_id": "SEM-B-V2-PER-11-T4_PARENT_COVERAGE",
+    "run_id": "PER-11",
+    "metric_key": "T4_PARENT_COVERAGE",
+    "legacy_status": "위반",
+    "proposed_status": "판정 불가",
+    "tier": "clear"
+  },
+  {
+    "review_id": "CR-PER-20-T3_PARENT_COVERAGE",
+    "check_id": "SEM-B-V2-PER-20-T3_PARENT_COVERAGE",
+    "run_id": "PER-20",
+    "metric_key": "T3_PARENT_COVERAGE",
+    "legacy_status": "판정 불가",
+    "proposed_status": "위반",
+    "tier": "clear"
+  },
+  {
+    "review_id": "CR-PER-21-T3_PARENT_COVERAGE",
+    "check_id": "SEM-B-V2-PER-21-T3_PARENT_COVERAGE",
+    "run_id": "PER-21",
+    "metric_key": "T3_PARENT_COVERAGE",
+    "legacy_status": "판정 불가",
+    "proposed_status": "위반",
+    "tier": "clear"
+  }
+]

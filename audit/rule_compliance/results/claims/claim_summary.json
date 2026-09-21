@@ -1,0 +1,9 @@
+{
+  "claims": 315,
+  "status_counts": {
+    "MATCH_REPRODUCED": 308,
+    "NOT_REPRODUCED": 7
+  },
+  "interpretation": "Computational matching of specified numeric targets only; no fresh scientific recoding or independent human validation",
+  "manuscript_prose_in_public_spec": false
+}

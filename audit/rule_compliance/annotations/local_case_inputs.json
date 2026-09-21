@@ -1,0 +1,52 @@
+{
+  "calculations": [
+    {
+      "case_id": "CLA01_T4_Tension",
+      "events": [
+        "Strong_Leadership",
+        "Diplomatic_Success"
+      ],
+      "prior": ".85",
+      "reported": ".75",
+      "run_id": "CLA-01",
+      "scope": "Conditional full-row additive recomputation from p22 prior state and p23 named effects; not validated action-to-event mapping or original complete path",
+      "variable": "Tension"
+    },
+    {
+      "case_id": "CLA01_T4_Diplomatic_Support",
+      "events": [
+        "Strong_Leadership",
+        "Diplomatic_Success"
+      ],
+      "prior": ".65",
+      "reported": ".80",
+      "run_id": "CLA-01",
+      "scope": "Conditional full-row additive recomputation from p22 prior state and p23 named effects; not validated action-to-event mapping or original complete path",
+      "variable": "Diplomatic_Support"
+    },
+    {
+      "case_id": "CLA01_T4_Public_Opinion",
+      "events": [
+        "Strong_Leadership",
+        "Diplomatic_Success"
+      ],
+      "prior": ".70",
+      "reported": ".80",
+      "run_id": "CLA-01",
+      "scope": "Conditional full-row additive recomputation from p22 prior state and p23 named effects; not validated action-to-event mapping or original complete path",
+      "variable": "Public_Opinion"
+    },
+    {
+      "case_id": "CLA01_T4_Leadership_Unity",
+      "events": [
+        "Strong_Leadership",
+        "Diplomatic_Success"
+      ],
+      "prior": "1.00",
+      "reported": "1.00",
+      "run_id": "CLA-01",
+      "scope": "Conditional full-row additive recomputation from p22 prior state and p23 named effects; not validated action-to-event mapping or original complete path",
+      "variable": "Leadership_Unity"
+    }
+  ]
+}

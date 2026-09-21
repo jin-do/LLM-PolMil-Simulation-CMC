@@ -1,0 +1,68 @@
+{
+  "review_type": "AI source review, not human review",
+  "date": "2026-09-20",
+  "n_review_items": 40,
+  "n_core_items": 38,
+  "n_trace_items": 2,
+  "n_distinct_runs": 35,
+  "labels": {
+    "C": 15,
+    "V": 13,
+    "U": 12
+  },
+  "human_rows_completed": 0,
+  "source_pdf_checks": [
+    {
+      "run_id": "CLA-19",
+      "sha256": "865cb6b736997d80879ca1e14a2ac4287a22d947f1e8a9001777cd989ad1739e",
+      "expected_sha256": "865cb6b736997d80879ca1e14a2ac4287a22d947f1e8a9001777cd989ad1739e",
+      "hash_match": true,
+      "rendered_pages": [
+        16,
+        17
+      ]
+    },
+    {
+      "run_id": "PER-21",
+      "sha256": "b4020fece93a951229c550c8ebadd25d6e2b12de5f793de110be6c9031874342",
+      "expected_sha256": "b4020fece93a951229c550c8ebadd25d6e2b12de5f793de110be6c9031874342",
+      "hash_match": true,
+      "rendered_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "run_id": "PER-11",
+      "sha256": "c4bde1b8fb8f558cb6480afe71d3266fb879254fed954e6dfde8cb0b248d2fbe",
+      "expected_sha256": "c4bde1b8fb8f558cb6480afe71d3266fb879254fed954e6dfde8cb0b248d2fbe",
+      "hash_match": true,
+      "rendered_pages": [
+        12,
+        13
+      ]
+    },
+    {
+      "run_id": "CLA-01",
+      "sha256": "40d5cae1d73766c272755651180a2bd68fc15bcba8e8b191d49ea919c615a314",
+      "expected_sha256": "40d5cae1d73766c272755651180a2bd68fc15bcba8e8b191d49ea919c615a314",
+      "hash_match": true,
+      "rendered_pages": [
+        4,
+        22,
+        23
+      ]
+    },
+    {
+      "run_id": "GEM-28",
+      "sha256": "070afef4916b15e5e456ad4d640e3987cbea13c5d6a17385d09dcf7ffd7cae08",
+      "expected_sha256": "070afef4916b15e5e456ad4d640e3987cbea13c5d6a17385d09dcf7ffd7cae08",
+      "hash_match": true,
+      "rendered_pages": [
+        14,
+        20
+      ]
+    }
+  ]
+}

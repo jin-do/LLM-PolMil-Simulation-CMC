@@ -1,0 +1,5 @@
+﻿case_id,run_id,variable,prior,events,computed,reported,numeric_correspondence,scope
+CLA01_T4_Tension,CLA-01,Tension,.85,Strong_Leadership + Diplomatic_Success,0.75,.75,준수,Conditional full-row additive recomputation from p22 prior state and p23 named effects; not validated action-to-event mapping or original complete path
+CLA01_T4_Diplomatic_Support,CLA-01,Diplomatic_Support,.65,Strong_Leadership + Diplomatic_Success,0.80,.80,준수,Conditional full-row additive recomputation from p22 prior state and p23 named effects; not validated action-to-event mapping or original complete path
+CLA01_T4_Public_Opinion,CLA-01,Public_Opinion,.70,Strong_Leadership + Diplomatic_Success,0.85,.80,위반,Conditional full-row additive recomputation from p22 prior state and p23 named effects; not validated action-to-event mapping or original complete path
+CLA01_T4_Leadership_Unity,CLA-01,Leadership_Unity,1.00,Strong_Leadership + Diplomatic_Success,1,1.00,준수,Conditional full-row additive recomputation from p22 prior state and p23 named effects; not validated action-to-event mapping or original complete path

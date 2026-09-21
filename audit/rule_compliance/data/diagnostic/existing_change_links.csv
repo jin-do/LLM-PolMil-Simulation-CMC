@@ -1,0 +1,4 @@
+case_id,check_id,review_id,tier,old_status,current_status,ai_review_status,action,patch_source
+HR-011,A2-GPT-29-T1_US_ROLE,CR-GPT-29-T1US,boundary,준수,판정 불가,U,already_applied_do_not_reapply,data/adjudication/patches.json
+HR-037,SEM-B-V2-PER-11-T4_PARENT_COVERAGE,CR-PER-11-T4_PARENT_COVERAGE,clear,위반,판정 불가,U,already_applied_do_not_reapply,data/adjudication/patches.json
+HR-038,SEM-B-V2-PER-21-T3_PARENT_COVERAGE,CR-PER-21-T3_PARENT_COVERAGE,clear,판정 불가,위반,V,already_applied_do_not_reapply,data/adjudication/patches.json

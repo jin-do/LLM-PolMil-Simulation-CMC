@@ -1,0 +1,7 @@
+item,descriptive_label,retained_workbook_question,retained_questionnaire_alternate,wording_status,instrument_page
+Q1,Logical consistency of strategic choices and responses,시나리오에서 제시된 미국과 소련의 전략적 선택과 대응이 일관되고 적절한 논리성을 갖추었다고 보시나요?(1~5점),,descriptive_label_from_manuscript,14
+Q2,Historical plausibility of Soviet diplomatic shift and limited U.S. military response,시나리오에서 제시된 소련 외교 전환과 미국 제한적 군사 대응이 실제 쿠바 미사일 위기 당시의 가능성과 개연성에 부합한다고 평가하시나요? (1~5점),,descriptive_label_from_manuscript,14
+Q3,Natural and reasonable escalation dynamics across scenarios,각 시나리오에서 제시된 미국과 소련 간의 긴장 수준 변화와 이에 따른 전략적 결정이 자연스럽고 합리적으로 전개되었다고 평가하시나요?(1~5점),"Pol-Mil 게임 진행 간의 긴장 완화, 외교지지 증가, 내부 결속 등의 변화가 자연스럽고 합리적으로 이어졌다고 보시나요? (1~5점)",UNRESOLVED_ADMINISTERED_VERSION,14
+Q4,Perceived rule-based derivation rather than retrospective historical reasoning,"해당 시나리오가 역사적 결과를 모사하려는 결과론적 추론이 아닌, 시뮬레이션에서 정의된 변수 흐름과 규칙(LLM 기반 Pol-Mil 게임 설계)에 따라 자연스럽게 도출된 결과로 보이시나요? (1~5점)",,descriptive_label_from_manuscript,14
+Q5,Distinctiveness of strategic choices and variable-driven outcomes,"각 시나리오의 전략 선택의 차이가 충분히 구분되며, 각 결과가 서로 다른 변수 흐름에 기반해 도출되었다고 보시나요?(1~5점)  ",,descriptive_label_from_manuscript,15
+Q6,Overall reasonableness and non-excessiveness of the three final scenarios,최종적으로 도출된 세 가지 시나리오가 합리적이고 과도하지 않다고 평가하시나요? (1~5점),,descriptive_label_from_manuscript,15

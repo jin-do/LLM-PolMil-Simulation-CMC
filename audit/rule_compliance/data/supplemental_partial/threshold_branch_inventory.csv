@@ -1,0 +1,178 @@
+﻿run_id,turn,branch,page,identified_pairs,review_completed
+GEM-23,T1,Initial alternatives United States,1-6,3,true
+GEM-23,T1,Initial alternatives Soviet Union,1-6,3,true
+GEM-23,T2,Most Plausible United States,7-9,3,true
+GEM-23,T2,Most Plausible Soviet Union,7-9,3,true
+GEM-23,T2,Military Escalation United States,9-11,1,true
+GEM-23,T2,Military Escalation Soviet Union,9-11,1,true
+GEM-23,T2,De-escalation Attempt United States,11-13,1,true
+GEM-23,T2,De-escalation Attempt Soviet Union,11-13,1,true
+GEM-23,T3,Most Plausible United States,14-16,1,true
+GEM-23,T3,Most Plausible Soviet Union,14-16,1,true
+GEM-23,T3,Military Escalation United States,16-17,1,true
+GEM-23,T3,Military Escalation Soviet Union,16-17,1,true
+GEM-23,T3,De-escalation Attempt United States,17-19,1,true
+GEM-23,T3,De-escalation Attempt Soviet Union,17-19,1,true
+GEM-23,T4,Most Plausible United States,20-21,1,true
+GEM-23,T4,Most Plausible Soviet Union,20-21,1,true
+GEM-23,T4,Military Escalation United States,22-23,1,true
+GEM-23,T4,Military Escalation Soviet Union,22-23,1,true
+GEM-23,T4,De-escalation Attempt United States,"20,23-24",1,true
+GEM-23,T4,De-escalation Attempt Soviet Union,"20,23-24",1,true
+GEM-29,T1,Initial alternatives United States,4-7,3,true
+GEM-29,T1,Initial alternatives Soviet Union,4-7,3,true
+GEM-29,T2,Most Plausible United States,"4-5,8-9",1,true
+GEM-29,T2,Most Plausible Soviet Union,"4-5,8-9",1,true
+GEM-29,T2,Hardline United States,"5,9-10",1,true
+GEM-29,T2,Hardline Soviet Union,"6,9-10",1,true
+GEM-29,T2,Diplomatic Resolution United States,"6-7,10-11",1,true
+GEM-29,T2,Diplomatic Resolution Soviet Union,"7,10-11",1,true
+GEM-29,T3,Most Plausible United States,"8-9,12-13",1,true
+GEM-29,T3,Most Plausible Soviet Union,"9,12-13",1,true
+GEM-29,T3,Hardline United States,"10,13-14",1,true
+GEM-29,T3,Hardline Soviet Union,"10,13-14",1,true
+GEM-29,T3,Diplomatic Resolution United States,"11,14-15",1,true
+GEM-29,T3,Diplomatic Resolution Soviet Union,"11,14-15",1,true
+GEM-29,T4,Most Plausible United States,"12-13,16",1,true
+GEM-29,T4,Most Plausible Soviet Union,"13,16-17",1,true
+GEM-29,T4,Hardline United States,"14,17-18",1,true
+GEM-29,T4,Hardline Soviet Union,"14,17-18",1,true
+GEM-29,T4,Diplomatic Resolution United States,"15,18-19",1,true
+GEM-29,T4,Diplomatic Resolution Soviet Union,"15,18-19",1,true
+PER-18,T4,Most Plausible,16-17,2,true
+PER-18,T4,Hardline Response,18,1,true
+PER-18,T4,Diplomatic Resolution,19,1,true
+PER-20,T4,Quarantine and Denial,14-15,1,true
+PER-20,T4,Air Strikes and Deployment,16-17,1,true
+PER-20,T4,Diplomacy and Compromise,17-18,1,true
+PER-23,T4,Path A Quarantine and Denial,13-15,3,true
+PER-23,T4,Path B Air Strike and Deployment,15,1,true
+PER-23,T4,Path C Diplomacy and Backchannels,16,1,true
+GEM-28,T1,model declared baseline,2-6,3,true
+GEM-28,T2,Most Plausible United States,"4-5,7",1,true
+GEM-28,T2,Most Plausible Soviet Union,"4-5,7",1,true
+GEM-28,T2,Hardline United States,"5,8",1,true
+GEM-28,T2,Hardline Soviet Union,"5,8",1,true
+GEM-28,T2,Diplomatic Standoff United States,"6,8-9",1,true
+GEM-28,T2,Diplomatic Standoff Soviet Union,"6,8-9",1,true
+GEM-28,T3,Most Plausible United States,"7,10",1,true
+GEM-28,T3,Most Plausible Soviet Union,"7,10",1,true
+GEM-28,T3,Hardline United States,"8,11",1,true
+GEM-28,T3,Hardline Soviet Union,"8,11",1,true
+GEM-28,T3,Diplomatic Standoff United States,"9,12",1,true
+GEM-28,T3,Diplomatic Standoff Soviet Union,"9,12",1,true
+GEM-28,T4,Most Plausible United States,"10,13-14",1,true
+GEM-28,T4,Most Plausible Soviet Union,"10,13-14",1,true
+GEM-28,T4,Hardline United States,"11,14",1,true
+GEM-28,T4,Hardline Soviet Union,"11,14",1,true
+GEM-28,T4,Diplomatic Standoff United States,"12,15-16",1,true
+GEM-28,T4,Diplomatic Standoff Soviet Union,"12,15-16",1,true
+GEM-30,T1,Initial alternatives United States,1-7,3,true
+GEM-30,T1,Initial alternatives Soviet Union,1-7,3,true
+GEM-30,T2,Most Plausible United States,"5,8",1,true
+GEM-30,T2,Most Plausible Soviet Union,"5,8-9",1,true
+GEM-30,T2,Escalatory United States,"6,9",1,true
+GEM-30,T2,Escalatory Soviet Union,"6,9-10",1,true
+GEM-30,T2,Delayed Crisis United States,"7,10-11",1,true
+GEM-30,T2,Delayed Crisis Soviet Union,"7,10-11",1,true
+GEM-30,T3,Most Plausible United States,"8-9,12-13",1,true
+GEM-30,T3,Most Plausible Soviet Union,"8-9,12-13",1,true
+GEM-30,T3,Escalatory United States,"9-10,13-14",1,true
+GEM-30,T3,Escalatory Soviet Union,"9-10,13-14",1,true
+GEM-30,T3,Delayed Crisis United States,"10-11,14-15",1,true
+GEM-30,T3,Delayed Crisis Soviet Union,"10-11,14-15",1,true
+GEM-30,T4,Most Plausible United States,16-17,1,true
+GEM-30,T4,Most Plausible Soviet Union,16-17,1,true
+GEM-30,T4,Escalatory United States,17-18,1,true
+GEM-30,T4,Escalatory Soviet Union,17-18,1,true
+GEM-30,T4,Delayed Crisis United States,18-19,1,true
+GEM-30,T4,Delayed Crisis Soviet Union,18-19,1,true
+GEM-30,FINAL,Report 1 United States,"16-17,20-22",1,true
+GEM-27,T1,model declared baseline,3-6,3,true
+GEM-27,T2,Measured Standoff,7-8,3,true
+GEM-27,T2,Decisive Strike,9-10,2,true
+GEM-27,T2,Secret Negotiation,10-12,2,true
+GEM-27,T3,Measured Standoff,13-14,3,true
+GEM-27,T3,Decisive Strike,14-16,3,true
+GEM-27,T3,Secret Negotiation,16-17,3,true
+GEM-26,T3,Most Plausible,13-14,2,true
+GEM-26,T3,High Escalation,14-16,2,true
+GEM-26,T3,Diplomatic Resolution,16-18,2,true
+GEM-26,T1,Initial alternatives; prechoice effects not enumerated,3-6,3,true
+GEM-26,T2,Most Plausible,7-8,2,true
+GEM-26,T2,High Escalation,8-10,2,true
+GEM-26,T2,Diplomatic Resolution,10-12,2,true
+GEM-25,T1,model declared baseline,3-7,3,true
+GEM-25,T2,Most Plausible United States,"4,8-9",1,true
+GEM-25,T2,Most Plausible Soviet Union,"4-5,8-9",1,true
+GEM-25,T2,Military Escalation,"5-6,9-10",1,true
+GEM-25,T2,De-escalation Gambit,"6-7,10-11",1,true
+GEM-25,T3,Most Plausible United States,"8,12-13",1,true
+GEM-25,T3,Most Plausible Soviet Union,"9,12-13",1,true
+GEM-25,T3,Military Escalation,"9-10,13-14",1,true
+GEM-25,T3,De-escalation Gambit,"11,14-15",1,true
+GEM-25,T4,Most Plausible United States,"13,16-17",1,true
+GEM-25,T4,Most Plausible Soviet Union,"13,16-17",1,true
+GEM-25,T4,Military Escalation,"14,17-18",1,true
+GEM-25,T4,De-escalation Gambit,"15,18-19",1,true
+GEM-27,T4,Measured Standoff,18-19,3,true
+GEM-27,T4,Decisive Strike (source merged into All-Out War),16-21,2,true
+GEM-27,T4,Failed Negotiation (source merged into All-Out War),16-21,2,true
+GEM-26,T4,High Escalation,20-22,2,true
+GEM-26,T4,Most Plausible,19-20,2,true
+GEM-26,T4,Diplomatic Resolution,22-23,2,true
+GEM-24,T1,model declared baseline,3-6,3,true
+GEM-24,T2,Most Plausible United States,7-9,2,true
+GEM-24,T2,Most Plausible Soviet Union,7-9,2,true
+GEM-24,T2,Hawkish Escalation United States,9-11,2,true
+GEM-24,T2,Hawkish Escalation Soviet Union,9-11,2,true
+GEM-24,T2,Diplomatic Attempt,12-14,2,true
+GEM-24,T3,Most Plausible United States,15-17,2,true
+GEM-24,T3,Most Plausible Soviet Union,15-17,2,true
+GEM-24,T3,Hawkish Escalation United States,17-19,2,true
+GEM-24,T3,Hawkish Escalation Soviet Union,17-19,2,true
+GEM-24,T3,Diplomatic Attempt,19-21,2,true
+GEM-24,T4,Most Plausible United States,22-24,2,true
+GEM-24,T4,Most Plausible Soviet Union,22-24,2,true
+GEM-24,T4,Hawkish Escalation United States,24-26,2,true
+GEM-24,T4,Hawkish Escalation Soviet Union,24-26,2,true
+GEM-24,T4,Diplomatic Attempt,26-28,2,true
+GEM-22,T1,declared neutral pre-crisis baseline,3-6,3,true
+GEM-22,T2,Most Plausible,7-8,2,true
+GEM-22,T2,Diplomatic Resolution,8-9,2,true
+GEM-22,T2,Hardline Response,9-10,2,true
+GEM-22,T3,Most Plausible,11-12,2,true
+GEM-22,T3,Diplomatic Resolution,12-13,2,true
+GEM-22,T3,Hardline Response,13-14,1,true
+GEM-21,T1,model declared neutral baseline,3-6,3,true
+GEM-21,T2,United States,7-11,3,true
+GEM-21,T2,Soviet Union,7-11,3,true
+GEM-21,T3,Path A United States,12-13,1,true
+GEM-21,T3,Path A Soviet Union,12-13,1,true
+GEM-21,T3,Path B United States,13-14,1,true
+GEM-21,T3,Path B Soviet Union,13-14,1,true
+GEM-21,T3,Path C United States,14-15,1,true
+GEM-21,T3,Path C Soviet Union,14-15,1,true
+PER-25,T4,Measured Response,15-17,2,true
+PER-25,T4,Escalation,"15,17-18",2,true
+PER-25,T4,Diplomatic De-escalation,"16,18-19",2,true
+PER-26,T4,Primary Pathway,13-14,2,true
+PER-26,T4,Crisis Escalation,14-15,2,true
+PER-26,T4,Botched Diplomacy,15-16,2,true
+PER-27,T4,Diplomatic Path,15-17,1,true
+PER-27,T4,Hardline Path,17-18,1,true
+PER-27,T4,Stalemate Path,18-19,1,true
+PER-28,T4,Most Plausible,14-15,1,true
+PER-28,T4,Hardline Response,15-16,1,true
+PER-28,T4,Diplomatic Path,16-17,1,true
+PER-29,T4,Blockade + Covert Deployment,12-13,2,true
+PER-29,T4,Air Strikes + Public Escalation,13-14,2,true
+PER-29,T4,Freeze + Conditional Withdrawal,15-16,2,true
+PER-30,T4,Most Plausible,18-20,2,true
+PER-30,T4,Diplomatic Resolution,20-21,2,true
+PER-30,T4,Riskier Path,22-23,2,true
+GEM-21,T4,A1 United States,16-19,2,true
+GEM-21,T4,A1 Soviet Union,16-19,2,true
+GEM-22,T4,Most Plausible,15-16,2,true
+GEM-22,T4,Diplomatic Resolution,16-17,2,true
+GEM-22,T4,Hardline Response,17-18,1,true

@@ -1,0 +1,10 @@
+{
+  "input_sha256": "1cb6a847887d91b903e047d37f32edd859a66908d1d5b9fb2e625e2e7e111ae7",
+  "common_rows": 1320,
+  "excluded_selected_rows": 67,
+  "clear_changes": 6,
+  "conservative_changes": 14,
+  "excerpt_locations_matched": 19,
+  "semantics": "fixed AI decisions applied, not automatic independent validation",
+  "full_1320_semantic_recheck": false
+}

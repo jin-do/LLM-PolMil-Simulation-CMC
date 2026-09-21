@@ -1,0 +1,11 @@
+{
+  "candidate_flags_preserved": true,
+  "original_columns_and_ids_preserved": true,
+  "selected_rows": 2298,
+  "selection": {
+    "domain": "명시 산술의 내부 일관성"
+  },
+  "source_file": "01_validation_ledger.csv",
+  "source_rows": 23365,
+  "source_sha256": "370708c439be2d0495daeaed31edcca2d9bcf65e2a4c2daee29f0be7c153e75f"
+}

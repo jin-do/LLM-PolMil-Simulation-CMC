@@ -1,0 +1,5 @@
+﻿scenario,domain,C,V,U,NA,assessability_denominator,compliance_denominator,assessable_percent,conditional_compliance_percent
+conservative_boundaries,initial_role,222,10,8,0,240,232,96.67,95.69
+conservative_boundaries,local_branch,180,173,7,0,360,353,98.06,50.99
+conservative_boundaries,event_condition,316,17,27,0,360,333,92.50,94.89
+conservative_boundaries,parent_coverage,180,20,160,0,360,200,55.56,90.00

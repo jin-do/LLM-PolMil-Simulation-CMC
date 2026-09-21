@@ -1,0 +1,38 @@
+[
+  {
+    "id": "CLA01_PRIOR_PO",
+    "page": 22,
+    "quote": "public_opinion: 0.70",
+    "run_id": "CLA-01"
+  },
+  {
+    "id": "CLA01_EFFECT_PO",
+    "page": 23,
+    "quote": "public_opinion +0.10",
+    "run_id": "CLA-01"
+  },
+  {
+    "id": "CLA01_REPORTED_PO",
+    "page": 23,
+    "quote": "public_opinion: 0.80",
+    "run_id": "CLA-01"
+  },
+  {
+    "id": "GEM28_LOG_DS",
+    "page": 14,
+    "quote": "diplomatic_support: 0.30",
+    "run_id": "GEM-28"
+  },
+  {
+    "id": "GEM28_LOG_PO",
+    "page": 14,
+    "quote": "public_opinion: 0.25",
+    "run_id": "GEM-28"
+  },
+  {
+    "id": "GEM28_NARRATIVE_ZERO",
+    "page": 20,
+    "quote": "Diplomatic Support, Public Opinion, and Leadership Unity fall to zero.",
+    "run_id": "GEM-28"
+  }
+]

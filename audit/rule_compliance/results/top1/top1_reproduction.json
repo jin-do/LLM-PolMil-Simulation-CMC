@@ -1,0 +1,62 @@
+{
+  "analysis_version": "revision17-top1-fixed-recoding",
+  "executions": 120,
+  "classified": 104,
+  "withheld": 16,
+  "changed_classifications": 61,
+  "counts": [
+    {
+      "System": "GPT-4o",
+      "Denominator": 30,
+      "Protracted stalemate": 26,
+      "Internal collapse": 0,
+      "Diplomatic resolution": 2,
+      "Full-scale war": 0,
+      "Limited conflict": 0,
+      "Withheld": 2
+    },
+    {
+      "System": "Gemini 2.5 Flash",
+      "Denominator": 30,
+      "Protracted stalemate": 2,
+      "Internal collapse": 0,
+      "Diplomatic resolution": 22,
+      "Full-scale war": 3,
+      "Limited conflict": 0,
+      "Withheld": 3
+    },
+    {
+      "System": "Claude Opus 4",
+      "Denominator": 30,
+      "Protracted stalemate": 19,
+      "Internal collapse": 0,
+      "Diplomatic resolution": 8,
+      "Full-scale war": 0,
+      "Limited conflict": 0,
+      "Withheld": 3
+    },
+    {
+      "System": "Perplexity Pro",
+      "Denominator": 30,
+      "Protracted stalemate": 14,
+      "Internal collapse": 0,
+      "Diplomatic resolution": 6,
+      "Full-scale war": 2,
+      "Limited conflict": 0,
+      "Withheld": 8
+    },
+    {
+      "System": "Total",
+      "Denominator": 120,
+      "Protracted stalemate": 61,
+      "Internal collapse": 0,
+      "Diplomatic resolution": 38,
+      "Full-scale war": 5,
+      "Limited conflict": 0,
+      "Withheld": 16
+    }
+  ],
+  "denominator_policy": "30 per system, 120 overall; withheld retained",
+  "rounding": "Decimal ROUND_HALF_UP to 1 decimal",
+  "scope": "Fixed coding replay only; no new PDF semantic recoding or human validation"
+}

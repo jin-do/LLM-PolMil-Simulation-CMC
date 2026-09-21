@@ -1,0 +1,42 @@
+[
+  {
+    "check_id": "GEM05-T4-WAR-ACTION-T",
+    "constant": "0",
+    "reported": ".15",
+    "semantic_status": "assessable",
+    "terms": [
+      [
+        "Strike",
+        "2"
+      ]
+    ],
+    "variable": "Tension"
+  },
+  {
+    "check_id": "GEM05-T4-WAR-TOTAL-T",
+    "constant": ".05",
+    "reported": ".20",
+    "semantic_status": "assessable",
+    "terms": [
+      [
+        "Strike",
+        "2"
+      ]
+    ],
+    "variable": "Tension"
+  },
+  {
+    "check_id": "GEM08-T4-INTERNAL-DISPUTE-IMPLIED",
+    "constant": "-.10",
+    "reported": "-.10 net",
+    "semantic_status": "unassessable",
+    "terms": [
+      [
+        "Diplomatic_Success",
+        "-1"
+      ]
+    ],
+    "variable": "Leadership_Unity",
+    "basis": "Diagnostic implied extra effect: -0.10 net minus original Diplomatic_Success +0.05; not an inferred original rule."
+  }
+]

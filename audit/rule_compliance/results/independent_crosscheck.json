@@ -1,0 +1,7 @@
+{
+  "all_turn_counts_match": true,
+  "common_rows": 1320,
+  "item_labels_match": true,
+  "method": "separate dictionary patch and nested integer-count loops; no production aggregate/apply call",
+  "selected_rows_excluded": 67
+}

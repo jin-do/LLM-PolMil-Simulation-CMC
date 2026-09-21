@@ -1,0 +1,7 @@
+# Preserve exact public evidence and manifest bytes on every platform.
+audit/rule_compliance/** -text
+coding/top1_reanalysis/** -text
+docs/survey_summary/** -text
+docs/claim_reconciliation/** -text
+PACKAGE_MANIFEST.csv -text
+PACKAGE_MANIFEST.sha256 -text

@@ -1,0 +1,6 @@
+reason_code,reason_label,items,case_ids
+missing_turn_response,Missing turn-response record,4,HR-005;HR-008;HR-014;HR-019
+unclear_active_parent_set,Unclear set of paths to continue,3,HR-010;HR-029;HR-037
+termination_applicability,Unclear obligation after termination,2,HR-023;HR-026
+certainty_language,Ambiguous certainty language,1,HR-011
+compound_event_linkage,Insufficient linkage of compound-event conditions,2,HR-016;HR-035

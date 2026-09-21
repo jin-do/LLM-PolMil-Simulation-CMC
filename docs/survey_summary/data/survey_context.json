@@ -1,0 +1,13 @@
+{
+  "participants": 18,
+  "selected_scenarios": 3,
+  "rating_items": 6,
+  "open_ended_response_count": 8,
+  "rating_scale_min": 1,
+  "rating_scale_max": 5,
+  "missing_handling": "exclude separately for each item; no imputation",
+  "SD_method": "sample standard deviation, ddof=1",
+  "overall_summary": "unweighted mean of the six full-precision item means",
+  "Q3_wording_status": "The retained questionnaire differs from the retained workbook header; administered version unresolved",
+  "public_limit": "No respondent-level rows or comments; aggregates do not permit source-level verification of recruitment, consent, wording administration, or individual records."
+}

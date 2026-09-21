@@ -1,0 +1,22 @@
+{
+  "command": [
+    "python",
+    "-B",
+    "-X",
+    "utf8",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "coding/top1_reanalysis/tests",
+    "-v"
+  ],
+  "started_utc": "2026-09-21T15:22:58.483116+00:00",
+  "started_kst": "2026-09-22T00:22:58.483116+09:00",
+  "elapsed_seconds": 0.136,
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_duplicate_execution_rejected (test_top1.Top1Tests.test_duplicate_execution_rejected) ... ok\ntest_independent_scalar_aggregation (test_top1.Top1Tests.test_independent_scalar_aggregation) ... ok\ntest_missing_execution_rejected (test_top1.Top1Tests.test_missing_execution_rejected) ... ok\ntest_source_traversal_rejected (test_top1.Top1Tests.test_source_traversal_rejected) ... ok\ntest_withheld_not_reclassified (test_top1.Top1Tests.test_withheld_not_reclassified) ... ok\ntest_withheld_reason_required (test_top1.Top1Tests.test_withheld_reason_required) ... ok\ntest_wrong_change_flag_rejected (test_top1.Top1Tests.test_wrong_change_flag_rejected) ... ok\ntest_wrong_system_rejected (test_top1.Top1Tests.test_wrong_system_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.012s\n\nOK\n",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0"
+}

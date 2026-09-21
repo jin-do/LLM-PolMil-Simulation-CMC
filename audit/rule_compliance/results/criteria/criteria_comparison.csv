@@ -1,0 +1,13 @@
+﻿scenario,domain,C,V,U,NA,assessability_denominator,compliance_denominator,assessable_percent,conditional_compliance_percent
+legacy_frozen,initial_role,233,7,0,0,240,240,100.000000,97.083333
+legacy_frozen,local_branch,180,173,7,0,360,353,98.055556,50.991501
+legacy_frozen,event_condition,316,17,27,0,360,333,92.500000,94.894895
+legacy_frozen,parent_coverage,180,19,161,0,360,199,55.277778,90.452261
+clear_corrections,initial_role,230,10,0,0,240,240,100.000000,95.833333
+clear_corrections,local_branch,180,173,7,0,360,353,98.055556,50.991501
+clear_corrections,event_condition,316,17,27,0,360,333,92.500000,94.894895
+clear_corrections,parent_coverage,180,20,160,0,360,200,55.555556,90.000000
+conservative_boundaries,initial_role,222,10,8,0,240,232,96.666667,95.689655
+conservative_boundaries,local_branch,180,173,7,0,360,353,98.055556,50.991501
+conservative_boundaries,event_condition,316,17,27,0,360,333,92.500000,94.894895
+conservative_boundaries,parent_coverage,180,20,160,0,360,200,55.555556,90.000000

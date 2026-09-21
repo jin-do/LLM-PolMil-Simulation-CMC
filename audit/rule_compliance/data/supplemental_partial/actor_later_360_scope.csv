@@ -1,0 +1,361 @@
+﻿run_id,turn,review_completed,unknown_reason,pages,actual_branch_labels,scope
+CLA-01,T2,True,,8;9;10;11;12,Balanced;Time Pressure;Maximum Danger,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-01,T3,True,,13;14;15;16;17;18,Balanced;Time Pressure;Maximum Danger,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-01,T4,True,,19;20;21;22;23,Balanced;Time Pressure;Maximum Danger,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-02,T2,True,,9;10;11;12;13;14;15,Primary;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-02,T3,True,,16;17;18;19;20;21,Primary;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-02,T4,True,,22;23;24;25;26;27;28,Primary;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-03,T2,True,,10;11;12;13;14;15,Primary;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-03,T3,True,,16;17;18;19;20;21,Primary;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-03,T4,True,,,보존 T4 응답 없음,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-04,T2,True,,9;10;11;12;13;14,Primary;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-04,T3,True,,15;16;17;18;19;20,Primary;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-04,T4,True,,22;23;24;25;26,Primary;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-05,T2,True,,9;10;11;12;13;14;15,Primary;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-05,T3,True,,16;17;18;19;20;21;22,Primary;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-05,T4,True,,23;24;25;26;27;28;29,Primary;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-06,T2,True,,9;10;11;12;13;14,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-06,T3,True,,16;17;18;19;20;21,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-06,T4,True,,22;23;24;25;26;27;28,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-07,T2,True,,10;11;12;13;14;15,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-07,T3,True,,16;17;18;19;20;21;22,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-07,T4,True,,23;24;25;26;27;28,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-08,T2,True,,9;10;11;12;13;14,Primary;Diplomatic;Military,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-08,T3,True,,15;16;17;18;19;20,Primary;Diplomatic;Military,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-08,T4,True,,22;23;24;25;26;27,Primary;Diplomatic;Military,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-09,T2,True,,9;10;11;12;13;14,Controlled;Diplomatic;Maximum,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-09,T3,True,,16;17;18;19;20;21,Controlled;Diplomatic;Maximum,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-09,T4,True,,23;24;25;26;27;28,Controlled;Diplomatic;Maximum,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-10,T2,True,,9;10;11;12;13;14,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-10,T3,True,,15;16;17;18;19;20;21,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-10,T4,True,,22;23;24;25;26;27,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-11,T2,True,,9;10;11;12;13;14;15,Primary;Alternative1;Alternative2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-11,T3,True,,16;17;18;19;20;21;22,Primary;Alternative1;Alternative2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-11,T4,True,,23;24;25;26;27;28;29,Primary;Alternative1;Alternative2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-12,T2,True,,9;10;11;12;13;14,Primary;Alternative1;Alternative2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-12,T3,True,,16;17;18;19;20;21,Primary;Alternative1;Alternative2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-12,T4,True,,22;23;24;25;26;27;28,Primary;Alternative1;Alternative2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-13,T2,True,,10;11;12;13;14,Primary;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-13,T3,True,,16;17;18;19;20,Primary;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-13,T4,True,,22;23;24;25;26,Primary;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-14,T2,True,,12;13;14;15;16,Quarantine;Diplomacy;Military,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-14,T3,True,,17;18;19;20;21,Quarantine;Diplomacy;Military,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-14,T4,True,,22;23;24;25;26,FullBlockade;Accountability;Military,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-15,T2,True,,10;11;12;13;14;15;16;17;18;19;20;21,Naval;Diplomatic;Military,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-15,T3,True,,22;23;24;25;26;27;28;29;30;31,Naval;Diplomatic;Military,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-15,T4,True,,32;33;34;35;36;37;38;39;40,Naval;Diplomatic;Military,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-16,T2,True,,8;9;10;11;12,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-16,T3,True,,13;14;15;16;17;18,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-16,T4,True,,20;21;22;23;24;25,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-17,T2,True,,9;10;11;12;13;14,Measured;Escalatory;TimePressure,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-17,T3,True,,16;17;18;19;20;21,Measured;Escalatory;TimePressure,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-17,T4,True,,22;23;24;25;26;27,Measured;Escalatory;TimePressure,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-18,T2,True,,9;10;11;12;13;14,Controlled;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-18,T3,True,,16;17;18;19;20;21,Controlled;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-18,T4,True,,23;24;25;26;27;28,Controlled;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-19,T2,True,,9;10;11;12;13,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-19,T3,True,,14;15;16;17;18,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-19,T4,True,,20;21;22;23;24,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-20,T2,True,,9;10;11;12;13;14,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-20,T3,True,,16;17;18;19;20;21,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-20,T4,True,,22;23;24;25;26;27;28,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-21,T2,True,,13;14;15;16;17,Primary;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-21,T3,True,,18;19;20;21;22;23,Primary;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-21,T4,True,,24;25;26;27;28;29,Primary;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-22,T2,True,,9;10;11;12;13;14;15,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-22,T3,True,,16;17;18;19;20;21;22,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-22,T4,True,,23;24;25;26;27;28;29,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-23,T2,True,,8;9;10;11;12,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-23,T3,True,,14;15;16;17;18;19,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-23,T4,True,,20;21;22;23;24;25,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-24,T2,True,,10;11;12;13;14;15;16,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-24,T3,True,,17;18;19;20;21;22;23,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-24,T4,True,,24;25;26;27;28;29,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-25,T2,True,,10;11;12;13;14;15;16,Primary;Alternative1;Alternative2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-25,T3,True,,18;19;20;21;22;23;24,Primary;Alternative1;Alternative2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-25,T4,True,,26;27;28;29;30;31;32,Primary;Alternative1;Alternative2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-26,T2,True,,9;10;11;12;13;14,Primary;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-26,T3,True,,15;16;17;18;19;20;21,Primary;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-26,T4,True,,22;23;24;25;26;27;28,Primary;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-27,T2,True,,9;10;11;12;13,Primary;Alternative1;Alternative2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-27,T3,True,,15;16;17;18;19;20,Primary;Alternative1;Alternative2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-27,T4,True,,22;23;24;25;26;27,Primary;Alternative1;Alternative2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-28,T2,True,,10;11;12;13;14;15;16,Primary;Alternative1;Alternative2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-28,T3,True,,17;18;19;20;21;22;23;24,Primary;Alternative1;Alternative2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-28,T4,True,,25;26;27;28;29;30;31;32,Primary;Alternative1;Alternative2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-29,T2,True,,8;9;10;11;12;13;14,Measured;Military;Delay,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-29,T3,True,,15;16;17;18;19;20,Measured;Military;Delay,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-29,T4,True,,22;23;24;25;26;27,Measured;Military;Delay,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-30,T2,True,,9;10;11;12;13,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-30,T3,True,,15;16;17;18;19,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+CLA-30,T4,True,,21;22;23;24;25,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-01,T2,True,,9;10;11;12;13;14,Most Plausible;High Escalation;De-escalation,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-01,T3,True,,15;16;17;18;19;20,Most Plausible;High Escalation;De-escalation,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-01,T4,True,,21;22;23;24,Most Plausible;High Escalation;De-escalation,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-02,T2,True,,7;8;9;10,Backchannel Negotiation;Ultimatum;Point of No Return,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-02,T3,True,,11;12;13;14,Last-Minute Deal;Race Against Invasion;Total War,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-02,T4,True,,15;16;17,Resolution;Nuclear Threshold;Annihilation,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-03,T2,True,,7;8;9;10,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-03,T3,True,,11;12;13;14,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-03,T4,True,,15;16;17;18,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-04,T2,True,,8;9;10;11;12;13;14,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-04,T3,True,,15;16;17;18;19;20;21,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-04,T4,True,,22;23;24;25;26;27,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-05,T2,True,,7;8;9,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-05,T3,True,,10;11;12,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-05,T4,True,,13;14;15,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-06,T2,True,,7;8;9;10,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-06,T3,True,,11;12;13;14,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-06,T4,True,,15;16;17;18,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-07,T2,True,,8;9;10;11;12;13,Most Plausible;Escalation;Military First,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-07,T3,True,,14;15;16;17;18,Diplomatic Resolution;Open Conflict;Full-Scale War,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-07,T4,True,,19;20;21;22,Diplomatic Resolution;Open Conflict terminal;Full-Scale War terminal,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-08,T2,True,,8;9;10;11;12;13,Most Plausible;Military Escalation;Diplomatic Gambit,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-08,T3,True,,14;15;16;17;18;19,Most Plausible;Military Escalation;Diplomatic Gambit,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-08,T4,True,,20;21;22;23;24;25,Most Plausible;Military Escalation;Diplomatic Gambit,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-09,T2,True,,6;7;8,Most Plausible;Hawkish Escalation;Diplomatic De-escalation,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-09,T3,True,,9;10;11,Most Plausible;Hawkish Escalation;Diplomatic De-escalation,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-09,T4,True,,12;13;14,Most Plausible;Hawkish Escalation;Diplomatic De-escalation,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-10,T2,True,,8;9;10;11;12;13,Most Plausible;Hawkish Escalation;Diplomatic Failure,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-10,T3,True,,14;15;16;17;18;19,Most Plausible;Hawkish Escalation;Diplomatic Failure,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-10,T4,True,,20;21;22;23;24,Most Plausible;Hawkish Escalation;Diplomatic Failure,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-11,T2,True,,8;9;10;11,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-11,T3,True,,12;13;14;15,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-11,T4,True,,16;17;18;19,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-12,T2,True,,7;8;9,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-12,T3,True,,10;11;12,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-12,T4,True,,13;14;15,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-13,T2,True,,7;8;9;10;11;12,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-13,T3,True,,13;14;15;16;17,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-13,T4,True,,18;19;20;21;22,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-14,T2,True,,7;8;9;10;11;12,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-14,T3,True,,13;14;15;16;17;18,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-14,T4,True,,19;20;21;22;23;24,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-15,T2,True,,8;9;10,Most Plausible;A Deny and Delay;B Airstrike,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-15,T3,True,,11;12;13,Most Plausible;A Deny and Delay;B Airstrike,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-15,T4,True,,14;15;16,Most Plausible;A Deny and Delay;B Airstrike,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-16,T2,True,,8;9;10;11,Most Plausible;Failed De-escalation; Military terminated,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-16,T3,True,,12;13;14,Most Plausible; other paths terminated,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-16,T4,True,,15;16;17,From Most Plausible to Brink of War,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-17,T2,True,,7;8;9;10,Most Plausible;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-17,T3,True,,11;12;13;14,Most Plausible;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-17,T4,True,,15;16;17;18,Most Plausible;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-18,T2,True,,8;9;10;11;12,Most Plausible;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-18,T3,True,,13;14;15;16;17,Most Plausible;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-18,T4,True,,18;19;20;21;22,Most Plausible;Military;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-19,T2,True,,7;8;9;10,Most Plausible;Diplomatic Focus; High Risk terminated,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-19,T3,True,,11;12;13;14,Most Plausible;Diplomatic Focus,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-19,T4,True,,15;16;17;18,Most Plausible;Diplomatic Focus,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-20,T2,True,,8;9;10;11,1A;1B;2A;3A,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-20,T3,True,,12;13;14;15,1A-1;1A-2;1B-1;2A-1;3A-1,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-20,T4,True,,16;17;18;19,1A-1-A;1A-2-A;1B-1-A;2A-1-A;3A-1-A;3A-1-B,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-21,T2,True,,7;8;9;10;11,A;B;C,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-21,T3,True,,12;13;14;15,A1;B1;C1,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-21,T4,True,,16;17;18;19,A1-1;A1-2; B/C terminated,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-22,T2,True,,7;8;9;10,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-22,T3,True,,11;12;13;14,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-22,T4,True,,15;16;17;18,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-23,T2,True,,7;8;9;10;11;12;13,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-23,T3,True,,14;15;16;17;18;19,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-23,T4,True,,20;21;22;23;24,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-24,T2,True,,7;8;9;10;11;12;13;14,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-24,T3,True,,15;16;17;18;19;20;21,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-24,T4,True,,22;23;24;25;26;27;28,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-25,T2,True,,8;9;10;11,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-25,T3,True,,12;13;14;15,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-25,T4,True,,16;17;18;19,Most Plausible;Military Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-26,T2,True,,7;8;9;10;11;12,Most Plausible;High Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-26,T3,True,,13;14;15;16;17;18,Most Plausible;High Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-26,T4,True,,19;20;21;22;23,Most Plausible;High Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-27,T2,True,,7;8;9;10;11;12,Measured Standoff;Decisive Strike;Secret Negotiation,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-27,T3,True,,13;14;15;16;17,Measured Standoff;Decisive Strike;Failed Negotiation,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-27,T4,True,,18;19;20;21,Measured Standoff;Converged2+3,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-28,T2,True,,7;8;9,Most Plausible;High Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-28,T3,True,,10;11;12,Most Plausible;High Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-28,T4,True,,13;14;15;16,Most Plausible;High Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-29,T2,True,,8;9;10;11,Most Plausible;High Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-29,T3,True,,12;13;14;15,Most Plausible;High Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-29,T4,True,,16;17;18;19,Most Plausible;High Escalation;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-30,T2,True,,8;9;10;11,Negotiation;Conflict;Stall,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-30,T3,True,,12;13;14;15,Negotiation;Conflict;Delayed,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GEM-30,T4,True,,16;17;18;19,Ultimatum;All-Out War;Collapsed War,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-01,T2,True,,9;10;11;12;13,1-1;1-2;1-3,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-01,T3,True,,14;15;16;17;18,1-1-A;1-2;1-3,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-01,T4,True,,19;20;21;22;23,1-1-B;1-2-B;1-3-B,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-02,T2,True,,8;9;10;11;12;13,Quarantine-Denial Alert;Diplomatic Resolution;Hardline Response,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-02,T3,True,,13;14;15;16,Escalatory Clash;Crisis Management Preserved;Pre-War Spiral,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-02,T4,True,,17;18;19;20,Dual De-Escalation Attempt;Formal Negotiation;Terminal Brink,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-03,T2,True,,7;8;9;10;11;12,Most Plausible;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-03,T3,True,,13;14;15;16,Most Plausible;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-03,T4,True,,17;18;19;20,Most Plausible;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-04,T2,True,,8;9;10;11,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-04,T3,True,,12;13;14;15;16,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-04,T4,True,,17;18;19;20;21,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-05,T2,True,,8,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-05,T3,True,,9,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-05,T4,True,,10,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-06,T2,True,,7;8;9;10,Base;Alt1;Alt2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-06,T3,True,,11;12;13;14,Base;Alt1;Alt2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-06,T4,True,,15;16;17;18,Base;Alt1;Alt2,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-07,T2,True,,9;10;11;12;13;14,Most Plausible;Diplomatic Resolution;Hardline Response,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-07,T3,True,,15;16;17;18;19,Most Plausible;Diplomatic Resolution;Hardline Response,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-07,T4,True,,20;21;22;23;24;25,Most Plausible;Diplomatic Resolution;Hardline Response,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-08,T2,True,,8;9;10;11;12;13,Most Plausible;Diplomatic Resolution;Hardline Response,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-08,T3,True,,13;14;15;16;17;18,Most Plausible;Diplomatic Resolution;Hardline Response,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-08,T4,True,,19;20;21;22;23,Most Plausible;Diplomatic Resolution;Hardline Response,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-09,T2,True,,9;10;11;12;13;14,Most Plausible;Diplomatic Resolution;Hardline Response,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-09,T3,True,,15;16;17;18;19;20,Most Plausible;Diplomatic Resolution;Hardline Response,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-09,T4,True,,21;22;23;24;25;26,Most Plausible;Diplomatic Resolution;Hardline Response,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-10,T2,True,,7;8;9;10;11,Most Plausible;Diplomatic Resolution;Hardline Response,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-10,T3,True,,12;13;14;15;16,Most Plausible;Diplomatic Resolution;Hardline Response,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-10,T4,True,,17;18;19;20;21,Most Plausible;Diplomatic Resolution;Hardline Response,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-11,T2,True,,7;8;9;10;11;12,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-11,T3,True,,12;13;14;15;16;17,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-11,T4,True,,17;18;19;20;21;22,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-12,T2,True,,7;8;9;10,Most Plausible;Pressure Spiral;Backchannel Reset,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-12,T3,True,,11;12;13;14,Most Plausible;Crisis Freeze;Red Line Test,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-12,T4,True,,14;15;16;17,Most Plausible;Dual Readiness;Backchannel Breakthrough,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-13,T2,True,,7;8;9,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-13,T3,True,,10;11;12,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-13,T4,True,,12;13;14;15,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-14,T2,True,,8;9;10;11;12,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-14,T3,True,,13;14;15;16;17,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-14,T4,True,,18;19;20;21;22,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-15,T2,True,,9;10;11;12;13;14,1.1;1.2;2.1;2.2;3.1,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-15,T3,True,,14;15;16;17;18,1.1;1.2;2.1;2.2;Hardline response fragment,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-15,T4,True,,19;20;21;22;23,1.1;1.2;2.1;3.1,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-16,T2,True,,9;10;11;12,Scenario1;Scenario2;Scenario3,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-16,T3,True,,13;14;15;16,Scenario1;Scenario2;Scenario3,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-16,T4,True,,17;18;19;20,Scenario1;Scenario2;Scenario3,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-17,T2,True,,10,분기별 실제행동 미제시,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-17,T3,True,,11,분기별 실제행동 미제시,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-17,T4,True,,12,분기별 실제행동 미제시,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-18,T2,True,,10,분기별 실제행동 미제시,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-18,T3,True,,11,분기별 실제행동 미제시,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-18,T4,True,,11;12,분기별 실제행동 미제시,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-19,T2,True,,9;10;11;12;13;14,Scenario1;Scenario2;Scenario3,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-19,T3,True,,14;15;16;17;18;19;20,Scenario1;Scenario2;Scenario3,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-19,T4,True,,21;22;23;24;25;26;27,Scenario1;Scenario2;Scenario3,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-20,T2,True,,9;10;11;12;13,Scenario1;Scenario2;Scenario3,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-20,T3,True,,13;14;15;16;17;18,Scenario1;Scenario2;Scenario3,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-20,T4,True,,18;19;20;21;22,Scenario1;Scenario2;Scenario3,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-21,T2,True,,9;10;11;12;13;14,A1;B1;C1,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-21,T3,True,,14;15;16;17;18;19,A3-1;A3-2;A3-3,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-21,T4,True,,19;20;21;22;23;24,A4-1;A4-2;A4-3,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-22,T2,True,,7,실제 분기 없음,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-22,T3,True,,8;9,실제 분기 없음,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-22,T4,True,,10;11;12,Escalated Brinkmanship;Controlled Military Response;Crisis De-escalation,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-23,T2,True,,8;9,Most Plausible;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-23,T3,True,,9;10;11,Most Plausible;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-23,T4,True,,11;12,Most Plausible;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-24,T2,True,,7;8,Most Plausible;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-24,T3,True,,8;9,Most Plausible;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-24,T4,True,,10;11,Most Plausible;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-25,T2,True,,8;9,Turn2 assistant response not preserved,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-25,T3,True,,9;10;11,Most Plausible;Hardline;Alternative1,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-25,T4,True,,11;12;13,Most Plausible;Hardline;Alternative1,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-26,T2,True,,9;10;11;12;13;14;15;16,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-26,T3,True,,16;17;18;19;20;21;22,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-26,T4,True,,23;24;25;26;27;28,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-27,T2,True,,9;10;11;12;13;14,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-27,T3,True,,14;15;16;17;18;19;20;21,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-27,T4,True,,21;22;23;24;25;26,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-28,T2,True,,9;10,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-28,T3,True,,10;11;12;13;14,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-28,T4,True,,15;16;17;18,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-29,T2,True,,7;8;9;10;11,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-29,T3,True,,12;13;14;15;16,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-29,T4,True,,17;18;19;20;21,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-30,T2,True,,9;10;11;12;13;14,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-30,T3,True,,15;16;17;18;19;20,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+GPT-30,T4,True,,20;21;22;23;24;25,Most Plausible;Diplomatic;Hardline,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+PER-01,T2,True,,5;6;7;8;9,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+PER-01,T3,True,,9;10;11;12;13;14;15,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+PER-01,T4,True,,15;16;17,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+PER-02,T2,True,,5;6;7;8;9;10;11,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+PER-02,T3,True,,11;12;13;14;15;16,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+PER-02,T4,True,,16;17;18;19;20,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+PER-03,T2,True,,6;7;8,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+PER-03,T3,True,,8;9;10,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+PER-03,T4,True,,10;11;12;13;14,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+PER-04,T2,True,,5;6;7;8;9,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+PER-04,T3,True,,10;11;12;13,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+PER-04,T4,True,,13;14;15;16,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+PER-05,T2,True,,6;7;8;9;10;11,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+PER-05,T3,True,,11;12;13;14;15;16,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+PER-05,T4,True,,16;17;18;19;20,Primary;Hardline;Diplomatic,보존 행동군 직접 읽음; 개별 기관의 모든 내부 집행 관찰 아님
+PER-06,T2,False,not_reviewed,5;6;7,,아직 직접 내용 검토 전
+PER-06,T3,False,not_reviewed,7;8;9;10,,아직 직접 내용 검토 전
+PER-06,T4,False,not_reviewed,10;11;12;13,,아직 직접 내용 검토 전
+PER-07,T2,False,not_reviewed,5;6;7;8;9,,아직 직접 내용 검토 전
+PER-07,T3,False,not_reviewed,9;10;11;12;13,,아직 직접 내용 검토 전
+PER-07,T4,False,not_reviewed,13;14;15;16;17,,아직 직접 내용 검토 전
+PER-08,T2,False,not_reviewed,5;6;7;8;9,,아직 직접 내용 검토 전
+PER-08,T3,False,not_reviewed,9;10;11;12;13,,아직 직접 내용 검토 전
+PER-08,T4,False,not_reviewed,13;14;15;16;17,,아직 직접 내용 검토 전
+PER-09,T2,False,not_reviewed,7;8;9;10;11;12,,아직 직접 내용 검토 전
+PER-09,T3,False,not_reviewed,12;13;14;15;16,,아직 직접 내용 검토 전
+PER-09,T4,False,not_reviewed,16;17;18;19;20,,아직 직접 내용 검토 전
+PER-10,T2,False,not_reviewed,5;6;7;8;9;10;11;12,,아직 직접 내용 검토 전
+PER-10,T3,False,not_reviewed,12;13;14;15;16;17,,아직 직접 내용 검토 전
+PER-10,T4,False,not_reviewed,17;18;19;20;21,,아직 직접 내용 검토 전
+PER-11,T2,False,not_reviewed,5;6;7;8;9;10,,아직 직접 내용 검토 전
+PER-11,T3,False,not_reviewed,10;11;12;13,,아직 직접 내용 검토 전
+PER-11,T4,False,not_reviewed,13;14;15;16,,아직 직접 내용 검토 전
+PER-12,T2,False,not_reviewed,6;7;8;9;10;11,,아직 직접 내용 검토 전
+PER-12,T3,False,not_reviewed,11;12;13;14;15;16;17;18,,아직 직접 내용 검토 전
+PER-12,T4,False,not_reviewed,18;19;20;21;22;23,,아직 직접 내용 검토 전
+PER-13,T2,False,not_reviewed,6;7;8;9;10;11;12;13,,아직 직접 내용 검토 전
+PER-13,T3,False,not_reviewed,13;14;15;16;17,,아직 직접 내용 검토 전
+PER-13,T4,False,not_reviewed,17;18;19;20;21;22,,아직 직접 내용 검토 전
+PER-14,T2,False,not_reviewed,7;8;9;10;11;12,,아직 직접 내용 검토 전
+PER-14,T3,False,not_reviewed,12;13;14;15;16,,아직 직접 내용 검토 전
+PER-14,T4,False,not_reviewed,16;17;18;19;20;21,,아직 직접 내용 검토 전
+PER-15,T2,False,not_reviewed,6;7;8;9;10;11,,아직 직접 내용 검토 전
+PER-15,T3,False,not_reviewed,11;12;13;14;15,,아직 직접 내용 검토 전
+PER-15,T4,False,not_reviewed,15;16;17;18;19;20,,아직 직접 내용 검토 전
+PER-16,T2,False,not_reviewed,5;6;7;8;9;10,,아직 직접 내용 검토 전
+PER-16,T3,False,not_reviewed,10;11;12;13;14,,아직 직접 내용 검토 전
+PER-16,T4,False,not_reviewed,14;15;16;17;18,,아직 직접 내용 검토 전
+PER-17,T2,False,not_reviewed,7;8;9;10;11,,아직 직접 내용 검토 전
+PER-17,T3,False,not_reviewed,11;12;13;14;15,,아직 직접 내용 검토 전
+PER-17,T4,False,not_reviewed,15;16;17;18;19,,아직 직접 내용 검토 전
+PER-18,T2,False,not_reviewed,6;7;8;9;10;11,,아직 직접 내용 검토 전
+PER-18,T3,False,not_reviewed,11;12;13;14;15;16,,아직 직접 내용 검토 전
+PER-18,T4,False,not_reviewed,16;17;18;19;20,,아직 직접 내용 검토 전
+PER-19,T2,False,not_reviewed,6;7;8;9,,아직 직접 내용 검토 전
+PER-19,T3,False,not_reviewed,9;10;11;12,,아직 직접 내용 검토 전
+PER-19,T4,False,not_reviewed,12;13;14;15;16;17;18,,아직 직접 내용 검토 전
+PER-20,T2,False,not_reviewed,6;7;8;9;10;11;12,,아직 직접 내용 검토 전
+PER-20,T3,False,not_reviewed,12;13;14,,아직 직접 내용 검토 전
+PER-20,T4,False,not_reviewed,14;15;16;17;18;19,,아직 직접 내용 검토 전
+PER-21,T2,False,not_reviewed,5;6;7;8;9;10;11,,아직 직접 내용 검토 전
+PER-21,T3,False,not_reviewed,11;12;13;14;15;16;17,,아직 직접 내용 검토 전
+PER-21,T4,False,not_reviewed,17;18;19;20;21;22,,아직 직접 내용 검토 전
+PER-22,T2,False,not_reviewed,6;7;8,,아직 직접 내용 검토 전
+PER-22,T3,False,not_reviewed,8;9;10;11,,아직 직접 내용 검토 전
+PER-22,T4,False,not_reviewed,11;12;13;14;15,,아직 직접 내용 검토 전
+PER-23,T2,False,not_reviewed,7;8;9;10,,아직 직접 내용 검토 전
+PER-23,T3,False,not_reviewed,10;11;12;13,,아직 직접 내용 검토 전
+PER-23,T4,False,not_reviewed,13;14;15;16,,아직 직접 내용 검토 전
+PER-24,T2,False,not_reviewed,7;8;9;10;11,,아직 직접 내용 검토 전
+PER-24,T3,False,not_reviewed,11;12;13;14;15;16,,아직 직접 내용 검토 전
+PER-24,T4,False,not_reviewed,16;17;18;19,,아직 직접 내용 검토 전
+PER-25,T2,False,not_reviewed,5;6;7;8;9;10;11,,아직 직접 내용 검토 전
+PER-25,T3,False,not_reviewed,11;12;13;14;15,,아직 직접 내용 검토 전
+PER-25,T4,False,not_reviewed,15;16;17;18;19,,아직 직접 내용 검토 전
+PER-26,T2,False,not_reviewed,7;8;9;10,,아직 직접 내용 검토 전
+PER-26,T3,False,not_reviewed,10;11;12;13,,아직 직접 내용 검토 전
+PER-26,T4,False,not_reviewed,13;14;15;16,,아직 직접 내용 검토 전
+PER-27,T2,False,not_reviewed,6;7;8;9;10,,아직 직접 내용 검토 전
+PER-27,T3,False,not_reviewed,10;11;12;13;14;15,,아직 직접 내용 검토 전
+PER-27,T4,False,not_reviewed,15;16;17;18;19;20;21;22,,아직 직접 내용 검토 전
+PER-28,T2,False,not_reviewed,7;8;9;10,,아직 직접 내용 검토 전
+PER-28,T3,False,not_reviewed,10;11;12;13;14,,아직 직접 내용 검토 전
+PER-28,T4,False,not_reviewed,14;15;16;17,,아직 직접 내용 검토 전
+PER-29,T2,False,not_reviewed,5;6;7;8;9,,아직 직접 내용 검토 전
+PER-29,T3,False,not_reviewed,9;10;11;12,,아직 직접 내용 검토 전
+PER-29,T4,False,not_reviewed,12;13;14;15;16;17,,아직 직접 내용 검토 전
+PER-30,T2,False,not_reviewed,6;7;8;9;10;11;12,,아직 직접 내용 검토 전
+PER-30,T3,False,not_reviewed,12;13;14;15;16;17;18,,아직 직접 내용 검토 전
+PER-30,T4,False,not_reviewed,18;19;20;21;22;23,,아직 직접 내용 검토 전

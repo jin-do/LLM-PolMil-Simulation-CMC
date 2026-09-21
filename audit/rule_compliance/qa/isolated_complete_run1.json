@@ -1,0 +1,20 @@
+{
+  "command": [
+    "python",
+    "-B",
+    "-I",
+    "-X",
+    "utf8",
+    ".\\audit\\rule_compliance\\qa\\offline_reproduction_guard.py",
+    ".",
+    ".\\reproduced_run1"
+  ],
+  "started_utc": "2026-09-21T15:22:49.729805+00:00",
+  "started_kst": "2026-09-22T00:22:49.729805+09:00",
+  "elapsed_seconds": 3.302,
+  "exit_code": 0,
+  "stdout": "{\"status\": \"REPRODUCED\", \"counts\": [{\"scope\": \"common_selected\", \"items\": 38, \"C\": 15, \"V\": 11, \"U\": 12, \"NA\": 0}, {\"scope\": \"representative_discrepancy\", \"items\": 2, \"C\": 0, \"V\": 2, \"U\": 0, \"NA\": 0}, {\"scope\": \"all_diagnostic\", \"items\": 40, \"C\": 15, \"V\": 13, \"U\": 12, \"NA\": 0}], \"core_linkage_checked\": 38}\n{\"status\": \"REPRODUCED\", \"executions\": 120, \"counts\": {\"System\": \"Total\", \"Denominator\": 120, \"Protracted stalemate\": 61, \"Internal collapse\": 0, \"Diplomatic resolution\": 38, \"Full-scale war\": 5, \"Limited conflict\": 0, \"Withheld\": 16}}\n{\"Q3_wording\": \"ADMINISTERED_VERSION_UNRESOLVED\", \"aggregate_calculation\": \"REPRODUCED_FROM_ACTUAL_RESPONSE_SUFFICIENT_STATISTICS\", \"open_ended_response_count\": 8, \"participants\": 18, \"raw_respondent_reproduction\": \"NOT_PUBLICLY_REPRODUCIBLE\", \"unweighted_mean_display\": \"3.96\", \"unweighted_mean_of_item_means\": 3.9613289760348582, \"valid_item_responses\": 105}\n{\"claims\": 315, \"interpretation\": \"Computational matching of specified numeric targets only; no fresh scientific recoding or independent human validation\", \"manuscript_prose_in_public_spec\": false, \"status_counts\": {\"MATCH_REPRODUCED\": 308, \"NOT_REPRODUCED\": 7}}\nPackage manifest entries verified: 276\nRevision 17 fixed-input reproduction complete\nOFFLINE_GUARD {\"network_attempts\": [], \"outside_reads\": [], \"outside_writes\": [], \"read_calls\": 891, \"write_calls\": 33}\n",
+  "stderr": "",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0"
+}

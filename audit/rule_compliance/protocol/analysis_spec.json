@@ -1,0 +1,216 @@
+{
+  "analysis_date": "2026-09-14",
+  "basis": "Frozen supplied ledgers, not regenerated semantic judgments",
+  "canonical_common_keys": [
+    "T1_US_ROLE",
+    "T1_SU_ROLE",
+    "T2_BRANCH",
+    "T3_BRANCH",
+    "T4_BRANCH",
+    "T2_EVENT",
+    "T3_EVENT",
+    "T4_EVENT",
+    "T2_PARENT_COVERAGE",
+    "T3_PARENT_COVERAGE",
+    "T4_PARENT_COVERAGE"
+  ],
+  "domain_recipes": [
+    {
+      "file": "data/core/07_semantic_validation_ledger.csv",
+      "id": "CORE_initial_role",
+      "in": {
+        "metric_key": [
+          "T1_US_ROLE",
+          "T1_SU_ROLE"
+        ]
+      },
+      "label": "Initial actor-setting compatibility",
+      "recommended_use": "main_table_candidate_pending_human_review",
+      "selection_basis": "Same defined subcontrols in all 120 archived runs",
+      "unit": "run-country"
+    },
+    {
+      "file": "data/core/07_semantic_validation_ledger.csv",
+      "id": "CORE_local_branch",
+      "in": {
+        "metric_key": [
+          "T2_BRANCH",
+          "T3_BRANCH",
+          "T4_BRANCH"
+        ]
+      },
+      "label": "Local alternative-pair generation",
+      "recommended_use": "main_table_candidate_pending_human_review",
+      "selection_basis": "Same defined subcontrols in all 120 archived runs",
+      "unit": "run-turn"
+    },
+    {
+      "file": "data/core/07_semantic_validation_ledger.csv",
+      "id": "CORE_event_condition",
+      "in": {
+        "metric_key": [
+          "T2_EVENT",
+          "T3_EVENT",
+          "T4_EVENT"
+        ]
+      },
+      "label": "Specified event decision conditions",
+      "recommended_use": "main_table_candidate_pending_human_review",
+      "selection_basis": "Same defined subcontrols in all 120 archived runs",
+      "unit": "run-turn"
+    },
+    {
+      "file": "data/core/07_semantic_validation_ledger.csv",
+      "id": "CORE_parent_coverage",
+      "in": {
+        "metric_key": [
+          "T2_PARENT_COVERAGE",
+          "T3_PARENT_COVERAGE",
+          "T4_PARENT_COVERAGE"
+        ]
+      },
+      "label": "Previous parent-path coverage",
+      "recommended_use": "main_table_candidate_pending_human_review",
+      "selection_basis": "Same defined subcontrols in all 120 archived runs",
+      "unit": "run-turn"
+    },
+    {
+      "eq": {
+        "unit": "run-turn-country preserved action set"
+      },
+      "file": "data/supplemental_partial/actor_later_ledger.csv",
+      "id": "ACTOR_ACTIONSET",
+      "label": "Follow-up national action-set compatibility",
+      "recommended_use": "appendix_diagnostic_only",
+      "selection_basis": "Partial or targeted review; not a population estimate",
+      "unit": "run-turn-country preserved action set"
+    },
+    {
+      "eq": {
+        "unit": "explicit actor-rule observation"
+      },
+      "file": "data/supplemental_partial/actor_later_ledger.csv",
+      "id": "ACTOR_RULE",
+      "label": "Targeted explicit actor-rule observations",
+      "recommended_use": "appendix_diagnostic_only",
+      "selection_basis": "Partial or targeted review; not a population estimate",
+      "unit": "explicit actor-rule observation"
+    },
+    {
+      "eq": {
+        "unit": "explicit action/effect source block"
+      },
+      "file": "data/supplemental_partial/effect_semantics_ledger.csv",
+      "id": "EFFECT_BLOCK",
+      "label": "Explicit action/event mapping blocks",
+      "recommended_use": "appendix_diagnostic_only",
+      "selection_basis": "Partial or targeted review; not a population estimate",
+      "unit": "explicit action/effect source block"
+    },
+    {
+      "eq": {
+        "unit": "source finding"
+      },
+      "file": "data/supplemental_partial/effect_semantics_ledger.csv",
+      "id": "EFFECT_FINDING",
+      "label": "Targeted additional effect findings",
+      "recommended_use": "appendix_diagnostic_only",
+      "selection_basis": "Partial or targeted review; not a population estimate",
+      "unit": "source finding"
+    },
+    {
+      "eq": {
+        "unit": "공통 상태에 대응한 지정 양국 행동쌍"
+      },
+      "file": "data/supplemental_partial/threshold_action_ledger.csv",
+      "id": "THRESHOLD_PAIR",
+      "label": "Negotiation gate: common-state action pair",
+      "recommended_use": "appendix_diagnostic_only",
+      "selection_basis": "Partial or targeted review; not a population estimate",
+      "unit": "공통 상태에 대응한 지정 양국 행동쌍"
+    },
+    {
+      "eq": {
+        "unit": "국가별 상태에 대응한 지정 국가 행동"
+      },
+      "file": "data/supplemental_partial/threshold_action_ledger.csv",
+      "id": "THRESHOLD_ACTOR",
+      "label": "Negotiation gate: country-specific action",
+      "recommended_use": "appendix_diagnostic_only",
+      "selection_basis": "Partial or targeted review; not a population estimate",
+      "unit": "국가별 상태에 대응한 지정 국가 행동"
+    },
+    {
+      "eq": {
+        "unit": "최종서사에서 실제 추가된 선택 행동(선별 대조)"
+      },
+      "file": "data/supplemental_partial/threshold_action_ledger.csv",
+      "id": "THRESHOLD_NARRATIVE",
+      "label": "Targeted narrative negotiation action",
+      "recommended_use": "appendix_diagnostic_only",
+      "selection_basis": "Partial or targeted review; not a population estimate",
+      "unit": "최종서사에서 실제 추가된 선택 행동(선별 대조)"
+    },
+    {
+      "file": "data/supplemental_partial/inheritance_ledger.csv",
+      "id": "INHERITANCE",
+      "label": "Recorded parent-state inheritance",
+      "recommended_use": "appendix_diagnostic_only",
+      "selection_basis": "Partial inventory, frozen parent identification",
+      "unit": "explicit state declaration × variable; repetitions retained"
+    },
+    {
+      "file": "data/supplemental_partial/narrative_ledger.csv",
+      "id": "NARRATIVE_REPORT",
+      "label": "Narrative–log report correspondence",
+      "recommended_use": "appendix_diagnostic_only",
+      "selection_basis": "41/120 runs reviewed; not random; remaining 79 not reviewed",
+      "unit": "report"
+    },
+    {
+      "file": "data/supplemental_partial/narrative_facet_ledger.csv",
+      "id": "NARRATIVE_FACET",
+      "label": "Purposively selected narrative facets",
+      "recommended_use": "appendix_diagnostic_only",
+      "selection_basis": "Purpose-selected positive facets and additional counterexamples; not report accuracy",
+      "unit": "selected facet"
+    },
+    {
+      "file": "data/supplemental_partial/effect_supplemental_ledger.csv",
+      "id": "EFFECT_SUPPLEMENT",
+      "label": "Supplemental action/event blocks",
+      "recommended_use": "appendix_diagnostic_only",
+      "selection_basis": "Targeted supplemental coverage, unreviewed candidates separate",
+      "unit": "distinct supplemental block/facet"
+    },
+    {
+      "file": "data/supplemental_partial/geometry_effect_ledger.csv",
+      "id": "GEOMETRY_EFFECT",
+      "label": "Geometry-recovered effect blocks",
+      "recommended_use": "appendix_diagnostic_only",
+      "selection_basis": "Four selected runs, not a system comparison",
+      "unit": "selected actor/action result block"
+    }
+  ],
+  "eligibility": "review_completed must be true when column exists; candidate_only=true always excluded; existing label counts are conditional on preserved inputs",
+  "global_arithmetic_accuracy": "WITHHELD; re-extraction is candidate-only and different observation coverage",
+  "global_pooled_rate": "prohibited",
+  "human_review": "Independent human item labels not established; pending documentary confirmation. Revision17 reports author qualitative non-blind methodology review.",
+  "original_input_version_binding": "not established by preserved file hashes",
+  "outcome_linkage": "Source-linked fixed Top-1 ledger now included in coding/top1_reanalysis; separate from common judgments.",
+  "rates": {
+    "NA": "excluded from both denominators, reported separately",
+    "assessable_percent": "100*(C+V)/(C+V+U)",
+    "conditional_compliance_percent": "100*C/(C+V)",
+    "zero_denominator": "empty/null, not zero percent"
+  },
+  "schema_version": "1.0",
+  "statuses": {
+    "C": "준수",
+    "NA": "적용 대상 아님",
+    "U": "판정 불가",
+    "V": "위반"
+  },
+  "system_rankings_or_inferential_tests": "not produced",
+  "technical_scope": "aggregation, frozen-annotation numeric checks, quote-presence tests, two original-PDF representative inspections"
+}

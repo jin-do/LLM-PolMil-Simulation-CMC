@@ -1,0 +1,5 @@
+variable,prior,strong_leadership,diplomatic_success,reported
+Tension,0.85,-0.05,-0.05,0.75
+Diplomatic_Support,0.65,0.05,0.1,0.80
+Public_Opinion,0.70,0.1,0.05,0.80
+Leadership_Unity,1.00,0.1,0.05,1.00

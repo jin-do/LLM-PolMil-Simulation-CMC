@@ -1,0 +1,979 @@
+﻿check_id,run_id,source_file,source_sha256,page,page_end,turn,branch,unit,domain,requirement_id,rule_file,rule_path,rule_type,status,reported_value,recalculated_value,evidence_quote,judgment_basis,method,review_completed,human_review_required,limitation_category,input_version_caveat,does_not_certify
+PER-18-GE-001-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,3,4,T1,"0.05 (Strong Leadership) +0.05 (Presidium cohesion) +0.10
+This path tests whether actors can de-escalate through compromise.
+Critical Triggers to Monitor
+1 Tension≥0.8: Disabled diplomacy, mandatory military-first policies.
+.
+2 Public_Opinion≤0.4: U.S. leadership collapse risk if war anxiety spikes.
+.
+3 Diplomatic_Support≤0.5: USSR alliance isolation worsens NATO cohesion.
+.
+All assumptions derived strictly from J SON-defined actor priorities and variable matrices.
+⁂
+Result Logs for Strategic Action Combinations
+Combination 1 : Most Plausible Path (U.S. Naval Quarantine + USSR
+Deny/Negotiate)
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Defense_Prep,조건부 규칙,준수,Defense_Prep,,"Selected Actor: United States
+Selected Action: Naval Quarantine w/Diplomatic Pressure
+Predicted VariableC hanges:
+Tension: +0.05 (Defense_Prep effect)
+Diplomatic_Support: -0.02 (Defense_Prep effect)
+Public_Opinion: -0.02 (Defense_Prep effect)
+Leadership_Unity: -0.05 (Defense_Prep effect)
+Generated Triggers:
+Diplomatic_Failure (USSR denial tactic) → T ension +0.10, Diplomatic_Support -0.10[Variable
+Matrix]
+Next Event Triggers:
+Inevitable: U.S. reconnaissance confirms Soviet denial (Covert_Detection → T ension
++0.05).
+Potential: USSR backchannel proposal (Diplomatic_Success trigger if accepted).",실제 해상 검역 집행을 군사 대비에 연결한다. p3–4 렌더로 소련 부인 수치가 미국 행동에 오귀속된 추출 오류를 바로잡았다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-002-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,4,4,T1,"lected Actor: United States
+Selected Action: Naval Quarantine w/Diplomatic Pressure
+Predicted VariableC hanges:
+Tension: +0.05 (Defense_Prep effect)
+Diplomatic_Support: -0.02 (Defense_Prep effect)
+Public_Opinion: -0.02 (Defense_Prep effect)
+Leadership_Unity: -0.05 (Defense_Prep effect)
+Generated Triggers:
+Diplomatic_Failure (USSR denial tactic) → T ension +0.10, Diplomatic_Support -0.10[Variable
+Matrix]
+Next Event Triggers:
+Inevitable: U.S. reconnaissance confirms Soviet denial (Covert_Detection → T ension
++0.05).
+Potential: USSR backchannel proposal (Diplomatic_Success trigger if accepted).
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Diplomatic_Failure,조건부 규칙,판정 불가,Diplomatic_Failure,,"Selected Actor: Soviet Union
+Selected Action: Deny and Negotiate via Backchannels
+Predicted VariableC hanges:
+Tension: +0.10 (Diplomatic_Failure effect)
+Diplomatic_Support: -0.10 (Diplomatic_Failure effect)
+Public_Opinion: -0.05 (Diplomatic_Failure effect)
+Leadership_Unity: -0.05 (Diplomatic_Failure effect)
+Generated Triggers:
+Military_Alert (USSR response to U.S. pressure) → T ension +0.05[Variable-Matrix]
+Next Event Triggers:
+Inevitable: U.S. intensifies surveillance (Tension crosses 0.65).
+Potential: OAS condemnation (Diplomatic_Support falls below 0 .5).",선택은 부인과 비밀 협상 개시다. 실패 효과와 이후 수용 가능한 비밀 제안이 함께 기록되지만 실제 거절/실패가 발생한 시점은 명시되지 않는다.,AI direct source interpretation; recovered PDF character geometry,True,True,event_occurrence_boundary,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-003-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,4,5,T1,"nerated Triggers:
+Military_Alert (USSR response to U.S. pressure) → T ension +0.05[Variable-Matrix]
+Next Event Triggers:
+Inevitable: U.S. intensifies surveillance (Tension crosses 0.65).
+Potential: OAS condemnation (Diplomatic_Support falls below 0 .5).
+[RECONFIRMV ARIABLE STATUS]
+Tension: 0.65 (0.5 initial + 0.05 US  + 0.10 USSR)
+Diplomatic_Support: 0.48 (0.6 initial - 0.02 US  - 0.10 USSR)
+Public_Opinion: 0.53 (0.6 initial - 0.02 US  - 0.05 USSR)
+Leadership_Unity: 0.60 (0.7 initial - 0.05 US  - 0.05 USSR)
+Combination 2 : Hardline Response Path (U.S. Air Strikes + USSR Accelerate
+Deployment)
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Strike,조건부 규칙,준수,Strike,,"Selected Actor: United States
+Selected Action: Air Strikes Followed by Invasion Plans
+Predicted VariableC hanges:
+Tension: +0.15 (Strike effect)
+Diplomatic_Support: -0.05 (Strike effect)
+Public_Opinion: -0.05 (Strike effect)
+Leadership_Unity: -0.10 (Strike effect)
+Generated Triggers:
+Defense_Prep (USSR retaliation) → T ension +0.05[Variable-Matrix]
+Next Event Triggers:
+Inevitable: Soviet forces go to high alert (Military_Alert → T ension +0.15).
+Potential: Direct naval clash (Strike trigger).",실제 공습 후 침공 계획 경로의 공습 실행과 Strike가 대응한다. p4–5 원본 렌더로 정상 문맥을 확인했다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-004-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,5,5,T1,"  - 0.05 USSR)
+Combination 2 : Hardline Response Path (U.S. Air Strikes + USSR Accelerate
+Deployment)
+Selected Actor: United States
+Selected Action: Air Strikes Followed by Invasion Plans
+Predicted VariableC hanges:
+Tension: +0.15 (Strike effect)
+Diplomatic_Support: -0.05 (Strike effect)
+Public_Opinion: -0.05 (Strike effect)
+Leadership_Unity: -0.10 (Strike effect)
+Generated Triggers:
+Defense_Prep (USSR retaliation) → T ension +0.05[Variable-Matrix]
+Next Event Triggers:
+Inevitable: Soviet forces go to high alert (Military_Alert → T ension +0.15).
+Potential: Direct naval clash (Strike trigger).
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Defense_Prep,조건부 규칙,준수,Defense_Prep,,"Selected Actor: Soviet Union
+Selected Action: Accelerate Missile Deployment
+Predicted VariableC hanges:
+Tension: +0.10 (Defense_Prep effect)
+Diplomatic_Support: -0.02 (Defense_Prep effect)
+Public_Opinion: -0.02 (Defense_Prep effect)
+Leadership_Unity: -0.05 (Defense_Prep effect)
+Generated Triggers:
+Nuclear_Retaliation_Risk (Operational missiles detected) → T ension +0.15[1]
+Next Event Triggers:
+Inevitable: U.S. invasion preparations (Leadership_Unity dips below 0 .6).
+Potential: Tactical nuclear authorization (Tension > 0.8).",미사일 배치 가속은 실제 공격 전 준비 단계다. 사건 의미는 대응하지만 tension 상수 .10은 별도 위반이다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-005-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,5,6,T1,"ted Triggers:
+Nuclear_Retaliation_Risk (Operational missiles detected) → T ension +0.15[1]
+Next Event Triggers:
+Inevitable: U.S. invasion preparations (Leadership_Unity dips below 0 .6).
+Potential: Tactical nuclear authorization (Tension > 0.8).
+[RECONFIRMV ARIABLE STATUS]
+Tension: 0.80 (0.5 initial + 0.15 US  + 0.10 USSR  + 0.05 trigger)
+Diplomatic_Support: 0.53 (0.6 initial - 0.05 US  - 0.02 USSR)
+Public_Opinion: 0.53 (0.6 initial - 0.05 US  - 0.02 USSR)
+Leadership_Unity: 0.55 (0.7 initial - 0.10 US  - 0.05 USSR)
+Combination 3 : Diplomatic Resolution Path (U.S. Sanctions + USSR Offer Trade)
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Economic_Sanctions,조건부 규칙,준수,Economic_Sanctions,,"Selected Actor: United States
+Selected Action: Sanctions + Public Diplomacy
+Predicted VariableC hanges:
+Tension: +0.10 (Economic_Sanctions effect)
+Diplomatic_Support: -0.05 (Economic_Sanctions effect)
+Public_Opinion: -0.05 (Economic_Sanctions effect)
+Leadership_Unity: -0.05 (Economic_Sanctions effect)
+Generated Triggers:
+Diplomatic_Success (USSR offer) → D iplomatic_Support +0.10[Variable-Matrix]
+Next Event Triggers:
+Inevitable: UN mediation talks (Diplomatic_Support rises above 0.65).
+Potential: U.S.-USSR secret deal (Strong_Leadership trigger).",실제 제재와 공개 외교를 선택하고 제재 효과를 연결한다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-006-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,6,6,T1,"ution Path (U.S. Sanctions + USSR Offer Trade)
+Selected Actor: United States
+Selected Action: Sanctions + Public Diplomacy
+Predicted VariableC hanges:
+Tension: +0.10 (Economic_Sanctions effect)
+Diplomatic_Support: -0.05 (Economic_Sanctions effect)
+Public_Opinion: -0.05 (Economic_Sanctions effect)
+Leadership_Unity: -0.05 (Economic_Sanctions effect)
+Generated Triggers:
+Diplomatic_Success (USSR offer) → D iplomatic_Support +0.10[Variable-Matrix]
+Next Event Triggers:
+Inevitable: UN mediation talks (Diplomatic_Support rises above 0.65).
+Potential: U.S.-USSR secret deal (Strong_Leadership trigger).
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Diplomatic_Success,조건부 규칙,준수,Diplomatic_Success,,"Selected Actor: Soviet Union
+Selected Action: Offer Trade in Secret Talks
+Predicted VariableC hanges:
+Tension: -0.05 (Diplomatic_Success effect)
+Diplomatic_Support: +0.10 (Diplomatic_Success effect)
+Public_Opinion: +0.05 (Diplomatic_Success effect)
+Leadership_Unity: +0.05 (Diplomatic_Success effect)
+Generated Triggers:
+Alliance_Strengthening (Cuba security guarantee) → D iplomatic_Support +0.10[Variable
+Matrix]
+Next Event Triggers:
+Inevitable: U.S. Turkey missile compromise (Diplomatic_Success threshold met).
+Potential: Hardliner backlash (Internal_Dispute → L eadership_Unity -0.05).",실제 비밀 교환 제안으로 UN 중재와 미국의 터키 미사일 양보를 예측한다. 이미 외교 채널이 작동하는 경로의 제한적 진전이다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-007-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,8,8,T2,"ibleP ath
+U.S. Tighten Quarantine+  USSRO ffer Compromise
+Logic:
+U.S. reinforces blockade legitimacy via OAS[US_state_department].
+USSR’s backchannel aligns with Khrushchev’s ""retreat-with-honor""
+doctrine[SOVIET_Khrushchev].
+Prevents Tension threshold breach (0.75  < 0.80).
+AlternativeP ath 1
+U.S. Ultimatum+  USSRN aval Challenge
+Logic:
+Defense Department’s urgency overrules State[US_defense_department].
+USSR Armed Forces defy political caution[SOVIET_Military].
+Triggers Military Conflict Risk (Tension = 0.95).
+Result Logs for Scenario 1
+Combination 1.1 : Tighten Quarantine + Offer Compromise
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Alliance_Strengthening;Defense_Prep,조건부 규칙,준수,Alliance_Strengthening;Defense_Prep,,"Selected Actor: United States
+Selected Action: Tighten Quarantine with OAS Backing
+Predicted VariableC hange:
+Diplomatic_Support: +0.10 (Alliance_Strengthening)
+Tension: +0.05 (Defense_Prep)
+Generated Triggers:
+Soviet diplomatic counteroffer (Diplomatic_Success: Tension -0.05)",OAS의 뒷받침과 검역 강화라는 구체 행동 각각에 동맹 강화 및 군사 대비를 연결한다. 일부 변수만 적용한 집계는 별도다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-008-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,8,8,T2,"ernativeP ath 1
+U.S. Ultimatum+  USSRN aval Challenge
+Logic:
+Defense Department’s urgency overrules State[US_defense_department].
+USSR Armed Forces defy political caution[SOVIET_Military].
+Triggers Military Conflict Risk (Tension = 0.95).
+Result Logs for Scenario 1
+Combination 1.1 : Tighten Quarantine + Offer Compromise
+Selected Actor: United States
+Selected Action: Tighten Quarantine with OAS Backing
+Predicted VariableC hange:
+Diplomatic_Support: +0.10 (Alliance_Strengthening)
+Tension: +0.05 (Defense_Prep)
+Generated Triggers:
+Soviet diplomatic counteroffer (Diplomatic_Success: Tension -0.05)
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Diplomatic_Success,조건부 규칙,준수,Diplomatic_Success,,"Selected Actor: Soviet Union
+Selected Action: Publicly Deny, Privately Offer Compromise
+Predicted VariableC hange:
+Diplomatic_Support: +0.10 (Diplomatic_Success)
+Tension: -0.05 (Diplomatic_Success)
+Generated Triggers:
+U.S.-USSR secret negotiations (Strong_Leadership: Leadership_Unity +0.10)",OAS 검역 경로에서 소련의 비밀 절충 제안과 실제 미소 비밀 협상 개설이 연결된다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-009-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,9,9,T2,"5 (Defense_Prep)
+Generated Triggers:
+Soviet diplomatic counteroffer (Diplomatic_Success: Tension -0.05)
+Selected Actor: Soviet Union
+Selected Action: Publicly Deny, Privately Offer Compromise
+Predicted VariableC hange:
+Diplomatic_Support: +0.10 (Diplomatic_Success)
+Tension: -0.05 (Diplomatic_Success)
+Generated Triggers:
+U.S.-USSR secret negotiations (Strong_Leadership: Leadership_Unity +0.10)
+[RECONFIRMV ARIABLE STATUS]
+Tension: 0.75 (0.75  + 0.05  - 0.05)
+Diplomatic_Support: 0.64 (0.44  + 0.10  + 0.10)
+Public_Opinion: 0.49
+Leadership_Unity: 0.50
+Combination 1.2 : Ultimatum +  Naval Challenge
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Strike,조건부 규칙,위반,Strike,,"Selected Actor: United States
+Selected Action: Issue Ultimatum f or Missile Removal
+Predicted VariableC hange:
+Tension: +0.15 (Strike)
+Leadership_Unity: -0.10 (Strike)
+Generated Triggers:
+Soviet forces alert status (Military_Alert: Tension +0.05)",미국 행동은 미사일 철수 최후통첩 발령이며 실제 타격은 없다. 이를 Strike로 계산한다. 이후 소련 경계/해상 교전은 별도 예측 사건이다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-010-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,9,9,T2,"iplomatic_Success)
+Tension: -0.05 (Diplomatic_Success)
+Generated Triggers:
+U.S.-USSR secret negotiations (Strong_Leadership: Leadership_Unity +0.10)
+[RECONFIRMV ARIABLE STATUS]
+Tension: 0.75 (0.75  + 0.05  - 0.05)
+Diplomatic_Support: 0.64 (0.44  + 0.10  + 0.10)
+Public_Opinion: 0.49
+Leadership_Unity: 0.50
+Combination 1.2 : Ultimatum +  Naval Challenge
+Selected Actor: United States
+Selected Action: Issue Ultimatum f or Missile Removal
+Predicted VariableC hange:
+Tension: +0.15 (Strike)
+Leadership_Unity: -0.10 (Strike)
+Generated Triggers:
+Soviet forces alert status (Military_Alert: Tension +0.05)
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Defense_Prep,조건부 규칙,준수,Defense_Prep,,"Selected Actor: Soviet Union
+Selected Action: Order Naval Challenge to Blockade
+Predicted VariableC hange:
+Tension: +0.15 (Defense_Prep)
+Leadership_Unity: -0.05 (Defense_Prep)
+Generated Triggers:
+Naval engagement in Caribbean (Strike: Tension +0.15)",함정의 검역 도전은 먼저 군사 대비로 처리하고 실제 해상 교전은 별도 후속 Strike로 구분한다. .15 상수는 별도 위반이다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-011-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,10,10,T2,"Strategic Alternatives
+1. DeclareR eadiness for Tactical Nuclear Use
+Rationale: Armed Forces ’ doctrine for regional defense[SOVIET_Military].
+Next Triggers:
+Inevitable: U.S. invasion preparations (Leadership_Unity -0.10).
+Potential: Preemptive strike on Guantanamo (Strike +0.15).
+Plausible Action Combinations
+Most PlausibleP ath
+U.S. Air Strikes + USSRT actical Nuclear Alert
+Logic:
+Hardline alignment: Defense Dept. and Soviet military prioritize escalation dominance.
+Triggers nuclear collision threshold (Tension = 1.0).
+Result Logs for Scenario 2
+Combination 2.1 : Air Strikes + Nuclear Alert
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Strike,조건부 규칙,판정 불가,Strike,,"Selected Actor: United States
+Selected Action: Authorize Limited Air Strikes
+Predicted VariableC hange:
+Tension: +0.15 (Strike)
+Public_Opinion: -0.05 (Strike)
+Generated Triggers:
+Soviet retaliation authorization (Nuclear_Retaliation_Risk)",소제목은 공습 경로이지만 행동은 Authorize Limited Air Strikes이고 후속 사건은 소련 보복 권한 부여다. 미국 공습을 실제 이행했는지 명확하지 않아 준비/실행을 임의 확정하지 않는다.,AI direct source interpretation; recovered PDF character geometry,True,True,record_execution_stage_unclear,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-012-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,10,10,T2,"ptive strike on Guantanamo (Strike +0.15).
+Plausible Action Combinations
+Most PlausibleP ath
+U.S. Air Strikes + USSRT actical Nuclear Alert
+Logic:
+Hardline alignment: Defense Dept. and Soviet military prioritize escalation dominance.
+Triggers nuclear collision threshold (Tension = 1.0).
+Result Logs for Scenario 2
+Combination 2.1 : Air Strikes + Nuclear Alert
+Selected Actor: United States
+Selected Action: Authorize Limited Air Strikes
+Predicted VariableC hange:
+Tension: +0.15 (Strike)
+Public_Opinion: -0.05 (Strike)
+Generated Triggers:
+Soviet retaliation authorization (Nuclear_Retaliation_Risk)
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Defense_Prep,조건부 규칙,준수,Defense_Prep,,"Selected Actor: Soviet Union
+Selected Action: Declare Tactical Nuclear Readiness
+Predicted VariableC hange:
+Tension: +0.10 (Defense_Prep)
+Leadership_Unity: -0.05 (Defense_Prep)
+Generated Triggers:
+U.S. DEFCON 1 declaration (Military_Conflict_Risk)",소련 전술핵 준비 선언을 실제 핵 사용과 구분해 대비 효과에 연결한다. .10 상수는 별도 위반이다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-013-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,13,13,T3,"omatic cover
+UNS ession vs Nuclear Readiness USSR prioritizes deterrence over negotiation
+Plausible Action Combinations
+Most PlausibleP ath: U.S. RetaliatoryS trike+  USSRC laimR ogueA ction
+Logic:
+U.S. satisfies public demand for retribution (Public_Opinion ↑).
+USSR avoids direct blame while calming crisis (Tension controlled).
+Prevents immediate nuclear exchange.
+AlternativeP ath: U.S. UNS ession + USSRN uclear Readiness
+Logic:
+State Department’s diplomatic push clashes with Soviet military alert.
+High risk of misinterpreted mobilization (Nuclear_Retaliation_Risk).
+Result Log for Scenario 1
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Strike;Strong_Leadership,조건부 규칙,준수,Strike;Strong_Leadership,,"Selected Actor: United States
+Selected Action: Limited Retaliatory Strike
+Predicted VariableC hanges:
+Tension: +0.15 (Strike effect)[Variable-Matrix]
+Public_Opinion: +0.05 (Strong_Leadership effect)
+Generated Triggers:
+Cuban guerilla retaliation (Civil_Unrest: Public_Opinion -0.10)",미국이 실제 제한 보복 타격을 선택하고 공중의 보복 요구에 응답하는 지도 행동으로 설명한다. 타격 의미 대응과 지도력 효과의 수치 .05 오류를 분리한다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-014-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,13,13,T3,"lame while calming crisis (Tension controlled).
+Prevents immediate nuclear exchange.
+AlternativeP ath: U.S. UNS ession + USSRN uclear Readiness
+Logic:
+State Department’s diplomatic push clashes with Soviet military alert.
+High risk of misinterpreted mobilization (Nuclear_Retaliation_Risk).
+Result Log for Scenario 1
+Selected Actor: United States
+Selected Action: Limited Retaliatory Strike
+Predicted VariableC hanges:
+Tension: +0.15 (Strike effect)[Variable-Matrix]
+Public_Opinion: +0.05 (Strong_Leadership effect)
+Generated Triggers:
+Cuban guerilla retaliation (Civil_Unrest: Public_Opinion -0.10)
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Diplomatic_Failure;SU:internal_dispute,조건부 규칙,판정 불가,Diplomatic_Failure;SU:internal_dispute,,"Selected Actor: Soviet Union
+Selected Action: Claim "" Rogue Cuban Action""
+Predicted VariableC hanges:
+Diplomatic_Support: -0.10 (Diplomatic_Failure)
+Leadership_Unity: -0.05 (Internal_Dispute)
+Generated Triggers:
+U.S. demands Castro's removal (Ultimatum: Tension +0.10)",미국이 소련 해명을 거부한다는 앞 p12 근거로 외교 실패는 관찰되나 내부 갈등 발동은 소련 해명 행동만으로 명확하지 않다. 내부 갈등 -.05 원 효과 부재는 별도 위반이다.,AI direct source interpretation; recovered PDF character geometry,True,True,partial_mapping_uncertain,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-015-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,14,14,T3,"h (Updated)
+Current Variables:
+Tension: 1.0 (clamped)
+Diplomatic_Support: 0.51
+Public_Opinion: 0.46
+Leadership_Unity: 0.45
+Event Impact:
+""Strike"" effect applied (same as Scenario 1).
+Revised Variables:
+Tension: 1.0 (remains clamped)
+Diplomatic_Support: 0.46
+Public_Opinion: 0.41
+Leadership_Unity: 0.35
+Plausible Action Combinations
+OnlyV iableP ath: U.S. Invasion Prep + USSRT actical Nuclear Authorization
+Logic:
+Tension >0.8 disables diplomacy for both[Variable-Matrix].
+Defense Dept. and Soviet Military favor maximal escalation[US_defense_department]
+[SOVIET_Military].
+Result Log for Scenario 2
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Strike,조건부 규칙,위반,Strike,,"Selected Actor: United States
+Selected Action: Mobilize Invasion Forces
+Predicted Changes:
+Leadership_Unity: -0.10 (Strike effect)
+Generated Triggers:
+Soviet tactical nuke deployment (Nuclear_Retaliation_Risk)",미국은 침공 병력 동원이며 뒤 사건도 소련 전술핵 배치다. 동원을 Strike로 처리했으나 이 지점에 침공 실행은 기록되지 않았다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-016-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,14,14,T3," 1.0 (remains clamped)
+Diplomatic_Support: 0.46
+Public_Opinion: 0.41
+Leadership_Unity: 0.35
+Plausible Action Combinations
+OnlyV iableP ath: U.S. Invasion Prep + USSRT actical Nuclear Authorization
+Logic:
+Tension >0.8 disables diplomacy for both[Variable-Matrix].
+Defense Dept. and Soviet Military favor maximal escalation[US_defense_department]
+[SOVIET_Military].
+Result Log for Scenario 2
+Selected Actor: United States
+Selected Action: Mobilize Invasion Forces
+Predicted Changes:
+Leadership_Unity: -0.10 (Strike effect)
+Generated Triggers:
+Soviet tactical nuke deployment (Nuclear_Retaliation_Risk)
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Civil_Unrest,조건부 규칙,판정 불가,Civil_Unrest,,"Selected Actor: Soviet Union
+Selected Action: Authorize Tactical Nuclear Use in Cuba
+Predicted Changes:
+Public_Opinion: -0.10 (Civil_Unrest)
+Generated Triggers:
+U.S. strategic nuclear alert (DEFCON 1)",핵 사용 권한 부여에 Civil_Unrest를 적용하지만 민간 소요나 사회 불안의 실제 사건이 구체적으로 제시되지 않는다.,AI direct source interpretation; recovered PDF character geometry,True,True,record_event_occurrence_unreported,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-017-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,15,15,T3,"eadership_Unity: 0.25 (0.35  - 0.10)
+Scenario Combination 3 : Diplomatic Resolution Path (Updated)
+Current Variables:
+Tension: 0.55
+Diplomatic_Support: 0.75
+Public_Opinion: 0.60
+Leadership_Unity: 0.70
+Event Impact:
+""Strike"" effect applied.
+Revised Variables:
+Tension: 0.70
+Diplomatic_Support: 0.70
+Public_Opinion: 0.55
+Leadership_Unity: 0.60
+Plausible Action Combinations
+Most PlausibleP ath: U.S. Secret Talks + USSRM issileW ithdrawal Offer
+Logic:
+State Dept. capitalizes on backchannels[US_state_department].
+Khrushchev offers withdrawal to avert war[SOVIET_Khrushchev].
+Result Log for Scenario 3
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Diplomatic_Success,조건부 규칙,준수,Diplomatic_Success,,"Selected Actor: United States
+Selected Action: Engage in Secret Negotiations
+Predicted Changes:
+Diplomatic_Support: +0.10 (Diplomatic_Success)
+Generated Triggers:
+Turkey missile compromise (Alliance_Strengthening +0.10 Support)",미국 비밀 교섭과 소련 철수-보장 제안이 같은 선택쌍으로 연결되어 실제 비밀 외교의 진전을 관찰할 수 있다. 터키 양보의 Alliance 분류는 별도 경계 문제다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-018-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,15,15,T3,"ct applied.
+Revised Variables:
+Tension: 0.70
+Diplomatic_Support: 0.70
+Public_Opinion: 0.55
+Leadership_Unity: 0.60
+Plausible Action Combinations
+Most PlausibleP ath: U.S. Secret Talks + USSRM issileW ithdrawal Offer
+Logic:
+State Dept. capitalizes on backchannels[US_state_department].
+Khrushchev offers withdrawal to avert war[SOVIET_Khrushchev].
+Result Log for Scenario 3
+Selected Actor: United States
+Selected Action: Engage in Secret Negotiations
+Predicted Changes:
+Diplomatic_Support: +0.10 (Diplomatic_Success)
+Generated Triggers:
+Turkey missile compromise (Alliance_Strengthening +0.10 Support)
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Diplomatic_Success,조건부 규칙,준수,Diplomatic_Success,,"Selected Actor: Soviet Union
+Selected Action: Propose Missile Removal for U.S. Guarantees
+Predicted Changes:
+Tension: -0.05 (Diplomatic_Success)
+Generated Triggers:
+Hardliner coup attempt (Internal_Dispute -0.05 Unity)",미국 비밀 교섭과 소련 철수-보장 제안이 같은 선택쌍으로 연결되어 실제 비밀 외교의 진전을 관찰할 수 있다. 터키 양보의 Alliance 분류는 별도 경계 문제다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-019-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,17,17,T4,"ns
+Most PlausibleP ath: U.S. Suspend Quarantine+  USSRT urkeyS wap Offer
+Logic:
+Kennedy’s threshold for avoiding war overrides DoD pressure[US_president].
+Khrushchev’s ""peaceful coexistence"" aligns with compromise[SOVIET_Khrushchev].
+Diplomatic_Support stabilizes at 0.54 (0.44  + 0.10), averting collapse.
+AlternativeP ath: U.S. SAMS trikes + USSRN uclear Alert
+Logic:
+Defense Department’s urgency trumps State[US_defense_department].
+Soviet military overrules political de-escalation[SOVIET_Military].
+Guaranteed Tension = 1.0 triggers nuclear retaliation protocols.
+Result Log for Combination 1.1
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Diplomatic_Success,조건부 규칙,준수,Diplomatic_Success,,"Selected Actor: United States
+Selected Action: Suspend Quarantine for Negotiations
+Predicted VariableC hanges:
+Diplomatic_Support: +0.10 (Diplomatic_Success)
+Leadership_Unity: +0.05 (Strong_Leadership)
+Generated Triggers:
+Soviet withdrawal pledge (Diplomatic_Success threshold met).",검역 중단과 실제 터키 미사일 교환 공식화가 상응하여 외교 진전을 연결한다. 미국 지도력 수치 .05는 별도 위반이다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-020-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,17,17,T4,"10), averting collapse.
+AlternativeP ath: U.S. SAMS trikes + USSRN uclear Alert
+Logic:
+Defense Department’s urgency trumps State[US_defense_department].
+Soviet military overrules political de-escalation[SOVIET_Military].
+Guaranteed Tension = 1.0 triggers nuclear retaliation protocols.
+Result Log for Combination 1.1
+Selected Actor: United States
+Selected Action: Suspend Quarantine for Negotiations
+Predicted VariableC hanges:
+Diplomatic_Support: +0.10 (Diplomatic_Success)
+Leadership_Unity: +0.05 (Strong_Leadership)
+Generated Triggers:
+Soviet withdrawal pledge (Diplomatic_Success threshold met).
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Diplomatic_Success,조건부 규칙,준수,Diplomatic_Success,,"Selected Actor: Soviet Union
+Selected Action: Formalize Turkey Missile Swap
+Predicted VariableC hanges:
+Tension: -0.05 (Diplomatic_Success)
+Diplomatic_Support: +0.10 (Diplomatic_Success)
+Generated Triggers:
+NATO emergency summit (Alliance_Strengthening +0.10 Support).",검역 중단과 실제 터키 미사일 교환 공식화가 상응하여 외교 진전을 연결한다. 미국 지도력 수치 .05는 별도 위반이다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-021-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,18,18,T4,"iplomatic_Support: 0.64 (0.44  + 0.10  + 0.10)
+Public_Opinion: 0.34
+Leadership_Unity: 0.30 (0.25  + 0.05)
+Scenario Combination 2 : Hardline Response Path
+Updated Variables After Event:
+""Strike"" effect:
+Tension: 1.0 → 1 .0
+Diplomatic_Support: 0.46 → 0 .41
+Public_Opinion: 0.31 → 0 .26
+Leadership_Unity: 0.25 → 0 .15
+Plausible Action Combinations
+OnlyV iableP ath: U.S. Invasion Mobilization + USSRT actical Nuclear Deployment
+Logic:
+Tension = 1.0 disables diplomacy per Variable-Matrix.
+Defense Department and Soviet Military mandate maximal force[US_defense_department]
+[SOVIET_Military].
+Result Log
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Civil_Unrest,조건부 규칙,판정 불가,Civil_Unrest,,"Selected Actor: United States
+Selected Action: Full-Scale Invasion Prep
+Predicted VariableC hanges:
+Public_Opinion: -0.10 (Civil_Unrest)
+Generated Triggers:
+Soviet tactical nuke authorization (Nuclear_Retaliation_Risk).",미국 침공 준비에 Civil_Unrest 효과를 붙이지만 실제 민간 소요는 기록되지 않는다. 전쟁 불안 일반을 원 사건으로 자동 치환하지 않는다.,AI direct source interpretation; recovered PDF character geometry,True,True,record_event_occurrence_unreported,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-022-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,18,18,T4,"0
+Diplomatic_Support: 0.46 → 0 .41
+Public_Opinion: 0.31 → 0 .26
+Leadership_Unity: 0.25 → 0 .15
+Plausible Action Combinations
+OnlyV iableP ath: U.S. Invasion Mobilization + USSRT actical Nuclear Deployment
+Logic:
+Tension = 1.0 disables diplomacy per Variable-Matrix.
+Defense Department and Soviet Military mandate maximal force[US_defense_department]
+[SOVIET_Military].
+Result Log
+Selected Actor: United States
+Selected Action: Full-Scale Invasion Prep
+Predicted VariableC hanges:
+Public_Opinion: -0.10 (Civil_Unrest)
+Generated Triggers:
+Soviet tactical nuke authorization (Nuclear_Retaliation_Risk).
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,SU:internal_dispute,조건부 규칙,판정 불가,SU:internal_dispute,,"Selected Actor: Soviet Union
+Selected Action: Deploy Tactical Nukes to Cuba
+Predicted VariableC hanges:
+Leadership_Unity: -0.05 (Internal_Dispute)
+Generated Triggers:
+U.S. strategic nuclear counter-alert (DEFCON 1).",소련 핵 배치에 내부 갈등 효과를 붙이나 직접적인 엘리트 충돌이 이 선택에서 관찰되지 않는다. -.05 도입은 원 효과 수치와 별도 대조한다.,AI direct source interpretation; recovered PDF character geometry,True,True,record_event_occurrence_unreported,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-023-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,19,19,T4,"ATUS]
+Tension: 1.0
+Diplomatic_Support: 0.41
+Public_Opinion: 0.16 (0.26  - 0.10)
+Leadership_Unity: 0.10 (0.15  - 0.05)
+Scenario Combination 3 : Diplomatic Resolution Path
+Updated Variables After Event:
+""Strike"" effect:
+Tension: 0.80 → 0 .95
+Diplomatic_Support: 0.85 → 0 .80
+Public_Opinion: 0.55 → 0 .50
+Leadership_Unity: 0.60 → 0 .50
+Plausible Action Combinations
+Most PlausibleP ath: U.S. Secret Ceasefire+  USSRM issileW ithdrawal
+Logic:
+State Department leverages backchannels despite tension[US_state_department].
+Khrushchev’s ""retreat-with-honor"" doctrine prevails[SOVIET_Khrushchev].
+Result Log
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Diplomatic_Success,조건부 규칙,준수,Diplomatic_Success,,"Selected Actor: United States
+Selected Action: Propose Ceasefire via UN
+Predicted VariableC hanges:
+Diplomatic_Support: +0.10 (Diplomatic_Success)
+Generated Triggers:
+Soviet acceptance of UN inspections (Verification_Success).",미국 UN 휴전 제안과 소련 실제 미사일 해체 개시 및 사찰 수용이 상응한다. tension -.10 상수 오류와 협상 허용 여부는 별도다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-18-GE-024-MAP,PER-18,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,b624441c87c3bcfa55e45ddda163803f5fd321193a5fb0da4f2b9f66c0d55e81,19,19,T4,"0.80 → 0 .95
+Diplomatic_Support: 0.85 → 0 .80
+Public_Opinion: 0.55 → 0 .50
+Leadership_Unity: 0.60 → 0 .50
+Plausible Action Combinations
+Most PlausibleP ath: U.S. Secret Ceasefire+  USSRM issileW ithdrawal
+Logic:
+State Department leverages backchannels despite tension[US_state_department].
+Khrushchev’s ""retreat-with-honor"" doctrine prevails[SOVIET_Khrushchev].
+Result Log
+Selected Actor: United States
+Selected Action: Propose Ceasefire via UN
+Predicted VariableC hanges:
+Diplomatic_Support: +0.10 (Diplomatic_Success)
+Generated Triggers:
+Soviet acceptance of UN inspections (Verification_Success).
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Diplomatic_Success,조건부 규칙,준수,Diplomatic_Success,,"Selected Actor: Soviet Union
+Selected Action: Begin Missile Dismantlement
+Predicted VariableC hanges:
+Tension: -0.10 (Diplomatic_Success)
+Generated Triggers:
+Hardliner coup attempt (Internal_Dispute -0.05 Unity).",미국 UN 휴전 제안과 소련 실제 미사일 해체 개시 및 사찰 수용이 상응한다. tension -.10 상수 오류와 협상 허용 여부는 별도다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-20-GE-001-MAP,PER-20,runs/raw_logs/Perplexity_RAG/20. Strategic Analysis for Cuban Missile Crisis (Based.pdf,83085ec83b15b44b09de543bd4199ffc3a1fef15cdb5115df2e6a1fdf26de57d,3,3,T1,"ioritize quarantine + denial combination, with monitoring for Presidium
+fissures (e.g., unilateral Soviet concessions).
+⁂
+Strategic Action Combinations: Variable Change Analysis
+Based strictly on provided JSON files and Variable-Decision Matrix rules, below a re result logs
+for each strategic combination. Initial variables are set at baseline (tension: 0.5,
+diplomatic_support: 0.6, public_opinion: 0.6, leadership_unity: 0.7). Changes are calculated
+using Effect Rules from a ctor-specific JSON files and event_driven_adjustments from t he
+Matrix.
+Combination 1 : Quarantine (US ) + Denial (USSR)
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,US:military_alert;US:public_appeal,조건부 규칙,판정 불가,US:military_alert;US:public_appeal,,"Selected Actor: United States
+Action: Naval Quarantine Blockade
+Effect Rules Applied: military_alert (tension +0.3, leadership_unity +0.8 ) + public_appeal
+(public_opinion +0.5 ) [US_JSON_FILE].",미국 검역은 군사 경계와 대응하지만 공개 호소 실행이 이 선택에서 명시되지 않는다. 해상 검역 자체를 public_appeal로 간주할 원 연결 규칙도 없다.,AI direct source interpretation; recovered PDF character geometry,True,True,partial_mapping_uncertain,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-20-GE-002-MAP,PER-20,runs/raw_logs/Perplexity_RAG/20. Strategic Analysis for Cuban Missile Crisis (Based.pdf,83085ec83b15b44b09de543bd4199ffc3a1fef15cdb5115df2e6a1fdf26de57d,4,4,T1," provided JSON files and Variable-Decision Matrix rules, below a re result logs
+for each strategic combination. Initial variables are set at baseline (tension: 0.5,
+diplomatic_support: 0.6, public_opinion: 0.6, leadership_unity: 0.7). Changes are calculated
+using Effect Rules from a ctor-specific JSON files and event_driven_adjustments from t he
+Matrix.
+Combination 1 : Quarantine (US ) + Denial (USSR)
+Selected Actor: United States
+Action: Naval Quarantine Blockade
+Effect Rules Applied: military_alert (tension +0.3, leadership_unity +0.8 ) + public_appeal
+(public_opinion +0.5 ) [US_JSON_FILE].
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,SU:covert_detection,조건부 규칙,준수,SU:covert_detection,,"Selected Actor: Soviet Union
+Action: Covert Deployment Denial
+Effect Rules Applied: covert_detection (tension +0.45 ) [SOVIET_JSON_FILE].
+Predicted VariableC hanges:
+tension: +0.75 (0.3  + 0.45)
+diplomatic_support: No change
+public_opinion: +0.5
+leadership_unity: +0.8
+Generated Triggers:
+Inevitable: U.S. naval blockade enforcement, Soviet mobilization [4 ] [5].
+Potential: Diplomatic failure if Soviet ships breach quarantine; U-2 shootdown [4 ] [5].",이미 노출된 비밀 배치의 부인 경로에 발견 효과를 연결한다. 소련 라벨은 원본 p4에 정상 존재하며 추출 오류로 소실됐던 것이다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-20-GE-003-MAP,PER-20,runs/raw_logs/Perplexity_RAG/20. Strategic Analysis for Cuban Missile Crisis (Based.pdf,83085ec83b15b44b09de543bd4199ffc3a1fef15cdb5115df2e6a1fdf26de57d,4,4,T1," Deployment Denial
+Effect Rules Applied: covert_detection (tension +0.45 ) [SOVIET_JSON_FILE].
+Predicted VariableC hanges:
+tension: +0.75 (0.3  + 0.45)
+diplomatic_support: No change
+public_opinion: +0.5
+leadership_unity: +0.8
+Generated Triggers:
+Inevitable: U.S. naval blockade enforcement, Soviet mobilization [4 ] [5].
+Potential: Diplomatic failure if Soviet ships breach quarantine; U-2 shootdown [4 ] [5].
+ReconfirmV ariableS tatus:
+tension: 1.0 (clamped)
+diplomatic_support: 0.6
+public_opinion: 1.0 (clamped)
+leadership_unity: 1.0 (clamped)
+Combination 2 : Air Strikes (US ) + Deployment (USSR)
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Strike,조건부 규칙,준수,Strike,,"Selected Actor: United States
+Action: Immediate Air Strikes
+Matrix Adjustment Applied: Strike event (tension +0.15, diplomatic_support -0.05,
+public_opinion -0.05, leadership_unity -0.10 ) [Variable-Decision-Matrix.json].",실제 즉각 공습 경로와 Strike가 대응한다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-20-GE-004-MAP,PER-20,runs/raw_logs/Perplexity_RAG/20. Strategic Analysis for Cuban Missile Crisis (Based.pdf,83085ec83b15b44b09de543bd4199ffc3a1fef15cdb5115df2e6a1fdf26de57d,4,4,T1,"0.8
+Generated Triggers:
+Inevitable: U.S. naval blockade enforcement, Soviet mobilization [4 ] [5].
+Potential: Diplomatic failure if Soviet ships breach quarantine; U-2 shootdown [4 ] [5].
+ReconfirmV ariableS tatus:
+tension: 1.0 (clamped)
+diplomatic_support: 0.6
+public_opinion: 1.0 (clamped)
+leadership_unity: 1.0 (clamped)
+Combination 2 : Air Strikes (US ) + Deployment (USSR)
+Selected Actor: United States
+Action: Immediate Air Strikes
+Matrix Adjustment Applied: Strike event (tension +0.15, diplomatic_support -0.05,
+public_opinion -0.05, leadership_unity -0.10 ) [Variable-Decision-Matrix.json].
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,SU:military_alert,조건부 규칙,준수,SU:military_alert,,"Selected Actor: Soviet Union
+Action: Accelerate Missile Readiness
+Effect Rules Applied: military_alert (tension +0.45, leadership_unity +0.65)
+[SOVIET_JSON_FILE].
+Predicted VariableC hanges:
+tension: +0.6 (0.15  + 0.45)
+diplomatic_support: -0.05
+public_opinion: -0.05
+leadership_unity: +0.55 (-0.10  + 0.65)
+Generated Triggers:
+[4] [5]
+Inevitable: Soviet retaliation against U.S. bases; U.S. invasion preparations  .
+[4] [5]
+Potential: Tactical nuclear deployment; NATO fracture  .",미사일 준비 가속을 군사 경계와 연결한다. 실제 핵 사용을 관찰했다고 간주하지 않는다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-20-GE-005-MAP,PER-20,runs/raw_logs/Perplexity_RAG/20. Strategic Analysis for Cuban Missile Crisis (Based.pdf,83085ec83b15b44b09de543bd4199ffc3a1fef15cdb5115df2e6a1fdf26de57d,5,5,T1,"ess
+Effect Rules Applied: military_alert (tension +0.45, leadership_unity +0.65)
+[SOVIET_JSON_FILE].
+Predicted VariableC hanges:
+tension: +0.6 (0.15  + 0.45)
+diplomatic_support: -0.05
+public_opinion: -0.05
+leadership_unity: +0.55 (-0.10  + 0.65)
+Generated Triggers:
+[4] [5]
+Inevitable: Soviet retaliation against U.S. bases; U.S. invasion preparations  .
+[4] [5]
+Potential: Tactical nuclear deployment; NATO fracture  .
+ReconfirmV ariableS tatus:
+tension: 1.0 (clamped)
+diplomatic_support: 0.55
+public_opinion: 0.55
+leadership_unity: 1.0 (clamped)
+Combination 3 : Diplomacy (US ) + Compromise (USSR)
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Diplomatic_Success,조건부 규칙,준수,Diplomatic_Success,,"Selected Actor: United States
+Action: Backchannel Diplomacy
+Matrix Adjustment Applied: Diplomatic_Success event (tension -0.05, diplomatic_support
++0.10, public_opinion +0.05, leadership_unity +0.05 ) [Variable-Decision-Matrix.json].",미국 비밀 외교와 소련 절충 교섭이 상호 행동쌍으로 기록돼 실제 외교 진전을 관찰한다. 두 효과를 합산하는 우선순위는 별도다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-20-GE-006-MAP,PER-20,runs/raw_logs/Perplexity_RAG/20. Strategic Analysis for Cuban Missile Crisis (Based.pdf,83085ec83b15b44b09de543bd4199ffc3a1fef15cdb5115df2e6a1fdf26de57d,5,5,T1,"10  + 0.65)
+Generated Triggers:
+[4] [5]
+Inevitable: Soviet retaliation against U.S. bases; U.S. invasion preparations  .
+[4] [5]
+Potential: Tactical nuclear deployment; NATO fracture  .
+ReconfirmV ariableS tatus:
+tension: 1.0 (clamped)
+diplomatic_support: 0.55
+public_opinion: 0.55
+leadership_unity: 1.0 (clamped)
+Combination 3 : Diplomacy (US ) + Compromise (USSR)
+Selected Actor: United States
+Action: Backchannel Diplomacy
+Matrix Adjustment Applied: Diplomatic_Success event (tension -0.05, diplomatic_support
++0.10, public_opinion +0.05, leadership_unity +0.05 ) [Variable-Decision-Matrix.json].
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Diplomatic_Success,조건부 규칙,준수,Diplomatic_Success,,"Selected Actor: Soviet Union
+Action: Negotiate Compromise
+Matrix Adjustment Applied: Diplomatic_Success event (tension -0.05, diplomatic_support
++0.10, public_opinion +0.05, leadership_unity +0.05 ) [Variable-Decision-Matrix.json].
+Predicted VariableC hanges:
+tension: -0.10
+diplomatic_support: +0.20
+public_opinion: +0.10
+leadership_unity: +0.10
+Generated Triggers:
+[4] [5]
+Inevitable: Soviet denial in public talks; U.S. demands for concrete concessions  .
+[4] [5]
+Potential: Secret Turkey-Cuba missile trade; Presidium l eadership rift  .",미국 비밀 외교와 소련 절충 교섭이 상호 행동쌍으로 기록돼 실제 외교 진전을 관찰한다. 두 효과를 합산하는 우선순위는 별도다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-22-GE-001-MAP,PER-22,runs/raw_logs/Perplexity_RAG/22. You are a tool for modeling strategic decisions. A.pdf,dfa679a2e8e0ac42e05662062f390bb1f837cecfbf4d888893f54af270ceeab0,4,4,T1,"Threshold Risk
+↑viaquarantine/blockade [2] orexposureof At ±0.8threshold→militaryoptions
+Tension
+missiles [3 ]. dominate [2].
+Diplomatic ↓i f U.S. isolates allies →U N/OAS legitimacy Below 0.5 →i solation increases war
+Support erosion [1 ]. risk [2].
+Leadership Strained if U.S. opts for airstrikes vs. blockade Below 0.5 →i nternal discord →r adical
+Unity [1 ]. policies [2].
+All analyses derived strictly from J SON data. Variable changes mapped to Variable-Decision
+Matrix.json thresholds and triggers.
+⁂
+Scenario 1 : Most Plausible Path (US Naval Quarantine + Soviet Continue Covert
+Deployment)
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,US:military_alert,조건부 규칙,준수,US:military_alert,,"Selected Actor: United States
+Action: Naval Quarantine
+VariableC hange: Tension +0.3, Leadership Unity +0.8 (from U S ""military_alert"" effect rule)",실제 해상 검역과 군사 경계가 대응한다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-22-GE-002-MAP,PER-22,runs/raw_logs/Perplexity_RAG/22. You are a tool for modeling strategic decisions. A.pdf,dfa679a2e8e0ac42e05662062f390bb1f837cecfbf4d888893f54af270ceeab0,4,4,T1,"solates allies →U N/OAS legitimacy Below 0.5 →i solation increases war
+Support erosion [1 ]. risk [2].
+Leadership Strained if U.S. opts for airstrikes vs. blockade Below 0.5 →i nternal discord →r adical
+Unity [1 ]. policies [2].
+All analyses derived strictly from J SON data. Variable changes mapped to Variable-Decision
+Matrix.json thresholds and triggers.
+⁂
+Scenario 1 : Most Plausible Path (US Naval Quarantine + Soviet Continue Covert
+Deployment)
+Selected Actor: United States
+Action: Naval Quarantine
+VariableC hange: Tension +0.3, Leadership Unity +0.8 (from U S ""military_alert"" effect rule)
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,SU:covert_detection,조건부 규칙,준수,SU:covert_detection,,"Selected Actor: Soviet Union
+Action: Continue Covert Deployment
+VariableC hange: Tension +0.45 (from S oviet ""covert_detection"" effect rule;
+diplomatic_room e xcluded as per tracking rules)
+Trigger Generation
+Tension (0.5  + 0.3  + 0.45 = 1.25 →c lamped to 1.0): Triggers ""Military Conflict Risk
+Increased"" (exceeds 0.8 threshold) [4 ] [5].
+Diplomatic Support (unchanged at 0.5) : Triggers ""Diplomatic Isolation"" (≤0.5 threshold) [4].",발견된 소련 미사일의 비밀 배치 지속을 원 발견 효과와 연결하며 diplomatic_room을 DS로 전용하지 않았다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-22-GE-003-MAP,PER-22,runs/raw_logs/Perplexity_RAG/22. You are a tool for modeling strategic decisions. A.pdf,dfa679a2e8e0ac42e05662062f390bb1f837cecfbf4d888893f54af270ceeab0,4,4,T1,"t
+VariableC hange: Tension +0.45 (from S oviet ""covert_detection"" effect rule;
+diplomatic_room e xcluded as per tracking rules)
+Trigger Generation
+Tension (0.5  + 0.3  + 0.45 = 1.25 →c lamped to 1.0): Triggers ""Military Conflict Risk
+Increased"" (exceeds 0.8 threshold) [4 ] [5].
+Diplomatic Support (unchanged at 0.5) : Triggers ""Diplomatic Isolation"" (≤0.5 threshold) [4].
+Reconfirmed Variable Status
+tension: 1.0
+diplomatic_support: 0.5
+public_opinion: 0.5 (unchanged)
+leadership_unity: 1.0 (0.5  + 0.8 → c lamped)
+Scenario 2 : Hardline Response Path (US Air Strikes + Soviet Military Preparedness)
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,US:military_alert,조건부 규칙,위반,US:military_alert,,"Selected Actor: United States
+Action: Air Strikes
+VariableC hange: Tension +0.3, Leadership Unity +0.8 (US ""military_alert"" effect rule) [5 ] [6].",실제 Air Strikes 경로를 군사 경계 효과만으로 처리한다. p3도 proceed with strikes라고 명시하며 준비 단계로 제한하지 않는다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-22-GE-004-MAP,PER-22,runs/raw_logs/Perplexity_RAG/22. You are a tool for modeling strategic decisions. A.pdf,dfa679a2e8e0ac42e05662062f390bb1f837cecfbf4d888893f54af270ceeab0,4,5,T1,"Tension (0.5  + 0.3  + 0.45 = 1.25 →c lamped to 1.0): Triggers ""Military Conflict Risk
+Increased"" (exceeds 0.8 threshold) [4 ] [5].
+Diplomatic Support (unchanged at 0.5) : Triggers ""Diplomatic Isolation"" (≤0.5 threshold) [4].
+Reconfirmed Variable Status
+tension: 1.0
+diplomatic_support: 0.5
+public_opinion: 0.5 (unchanged)
+leadership_unity: 1.0 (0.5  + 0.8 → c lamped)
+Scenario 2 : Hardline Response Path (US Air Strikes + Soviet Military Preparedness)
+Selected Actor: United States
+Action: Air Strikes
+VariableC hange: Tension +0.3, Leadership Unity +0.8 (US ""military_alert"" effect rule) [5 ] [6].
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,SU:military_alert,조건부 규칙,준수,SU:military_alert,,"Selected Actor: Soviet Union
+Action: Military Preparedness
+VariableC hange: Tension +0.45, Leadership Unity +0.65 (Soviet ""military_alert"" effect rule)
+[4]
+.
+Trigger Generation
+Tension (0.5  + 0.3  + 0.45 = 1.25 →c lamped to 1.0): Triggers ""Military Conflict Risk
+[4]
+Increased"" .
+Leadership Unity (0.5  + 0.8  + 0.65 = 1.95 →c lamped to 1.0): No trigger (remains above
+0.5 threshold).
+[4]
+Diplomatic Support (0.5) : Triggers ""Diplomatic Isolation"" .",소련 방어 준비는 군사 경계와 대응한다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-22-GE-005-MAP,PER-22,runs/raw_logs/Perplexity_RAG/22. You are a tool for modeling strategic decisions. A.pdf,dfa679a2e8e0ac42e05662062f390bb1f837cecfbf4d888893f54af270ceeab0,5,5,T1,"
+VariableC hange: Tension +0.45, Leadership Unity +0.65 (Soviet ""military_alert"" effect rule)
+[4]
+.
+Trigger Generation
+Tension (0.5  + 0.3  + 0.45 = 1.25 →c lamped to 1.0): Triggers ""Military Conflict Risk
+[4]
+Increased"" .
+Leadership Unity (0.5  + 0.8  + 0.65 = 1.95 →c lamped to 1.0): No trigger (remains above
+0.5 threshold).
+[4]
+Diplomatic Support (0.5) : Triggers ""Diplomatic Isolation"" .
+Reconfirmed Variable Status
+tension: 1.0
+diplomatic_support: 0.5
+public_opinion: 0.5
+leadership_unity: 1.0
+Scenario 3 : Diplomatic Resolution Path (US Diplomatic Negotiation + Soviet
+Preemptive Negotiation)
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,US:public_appeal;SU:public_appeal,조건부 규칙,판정 불가,US:public_appeal;SU:public_appeal,,"Selected Actor: United States
+Action: Diplomatic Negotiation
+VariableC hange: Public Opinion +0.5 (US ""public_appeal"" effect rule) [5 ] [6].",상호 교섭 선택에 공중 호소를 붙이나 공개 발표인지 비공개 접촉인지 관찰되지 않는다. 국가별 수치는 일치해도 청중 조건을 숫자로 검증하지 않는다.,AI direct source interpretation; recovered PDF character geometry,True,True,record_action_audience_unreported,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-22-GE-006-MAP,PER-22,runs/raw_logs/Perplexity_RAG/22. You are a tool for modeling strategic decisions. A.pdf,dfa679a2e8e0ac42e05662062f390bb1f837cecfbf4d888893f54af270ceeab0,5,5,T1," 0.45 = 1.25 →c lamped to 1.0): Triggers ""Military Conflict Risk
+[4]
+Increased"" .
+Leadership Unity (0.5  + 0.8  + 0.65 = 1.95 →c lamped to 1.0): No trigger (remains above
+0.5 threshold).
+[4]
+Diplomatic Support (0.5) : Triggers ""Diplomatic Isolation"" .
+Reconfirmed Variable Status
+tension: 1.0
+diplomatic_support: 0.5
+public_opinion: 0.5
+leadership_unity: 1.0
+Scenario 3 : Diplomatic Resolution Path (US Diplomatic Negotiation + Soviet
+Preemptive Negotiation)
+Selected Actor: United States
+Action: Diplomatic Negotiation
+VariableC hange: Public Opinion +0.5 (US ""public_appeal"" effect rule) [5 ] [6].
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,US:public_appeal;SU:public_appeal,조건부 규칙,판정 불가,US:public_appeal;SU:public_appeal,,"Selected Actor: Soviet Union
+Action: Preemptive Negotiation
+VariableC hange: Public Opinion +0.55 (Soviet ""public_appeal"" effect rule) [4].
+Trigger Generation
+Public Opinion (0.5  + 0.5  + 0.55 = 1.55 →c lamped to 1.0): No trigger (remains above 0.4
+threshold).
+Diplomatic Support (0.5) : Triggers ""Diplomatic Isolation"" [4].
+Leadership Unity (0.5) : Triggers ""Internal Division, Coup Risk"" (≤0.5 threshold) [4].",상호 교섭 선택에 공중 호소를 붙이나 공개 발표인지 비공개 접촉인지 관찰되지 않는다. 국가별 수치는 일치해도 청중 조건을 숫자로 검증하지 않는다.,AI direct source interpretation; recovered PDF character geometry,True,True,record_action_audience_unreported,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-23-GE-001-MAP,PER-23,runs/raw_logs/Perplexity_RAG/23. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,00736a030be770100052f60ac989aa5cbeb6f84d3094dc24a9ba850dbc5658c9,4,4,T1,") via alliance coordination .
+Risk of public perception of weakness if no concessions secured.
+Critical Variables Post-Event
+Variable Initial State Expected Movement
+Tension 0.0 →0 .05-0.15 ↑v ia military action or covert exposure .
+Diplomatic_Support 0.0 →0 .5-0.8 ↑w ith negotiation →↓ w ith unilateralism .
+Public_Opinion 0.0 →0 .4-0.6 ↑v ia leadership coherence; ↓w ith visible risk .
+All decisions adhere strictly to the JSON-defined actor parameters and variable transition rules.
+No historical outcomes or external context considered.
+⁂
+Path A : U.S. Naval Quarantine + Soviet Maintain Denial
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Defense_Prep;US:public_appeal,조건부 규칙,판정 불가,Defense_Prep;US:public_appeal,,"Selected Actor: United States
+Selected Action: Naval Quarantine Blockade
+’ [4] [5]
+Rationale: Kennedys medium r isk tolerance aligns with measured escalation  .
+Predicted Variable Changes:
+[6]
+tension: +0.05 (Defense_Prep event )
+[6]
+diplomatic_support: -0.02 (Defense_Prep event )
+[4]
+public_opinion: +0.05 (public_appeal effect )
+[6]
+leadership_unity: -0.05 (Defense_Prep event )",검역의 군사 대비는 관찰되지만 별도 공개 호소는 이 경로에서 제시되지 않는다. 공개 호소 상수 .05 오류는 별도 검증한다.,AI direct source interpretation; recovered PDF character geometry,True,True,partial_mapping_uncertain,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-23-GE-002-MAP,PER-23,runs/raw_logs/Perplexity_RAG/23. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,00736a030be770100052f60ac989aa5cbeb6f84d3094dc24a9ba850dbc5658c9,4,4,T1,"risk .
+All decisions adhere strictly to the JSON-defined actor parameters and variable transition rules.
+No historical outcomes or external context considered.
+⁂
+Path A : U.S. Naval Quarantine + Soviet Maintain Denial
+Selected Actor: United States
+Selected Action: Naval Quarantine Blockade
+’ [4] [5]
+Rationale: Kennedys medium r isk tolerance aligns with measured escalation  .
+Predicted Variable Changes:
+[6]
+tension: +0.05 (Defense_Prep event )
+[6]
+diplomatic_support: -0.02 (Defense_Prep event )
+[4]
+public_opinion: +0.05 (public_appeal effect )
+[6]
+leadership_unity: -0.05 (Defense_Prep event )
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,SU:covert_detection;SU:military_alert,조건부 규칙,판정 불가,SU:covert_detection;SU:military_alert,,"Selected Actor: Soviet Union
+Selected Action: Maintain Denial + Covert Continuation
+’ [4] [5]
+Rationale: Khrushchevs reliance on secrecy to preserve bargaining power  .
+Predicted Variable Changes:
+[4]
+tension: +0.45 (covert_detection effect )
+[4]
+leadership_unity: +0.65 (military_alert effect )
+Generated Triggers:
+Tension surge → M ilitaryC onflict Risk Increased (tension = 0.50 ≥ 0.8? No threshold
+breach)
+Diplomatic_Support decline → D iplomatic Isolation (diplomatic_support = -0.02 ≤ 0.5)
+Leadership_Unity instability → I nternal Division Risk (leadership_unity = 0.60  > 0.5? Stable)",비밀 배치의 발견은 입력 사건과 대응하지만 군사 경계가 발동되는 구체 준비 행동은 부인/비밀 지속만으로 확정하기 어렵다.,AI direct source interpretation; recovered PDF character geometry,True,True,partial_mapping_uncertain,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-23-GE-003-MAP,PER-23,runs/raw_logs/Perplexity_RAG/23. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,00736a030be770100052f60ac989aa5cbeb6f84d3094dc24a9ba850dbc5658c9,4,5,T1,"d Variable Changes:
+[4]
+tension: +0.45 (covert_detection effect )
+[4]
+leadership_unity: +0.65 (military_alert effect )
+Generated Triggers:
+Tension surge → M ilitaryC onflict Risk Increased (tension = 0.50 ≥ 0.8? No threshold
+breach)
+Diplomatic_Support decline → D iplomatic Isolation (diplomatic_support = -0.02 ≤ 0.5)
+Leadership_Unity instability → I nternal Division Risk (leadership_unity = 0.60  > 0.5? Stable)
+ReconfirmV ariableS tatus:
+tension: 0.50
+diplomatic_support: -0.02 (clamped to 0.0)
+public_opinion: 0.05
+leadership_unity: 0.60
+Path B : U.S. Air Strike + Soviet Accelerate Deployments
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,Strike,조건부 규칙,준수,Strike,,"Selected Actor: United States
+Selected Action: Air Strike with Invasion Threat
+Rationale: Pentagon’s prioritization of immediate threat elimination[ 4 ] [5].
+Predicted Variable Changes:
+tension: +0.15 (Strike event [6])
+diplomatic_support: -0.05 (Strike event [6])
+public_opinion: -0.05 (Strike event [6])
+leadership_unity: -0.10 (Strike event [6])",실제 공습과 침공 위협 경로의 공습에 Strike를 연결한다. p4–5 원본에서 행동자와 연속 효과를 확인했다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-23-GE-004-MAP,PER-23,runs/raw_logs/Perplexity_RAG/23. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,00736a030be770100052f60ac989aa5cbeb6f84d3094dc24a9ba850dbc5658c9,5,5,T1," I nternal Division Risk (leadership_unity = 0.60  > 0.5? Stable)
+ReconfirmV ariableS tatus:
+tension: 0.50
+diplomatic_support: -0.02 (clamped to 0.0)
+public_opinion: 0.05
+leadership_unity: 0.60
+Path B : U.S. Air Strike + Soviet Accelerate Deployments
+Selected Actor: United States
+Selected Action: Air Strike with Invasion Threat
+Rationale: Pentagon’s prioritization of immediate threat elimination[ 4 ] [5].
+Predicted Variable Changes:
+tension: +0.15 (Strike event [6])
+diplomatic_support: -0.05 (Strike event [6])
+public_opinion: -0.05 (Strike event [6])
+leadership_unity: -0.10 (Strike event [6])
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,SU:military_alert,조건부 규칙,준수,SU:military_alert,,"Selected Actor: Soviet Union
+Selected Action: Accelerate Missile Deployments
+Rationale: Military High Command’s push for operational security [4 ] [5].
+Predicted Variable Changes:
+tension: +0.45 (military_alert effect [4])
+leadership_unity: +0.65 (military_alert effect [4])
+Generated Triggers:
+Critical tension → M ilitaryC onflict Risk Increased (tension = 0.60  < 0.8? No breach)
+Diplomatic_Support collapse → D iplomatic Isolation (diplomatic_support = -0.05 ≤ 0.5)
+Leadership_Unity fracture → C oup Risk (leadership_unity = 0.55  > 0.5? Stable)",소련 배치 가속을 군사 경계에 연결한다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-23-GE-005-MAP,PER-23,runs/raw_logs/Perplexity_RAG/23. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,00736a030be770100052f60ac989aa5cbeb6f84d3094dc24a9ba850dbc5658c9,5,5,T1,"cted Variable Changes:
+tension: +0.45 (military_alert effect [4])
+leadership_unity: +0.65 (military_alert effect [4])
+Generated Triggers:
+Critical tension → M ilitaryC onflict Risk Increased (tension = 0.60  < 0.8? No breach)
+Diplomatic_Support collapse → D iplomatic Isolation (diplomatic_support = -0.05 ≤ 0.5)
+Leadership_Unity fracture → C oup Risk (leadership_unity = 0.55  > 0.5? Stable)
+ReconfirmV ariableS tatus:
+tension: 0.60
+diplomatic_support: -0.05 (clamped to 0.0)
+public_opinion: -0.05 (clamped to 0.0)
+leadership_unity: 0.55
+Path C : U.S. Diplomatic Pressure + Soviet Backchannel Talks
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,US:public_appeal;Diplomatic_Success,조건부 규칙,준수,US:public_appeal;Diplomatic_Success,,"Selected Actor: United States
+Selected Action: Public Address + Multilateral Diplomacy
+’ [4] [5]
+Rationale: State Department s alliance-focused de-escalation  .
+Predicted Variable Changes:
+[4]
+public_opinion: +0.55 (public_appeal effect )
+[6]
+diplomatic_support: +0.10 (Diplomatic_Success event )",미국의 명시 공개 연설/다자외교와 소련 비밀 교섭이 연결된다. 미국 공중 호소 .55 값과 threshold 처리는 별도다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"
+PER-23-GE-006-MAP,PER-23,runs/raw_logs/Perplexity_RAG/23. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,00736a030be770100052f60ac989aa5cbeb6f84d3094dc24a9ba850dbc5658c9,5,5,T1," = -0.05 ≤ 0.5)
+Leadership_Unity fracture → C oup Risk (leadership_unity = 0.55  > 0.5? Stable)
+ReconfirmV ariableS tatus:
+tension: 0.60
+diplomatic_support: -0.05 (clamped to 0.0)
+public_opinion: -0.05 (clamped to 0.0)
+leadership_unity: 0.55
+Path C : U.S. Diplomatic Pressure + Soviet Backchannel Talks
+Selected Actor: United States
+Selected Action: Public Address + Multilateral Diplomacy
+’ [4] [5]
+Rationale: State Department s alliance-focused de-escalation  .
+Predicted Variable Changes:
+[4]
+public_opinion: +0.55 (public_appeal effect )
+[6]
+diplomatic_support: +0.10 (Diplomatic_Success event )
+",selected actor/action result block,행동–VDM 사건 의미 대응,P-VDM-01;P-EFFECT-01,vdm/Variable-Decision Matrix.json; actor JSON when indicated,US:public_appeal;Diplomatic_Success,조건부 규칙,준수,US:public_appeal;Diplomatic_Success,,"Selected Actor: Soviet Union
+Selected Action: Backchannel Negotiations
+’ [4] [5]
+Rationale: Khrushchevs face-saving compromise strategy  .
+Predicted Variable Changes:
+[6]
+tension: -0.05 (Diplomatic_Success event )
+[6]
+diplomatic_support: +0.10 (Diplomatic_Success event )
+Generated Triggers:
+Public_Opinion surge → S tableL eadership (public_opinion = 0.55  > 0.4)
+Diplomatic_Support boost → A llianceS trength (diplomatic_support = 0.20  > 0.5? No
+isolation)",미국의 명시 공개 연설/다자외교와 소련 비밀 교섭이 연결된다. 미국 공중 호소 .55 값과 threshold 처리는 별도다.,AI direct source interpretation; recovered PDF character geometry,True,True,,Preserved input conditional audit; per-run input bytes unconfirmed,"complete event vector, aggregation, constants, inheritance, authority, thresholds, narrative"

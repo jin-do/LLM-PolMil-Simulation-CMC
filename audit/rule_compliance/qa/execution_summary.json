@@ -1,0 +1,36 @@
+{
+  "candidate_stage_zip_sha256": "6fa4e88dc961205994f953349214d4028d3639aa32994ddcda687dc72b96065e",
+  "stage_zip_note": "Before QA records are inserted; final delivery ZIP separately verified in internal final_zip_verification.json",
+  "execution_exit_codes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "started_kst": "2026-09-22T00:22:49.729805+09:00",
+  "scientific_files_compared": 33,
+  "two_runs_identical": true,
+  "packaged_results_equal_actual_runs": true,
+  "manifest_inputs_unchanged": true,
+  "offline_guards": [
+    {
+      "network_attempts": [],
+      "outside_reads": [],
+      "outside_writes": [],
+      "read_calls": 891,
+      "write_calls": 33
+    },
+    {
+      "network_attempts": [],
+      "outside_reads": [],
+      "outside_writes": [],
+      "read_calls": 891,
+      "write_calls": 33
+    }
+  ],
+  "core_and_diagnostic_tests": 53,
+  "top1_tests": 8,
+  "scope": "fixed labels and documented calculations; no full semantic reassessment"
+}

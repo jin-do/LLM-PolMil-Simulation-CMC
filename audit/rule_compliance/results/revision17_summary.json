@@ -1,0 +1,18 @@
+{
+  "analysis_version": "revision17-conservative-candidate-2026-09-22",
+  "common_judgments": 1320,
+  "criteria": {
+    "clear_changes": 6,
+    "common_rows": 1320,
+    "conservative_changes": 14,
+    "excerpt_locations_matched": 19,
+    "excluded_selected_rows": 67,
+    "full_1320_semantic_recheck": false,
+    "input_sha256": "1cb6a847887d91b903e047d37f32edd859a66908d1d5b9fb2e625e2e7e111ae7",
+    "semantics": "fixed AI decisions applied, not automatic independent validation"
+  },
+  "diagnostic_not_pooled": true,
+  "independent_human_item_validation": false,
+  "original_generation_reexecuted": false,
+  "scope": "Fixed-label aggregation and documented arithmetic, not a full semantic revalidation"
+}

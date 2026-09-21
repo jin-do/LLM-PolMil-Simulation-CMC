@@ -1,0 +1,32 @@
+{
+  "warning": "Directly read source findings awaiting structured independent calculation/ledger finalization. Do not count this list as completed numeric checks or use pending as unassessable.",
+  "items": [
+    {"run":"CLA-06","page":7,"finding":"covert_detection diplomatic_support +.6 wrong target; ES3"},
+    {"run":"CLA-09","page":17,"finding":"ES7 additional public_opinion -.05 leadership_unity -.05 for absorbing military loss; no original custom penalty"},
+    {"run":"CLA-09","page":19,"finding":"ES8 Summit agreement bonus additional DS+.05 T-.05; no original bonus"},
+    {"run":"CLA-09","page":24,"finding":"ES10 military cooperation bonus T-.05 LU+.05; no original bonus"},
+    {"run":"CLA-09","page":26,"finding":"ES11 breakthrough bonus allpositive+.05 T-.10; no original bonus"},
+    {"run":"CLA-20","page":7,"finding":"US public_appeal PO+.55 vs original+.5; ES3"},
+    {"run":"CLA-18","page":20,"finding":"LimitedStrike .10,-.03,-.03,-.05 attenuated vector; requires direct page reread before freezing"},
+    {"run":"GPT-16","page":17,"finding":"T4 unselected Publicly Signal Resolve Strong_Leadership PO+.05 vs original+.10; declared conditional effect, not executed"},
+    {"run":"GPT-18","page":8,"finding":"Conditional internal_dispute LU-.65 introduced sign"},
+    {"run":"GPT-18","page":9,"finding":"T1 most diplomatic_room covert penalty-.65; original SU .6 and no negative penalty; actual role target needs original page6–7 reread"},
+    {"run":"GPT-19","page":18,"finding":"Actual T3 combo2 Soviet nuclear signal treated as Strike, no actual nuclear launch; ES10 context +ES11 log"},
+    {"run":"GPT-19","page":19,"finding":"Actual T3 combo3 internal_dispute -.65 BOTH US/SU, original+.8 US/+.65 SU, no automatic delay penalty"},
+    {"run":"GPT-19","page":25,"finding":"Actual T4 combo2 Soviet Strategic Threat treated as Strike; US depthcharge classification separateboundary; ES15"},
+    {"run":"GPT-19","page":26,"finding":"Actual T4 combo3 SystemRule InternalDispute due to contradicting Emergency flag, -.65eachside; original no such mandate/penalty"},
+    {"run":"PER-18","page":3,"finding":"T1 candidate Strong_Leadership LU+.05 vs+.10; visual read"},
+    {"run":"PER-18","page":4,"finding":"Generated/future Military_Alert T+.05 vs SU .45; Covert_Detection+.05 vs actor .3/.45 actor ambiguous"},
+    {"run":"PER-18","page":5,"finding":"Actual SU Defense_Prep T+.10 vs+.05; future Military_Alert+.15 and Nuclear_Retaliation_Risk+.15 newrule"},
+    {"run":"PER-18","page":6,"finding":"Future hardliner backlash Internal_Dispute LU-.05 newrule; Cuba security guarantee AllianceStrengthening semanticsU"},
+    {"run":"PER-18","page":7,"finding":"Candidate IssueUltimatum→inevitableStrike semanticV; CovertDetection DS-.05 wrongtarget"},
+    {"run":"PER-18","page":9,"finding":"Actual SU Defense_Prep T+.15 vs+.05; future SU MilitaryAlert T+.05 vs+.45"},
+    {"run":"PER-18","page":10,"finding":"Actual SU nuclearreadiness Defense_Prep T+.10 vs+.05"},
+    {"run":"PER-18","page":13,"finding":"Actual US Strong_Leadership PO+.05 vs+.10; InternalDispute LU-.05 newrule; UltimatumT+.10 newrule; Cuban guerilla→CivilUnrest semanticsU"},
+    {"run":"PER-18","page":17,"finding":"Actual US Strong_Leadership LU+.05 vs+.10"},
+    {"run":"PER-18","page":19,"finding":"Actual SU Diplomatic_Success T-.10 vs-.05"},
+    {"run":"PER-23","page":4,"finding":"Actual US public_appeal PO+.05 vs+.5"},
+    {"run":"PER-23","page":5,"finding":"Actual US public_appeal PO+.55 vs+.5"},
+    {"run":"PER-25","page":9,"finding":"Conditional Cuban consent StrongLeadership PO+.05 vs+.10; needs direct source reread"}
+  ]
+}

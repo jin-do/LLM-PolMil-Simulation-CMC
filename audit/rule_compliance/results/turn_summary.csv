@@ -1,0 +1,11 @@
+﻿domain,turn,unit,C,V,U,NA,assessability_denominator,compliance_denominator,assessable_percent,conditional_compliance_percent
+initial_role,1,run-country,222,10,8,0,240,232,96.67,95.69
+local_branch,2,run-turn,67,52,1,0,120,119,99.17,56.30
+local_branch,3,run-turn,59,59,2,0,120,118,98.33,50.00
+local_branch,4,run-turn,54,62,4,0,120,116,96.67,46.55
+event_condition,2,run-turn,101,10,9,0,120,111,92.50,90.99
+event_condition,3,run-turn,113,2,5,0,120,115,95.83,98.26
+event_condition,4,run-turn,102,5,13,0,120,107,89.17,95.33
+parent_coverage,2,run-turn,107,9,4,0,120,116,96.67,92.24
+parent_coverage,3,run-turn,33,6,81,0,120,39,32.50,84.62
+parent_coverage,4,run-turn,40,5,75,0,120,45,37.50,88.89

@@ -1,0 +1,33 @@
+{
+  "artifact_reference": {
+    "artifact": "\\bJSON\\b|Variable[-– ]Decision Matrix|\\bVDM\\b"
+  },
+  "explicit_result_log_label": {
+    "result_log": "result[ _-]?log"
+  },
+  "all_four_state_dimensions": {
+    "tension": "tension",
+    "diplomatic_support_alias": "diplomatic[ _-]?(?:support|room|engagement)",
+    "public_opinion": "public[ _-]?opinion",
+    "leadership_unity_alias": "leadership[ _-]?(?:unity|cohesion)"
+  },
+  "trigger_or_threshold": {
+    "trigger_or_threshold": "trigger|threshold"
+  },
+  "variable_status_label": {
+    "generic_variable_status": "variable[ _-]?status"
+  },
+  "explicit_reconfirm_variable_status": {
+    "explicit_reconfirmation": "reconfirm(?:ed)?[ _-]?variable[ _-]?status"
+  },
+  "metadata_labels_present": {
+    "model_identifier_label": "(?:model|system)[ _-]?(?:name|version|identifier|id)",
+    "temperature_label": "temperature",
+    "top_p_label": "top[_ -]?p",
+    "seed_label": "seed",
+    "timestamp_label": "(?:run|execution)[ _-]?(?:time|timestamp|date)"
+  },
+  "independent_checker_phrase": {
+    "checker_phrase": "independent (?:rule|transition|state) checker|deterministic (?:recalculation|recomputation|validator)"
+  }
+}

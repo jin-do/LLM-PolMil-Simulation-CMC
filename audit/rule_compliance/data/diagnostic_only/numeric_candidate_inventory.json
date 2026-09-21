@@ -1,0 +1,16 @@
+{
+  "all_candidate_only": true,
+  "all_review_incomplete": true,
+  "domain_inventory": {
+    "명시 산술의 내부 일관성": 1717,
+    "명시 이벤트와 효과 수치": 5384,
+    "분기 승계: 연결 후보의 수치 대조": 1108,
+    "상태 갱신의 검증 가능성": 5738,
+    "상태값 범위": 5159,
+    "임계값 수치 판단": 57
+  },
+  "interpretation": "Extraction candidate inventory only, excluded from final rates; arithmetic subset included for matching diagnostic.",
+  "original_file": "numeric_reextracted_ledger.csv",
+  "original_sha256": "07b9c1b07af3b1e49a52e407ff9967e56518edd89fc4197cf470e07252b9ad8f",
+  "total_rows": 19163
+}

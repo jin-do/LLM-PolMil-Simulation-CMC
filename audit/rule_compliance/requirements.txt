@@ -1,0 +1,2 @@
+# Tables and unit tests use only the Python standard library.
+# Optional original-PDF quote checks: see requirements-source-checks.txt.

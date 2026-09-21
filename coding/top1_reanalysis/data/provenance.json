@@ -1,0 +1,9 @@
+{
+  "analysis": "source-linked retrospective Top-1 recoding",
+  "input_version": "71722afb2faff08f3e8ed7e647c3304a401aec46d723f7490f8e2a558f077efa",
+  "source_commit": "6867755772bfb74dd56c211df8c9a399607b5419",
+  "reproduction_scope": "fixed-label aggregation only",
+  "original_review": "AI-assisted; no independent human double coding or reliability estimate",
+  "historical_model_snapshot": "not certified by this preparation",
+  "new_semantic_recoding": false
+}

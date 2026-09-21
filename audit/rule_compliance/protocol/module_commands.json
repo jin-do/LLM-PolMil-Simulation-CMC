@@ -1,0 +1,54 @@
+[
+  {
+    "script": "audit/rule_compliance/code/reproduce_diagnostic.py",
+    "args": [
+      "--out",
+      {
+        "output": "diagnostic"
+      },
+      "--core-ledger",
+      {
+        "output": "criteria/conservative_common_1320.csv"
+      },
+      "--patch-ledger",
+      {
+        "repo": "audit/rule_compliance/data/adjudication/patches.json"
+      }
+    ]
+  },
+  {
+    "script": "coding/top1_reanalysis/code/reproduce_top1.py",
+    "args": [
+      "--out",
+      {
+        "output": "top1"
+      }
+    ]
+  },
+  {
+    "script": "docs/survey_summary/code/reproduce_survey.py",
+    "args": [
+      "--out",
+      {
+        "output": "survey"
+      }
+    ]
+  },
+  {
+    "script": "docs/claim_reconciliation/code/verify_claims.py",
+    "args": [
+      "--repo",
+      {
+        "repo": "."
+      },
+      "--results",
+      {
+        "output": "."
+      },
+      "--out",
+      {
+        "output": "claims"
+      }
+    ]
+  }
+]

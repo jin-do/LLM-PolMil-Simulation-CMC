@@ -219,3 +219,6 @@ __marimo__/
 
 # Local pre-release archives retained outside the public replication package
 archive/
+
+# Local output from the revision-17 reproduction command
+/reproduced*/

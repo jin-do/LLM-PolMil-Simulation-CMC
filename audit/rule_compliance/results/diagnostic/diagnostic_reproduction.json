@@ -1,0 +1,70 @@
+{
+  "analysis_version": "revision17-diagnostic-fixed-20260920",
+  "reviewer_type": "AI",
+  "human_judgments_completed": 0,
+  "counts": [
+    {
+      "scope": "common_selected",
+      "items": 38,
+      "C": 15,
+      "V": 11,
+      "U": 12,
+      "NA": 0
+    },
+    {
+      "scope": "representative_discrepancy",
+      "items": 2,
+      "C": 0,
+      "V": 2,
+      "U": 0,
+      "NA": 0
+    },
+    {
+      "scope": "all_diagnostic",
+      "items": 40,
+      "C": 15,
+      "V": 13,
+      "U": 12,
+      "NA": 0
+    }
+  ],
+  "common_denominator_additions": 0,
+  "representative_denominator_additions": 0,
+  "core_linkage_checked": 38,
+  "new_core_changes_applied": 0,
+  "unique_reviewed_runs": 35,
+  "principal_u_reasons": [
+    {
+      "reason_code": "missing_turn_response",
+      "reason_label": "Missing turn-response record",
+      "items": 4,
+      "case_ids": "HR-005;HR-008;HR-014;HR-019"
+    },
+    {
+      "reason_code": "unclear_active_parent_set",
+      "reason_label": "Unclear set of paths to continue",
+      "items": 3,
+      "case_ids": "HR-010;HR-029;HR-037"
+    },
+    {
+      "reason_code": "termination_applicability",
+      "reason_label": "Unclear obligation after termination",
+      "items": 2,
+      "case_ids": "HR-023;HR-026"
+    },
+    {
+      "reason_code": "certainty_language",
+      "reason_label": "Ambiguous certainty language",
+      "items": 1,
+      "case_ids": "HR-011"
+    },
+    {
+      "reason_code": "compound_event_linkage",
+      "reason_label": "Insufficient linkage of compound-event conditions",
+      "items": 2,
+      "case_ids": "HR-016;HR-035"
+    }
+  ],
+  "missing_response_groups": 2,
+  "scope": "Fixed-label aggregation and conditional arithmetic; no new semantic or independent human validation"
+}

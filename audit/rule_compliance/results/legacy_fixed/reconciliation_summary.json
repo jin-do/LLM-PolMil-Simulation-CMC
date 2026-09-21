@@ -1,0 +1,15 @@
+{
+  "candidate_rows": 1717,
+  "exact_source_key_groups": {
+    "1:1": 1385,
+    "N:M": 3,
+    "candidate_only": 324,
+    "old_only": 882
+  },
+  "global_arithmetic_compliance_rate": "WITHHELD",
+  "matching_note": "Same normalized source text and location, never parser index or numeric coincidence. Unmatched may reflect changed extraction/coverage; no error verdict inferred.",
+  "old_rows": 2298,
+  "one_to_one_changed": 0,
+  "one_to_one_identical": 1385,
+  "semantic_judgments_changed": 0
+}

@@ -1,0 +1,31 @@
+system,category,count,denominator,percent_1dp
+GPT-4o,Protracted stalemate,26,30,86.7
+GPT-4o,Internal collapse,0,30,0.0
+GPT-4o,Diplomatic resolution,2,30,6.7
+GPT-4o,Full-scale war,0,30,0.0
+GPT-4o,Limited conflict,0,30,0.0
+GPT-4o,Withheld,2,30,6.7
+Gemini 2.5 Flash,Protracted stalemate,2,30,6.7
+Gemini 2.5 Flash,Internal collapse,0,30,0.0
+Gemini 2.5 Flash,Diplomatic resolution,22,30,73.3
+Gemini 2.5 Flash,Full-scale war,3,30,10.0
+Gemini 2.5 Flash,Limited conflict,0,30,0.0
+Gemini 2.5 Flash,Withheld,3,30,10.0
+Claude Opus 4,Protracted stalemate,19,30,63.3
+Claude Opus 4,Internal collapse,0,30,0.0
+Claude Opus 4,Diplomatic resolution,8,30,26.7
+Claude Opus 4,Full-scale war,0,30,0.0
+Claude Opus 4,Limited conflict,0,30,0.0
+Claude Opus 4,Withheld,3,30,10.0
+Perplexity Pro,Protracted stalemate,14,30,46.7
+Perplexity Pro,Internal collapse,0,30,0.0
+Perplexity Pro,Diplomatic resolution,6,30,20.0
+Perplexity Pro,Full-scale war,2,30,6.7
+Perplexity Pro,Limited conflict,0,30,0.0
+Perplexity Pro,Withheld,8,30,26.7
+Total,Protracted stalemate,61,120,50.8
+Total,Internal collapse,0,120,0.0
+Total,Diplomatic resolution,38,120,31.7
+Total,Full-scale war,5,120,4.2
+Total,Limited conflict,0,120,0.0
+Total,Withheld,16,120,13.3

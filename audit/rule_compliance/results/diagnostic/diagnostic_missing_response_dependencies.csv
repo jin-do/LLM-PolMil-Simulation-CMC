@@ -1,0 +1,3 @@
+dependency_group,items,case_ids,interpretation
+CLA-03-T4-missing-response,2,HR-005;HR-008,Shared missing response; not independent failures
+GPT-25-T2-missing-response,2,HR-014;HR-019,Shared missing response; not independent failures

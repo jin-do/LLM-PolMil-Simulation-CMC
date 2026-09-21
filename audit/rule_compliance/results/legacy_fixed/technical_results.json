@@ -1,0 +1,42 @@
+{
+  "core_rows": 1320,
+  "core_selected_rows": 67,
+  "eleven_all_C_runs": 0,
+  "explicit_predecision_calculations": 46,
+  "human_review": "pending",
+  "inheritance_comparisons": 3508,
+  "input_sha256": {
+    "annotations/effect_semantics.json": "4326f9cfdd4977ef691fe60bb10e9de48e8deda8bbdd5082eff2b84608d6897a",
+    "annotations/extra_calculation_specs.json": "dbf977e5280f02190668b717b06a73abd78582bf665033ae911628c703aa9334",
+    "annotations/local_case_inputs.json": "2fce0cf8691c3542b6ba4a4ef4d46042d5eb0f9529cfd0d58954353b7474b928",
+    "annotations/narrative_anchors.json": "237ae07c33c096e21804715067fca7b216b4e8211821a6e994b74895df9e2d5f",
+    "annotations/threshold_action_anchors.json": "4bd97d868fdbe9582c5a01fd6ca912f8c9dc57c2372b8374efd04efaa1a11f34",
+    "data/core/07_semantic_validation_ledger.csv": "1cb6a847887d91b903e047d37f32edd859a66908d1d5b9fb2e625e2e7e111ae7",
+    "data/supplemental_partial/actor_later_ledger.csv": "e81d6e12ef2632d73a7b6c31fdb9cd7111d5c385326dad7dc63e06ab46c23aae",
+    "data/supplemental_partial/actor_weight_value_checks.csv": "ab8c2a9ea79bcf921f85309c4bbe69b269fb902f8d349624238b5f748980210d",
+    "data/supplemental_partial/effect_independent_calculations.csv": "bf107f60016d0f9e8ad275dc890269495d3f13badec0337fae7d3d207fb474a3",
+    "data/supplemental_partial/effect_semantics_ledger.csv": "46a98a8a9d96e2d40aa7e16a1542818c214007f1c8e9382114af3cd8011b86ac",
+    "data/supplemental_partial/effect_supplemental_ledger.csv": "c91abaac1f8f54a73809f6772c8a8efa961358f8f10b06c908d732834c7fc962",
+    "data/supplemental_partial/geometry_effect_ledger.csv": "b8002350bb463ca2a08fb11dd87cb53cc447dbf50e51547a91271b08933a243a",
+    "data/supplemental_partial/inheritance_ledger.csv": "6c51c48399e08335e0b050d8c80beef32237d142b1f99818fc66a4b839a39576",
+    "data/supplemental_partial/narrative_facet_ledger.csv": "6ea08b6ab219c128cd5337d86a0f309f0818155b93b614fa37f5b54d7dd118b8",
+    "data/supplemental_partial/narrative_ledger.csv": "cb9de25b97446dafe0679f8d1a4ef9376f16f412c7299245b7b2fa298cfd5d4b",
+    "data/supplemental_partial/threshold_action_ledger.csv": "bcf10161f1de0bce455982f0d7a4c74d4042c6882e79b6aec416d41b7d484f4f",
+    "protocol/control_requirements.csv": "59bddbd663c1a234b69794f45d6e2ddf7f701eb598dff2e42c1a59e11657cf47",
+    "source_assets.csv": "36eee80d3ce950afff8cc8a824ad83dce5083cf870b1bc3f74c28c41c5f8bf4a"
+  },
+  "local_eight_all_C_runs": 38,
+  "mismatch_count": 0,
+  "narrative_quote_checks": 244,
+  "original_pipeline_replayed": false,
+  "publication_preparation": "draft_pending_human_review",
+  "scope": "Frozen-label aggregation and explicit numeric/quote checks only. No AI or human semantics regenerated. No global arithmetic accuracy claim.",
+  "technical_checks": "passed",
+  "threshold_comparisons": 273,
+  "threshold_quote_checks": 546,
+  "weight_quote_distribution": {
+    "missing_attributed_path": 10,
+    "numeric_match": 16,
+    "numeric_mismatch": 1
+  }
+}

@@ -1,0 +1,601 @@
+﻿run_id,phase,source_file,pages,available_response_pages,unit_status,review_completed,not_reviewed_reason
+CLA-01,T1,runs/raw_logs/Claude_Opus_4/1. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-01,T2,runs/raw_logs/Claude_Opus_4/1. Strategic Decision Modeling Protocol.pdf,7;8;9;10;11;12,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-01,T3,runs/raw_logs/Claude_Opus_4/1. Strategic Decision Modeling Protocol.pdf,12;13;14;15;16;17;18,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-01,T4,runs/raw_logs/Claude_Opus_4/1. Strategic Decision Modeling Protocol.pdf,18;19;20;21;22;23,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-01,FINAL,runs/raw_logs/Claude_Opus_4/1. Strategic Decision Modeling Protocol.pdf,25;26;27;28;29;30;31;32;33;34,10,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-02,T1,runs/raw_logs/Claude_Opus_4/2. Strategic Decision Modeling Framework.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-02,T2,runs/raw_logs/Claude_Opus_4/2. Strategic Decision Modeling Framework.pdf,8;9;10;11;12;13;14;15,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-02,T3,runs/raw_logs/Claude_Opus_4/2. Strategic Decision Modeling Framework.pdf,15;16;17;18;19;20;21,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-02,T4,runs/raw_logs/Claude_Opus_4/2. Strategic Decision Modeling Framework.pdf,21;22;23;24;25;26;27;28,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-02,FINAL,runs/raw_logs/Claude_Opus_4/2. Strategic Decision Modeling Framework.pdf,29;30;31;32;33;34;35;36;37;38,10,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-03,T1,runs/raw_logs/Claude_Opus_4/3. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-03,T2,runs/raw_logs/Claude_Opus_4/3. Strategic Decision Modeling Protocol.pdf,9;10;11;12;13;14;15,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-03,T3,runs/raw_logs/Claude_Opus_4/3. Strategic Decision Modeling Protocol.pdf,15;16;17;18;19;20;21,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-03,T4,runs/raw_logs/Claude_Opus_4/3. Strategic Decision Modeling Protocol.pdf,,0,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-03,FINAL,runs/raw_logs/Claude_Opus_4/3. Strategic Decision Modeling Protocol.pdf,22;23;24;25;26;27;28;29;30,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-04,T1,runs/raw_logs/Claude_Opus_4/4. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-04,T2,runs/raw_logs/Claude_Opus_4/4. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13;14,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-04,T3,runs/raw_logs/Claude_Opus_4/4. Strategic Decision Modeling Protocol.pdf,14;15;16;17;18;19;20,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-04,T4,runs/raw_logs/Claude_Opus_4/4. Strategic Decision Modeling Protocol.pdf,20;21;22;23;24;25;26,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-04,FINAL,runs/raw_logs/Claude_Opus_4/4. Strategic Decision Modeling Protocol.pdf,28;29;30;31;32;33;34;35;36;37;38,11,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-05,T1,runs/raw_logs/Claude_Opus_4/5. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-05,T2,runs/raw_logs/Claude_Opus_4/5. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13;14;15,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-05,T3,runs/raw_logs/Claude_Opus_4/5. Strategic Decision Modeling Protocol.pdf,15;16;17;18;19;20;21;22,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-05,T4,runs/raw_logs/Claude_Opus_4/5. Strategic Decision Modeling Protocol.pdf,22;23;24;25;26;27;28;29,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-05,FINAL,runs/raw_logs/Claude_Opus_4/5. Strategic Decision Modeling Protocol.pdf,30;31;32;33;34;35;36;37;38;39;40;41,12,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-06,T1,runs/raw_logs/Claude_Opus_4/6. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-06,T2,runs/raw_logs/Claude_Opus_4/6. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13;14,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-06,T3,runs/raw_logs/Claude_Opus_4/6. Strategic Decision Modeling Protocol.pdf,14;15;16;17;18;19;20;21,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-06,T4,runs/raw_logs/Claude_Opus_4/6. Strategic Decision Modeling Protocol.pdf,21;22;23;24;25;26;27;28,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-06,FINAL,runs/raw_logs/Claude_Opus_4/6. Strategic Decision Modeling Protocol.pdf,29;30;31;32;33;34;35;36;37;38;39,11,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-07,T1,runs/raw_logs/Claude_Opus_4/7. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-07,T2,runs/raw_logs/Claude_Opus_4/7. Strategic Decision Modeling Protocol.pdf,9;10;11;12;13;14;15,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-07,T3,runs/raw_logs/Claude_Opus_4/7. Strategic Decision Modeling Protocol.pdf,15;16;17;18;19;20;21;22,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-07,T4,runs/raw_logs/Claude_Opus_4/7. Strategic Decision Modeling Protocol.pdf,22;23;24;25;26;27;28,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-07,FINAL,runs/raw_logs/Claude_Opus_4/7. Strategic Decision Modeling Protocol.pdf,29;30;31;32;33;34;35;36;37;38;39;40;41,13,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-08,T1,runs/raw_logs/Claude_Opus_4/8. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-08,T2,runs/raw_logs/Claude_Opus_4/8. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13;14,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-08,T3,runs/raw_logs/Claude_Opus_4/8. Strategic Decision Modeling Protocol.pdf,14;15;16;17;18;19;20,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-08,T4,runs/raw_logs/Claude_Opus_4/8. Strategic Decision Modeling Protocol.pdf,20;21;22;23;24;25;26;27,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-08,FINAL,runs/raw_logs/Claude_Opus_4/8. Strategic Decision Modeling Protocol.pdf,28;29;30;31;32;33;34;35;36;37;38;39,12,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-09,T1,runs/raw_logs/Claude_Opus_4/9. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-09,T2,runs/raw_logs/Claude_Opus_4/9. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13;14,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-09,T3,runs/raw_logs/Claude_Opus_4/9. Strategic Decision Modeling Protocol.pdf,15;16;17;18;19;20;21,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-09,T4,runs/raw_logs/Claude_Opus_4/9. Strategic Decision Modeling Protocol.pdf,21;22;23;24;25;26;27;28,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-09,FINAL,runs/raw_logs/Claude_Opus_4/9. Strategic Decision Modeling Protocol.pdf,30;31;32;33;34;35;36;37;38;39,10,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-10,T1,runs/raw_logs/Claude_Opus_4/10. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-10,T2,runs/raw_logs/Claude_Opus_4/10. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13;14,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-10,T3,runs/raw_logs/Claude_Opus_4/10. Strategic Decision Modeling Protocol.pdf,14;15;16;17;18;19;20;21,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-10,T4,runs/raw_logs/Claude_Opus_4/10. Strategic Decision Modeling Protocol.pdf,21;22;23;24;25;26;27,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-10,FINAL,runs/raw_logs/Claude_Opus_4/10. Strategic Decision Modeling Protocol.pdf,28;29;30;31;32;33;34;35;36;37;38;39;40,13,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-11,T1,runs/raw_logs/Claude_Opus_4/11. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-11,T2,runs/raw_logs/Claude_Opus_4/11. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13;14;15,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-11,T3,runs/raw_logs/Claude_Opus_4/11. Strategic Decision Modeling Protocol.pdf,15;16;17;18;19;20;21;22,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-11,T4,runs/raw_logs/Claude_Opus_4/11. Strategic Decision Modeling Protocol.pdf,22;23;24;25;26;27;28;29,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-11,FINAL,runs/raw_logs/Claude_Opus_4/11. Strategic Decision Modeling Protocol.pdf,30;31;32;33;34;35;36;37;38;39;40;41;42,12,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-12,T1,runs/raw_logs/Claude_Opus_4/12. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-12,T2,runs/raw_logs/Claude_Opus_4/12. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13;14,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-12,T3,runs/raw_logs/Claude_Opus_4/12. Strategic Decision Modeling Protocol.pdf,14;15;16;17;18;19;20;21,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-12,T4,runs/raw_logs/Claude_Opus_4/12. Strategic Decision Modeling Protocol.pdf,21;22;23;24;25;26;27;28,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-12,FINAL,runs/raw_logs/Claude_Opus_4/12. Strategic Decision Modeling Protocol.pdf,29;30;31;32;33;34;35;36;37;38;39;40,12,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-13,T1,runs/raw_logs/Claude_Opus_4/13. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-13,T2,runs/raw_logs/Claude_Opus_4/13. Strategic Decision Modeling Protocol.pdf,9;10;11;12;13;14,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-13,T3,runs/raw_logs/Claude_Opus_4/13. Strategic Decision Modeling Protocol.pdf,14;15;16;17;18;19;20,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-13,T4,runs/raw_logs/Claude_Opus_4/13. Strategic Decision Modeling Protocol.pdf,20;21;22;23;24;25;26,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-13,FINAL,runs/raw_logs/Claude_Opus_4/13. Strategic Decision Modeling Protocol.pdf,28;29;30;31;32;33;34;35;36,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-14,T1,runs/raw_logs/Claude_Opus_4/14. Strategic Decision Modeling Framework.pdf,1;2;3;4;5;6;7;8;9;10;11,11,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-14,T2,runs/raw_logs/Claude_Opus_4/14. Strategic Decision Modeling Framework.pdf,11;12;13;14;15;16,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-14,T3,runs/raw_logs/Claude_Opus_4/14. Strategic Decision Modeling Framework.pdf,16;17;18;19;20;21,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-14,T4,runs/raw_logs/Claude_Opus_4/14. Strategic Decision Modeling Framework.pdf,21;22;23;24;25;26,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-14,FINAL,runs/raw_logs/Claude_Opus_4/14. Strategic Decision Modeling Framework.pdf,27;28;29;30;31;32;33;34;35,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-15,T1,runs/raw_logs/Claude_Opus_4/15. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-15,T2,runs/raw_logs/Claude_Opus_4/15. Strategic Decision Modeling Protocol.pdf,9;10;11;12;13;14;15;16;17;18;19;20;21,13,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-15,T3,runs/raw_logs/Claude_Opus_4/15. Strategic Decision Modeling Protocol.pdf,21;22;23;24;25;26;27;28;29;30;31,11,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-15,T4,runs/raw_logs/Claude_Opus_4/15. Strategic Decision Modeling Protocol.pdf,31;32;33;34;35;36;37;38;39;40,10,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-15,FINAL,runs/raw_logs/Claude_Opus_4/15. Strategic Decision Modeling Protocol.pdf,42;43;44;45;46;47;48;49;50,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-16,T1,runs/raw_logs/Claude_Opus_4/16. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-16,T2,runs/raw_logs/Claude_Opus_4/16. Strategic Decision Modeling Protocol.pdf,7;8;9;10;11;12,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-16,T3,runs/raw_logs/Claude_Opus_4/16. Strategic Decision Modeling Protocol.pdf,12;13;14;15;16;17;18,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-16,T4,runs/raw_logs/Claude_Opus_4/16. Strategic Decision Modeling Protocol.pdf,18;19;20;21;22;23;24;25,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-16,FINAL,runs/raw_logs/Claude_Opus_4/16. Strategic Decision Modeling Protocol.pdf,26;27;28;29;30;31;32;33;34;35;36,11,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-17,T1,runs/raw_logs/Claude_Opus_4/17. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-17,T2,runs/raw_logs/Claude_Opus_4/17. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13;14,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-17,T3,runs/raw_logs/Claude_Opus_4/17. Strategic Decision Modeling Protocol.pdf,14;15;16;17;18;19;20;21,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-17,T4,runs/raw_logs/Claude_Opus_4/17. Strategic Decision Modeling Protocol.pdf,21;22;23;24;25;26;27,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-17,FINAL,runs/raw_logs/Claude_Opus_4/17. Strategic Decision Modeling Protocol.pdf,28;29;30;31;32;33;34;35;36;37;38,10,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-18,T1,runs/raw_logs/Claude_Opus_4/18. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-18,T2,runs/raw_logs/Claude_Opus_4/18. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13;14,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-18,T3,runs/raw_logs/Claude_Opus_4/18. Strategic Decision Modeling Protocol.pdf,14;15;16;17;18;19;20;21,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-18,T4,runs/raw_logs/Claude_Opus_4/18. Strategic Decision Modeling Protocol.pdf,21;22;23;24;25;26;27;28,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-18,FINAL,runs/raw_logs/Claude_Opus_4/18. Strategic Decision Modeling Protocol.pdf,30;31;32;33;34;35;36;37;38;39,10,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-19,T1,runs/raw_logs/Claude_Opus_4/19. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-19,T2,runs/raw_logs/Claude_Opus_4/19. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-19,T3,runs/raw_logs/Claude_Opus_4/19. Strategic Decision Modeling Protocol.pdf,13;14;15;16;17;18,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-19,T4,runs/raw_logs/Claude_Opus_4/19. Strategic Decision Modeling Protocol.pdf,18;19;20;21;22;23;24,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-19,FINAL,runs/raw_logs/Claude_Opus_4/19. Strategic Decision Modeling Protocol.pdf,25;26;27;28;29;30;31;32;33;34,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-20,T1,runs/raw_logs/Claude_Opus_4/20. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-20,T2,runs/raw_logs/Claude_Opus_4/20. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13;14,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-20,T3,runs/raw_logs/Claude_Opus_4/20. Strategic Decision Modeling Protocol.pdf,14;15;16;17;18;19;20;21,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-20,T4,runs/raw_logs/Claude_Opus_4/20. Strategic Decision Modeling Protocol.pdf,21;22;23;24;25;26;27;28,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-20,FINAL,runs/raw_logs/Claude_Opus_4/20. Strategic Decision Modeling Protocol.pdf,29;30;31;32;33;34;35;36;37;38,10,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-21,T1,runs/raw_logs/Claude_Opus_4/21. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8;9;10;11;12,12,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-21,T2,runs/raw_logs/Claude_Opus_4/21. Strategic Decision Modeling Protocol.pdf,12;13;14;15;16;17,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-21,T3,runs/raw_logs/Claude_Opus_4/21. Strategic Decision Modeling Protocol.pdf,17;18;19;20;21;22;23,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-21,T4,runs/raw_logs/Claude_Opus_4/21. Strategic Decision Modeling Protocol.pdf,23;24;25;26;27;28;29,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-21,FINAL,runs/raw_logs/Claude_Opus_4/21. Strategic Decision Modeling Protocol.pdf,30;31;32;33;34;35;36;37;38;39;40;41,12,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-22,T1,runs/raw_logs/Claude_Opus_4/22. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-22,T2,runs/raw_logs/Claude_Opus_4/22. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13;14;15,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-22,T3,runs/raw_logs/Claude_Opus_4/22. Strategic Decision Modeling Protocol.pdf,15;16;17;18;19;20;21;22,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-22,T4,runs/raw_logs/Claude_Opus_4/22. Strategic Decision Modeling Protocol.pdf,22;23;24;25;26;27;28;29,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-22,FINAL,runs/raw_logs/Claude_Opus_4/22. Strategic Decision Modeling Protocol.pdf,30;31;32;33;34;35;36;37;38;39;40,11,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-23,T1,runs/raw_logs/Claude_Opus_4/23.Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-23,T2,runs/raw_logs/Claude_Opus_4/23.Strategic Decision Modeling Protocol.pdf,7;8;9;10;11;12,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-23,T3,runs/raw_logs/Claude_Opus_4/23.Strategic Decision Modeling Protocol.pdf,13;14;15;16;17;18;19,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-23,T4,runs/raw_logs/Claude_Opus_4/23.Strategic Decision Modeling Protocol.pdf,19;20;21;22;23;24;25,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-23,FINAL,runs/raw_logs/Claude_Opus_4/23.Strategic Decision Modeling Protocol.pdf,26;27;28;29;30;31;32;33;34,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-24,T1,runs/raw_logs/Claude_Opus_4/24. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-24,T2,runs/raw_logs/Claude_Opus_4/24. Strategic Decision Modeling Protocol.pdf,9;10;11;12;13;14;15;16,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-24,T3,runs/raw_logs/Claude_Opus_4/24. Strategic Decision Modeling Protocol.pdf,16;17;18;19;20;21;22;23,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-24,T4,runs/raw_logs/Claude_Opus_4/24. Strategic Decision Modeling Protocol.pdf,23;24;25;26;27;28;29,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-24,FINAL,runs/raw_logs/Claude_Opus_4/24. Strategic Decision Modeling Protocol.pdf,31;32;33;34;35;36;37;38;39;40,10,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-25,T1,runs/raw_logs/Claude_Opus_4/25. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-25,T2,runs/raw_logs/Claude_Opus_4/25. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13;14;15;16,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-25,T3,runs/raw_logs/Claude_Opus_4/25. Strategic Decision Modeling Protocol.pdf,16;17;18;19;20;21;22;23;24,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-25,T4,runs/raw_logs/Claude_Opus_4/25. Strategic Decision Modeling Protocol.pdf,24;25;26;27;28;29;30;31;32,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-25,FINAL,runs/raw_logs/Claude_Opus_4/25. Strategic Decision Modeling Protocol.pdf,33;34;35;36;37;38;39;40;41;42;43;44;45;46;47,15,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-26,T1,runs/raw_logs/Claude_Opus_4/26. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-26,T2,runs/raw_logs/Claude_Opus_4/26. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13;14,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-26,T3,runs/raw_logs/Claude_Opus_4/26. Strategic Decision Modeling Protocol.pdf,14;15;16;17;18;19;20;21,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-26,T4,runs/raw_logs/Claude_Opus_4/26. Strategic Decision Modeling Protocol.pdf,21;22;23;24;25;26;27;28,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-26,FINAL,runs/raw_logs/Claude_Opus_4/26. Strategic Decision Modeling Protocol.pdf,29;30;31;32;33;34;35;36;37;38;39;40;41,13,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-27,T1,runs/raw_logs/Claude_Opus_4/27. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-27,T2,runs/raw_logs/Claude_Opus_4/27. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-27,T3,runs/raw_logs/Claude_Opus_4/27. Strategic Decision Modeling Protocol.pdf,14;15;16;17;18;19;20,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-27,T4,runs/raw_logs/Claude_Opus_4/27. Strategic Decision Modeling Protocol.pdf,20;21;22;23;24;25;26;27,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-27,FINAL,runs/raw_logs/Claude_Opus_4/27. Strategic Decision Modeling Protocol.pdf,28;29;30;31;32;33;34;35,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-28,T1,runs/raw_logs/Claude_Opus_4/28. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-28,T2,runs/raw_logs/Claude_Opus_4/28. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13;14;15;16,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-28,T3,runs/raw_logs/Claude_Opus_4/28. Strategic Decision Modeling Protocol.pdf,16;17;18;19;20;21;22;23;24,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-28,T4,runs/raw_logs/Claude_Opus_4/28. Strategic Decision Modeling Protocol.pdf,24;25;26;27;28;29;30;31;32,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-28,FINAL,runs/raw_logs/Claude_Opus_4/28. Strategic Decision Modeling Protocol.pdf,33;34;35;36;37;38;39;40;41;42;43;44,12,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-29,T1,runs/raw_logs/Claude_Opus_4/29. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-29,T2,runs/raw_logs/Claude_Opus_4/29. Strategic Decision Modeling Protocol.pdf,7;8;9;10;11;12;13;14,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-29,T3,runs/raw_logs/Claude_Opus_4/29. Strategic Decision Modeling Protocol.pdf,14;15;16;17;18;19;20,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-29,T4,runs/raw_logs/Claude_Opus_4/29. Strategic Decision Modeling Protocol.pdf,20;21;22;23;24;25;26;27,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-29,FINAL,runs/raw_logs/Claude_Opus_4/29. Strategic Decision Modeling Protocol.pdf,29;30;31;32;33;34;35;36;37;38;39;40,12,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-30,T1,runs/raw_logs/Claude_Opus_4/30. Strategic Decision Modeling Protocol.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-30,T2,runs/raw_logs/Claude_Opus_4/30. Strategic Decision Modeling Protocol.pdf,8;9;10;11;12;13,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-30,T3,runs/raw_logs/Claude_Opus_4/30. Strategic Decision Modeling Protocol.pdf,14;15;16;17;18;19,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-30,T4,runs/raw_logs/Claude_Opus_4/30. Strategic Decision Modeling Protocol.pdf,19;20;21;22;23;24;25,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+CLA-30,FINAL,runs/raw_logs/Claude_Opus_4/30. Strategic Decision Modeling Protocol.pdf,26;27;28;29;30;31;32;33;34;35;36,11,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-01,T1,runs/raw_logs/Gemini_2.5_Flash/1.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-01,T2,runs/raw_logs/Gemini_2.5_Flash/1.pdf,9;10;11;12;13;14,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-01,T3,runs/raw_logs/Gemini_2.5_Flash/1.pdf,15;16;17;18;19;20,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-01,T4,runs/raw_logs/Gemini_2.5_Flash/1.pdf,21;22;23;24,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-01,FINAL,runs/raw_logs/Gemini_2.5_Flash/1.pdf,25;26;27;28;29;30;31,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-02,T1,runs/raw_logs/Gemini_2.5_Flash/2.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-02,T2,runs/raw_logs/Gemini_2.5_Flash/2.pdf,7;8;9;10,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-02,T3,runs/raw_logs/Gemini_2.5_Flash/2.pdf,11;12;13;14,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-02,T4,runs/raw_logs/Gemini_2.5_Flash/2.pdf,15;16;17,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-02,FINAL,runs/raw_logs/Gemini_2.5_Flash/2.pdf,18;19;20;21;22;23;24,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-03,T1,runs/raw_logs/Gemini_2.5_Flash/3.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-03,T2,runs/raw_logs/Gemini_2.5_Flash/3.pdf,7;8;9;10,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-03,T3,runs/raw_logs/Gemini_2.5_Flash/3.pdf,11;12;13;14,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-03,T4,runs/raw_logs/Gemini_2.5_Flash/3.pdf,15;16;17;18,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-03,FINAL,runs/raw_logs/Gemini_2.5_Flash/3.pdf,19;20;21;22;23;24;25,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-04,T1,runs/raw_logs/Gemini_2.5_Flash/4.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-04,T2,runs/raw_logs/Gemini_2.5_Flash/4.pdf,8;9;10;11;12;13;14,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-04,T3,runs/raw_logs/Gemini_2.5_Flash/4.pdf,15;16;17;18;19;20;21,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-04,T4,runs/raw_logs/Gemini_2.5_Flash/4.pdf,22;23;24;25;26;27,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-04,FINAL,runs/raw_logs/Gemini_2.5_Flash/4.pdf,28;29;30;31;32;33;34,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-05,T1,runs/raw_logs/Gemini_2.5_Flash/5.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-05,T2,runs/raw_logs/Gemini_2.5_Flash/5.pdf,7;8;9,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-05,T3,runs/raw_logs/Gemini_2.5_Flash/5.pdf,10;11;12,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-05,T4,runs/raw_logs/Gemini_2.5_Flash/5.pdf,13;14;15,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-05,FINAL,runs/raw_logs/Gemini_2.5_Flash/5.pdf,16;17;18;19;20;21;22,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-06,T1,runs/raw_logs/Gemini_2.5_Flash/6.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-06,T2,runs/raw_logs/Gemini_2.5_Flash/6.pdf,7;8;9;10,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-06,T3,runs/raw_logs/Gemini_2.5_Flash/6.pdf,11;12;13;14,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-06,T4,runs/raw_logs/Gemini_2.5_Flash/6.pdf,15;16;17;18,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-06,FINAL,runs/raw_logs/Gemini_2.5_Flash/6.pdf,19;20;21;22;23;24;25,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-07,T1,runs/raw_logs/Gemini_2.5_Flash/7.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-07,T2,runs/raw_logs/Gemini_2.5_Flash/7.pdf,8;9;10;11;12;13,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-07,T3,runs/raw_logs/Gemini_2.5_Flash/7.pdf,14;15;16;17;18,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-07,T4,runs/raw_logs/Gemini_2.5_Flash/7.pdf,19;20;21;22,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-07,FINAL,runs/raw_logs/Gemini_2.5_Flash/7.pdf,23;24;25;26;27;28;29,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-08,T1,runs/raw_logs/Gemini_2.5_Flash/8.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-08,T2,runs/raw_logs/Gemini_2.5_Flash/8.pdf,8;9;10;11;12;13,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-08,T3,runs/raw_logs/Gemini_2.5_Flash/8.pdf,14;15;16;17;18;19,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-08,T4,runs/raw_logs/Gemini_2.5_Flash/8.pdf,20;21;22;23;24;25,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-08,FINAL,runs/raw_logs/Gemini_2.5_Flash/8.pdf,26;27;28;29;30;31;32,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-09,T1,runs/raw_logs/Gemini_2.5_Flash/9.pdf,1;2;3;4;5;6,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-09,T2,runs/raw_logs/Gemini_2.5_Flash/9.pdf,6;7;8,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-09,T3,runs/raw_logs/Gemini_2.5_Flash/9.pdf,9;10;11,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-09,T4,runs/raw_logs/Gemini_2.5_Flash/9.pdf,12;13;14,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-09,FINAL,runs/raw_logs/Gemini_2.5_Flash/9.pdf,15;16;17;18;19;20;21,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-10,T1,runs/raw_logs/Gemini_2.5_Flash/10.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-10,T2,runs/raw_logs/Gemini_2.5_Flash/10.pdf,8;9;10;11;12;13,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-10,T3,runs/raw_logs/Gemini_2.5_Flash/10.pdf,14;15;16;17;18;19,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-10,T4,runs/raw_logs/Gemini_2.5_Flash/10.pdf,20;21;22;23;24,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-10,FINAL,runs/raw_logs/Gemini_2.5_Flash/10.pdf,25;26;27;28;29;30;31,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-11,T1,runs/raw_logs/Gemini_2.5_Flash/11.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-11,T2,runs/raw_logs/Gemini_2.5_Flash/11.pdf,8;9;10;11,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-11,T3,runs/raw_logs/Gemini_2.5_Flash/11.pdf,12;13;14;15,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-11,T4,runs/raw_logs/Gemini_2.5_Flash/11.pdf,16;17;18;19,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-11,FINAL,runs/raw_logs/Gemini_2.5_Flash/11.pdf,20;21;22;23;24;25;26,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-12,T1,runs/raw_logs/Gemini_2.5_Flash/12.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-12,T2,runs/raw_logs/Gemini_2.5_Flash/12.pdf,7;8;9,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-12,T3,runs/raw_logs/Gemini_2.5_Flash/12.pdf,10;11;12,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-12,T4,runs/raw_logs/Gemini_2.5_Flash/12.pdf,13;14;15,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-12,FINAL,runs/raw_logs/Gemini_2.5_Flash/12.pdf,16;17;18;19;20;21;22,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-13,T1,runs/raw_logs/Gemini_2.5_Flash/13.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-13,T2,runs/raw_logs/Gemini_2.5_Flash/13.pdf,7;8;9;10;11;12,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-13,T3,runs/raw_logs/Gemini_2.5_Flash/13.pdf,13;14;15;16;17,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-13,T4,runs/raw_logs/Gemini_2.5_Flash/13.pdf,18;19;20;21;22,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-13,FINAL,runs/raw_logs/Gemini_2.5_Flash/13.pdf,23;24;25;26;27;28;29,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-14,T1,runs/raw_logs/Gemini_2.5_Flash/14.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-14,T2,runs/raw_logs/Gemini_2.5_Flash/14.pdf,7;8;9;10;11;12,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-14,T3,runs/raw_logs/Gemini_2.5_Flash/14.pdf,13;14;15;16;17;18,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-14,T4,runs/raw_logs/Gemini_2.5_Flash/14.pdf,19;20;21;22;23;24,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-14,FINAL,runs/raw_logs/Gemini_2.5_Flash/14.pdf,25;26;27;28;29;30;31,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-15,T1,runs/raw_logs/Gemini_2.5_Flash/15.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-15,T2,runs/raw_logs/Gemini_2.5_Flash/15.pdf,8;9;10,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-15,T3,runs/raw_logs/Gemini_2.5_Flash/15.pdf,11;12;13,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-15,T4,runs/raw_logs/Gemini_2.5_Flash/15.pdf,14;15;16,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-15,FINAL,runs/raw_logs/Gemini_2.5_Flash/15.pdf,17;18;19;20;21;22;23,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-16,T1,runs/raw_logs/Gemini_2.5_Flash/16.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-16,T2,runs/raw_logs/Gemini_2.5_Flash/16.pdf,8;9;10;11,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-16,T3,runs/raw_logs/Gemini_2.5_Flash/16.pdf,12;13;14,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-16,T4,runs/raw_logs/Gemini_2.5_Flash/16.pdf,15;16;17,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-16,FINAL,runs/raw_logs/Gemini_2.5_Flash/16.pdf,18;19;20;21;22;23;24,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-17,T1,runs/raw_logs/Gemini_2.5_Flash/17.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-17,T2,runs/raw_logs/Gemini_2.5_Flash/17.pdf,7;8;9;10,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-17,T3,runs/raw_logs/Gemini_2.5_Flash/17.pdf,11;12;13;14,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-17,T4,runs/raw_logs/Gemini_2.5_Flash/17.pdf,15;16;17;18,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-17,FINAL,runs/raw_logs/Gemini_2.5_Flash/17.pdf,19;20;21;22;23;24;25;26,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-18,T1,runs/raw_logs/Gemini_2.5_Flash/18.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-18,T2,runs/raw_logs/Gemini_2.5_Flash/18.pdf,8;9;10;11;12,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-18,T3,runs/raw_logs/Gemini_2.5_Flash/18.pdf,13;14;15;16;17,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-18,T4,runs/raw_logs/Gemini_2.5_Flash/18.pdf,18;19;20;21;22,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-18,FINAL,runs/raw_logs/Gemini_2.5_Flash/18.pdf,23;24;25;26;27;28;29,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-19,T1,runs/raw_logs/Gemini_2.5_Flash/19.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-19,T2,runs/raw_logs/Gemini_2.5_Flash/19.pdf,7;8;9;10,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-19,T3,runs/raw_logs/Gemini_2.5_Flash/19.pdf,11;12;13;14,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-19,T4,runs/raw_logs/Gemini_2.5_Flash/19.pdf,15;16;17;18,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-19,FINAL,runs/raw_logs/Gemini_2.5_Flash/19.pdf,19;20;21;22;23;24;25,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-20,T1,runs/raw_logs/Gemini_2.5_Flash/20.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-20,T2,runs/raw_logs/Gemini_2.5_Flash/20.pdf,8;9;10;11,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-20,T3,runs/raw_logs/Gemini_2.5_Flash/20.pdf,12;13;14;15,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-20,T4,runs/raw_logs/Gemini_2.5_Flash/20.pdf,16;17;18;19,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-20,FINAL,runs/raw_logs/Gemini_2.5_Flash/20.pdf,20;21;22;23;24;25,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-21,T1,runs/raw_logs/Gemini_2.5_Flash/21.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-21,T2,runs/raw_logs/Gemini_2.5_Flash/21.pdf,7;8;9;10;11;12,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-21,T3,runs/raw_logs/Gemini_2.5_Flash/21.pdf,12;13;14;15;16,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-21,T4,runs/raw_logs/Gemini_2.5_Flash/21.pdf,16;17;18;19;20,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-21,FINAL,runs/raw_logs/Gemini_2.5_Flash/21.pdf,20;21;22;23;24;25;26;27;28,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-22,T1,runs/raw_logs/Gemini_2.5_Flash/22.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-22,T2,runs/raw_logs/Gemini_2.5_Flash/22.pdf,7;8;9;10;11,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-22,T3,runs/raw_logs/Gemini_2.5_Flash/22.pdf,11;12;13;14;15,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-22,T4,runs/raw_logs/Gemini_2.5_Flash/22.pdf,15;16;17;18;19,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-22,FINAL,runs/raw_logs/Gemini_2.5_Flash/22.pdf,19;20;21;22;23;24;25,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-23,T1,runs/raw_logs/Gemini_2.5_Flash/23.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-23,T2,runs/raw_logs/Gemini_2.5_Flash/23.pdf,7;8;9;10;11;12;13;14,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-23,T3,runs/raw_logs/Gemini_2.5_Flash/23.pdf,14;15;16;17;18;19;20,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-23,T4,runs/raw_logs/Gemini_2.5_Flash/23.pdf,20;21;22;23;24;25,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-23,FINAL,runs/raw_logs/Gemini_2.5_Flash/23.pdf,25;26;27;28;29;30;31,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-24,T1,runs/raw_logs/Gemini_2.5_Flash/24.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-24,T2,runs/raw_logs/Gemini_2.5_Flash/24.pdf,7;8;9;10;11;12;13;14;15,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-24,T3,runs/raw_logs/Gemini_2.5_Flash/24.pdf,15;16;17;18;19;20;21;22,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-24,T4,runs/raw_logs/Gemini_2.5_Flash/24.pdf,22;23;24;25;26;27;28;29,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-24,FINAL,runs/raw_logs/Gemini_2.5_Flash/24.pdf,29;30;31;32;33;34;35,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-25,T1,runs/raw_logs/Gemini_2.5_Flash/25.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-25,T2,runs/raw_logs/Gemini_2.5_Flash/25.pdf,8;9;10;11;12,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-25,T3,runs/raw_logs/Gemini_2.5_Flash/25.pdf,12;13;14;15;16,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-25,T4,runs/raw_logs/Gemini_2.5_Flash/25.pdf,16;17;18;19;20,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-25,FINAL,runs/raw_logs/Gemini_2.5_Flash/25.pdf,20;21;22;23;24;25;26;27,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-26,T1,runs/raw_logs/Gemini_2.5_Flash/26.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-26,T2,runs/raw_logs/Gemini_2.5_Flash/26.pdf,7;8;9;10;11;12;13,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-26,T3,runs/raw_logs/Gemini_2.5_Flash/26.pdf,13;14;15;16;17;18;19,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-26,T4,runs/raw_logs/Gemini_2.5_Flash/26.pdf,19;20;21;22;23;24,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-26,FINAL,runs/raw_logs/Gemini_2.5_Flash/26.pdf,24;25;26;27;28;29;30;31,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-27,T1,runs/raw_logs/Gemini_2.5_Flash/27.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-27,T2,runs/raw_logs/Gemini_2.5_Flash/27.pdf,7;8;9;10;11;12;13,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-27,T3,runs/raw_logs/Gemini_2.5_Flash/27.pdf,13;14;15;16;17;18,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-27,T4,runs/raw_logs/Gemini_2.5_Flash/27.pdf,18;19;20;21;22,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-27,FINAL,runs/raw_logs/Gemini_2.5_Flash/27.pdf,22;23;24;25;26;27;28,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-28,T1,runs/raw_logs/Gemini_2.5_Flash/28.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-28,T2,runs/raw_logs/Gemini_2.5_Flash/28.pdf,7;8;9;10,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-28,T3,runs/raw_logs/Gemini_2.5_Flash/28.pdf,10;11;12;13,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-28,T4,runs/raw_logs/Gemini_2.5_Flash/28.pdf,13;14;15;16;17,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-28,FINAL,runs/raw_logs/Gemini_2.5_Flash/28.pdf,17;18;19;20;21;22;23,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-29,T1,runs/raw_logs/Gemini_2.5_Flash/29.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-29,T2,runs/raw_logs/Gemini_2.5_Flash/29.pdf,8;9;10;11;12,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-29,T3,runs/raw_logs/Gemini_2.5_Flash/29.pdf,12;13;14;15;16,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-29,T4,runs/raw_logs/Gemini_2.5_Flash/29.pdf,16;17;18;19;20,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-29,FINAL,runs/raw_logs/Gemini_2.5_Flash/29.pdf,20;21;22;23;24;25;26;27,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-30,T1,runs/raw_logs/Gemini_2.5_Flash/30.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-30,T2,runs/raw_logs/Gemini_2.5_Flash/30.pdf,8;9;10;11;12,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-30,T3,runs/raw_logs/Gemini_2.5_Flash/30.pdf,12;13;14;15;16,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-30,T4,runs/raw_logs/Gemini_2.5_Flash/30.pdf,16;17;18;19;20,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GEM-30,FINAL,runs/raw_logs/Gemini_2.5_Flash/30.pdf,20;21;22;23;24;25;26,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-01,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V1.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-01,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V1.pdf,9;10;11;12;13,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-01,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V1.pdf,14;15;16;17;18,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-01,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V1.pdf,19;20;21;22;23,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-01,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V1.pdf,25;26;27;28;29;30,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-02,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V2.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-02,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V2.pdf,8;9;10;11;12;13,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-02,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V2.pdf,13;14;15;16,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-02,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V2.pdf,17;18;19;20,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-02,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V2.pdf,22;23;24;25;26,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-03,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V3.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-03,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V3.pdf,7;8;9;10;11;12,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-03,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V3.pdf,13;14;15;16,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-03,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V3.pdf,17;18;19;20,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-03,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V3.pdf,23;24;25;26,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-04,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V4.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-04,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V4.pdf,8;9;10;11,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-04,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V4.pdf,12;13;14;15;16,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-04,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V4.pdf,17;18;19;20;21,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-04,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V4.pdf,23;24;25;26;27,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-05,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V5.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-05,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V5.pdf,8,1,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-05,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V5.pdf,9,1,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-05,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V5.pdf,10,1,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-05,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V5.pdf,13;14;15,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-06,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V6.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-06,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V6.pdf,7;8;9;10,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-06,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V6.pdf,11;12;13;14,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-06,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V6.pdf,15;16;17;18,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-06,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V6.pdf,20;21;22;23;24,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-07,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V7.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-07,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V7.pdf,9;10;11;12;13;14,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-07,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V7.pdf,15;16;17;18;19,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-07,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V7.pdf,20;21;22;23;24;25,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-07,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V7.pdf,27;28;29;30;31,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-08,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V8.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-08,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V8.pdf,8;9;10;11;12;13,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-08,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V8.pdf,13;14;15;16;17;18,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-08,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V8.pdf,19;20;21;22;23,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-08,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V8.pdf,25;26;27;28;29,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-09,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V9.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-09,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V9.pdf,9;10;11;12;13;14,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-09,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V9.pdf,15;16;17;18;19;20,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-09,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V9.pdf,21;22;23;24;25;26,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-09,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V9.pdf,28;29;30;31,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-10,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V10.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-10,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V10.pdf,7;8;9;10;11,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-10,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V10.pdf,12;13;14;15;16,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-10,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V10.pdf,17;18;19;20;21,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-10,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V10.pdf,21;22;23;24;25,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-11,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V11.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-11,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V11.pdf,7;8;9;10;11;12,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-11,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V11.pdf,12;13;14;15;16;17,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-11,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V11.pdf,17;18;19;20;21;22,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-11,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V11.pdf,24;25;26;27;28,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-12,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V12.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-12,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V12.pdf,7;8;9;10,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-12,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V12.pdf,11;12;13;14,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-12,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V12.pdf,14;15;16;17,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-12,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V12.pdf,20;21;22;23,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-13,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V13.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-13,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V13.pdf,7;8;9,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-13,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V13.pdf,10;11;12,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-13,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V13.pdf,12;13;14;15,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-13,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V13.pdf,17;18;19;20;21,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-14,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V14.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-14,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V14.pdf,8;9;10;11;12,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-14,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V14.pdf,13;14;15;16;17,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-14,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V14.pdf,18;19;20;21;22,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-14,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V14.pdf,24;25;26;27;28,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-15,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V15.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-15,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V15.pdf,9;10;11;12;13;14,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-15,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V15.pdf,14;15;16;17;18,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-15,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V15.pdf,19;20;21;22;23,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-15,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V15.pdf,26;27;28;29,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-16,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V16.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-16,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V16.pdf,9;10;11;12,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-16,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V16.pdf,13;14;15;16,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-16,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V16.pdf,17;18;19;20,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-16,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V16.pdf,22;23;24;25;26,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-17,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V17.pdf,1;2;3;4;5;6;7;8;9;10,10,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-17,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V17.pdf,10,1,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-17,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V17.pdf,11,1,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-17,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V17.pdf,12,1,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-17,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V17.pdf,15;16;17,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-18,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V18.pdf,1;2;3;4;5;6;7;8;9;10,10,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-18,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V18.pdf,10,1,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-18,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V18.pdf,11,1,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-18,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V18.pdf,11;12,2,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-18,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V18.pdf,14;15;16,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-19,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V19.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-19,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V19.pdf,9;10;11;12;13;14,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-19,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V19.pdf,14;15;16;17;18;19;20,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-19,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V19.pdf,21;22;23;24;25;26;27,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-19,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V19.pdf,29;30;31;32;33;34,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-20,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V20.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-20,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V20.pdf,9;10;11;12;13,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-20,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V20.pdf,13;14;15;16;17;18,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-20,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V20.pdf,18;19;20;21;22,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-20,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V20.pdf,25;26;27;28;29,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-21,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V21.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-21,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V21.pdf,9;10;11;12;13;14,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-21,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V21.pdf,14;15;16;17;18;19,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-21,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V21.pdf,19;20;21;22;23;24,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-21,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V21.pdf,26;27;28;29;30;31,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-22,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V22.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-22,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V22.pdf,7,1,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-22,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V22.pdf,8;9,2,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-22,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V22.pdf,10;11;12,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-22,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V22.pdf,14;15;16;17,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-23,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V23.pdf,1;2;3;4;5;6;7;8,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-23,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V23.pdf,8;9,2,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-23,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V23.pdf,9;10;11,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-23,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V23.pdf,11;12,2,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-23,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V23.pdf,15;16;17;18;19,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-24,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V24.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-24,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V24.pdf,7;8,2,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-24,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V24.pdf,8;9,2,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-24,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V24.pdf,10;11,2,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-24,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V24.pdf,18;19;20;21;22,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-25,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V25.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-25,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V25.pdf,7;8;9,2,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-25,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V25.pdf,9;10;11,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-25,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V25.pdf,11;12;13,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-25,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V25.pdf,15;16;17;18;19,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-26,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V26.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-26,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V26.pdf,9;10;11;12;13;14;15;16,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-26,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V26.pdf,16;17;18;19;20;21;22,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-26,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V26.pdf,23;24;25;26;27;28,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-26,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V26.pdf,31;32;33;34;35;36;37,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-27,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V27.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-27,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V27.pdf,9;10;11;12;13;14,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-27,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V27.pdf,14;15;16;17;18;19;20;21,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-27,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V27.pdf,21;22;23;24;25;26,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-27,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V27.pdf,27;28;29;30;31;32,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-28,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V28.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-28,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V28.pdf,9;10,2,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-28,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V28.pdf,10;11;12;13;14,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-28,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V28.pdf,15;16;17;18,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-28,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V28.pdf,18;19;20;21;22;23;24;25,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-29,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V29.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-29,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V29.pdf,7;8;9;10;11,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-29,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V29.pdf,12;13;14;15;16,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-29,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V29.pdf,17;18;19;20;21,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-29,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V29.pdf,24;25;26;27;28;29;30,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-30,T1,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V30.pdf,1;2;3;4;5;6;7;8;9,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-30,T2,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V30.pdf,9;10;11;12;13;14,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-30,T3,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V30.pdf,15;16;17;18;19;20,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-30,T4,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V30.pdf,20;21;22;23;24;25,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+GPT-30,FINAL,runs/raw_logs/GPT-4o/GPT_시뮬레이션 V30.pdf,28;29;30;31;32;33;34;35,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-01,T1,runs/raw_logs/Perplexity_RAG/1. Strategic Decision Modeling_ U.S. Discovery of Cub.pdf,1;2;3;4;5,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-01,T2,runs/raw_logs/Perplexity_RAG/1. Strategic Decision Modeling_ U.S. Discovery of Cub.pdf,5;6;7;8;9,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-01,T3,runs/raw_logs/Perplexity_RAG/1. Strategic Decision Modeling_ U.S. Discovery of Cub.pdf,9;10;11;12;13;14;15,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-01,T4,runs/raw_logs/Perplexity_RAG/1. Strategic Decision Modeling_ U.S. Discovery of Cub.pdf,15;16;17,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-01,FINAL,runs/raw_logs/Perplexity_RAG/1. Strategic Decision Modeling_ U.S. Discovery of Cub.pdf,17;18;19;20;21;22;23;24;25,9,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-02,T1,runs/raw_logs/Perplexity_RAG/2. Strategic Options Analysis_ U.S. Discovery of Sovi.pdf,1;2;3;4;5,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-02,T2,runs/raw_logs/Perplexity_RAG/2. Strategic Options Analysis_ U.S. Discovery of Sovi.pdf,5;6;7;8;9;10;11,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-02,T3,runs/raw_logs/Perplexity_RAG/2. Strategic Options Analysis_ U.S. Discovery of Sovi.pdf,11;12;13;14;15;16,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-02,T4,runs/raw_logs/Perplexity_RAG/2. Strategic Options Analysis_ U.S. Discovery of Sovi.pdf,16;17;18;19;20,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-02,FINAL,runs/raw_logs/Perplexity_RAG/2. Strategic Options Analysis_ U.S. Discovery of Sovi.pdf,20;21;22;23;24;25,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-03,T1,runs/raw_logs/Perplexity_RAG/3. You are a tool for modeling strategic decisions. A.pdf,2;3;4;5;6,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-03,T2,runs/raw_logs/Perplexity_RAG/3. You are a tool for modeling strategic decisions. A.pdf,6;7;8,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-03,T3,runs/raw_logs/Perplexity_RAG/3. You are a tool for modeling strategic decisions. A.pdf,8;9;10,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-03,T4,runs/raw_logs/Perplexity_RAG/3. You are a tool for modeling strategic decisions. A.pdf,10;11;12;13;14,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-03,FINAL,runs/raw_logs/Perplexity_RAG/3. You are a tool for modeling strategic decisions. A.pdf,14;15;16;17;18;19,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-04,T1,runs/raw_logs/Perplexity_RAG/4. Strategic Alternatives & Conflict Scenarios.pdf,1;2;3;4;5,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-04,T2,runs/raw_logs/Perplexity_RAG/4. Strategic Alternatives & Conflict Scenarios.pdf,5;6;7;8;9;10,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-04,T3,runs/raw_logs/Perplexity_RAG/4. Strategic Alternatives & Conflict Scenarios.pdf,10;11;12;13,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-04,T4,runs/raw_logs/Perplexity_RAG/4. Strategic Alternatives & Conflict Scenarios.pdf,13;14;15;16,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-04,FINAL,runs/raw_logs/Perplexity_RAG/4. Strategic Alternatives & Conflict Scenarios.pdf,16;17;18,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-05,T1,runs/raw_logs/Perplexity_RAG/5. You are a tool for modeling strategic decisions. A.pdf,2;3;4;5;6,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-05,T2,runs/raw_logs/Perplexity_RAG/5. You are a tool for modeling strategic decisions. A.pdf,6;7;8;9;10;11,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-05,T3,runs/raw_logs/Perplexity_RAG/5. You are a tool for modeling strategic decisions. A.pdf,11;12;13;14;15;16,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-05,T4,runs/raw_logs/Perplexity_RAG/5. You are a tool for modeling strategic decisions. A.pdf,16;17;18;19;20,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-05,FINAL,runs/raw_logs/Perplexity_RAG/5. You are a tool for modeling strategic decisions. A.pdf,20;21;22;23;24;25,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-06,T1,runs/raw_logs/Perplexity_RAG/6. Strategic Analysis of Soviet Missile Discovery in.pdf,1;2;3;4;5,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-06,T2,runs/raw_logs/Perplexity_RAG/6. Strategic Analysis of Soviet Missile Discovery in.pdf,5;6;7,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-06,T3,runs/raw_logs/Perplexity_RAG/6. Strategic Analysis of Soviet Missile Discovery in.pdf,7;8;9;10,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-06,T4,runs/raw_logs/Perplexity_RAG/6. Strategic Analysis of Soviet Missile Discovery in.pdf,10;11;12;13,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-06,FINAL,runs/raw_logs/Perplexity_RAG/6. Strategic Analysis of Soviet Missile Discovery in.pdf,13;14;15;16;17,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-07,T1,runs/raw_logs/Perplexity_RAG/7. Strategic Decision Modeling_ Soviet Missile Deploy.pdf,1;2;3;4;5,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-07,T2,runs/raw_logs/Perplexity_RAG/7. Strategic Decision Modeling_ Soviet Missile Deploy.pdf,5;6;7;8;9,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-07,T3,runs/raw_logs/Perplexity_RAG/7. Strategic Decision Modeling_ Soviet Missile Deploy.pdf,9;10;11;12;13,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-07,T4,runs/raw_logs/Perplexity_RAG/7. Strategic Decision Modeling_ Soviet Missile Deploy.pdf,13;14;15;16;17,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-07,FINAL,runs/raw_logs/Perplexity_RAG/7. Strategic Decision Modeling_ Soviet Missile Deploy.pdf,17;18;19;20;21;22;23;24,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-08,T1,runs/raw_logs/Perplexity_RAG/8. U.S. Strategic Alternatives.pdf,1;2;3;4;5,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-08,T2,runs/raw_logs/Perplexity_RAG/8. U.S. Strategic Alternatives.pdf,5;6;7;8;9,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-08,T3,runs/raw_logs/Perplexity_RAG/8. U.S. Strategic Alternatives.pdf,9;10;11;12;13,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-08,T4,runs/raw_logs/Perplexity_RAG/8. U.S. Strategic Alternatives.pdf,13;14;15;16;17,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-08,FINAL,runs/raw_logs/Perplexity_RAG/8. U.S. Strategic Alternatives.pdf,17;18;19;20;21,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-09,T1,runs/raw_logs/Perplexity_RAG/9. You are a tool for modeling strategic decisions. A.pdf,2;3;4;5;6;7,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-09,T2,runs/raw_logs/Perplexity_RAG/9. You are a tool for modeling strategic decisions. A.pdf,7;8;9;10;11;12,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-09,T3,runs/raw_logs/Perplexity_RAG/9. You are a tool for modeling strategic decisions. A.pdf,12;13;14;15;16,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-09,T4,runs/raw_logs/Perplexity_RAG/9. You are a tool for modeling strategic decisions. A.pdf,16;17;18;19;20,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-09,FINAL,runs/raw_logs/Perplexity_RAG/9. You are a tool for modeling strategic decisions. A.pdf,20;21;22;23;24,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-10,T1,runs/raw_logs/Perplexity_RAG/10. Strategic Alternatives and Triggers.pdf,1;2;3;4;5,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-10,T2,runs/raw_logs/Perplexity_RAG/10. Strategic Alternatives and Triggers.pdf,5;6;7;8;9;10;11;12,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-10,T3,runs/raw_logs/Perplexity_RAG/10. Strategic Alternatives and Triggers.pdf,12;13;14;15;16;17,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-10,T4,runs/raw_logs/Perplexity_RAG/10. Strategic Alternatives and Triggers.pdf,17;18;19;20;21,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-10,FINAL,runs/raw_logs/Perplexity_RAG/10. Strategic Alternatives and Triggers.pdf,21;22;23;24;25;26;27;28,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-11,T1,runs/raw_logs/Perplexity_RAG/11. __Strategic Action Options Analysis__.pdf,1;2;3;4;5,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-11,T2,runs/raw_logs/Perplexity_RAG/11. __Strategic Action Options Analysis__.pdf,5;6;7;8;9;10,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-11,T3,runs/raw_logs/Perplexity_RAG/11. __Strategic Action Options Analysis__.pdf,10;11;12;13,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-11,T4,runs/raw_logs/Perplexity_RAG/11. __Strategic Action Options Analysis__.pdf,13;14;15;16,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-11,FINAL,runs/raw_logs/Perplexity_RAG/11. __Strategic Action Options Analysis__.pdf,16;17;18;19;20,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-12,T1,runs/raw_logs/Perplexity_RAG/12. Strategic Decision Modeling for Cuban Missile Cris.pdf,1;2;3;4;5;6,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-12,T2,runs/raw_logs/Perplexity_RAG/12. Strategic Decision Modeling for Cuban Missile Cris.pdf,6;7;8;9;10;11,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-12,T3,runs/raw_logs/Perplexity_RAG/12. Strategic Decision Modeling for Cuban Missile Cris.pdf,11;12;13;14;15;16;17;18,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-12,T4,runs/raw_logs/Perplexity_RAG/12. Strategic Decision Modeling for Cuban Missile Cris.pdf,18;19;20;21;22;23,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-12,FINAL,runs/raw_logs/Perplexity_RAG/12. Strategic Decision Modeling for Cuban Missile Cris.pdf,23;24;25;26;27,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-13,T1,runs/raw_logs/Perplexity_RAG/13. Strategic Analysis of Current Event_ Soviet Nuclea.pdf,1;2;3;4;5;6,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-13,T2,runs/raw_logs/Perplexity_RAG/13. Strategic Analysis of Current Event_ Soviet Nuclea.pdf,6;7;8;9;10;11;12;13,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-13,T3,runs/raw_logs/Perplexity_RAG/13. Strategic Analysis of Current Event_ Soviet Nuclea.pdf,13;14;15;16;17,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-13,T4,runs/raw_logs/Perplexity_RAG/13. Strategic Analysis of Current Event_ Soviet Nuclea.pdf,17;18;19;20;21;22,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-13,FINAL,runs/raw_logs/Perplexity_RAG/13. Strategic Analysis of Current Event_ Soviet Nuclea.pdf,22;23;24;25;26,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-14,T1,runs/raw_logs/Perplexity_RAG/14. Strategic Decision Modeling_ Cuban Missile Crisis.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-14,T2,runs/raw_logs/Perplexity_RAG/14. Strategic Decision Modeling_ Cuban Missile Crisis.pdf,7;8;9;10;11;12,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-14,T3,runs/raw_logs/Perplexity_RAG/14. Strategic Decision Modeling_ Cuban Missile Crisis.pdf,12;13;14;15;16,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-14,T4,runs/raw_logs/Perplexity_RAG/14. Strategic Decision Modeling_ Cuban Missile Crisis.pdf,16;17;18;19;20;21,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-14,FINAL,runs/raw_logs/Perplexity_RAG/14. Strategic Decision Modeling_ Cuban Missile Crisis.pdf,21;22;23;24;25;26;27;28,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-15,T1,runs/raw_logs/Perplexity_RAG/15. Strategic Decision Model for Cuban Missile Crisis.pdf,1;2;3;4;5;6,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-15,T2,runs/raw_logs/Perplexity_RAG/15. Strategic Decision Model for Cuban Missile Crisis.pdf,6;7;8;9;10;11,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-15,T3,runs/raw_logs/Perplexity_RAG/15. Strategic Decision Model for Cuban Missile Crisis.pdf,11;12;13;14;15,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-15,T4,runs/raw_logs/Perplexity_RAG/15. Strategic Decision Model for Cuban Missile Crisis.pdf,15;16;17;18;19;20,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-15,FINAL,runs/raw_logs/Perplexity_RAG/15. Strategic Decision Model for Cuban Missile Crisis.pdf,20;21;22;23,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-16,T1,runs/raw_logs/Perplexity_RAG/16. You are a tool for modeling strategic decisions. A.pdf,2;3;4;5,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-16,T2,runs/raw_logs/Perplexity_RAG/16. You are a tool for modeling strategic decisions. A.pdf,5;6;7;8;9;10,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-16,T3,runs/raw_logs/Perplexity_RAG/16. You are a tool for modeling strategic decisions. A.pdf,10;11;12;13;14,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-16,T4,runs/raw_logs/Perplexity_RAG/16. You are a tool for modeling strategic decisions. A.pdf,14;15;16;17;18,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-16,FINAL,runs/raw_logs/Perplexity_RAG/16. You are a tool for modeling strategic decisions. A.pdf,18;19;20;21;22;23;24;25,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-17,T1,runs/raw_logs/Perplexity_RAG/17. Strategic Decision Modeling_ Cuban Missile Crisis (1).pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-17,T2,runs/raw_logs/Perplexity_RAG/17. Strategic Decision Modeling_ Cuban Missile Crisis (1).pdf,7;8;9;10;11,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-17,T3,runs/raw_logs/Perplexity_RAG/17. Strategic Decision Modeling_ Cuban Missile Crisis (1).pdf,11;12;13;14;15,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-17,T4,runs/raw_logs/Perplexity_RAG/17. Strategic Decision Modeling_ Cuban Missile Crisis (1).pdf,15;16;17;18;19,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-17,FINAL,runs/raw_logs/Perplexity_RAG/17. Strategic Decision Modeling_ Cuban Missile Crisis (1).pdf,19;20;21;22;23;24;25,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-18,T1,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,1;2;3;4;5;6,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-18,T2,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,6;7;8;9;10;11,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-18,T3,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,11;12;13;14;15;16,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-18,T4,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,16;17;18;19;20,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-18,FINAL,runs/raw_logs/Perplexity_RAG/18. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,20;21;22;23;24;25;26,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-19,T1,runs/raw_logs/Perplexity_RAG/19. Strategic Analysis of Cuban Missile Crisis Event.pdf,1;2;3;4;5;6,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-19,T2,runs/raw_logs/Perplexity_RAG/19. Strategic Analysis of Cuban Missile Crisis Event.pdf,6;7;8;9,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-19,T3,runs/raw_logs/Perplexity_RAG/19. Strategic Analysis of Cuban Missile Crisis Event.pdf,9;10;11;12,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-19,T4,runs/raw_logs/Perplexity_RAG/19. Strategic Analysis of Cuban Missile Crisis Event.pdf,12;13;14;15;16;17;18,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-19,FINAL,runs/raw_logs/Perplexity_RAG/19. Strategic Analysis of Cuban Missile Crisis Event.pdf,18;19;20;21;22;23,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-20,T1,runs/raw_logs/Perplexity_RAG/20. Strategic Analysis for Cuban Missile Crisis (Based.pdf,1;2;3;4;5;6,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-20,T2,runs/raw_logs/Perplexity_RAG/20. Strategic Analysis for Cuban Missile Crisis (Based.pdf,6;7;8;9;10;11;12,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-20,T3,runs/raw_logs/Perplexity_RAG/20. Strategic Analysis for Cuban Missile Crisis (Based.pdf,12;13;14,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-20,T4,runs/raw_logs/Perplexity_RAG/20. Strategic Analysis for Cuban Missile Crisis (Based.pdf,14;15;16;17;18;19,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-20,FINAL,runs/raw_logs/Perplexity_RAG/20. Strategic Analysis for Cuban Missile Crisis (Based.pdf,19;20;21;22;23,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-21,T1,runs/raw_logs/Perplexity_RAG/21. Strategic Decision Model for Cuba Missile Crisis D.pdf,1;2;3;4;5,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-21,T2,runs/raw_logs/Perplexity_RAG/21. Strategic Decision Model for Cuba Missile Crisis D.pdf,5;6;7;8;9;10;11,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-21,T3,runs/raw_logs/Perplexity_RAG/21. Strategic Decision Model for Cuba Missile Crisis D.pdf,11;12;13;14;15;16;17,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-21,T4,runs/raw_logs/Perplexity_RAG/21. Strategic Decision Model for Cuba Missile Crisis D.pdf,17;18;19;20;21;22,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-21,FINAL,runs/raw_logs/Perplexity_RAG/21. Strategic Decision Model for Cuba Missile Crisis D.pdf,22;23;24;25;26;27,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-22,T1,runs/raw_logs/Perplexity_RAG/22. You are a tool for modeling strategic decisions. A.pdf,2;3;4;5;6,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-22,T2,runs/raw_logs/Perplexity_RAG/22. You are a tool for modeling strategic decisions. A.pdf,6;7;8,3,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-22,T3,runs/raw_logs/Perplexity_RAG/22. You are a tool for modeling strategic decisions. A.pdf,8;9;10;11,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-22,T4,runs/raw_logs/Perplexity_RAG/22. You are a tool for modeling strategic decisions. A.pdf,11;12;13;14;15,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-22,FINAL,runs/raw_logs/Perplexity_RAG/22. You are a tool for modeling strategic decisions. A.pdf,15;16;17;18;19;20,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-23,T1,runs/raw_logs/Perplexity_RAG/23. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-23,T2,runs/raw_logs/Perplexity_RAG/23. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,7;8;9;10,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-23,T3,runs/raw_logs/Perplexity_RAG/23. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,10;11;12;13,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-23,T4,runs/raw_logs/Perplexity_RAG/23. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,13;14;15;16,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-23,FINAL,runs/raw_logs/Perplexity_RAG/23. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,16;17;18;19;20;21;22,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-24,T1,runs/raw_logs/Perplexity_RAG/24. Strategic Alternatives Analysis for Missile Crisis.pdf,1;2;3;4;5;6;7,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-24,T2,runs/raw_logs/Perplexity_RAG/24. Strategic Alternatives Analysis for Missile Crisis.pdf,7;8;9;10;11,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-24,T3,runs/raw_logs/Perplexity_RAG/24. Strategic Alternatives Analysis for Missile Crisis.pdf,11;12;13;14;15;16,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-24,T4,runs/raw_logs/Perplexity_RAG/24. Strategic Alternatives Analysis for Missile Crisis.pdf,16;17;18;19,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-24,FINAL,runs/raw_logs/Perplexity_RAG/24. Strategic Alternatives Analysis for Missile Crisis.pdf,19;20;21;22;23;24;25;26,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-25,T1,runs/raw_logs/Perplexity_RAG/25. Strategic Response Modeling_ Cuban Missile Crisis.pdf,1;2;3;4;5,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-25,T2,runs/raw_logs/Perplexity_RAG/25. Strategic Response Modeling_ Cuban Missile Crisis.pdf,5;6;7;8;9;10;11,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-25,T3,runs/raw_logs/Perplexity_RAG/25. Strategic Response Modeling_ Cuban Missile Crisis.pdf,11;12;13;14;15,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-25,T4,runs/raw_logs/Perplexity_RAG/25. Strategic Response Modeling_ Cuban Missile Crisis.pdf,15;16;17;18;19,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-25,FINAL,runs/raw_logs/Perplexity_RAG/25. Strategic Response Modeling_ Cuban Missile Crisis.pdf,19;20;21;22;23,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-26,T1,runs/raw_logs/Perplexity_RAG/26. You are a tool for modeling strategic decisions. A.pdf,2;3;4;5;6;7,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-26,T2,runs/raw_logs/Perplexity_RAG/26. You are a tool for modeling strategic decisions. A.pdf,7;8;9;10,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-26,T3,runs/raw_logs/Perplexity_RAG/26. You are a tool for modeling strategic decisions. A.pdf,10;11;12;13,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-26,T4,runs/raw_logs/Perplexity_RAG/26. You are a tool for modeling strategic decisions. A.pdf,13;14;15;16,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-26,FINAL,runs/raw_logs/Perplexity_RAG/26. You are a tool for modeling strategic decisions. A.pdf,16;17;18;19;20;21;22,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-27,T1,runs/raw_logs/Perplexity_RAG/27. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,1;2;3;4;5;6,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-27,T2,runs/raw_logs/Perplexity_RAG/27. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,6;7;8;9;10,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-27,T3,runs/raw_logs/Perplexity_RAG/27. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,10;11;12;13;14;15,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-27,T4,runs/raw_logs/Perplexity_RAG/27. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,15;16;17;18;19;20;21;22,8,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-27,FINAL,runs/raw_logs/Perplexity_RAG/27. Strategic Decision Analysis_ Cuban Missile Crisis.pdf,22;23;24;25;26,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-28,T1,runs/raw_logs/Perplexity_RAG/28. You are a tool for modeling strategic decisions. A (1).pdf,2;3;4;5;6;7,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-28,T2,runs/raw_logs/Perplexity_RAG/28. You are a tool for modeling strategic decisions. A (1).pdf,7;8;9;10,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-28,T3,runs/raw_logs/Perplexity_RAG/28. You are a tool for modeling strategic decisions. A (1).pdf,10;11;12;13;14,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-28,T4,runs/raw_logs/Perplexity_RAG/28. You are a tool for modeling strategic decisions. A (1).pdf,14;15;16;17,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-28,FINAL,runs/raw_logs/Perplexity_RAG/28. You are a tool for modeling strategic decisions. A (1).pdf,17;18;19;20;21,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-29,T1,runs/raw_logs/Perplexity_RAG/29. Strategic Decision Modeling_ U.S. and Soviet React.pdf,1;2;3;4;5,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-29,T2,runs/raw_logs/Perplexity_RAG/29. Strategic Decision Modeling_ U.S. and Soviet React.pdf,5;6;7;8;9,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-29,T3,runs/raw_logs/Perplexity_RAG/29. Strategic Decision Modeling_ U.S. and Soviet React.pdf,9;10;11;12,4,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-29,T4,runs/raw_logs/Perplexity_RAG/29. Strategic Decision Modeling_ U.S. and Soviet React.pdf,12;13;14;15;16;17,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-29,FINAL,runs/raw_logs/Perplexity_RAG/29. Strategic Decision Modeling_ U.S. and Soviet React.pdf,17;18;19;20;21,5,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-30,T1,runs/raw_logs/Perplexity_RAG/30. Strategic Decision Analysis_ Soviet Missile Discov.pdf,1;2;3;4;5;6,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-30,T2,runs/raw_logs/Perplexity_RAG/30. Strategic Decision Analysis_ Soviet Missile Discov.pdf,6;7;8;9;10;11;12,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-30,T3,runs/raw_logs/Perplexity_RAG/30. Strategic Decision Analysis_ Soviet Missile Discov.pdf,12;13;14;15;16;17;18,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-30,T4,runs/raw_logs/Perplexity_RAG/30. Strategic Decision Analysis_ Soviet Missile Discov.pdf,18;19;20;21;22;23,6,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
+PER-30,FINAL,runs/raw_logs/Perplexity_RAG/30. Strategic Decision Analysis_ Soviet Missile Discov.pdf,23;24;25;26;27;28;29,7,대조대상 목록 확보,false,이 인벤토리 생성은 내용 판정이 아님
