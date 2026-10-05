@@ -1,0 +1,235 @@
+[p.14] completion priority could push for diplomatic delays while achieving
+[p.14] operational status. Next Event Triggers:
+[p.14] • Inevitable: U.S. detection and response
+[p.14] • Potential: Trust breakdown
+[p.14] • Potential: Military escalation
+[p.14] Most Plausible Combination: U.S. Accepts Turkey-Cuba
+[p.14] Trade Secretly + Soviet Accepts Phased Withdrawal
+[p.14] Logic: High diplomatic_support (0.60) and moderate tension (0.45) create optimal
+[p.14] negotiation conditions.
+[p.14] Alternative Path 1: U.S. Counter with Cuba Pledge Only +
+[p.14] Soviet Demands Additional Concessions
+[p.14] Logic: Both sides test limits while maintaining diplomatic framework.
+[p.14] Alternative Path 2: U.S. Public UN Resolution + Soviet
+[p.14] Stalls Deployment
+[p.14] Logic: Public pressure versus covert completion strategy.
+[p.14] RESULT LOG - Most Plausible Combination
+[p.14] • U.S. Action: Accept Turkey-Cuba Trade Secretly
+[p.14] • Soviet Action: Accept Phased Withdrawal with Guarantees
+[p.14] • Variable Changes:
+[p.14] • tension: -0.05 (Diplomatic_Success)
+[p.14] • diplomatic_support: +0.10 (Diplomatic_Success)
+[p.14] • public_opinion: +0.05 (Diplomatic_Success)
+[p.14] • leadership_unity: +0.05 (Diplomatic_Success)
+[p.14] New Variable Status:
+[p.14] • tension: 0.40
+[p.14] • diplomatic_support: 0.70
+[p.14] • public_opinion: 0.60
+[p.14] • leadership_unity: 0.60
+[p.14] Retry
+[p.15] Scenario 1: Most Plausible Path
+[p.15] Current Variables: tension: 0.70, diplomatic_support: 0.60, public_opinion: 0.55,
+[p.15] leadership_unity: 1.0
+[p.15] United States Strategic Alternatives
+[p.15] 1. Limited Retaliatory Strike on SAM Site Rationale: Defense Department's
+[p.16] trigger threshold states "if U.S. forces come under attack...execute
+[p.16] offensive operations at once." The U-2 downing constitutes hostile action.
+[p.16] With leadership_unity at 1.0, consensus for proportional response
+[p.16] exists. Next Event Triggers:
+[p.16] • Inevitable: Soviet military response
+[p.16] • Potential: Further SAM engagements
+[p.16] • Potential: Cuban casualties
+[p.16] 1. Accelerate Diplomatic Timeline with Ultimatum Rationale: Kennedy's
+[p.16] behavior algorithm emphasizes avoiding nuclear war (0.3 weight). With
+[p.16] diplomatic_support at 0.60 and ongoing Turkey-Cuba negotiations, he
+[p.16] might use the incident to demand immediate resolution. Next Event
+[p.16] Triggers:
+[p.16] • Inevitable: Soviet diplomatic response
+[p.16] • Potential: Military preparations visible
+[p.16] • Potential: Allied concerns about ultimatum
+[p.16] 1. Absorb Loss and Continue Current Policy Rationale: With tension at 0.70
+[p.16] (below 0.8 threshold), diplomatic options remain enabled. Kennedy's
+[p.16] "balanced crisis management" could mean avoiding escalation despite
+[p.16] provocation. Next Event Triggers:
+[p.16] • Inevitable: Military pressure for response
+[p.16] • Potential: Public opinion backlash
+[p.16] • Potential: Soviet perception of weakness
+[p.16] Soviet Union Strategic Alternatives
+[p.16] 1. Claim Defensive Action and Accelerate Negotiations Rationale:
+[p.16] Khrushchev's "peaceful coexistence" ideology and current diplomatic
+[p.16] momentum (0.60 support) suggest using incident to push for quick
+[p.16] settlement while maintaining defensive justification. Next Event Triggers:
+[p.16] • Inevitable: U.S. response to proposal
+[p.16] • Potential: Military control concerns
+[p.16] • Potential: Cuban independent actions
+[p.16] 1. Elevate Military Alert Without Further Action Rationale: Armed Forces'
+[p.16] "hierarchical command structure" and need to show resolve after
+[p.16] successful defense, balanced with avoiding escalation per Presidium's
+[p.16] medium-high conflict avoidance. Next Event Triggers:
+[p.16] • Inevitable: U.S. detection of alert status
+[p.16] • Potential: Accidental engagement
+[p.16] • Potential: Communication breakdown
+[p.16] 1. Authorize Cuban Forces Full Defensive Autonomy Rationale: With
+[p.16] successful SAM engagement and Armed Forces' "mission success" priority
+[p.16] (0.4 weight), military might push for decentralized defense to protect
+[p.16] assets. Next Event Triggers:
+[p.17] • Inevitable: More U.S. aircraft engagements
+[p.17] • Potential: Uncontrolled escalation
+[p.17] • Potential: Nuclear authorization questions
+[p.17] Most Plausible Combination: U.S. Accelerates Diplomatic
+[p.17] Timeline + Soviet Claims Defense and Accelerates
+[p.17] Negotiations
+[p.17] Logic: Both sides recognize dangerous escalation point. High leadership_unity (1.0)
+[p.17] enables coherent responses while diplomatic_support (0.60) facilitates quick
+[p.17] resolution.
+[p.17] Alternative Path 1: U.S. Limited Retaliatory Strike + Soviet
+[p.17] Elevates Alert
+[p.17] Logic: Military pressures force proportional responses while avoiding full
+[p.17] escalation.
+[p.17] Alternative Path 2: U.S. Absorbs Loss + Soviet Authorizes
+[p.17] Cuban Autonomy
+[p.17] Logic: U.S. restraint interpreted as weakness, encouraging Soviet military
+[p.17] assertiveness.
+[p.17] RESULT LOG - Most Plausible Combination
+[p.17] • U.S. Action: Accelerate Diplomatic Timeline with Ultimatum
+[p.17] • Soviet Action: Claim Defensive Action and Accelerate Negotiations
+[p.17] • Variable Changes:
+[p.17] • tension: +0.05 (diplomatic pressure but not military action)
+[p.17] • diplomatic_support: No change (mixed diplomatic/ultimatum
+[p.17] approach)
+[p.17] • public_opinion: -0.02 (U.S. serviceman killed)
+[p.17] • leadership_unity: No change (maintaining consensus)
+[p.17] New Variable Status:
+[p.17] • tension: 0.75
+[p.17] • diplomatic_support: 0.60
+[p.17] • public_opinion: 0.53
+[p.17] • leadership_unity: 1.0
+[p.17] Scenario 2: Hardline Response Path
+[p.17] Current Variables: tension: 0.25, diplomatic_support: 0.50, public_opinion: 0.45,
+[p.17] leadership_unity: 0.40
+[p.17] United States Strategic Alternatives
+[p.17] 1. Massive Air Strike Campaign Rationale: With leadership_unity at 0.40
+[p.17] (below 0.5), Variable-Decision Matrix indicates "radical adoption" of
+[p.18] military action. Defense trigger for attack on U.S. forces activated. Next
+[p.18] Event Triggers:
+[p.18] • Inevitable: Soviet military retaliation
+[p.18] • Potential: Nuclear weapons use
+[p.18] • Potential: Command breakdown
+[p.18] 1. Immediate Invasion Preparation Rationale: Military's goal to "achieve
+[p.18] broader victory" like Castro removal, combined with fractured leadership
+[p.18] allowing extreme options. Next Event Triggers:
+[p.18] • Inevitable: Soviet/Cuban mobilization
+[p.18] • Potential: Preemptive nuclear use
+[p.18] • Potential: International intervention
+[p.18] 1. Emergency UN Ceasefire Rationale: State Department's desperation with
+[p.18] public_opinion at 0.45 and risk of total war might force unilateral
+[p.18] ceasefire attempt. Next Event Triggers:
+[p.18] • Inevitable: Soviet response
+[p.18] • Potential: Military insubordination
+[p.18] • Potential: Government crisis
+[p.18] Soviet Union Strategic Alternatives
+[p.18] 1. Authorize Tactical Nuclear Release Rationale: With leadership_unity at 0.40,
+[p.18] Armed Forces' autonomous action possible. U-2 downing plus U.S. strikes
+[p.18] could trigger "last-resort retaliation." Next Event Triggers:
+[p.18] • Inevitable: Nuclear detonation
+[p.18] • Potential: Strategic exchange
+[p.18] • Potential: Command collapse
+[p.18] 1. Maximum Conventional Defense Rationale: Presidium's survival instinct
+[p.18] might attempt limiting response to conventional forces despite military
+[p.18] pressure. Next Event Triggers:
+[p.18] • Inevitable: Overwhelming U.S. superiority
+[p.18] • Potential: Forced nuclear decision
+[p.18] • Potential: Regime collapse
+[p.18] 1. Unilateral Withdrawal Announcement Rationale: Recognition of imminent
+[p.18] catastrophe with fractured leadership might force desperate
+[p.18] de-escalation. Next Event Triggers:
+[p.18] • Inevitable: Military opposition
+[p.18] • Potential: Coup attempt
+[p.18] • Potential: Cuban hostility
+[p.18] Most Plausible Combination: U.S. Emergency UN Ceasefire
+[p.18] + Soviet Unilateral Withdrawal
+[p.18] Logic: Mutual recognition of nuclear war imminence overrides fractured leadership.
+[p.18] Alternative Path 1: U.S. Massive Air Strike + Soviet Tactical
+[p.19] Nuclear Release
+[p.19] Logic: Military control with failed leadership produces worst-case escalation.
+[p.19] Alternative Path 2: U.S. Invasion Preparation + Soviet
+[p.19] Maximum Conventional Defense
+[p.19] Logic: Both militaries dominate but avoid nuclear threshold temporarily.
+[p.19] RESULT LOG - Most Plausible Combination
+[p.19] • U.S. Action: Emergency UN Ceasefire
+[p.19] • Soviet Action: Unilateral Withdrawal Announcement
+[p.19] • Variable Changes:
+[p.19] • tension: -0.10 (major de-escalation effort)
+[p.19] • diplomatic_support: +0.05 (international engagement)
+[p.19] • public_opinion: +0.10 (Strong_Leadership - avoiding war)
+[p.19] • leadership_unity: +0.10 (Strong_Leadership)
+[p.19] New Variable Status:
+[p.19] • tension: 0.15
+[p.19] • diplomatic_support: 0.55
+[p.19] • public_opinion: 0.55
+[p.19] • leadership_unity: 0.50
+[p.19] Scenario 3: Diplomatic Resolution Path
+[p.19] Current Variables: tension: 0.40, diplomatic_support: 0.70, public_opinion: 0.60,
+[p.19] leadership_unity: 0.60
+[p.19] United States Strategic Alternatives
+[p.19] 1. Postpone Turkey Removal in Response Rationale: U-2 downing could justify
+[p.19] Kennedy reconsidering concessions. With public_opinion at 0.60, domestic
+[p.19] support exists for firmer stance. Next Event Triggers:
+[p.19] • Inevitable: Soviet diplomatic crisis
+[p.19] • Potential: Deal breakdown
+[p.19] • Potential: Renewed military options
+[p.19] 1. Demand Immediate Implementation Rationale: Use incident to accelerate
+[p.19] agreed withdrawal. High diplomatic_support (0.70) provides leverage for
+[p.19] enforcement. Next Event Triggers:
+[p.19] • Inevitable: Soviet compliance test
+[p.19] • Potential: Technical delays
+[p.19] • Potential: Verification disputes
+[p.19] 1. Add Compensation for Pilot's Death Rationale: State Department might
+[p.19] seek additional concessions using incident while maintaining diplomatic
+[p.19] framework. Next Event Triggers:
+[p.19] • Inevitable: Soviet response
+[p.20] • Potential: Negotiation complexity
+[p.20] • Potential: Time pressure
+[p.20] Soviet Union Strategic Alternatives
+[p.20] 1. Express Regret and Accelerate Withdrawal Rationale: Khrushchev's
+[p.20] diplomatic preference and high diplomatic_support (0.70) suggest
+[p.20] preventing deal collapse through conciliatory moves. Next Event Triggers:
+[p.20] • Inevitable: Implementation begins
+[p.20] • Potential: Military resistance
+[p.20] • Potential: Verification process
+[p.20] 1. Blame Local Forces and Maintain Timeline Rationale: Preserve agreement
+[p.20] while avoiding responsibility, consistent with Presidium's face-saving
+[p.20] needs. Next Event Triggers:
+[p.20] • Inevitable: U.S. skepticism
+[p.20] • Potential: Investigation demands
+[p.20] • Potential: Trust erosion
+[p.20] 1. Link to U.S. Reconnaissance Halt Rationale: Use incident to expand
+[p.20] agreement terms, demanding end to U.S. overflights as condition. Next
+[p.20] Event Triggers:
+[p.20] • Inevitable: U.S. rejection likely
+[p.20] • Potential: Negotiation stall
+[p.20] • Potential: Military tensions
+[p.20] Most Plausible Combination: U.S. Demands Immediate
+[p.20] Implementation + Soviet Expresses Regret and Accelerates
+[p.20] Logic: High diplomatic_support (0.70) and leadership_unity (0.60) enable both sides
+[p.20] to preserve agreement despite incident.
+[p.20] Alternative Path 1: U.S. Postpones Turkey Removal + Soviet
+[p.20] Blames Local Forces
+[p.20] Logic: Both sides test agreement limits while avoiding complete breakdown.
+[p.20] Alternative Path 2: U.S. Adds Compensation Demand +
+[p.20] Soviet Links to Reconnaissance Halt
+[p.20] Logic: Incident used for negotiation positioning by both sides.
+[p.20] RESULT LOG - Most Plausible Combination
+[p.20] • U.S. Action: Demand Immediate Implementation
+[p.20] • Soviet Action: Express Regret and Accelerate Withdrawal
+[p.20] • Variable Changes:
+[p.20] • tension: -0.05 (diplomatic progress despite incident)
+[p.20] • diplomatic_support: +0.05 (successful crisis management)
+[p.20] • public_opinion: +0.05 (resolution advancing)
+[p.21] • leadership_unity: +0.05 (success strengthens unity)
+[p.21] New Variable Status:
+[p.21] • tension: 0.35
+[p.21] • diplomatic_support: 0.75
+[p.21] • public_opinion: 0.65
+[p.21] • leadership_unity: 0.65
+[p.21] Retry

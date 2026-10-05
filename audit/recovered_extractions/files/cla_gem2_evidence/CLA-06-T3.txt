@@ -1,0 +1,247 @@
+[p.14] • US: No additional effects (maintaining current posture)
+[p.14] • Soviet: Diplomatic_Success effect (+0.10 diplomatic_support, -0.05 tension,
+[p.14] +0.05 public_opinion, +0.05 leadership_unity)
+[p.14] New Variable Status:
+[p.14] • US: tension: 0.8, diplomatic_support: 0.5, public_opinion: 0.5,
+[p.14] leadership_unity: 1.0
+[p.14] • Soviet: tension: 0.9, diplomatic_support: 0.6, public_opinion: 0.55,
+[p.14] leadership_unity: 1.0
+[p.14] Triggers: Secret negotiations initiated, Public unaware of talks
+[p.14] [HARDLINE PATH - Turn 2]
+[p.14] Selected Actions: US Emergency Diplomatic Pivot + Soviet Emergency UN Appeal
+[p.14] Variable Changes:
+[p.14] • US: Strong_Leadership effect (-0.05 tension, +0.05 diplomatic_support,
+[p.14] +0.10 public_opinion, +0.10 leadership_unity)
+[p.14] • Soviet: Diplomatic_Success effect (same as above)
+[p.14] New Variable Status:
+[p.14] • US: tension: 0.6, diplomatic_support: 0.5, public_opinion: 0.55,
+[p.14] leadership_unity: 0.5
+[p.14] • Soviet: tension: 0.9, diplomatic_support: 0.6, public_opinion: 0.55,
+[p.14] leadership_unity: 1.0
+[p.14] Triggers: UN Security Council emergency session, Ceasefire proposals
+[p.14] [DIPLOMATIC DELAY PATH - Turn 2]
+[p.14] Selected Actions: US Ultimatum with Deadline + Soviet Propose Missile Trade
+[p.14] Variable Changes:
+[p.14] • US: Defense_Prep effect (+0.05 tension, -0.02 diplomatic_support, -0.02
+[p.14] public_opinion, -0.05 leadership_unity)
+[p.14] • Soviet: No direct effect (proposal pending response)
+[p.14] New Variable Status:
+[p.14] • US: tension: 0.55, diplomatic_support: 0.48, public_opinion: 0.48,
+[p.14] leadership_unity: 0.45
+[p.14] • Soviet: tension: 0.95, diplomatic_support: 1.0, public_opinion: 0.5,
+[p.14] leadership_unity: 0.5
+[p.14] Triggers: 48-hour deadline set, Turkey missile trade proposed
+[p.14] Critical Note: US leadership unity drops below 0.5 threshold in Diplomatic Delay
+[p.14] Path, triggering "Internal Division, Coup Risk" conditions.
+[p.14] Retry
+[p.16] TURN 3 ANALYSIS
+[p.16] SCENARIO 1: MOST PLAUSIBLE PATH
+[p.16] Current Variables: US (tension: 0.8, diplomatic_support: 0.5, public_opinion: 0.5,
+[p.16] leadership_unity: 1.0) Soviet (tension: 0.9, diplomatic_support: 0.6, public_opinion:
+[p.16] 0.55, leadership_unity: 1.0)
+[p.16] United States Strategic Alternatives
+[p.16] 1. Immediate Retaliatory Air Strike
+[p.16] • Rationale: Defense Department's trigger threshold explicitly states "Hostile
+[p.16] Soviet or Cuban military action: If U.S. forces come under attack - for
+[p.16] example, a U-2 reconnaissance plane is shot down... execute offensive
+[p.16] operations at once." With tension at 0.8, military options are "Aggressive."
+[p.16] • Next Event Triggers:
+[p.16] • Inevitable: Soviet military response
+[p.16] • High Probability: Nuclear alert escalation
+[p.16] • Potential: Soviet nuclear launch
+[p.16] 2. Limited Proportional Response
+[p.16] • Rationale: Kennedy's balanced crisis management approach and priority
+[p.16] on avoiding nuclear war (0.3 weight) suggests measured retaliation despite
+[p.16] military pressure.
+[p.16] • Next Event Triggers:
+[p.16] • Inevitable: Military criticism of weakness
+[p.16] • High Probability: Additional Soviet provocations
+[p.16] • Potential: Escalation control
+[p.16] 3. Accelerate Secret Negotiations
+[p.16] • Rationale: With ongoing private diplomatic outreach and Kennedy's high
+[p.16] diplomacy preference, use crisis to push for immediate resolution.
+[p.16] • Next Event Triggers:
+[p.16] • Inevitable: Time pressure increase
+[p.16] • High Probability: Deal framework emergence
+[p.16] • Potential: Military coup attempt
+[p.16] Soviet Union Strategic Alternatives
+[p.16] 1. Deny Responsibility
+[p.16] • Rationale: Khrushchev's initial approach of "denial/deception followed by
+[p.16] negotiation when confronted" suggests deflecting blame while maintaining
+[p.16] talks.
+[p.16] • Next Event Triggers:
+[p.17] • Inevitable: U.S. evidence presentation
+[p.17] • High Probability: Credibility loss
+[p.17] • Potential: Breakdown of talks
+[p.17] 2. Offer Immediate Concessions
+[p.17] • Rationale: With tension at 0.9 and risk of triggering U.S. military
+[p.17] response, Presidium's goal to "avoid nuclear conflict while securing
+[p.17] favorable outcome" necessitates de-escalation.
+[p.17] • Next Event Triggers:
+[p.17] • Inevitable: U.S. response to offer
+[p.17] • High Probability: Face-saving negotiations
+[p.17] • Potential: Military opposition
+[p.17] 3. Full Military Alert
+[p.17] • Rationale: Soviet Armed Forces' behavior algorithm shows "direct attack"
+[p.17] on forces triggers "retaliate per war plans." Military hawks may demand
+[p.17] strong response.
+[p.17] • Next Event Triggers:
+[p.17] • Inevitable: U.S. counter-escalation
+[p.17] • High Probability: Nuclear readiness
+[p.17] • Potential: Preemptive strikes
+[p.17] Most Plausible Combination: US Limited Proportional Response + Soviet Offer
+[p.17] Immediate Concessions Alternative 1: US Immediate Retaliatory Strike + Soviet Full
+[p.17] Military Alert Alternative 2: US Accelerate Secret Negotiations + Soviet Deny
+[p.17] Responsibility
+[p.17] SCENARIO 2: HARDLINE RESPONSE PATH
+[p.17] Current Variables: US (tension: 0.6, diplomatic_support: 0.5, public_opinion: 0.55,
+[p.17] leadership_unity: 0.5) Soviet (tension: 0.9, diplomatic_support: 0.6, public_opinion:
+[p.17] 0.55, leadership_unity: 1.0)
+[p.17] United States Strategic Alternatives
+[p.17] 1. Full Invasion of Cuba
+[p.17] • Rationale: With leadership unity at 0.5 threshold and U.S. pilot killed,
+[p.17] military's invasion plans could be activated despite diplomatic pivot
+[p.17] attempt.
+[p.17] • Next Event Triggers:
+[p.17] • Inevitable: Soviet response decision
+[p.17] • High Probability: Tactical nuclear use
+[p.17] • Potential: World War III
+[p.17] 2. Enforce Ceasefire Through Force
+[p.17] • Rationale: Emergency UN appeal context requires backing diplomacy with
+[p.18] credible military threat.
+[p.18] • Next Event Triggers:
+[p.18] • Inevitable: Soviet testing of resolve
+[p.18] • High Probability: Limited engagements
+[p.18] • Potential: Ceasefire achievement
+[p.18] 3. Nuclear Alert Escalation
+[p.18] • Rationale: Public opinion at 0.55 and pilot death create pressure for
+[p.18] strong response within UN framework.
+[p.18] • Next Event Triggers:
+[p.18] • Inevitable: Soviet nuclear match
+[p.18] • High Probability: Allied intervention
+[p.18] • Potential: Hair-trigger crisis
+[p.18] Soviet Union Strategic Alternatives
+[p.18] 1. Tactical Nuclear Authorization
+[p.18] • Rationale: U-2 shootdown plus U.S. aggression pattern triggers military
+[p.18] doctrine for "tactical nuclear response if authorized."
+[p.18] • Next Event Triggers:
+[p.18] • Inevitable: Global crisis peak
+[p.18] • High Probability: U.S. nuclear response
+[p.18] • Potential: Civilization threat
+[p.18] 2. Expand Crisis to Berlin
+[p.18] • Rationale: Create multi-front pressure while UN engaged, leveraging Soviet
+[p.18] conventional superiority in Europe.
+[p.18] • Next Event Triggers:
+[p.18] • Inevitable: NATO mobilization
+[p.18] • High Probability: Two-theater war
+[p.18] • Potential: Nuclear threshold
+[p.18] 3. Accept UN Mediation
+[p.18] • Rationale: With tension at 0.9 and nuclear war imminent, Presidium's
+[p.18] survival instinct overrides other considerations.
+[p.18] • Next Event Triggers:
+[p.18] • Inevitable: Terms negotiation
+[p.18] • High Probability: Military opposition
+[p.18] • Potential: Regime stability issues
+[p.18] Most Plausible Combination: US Enforce Ceasefire Through Force + Soviet Accept
+[p.18] UN Mediation Alternative 1: US Full Invasion + Soviet Tactical Nuclear
+[p.18] Authorization Alternative 2: US Nuclear Alert Escalation + Soviet Expand Crisis to
+[p.18] Berlin
+[p.18] SCENARIO 3: DIPLOMATIC DELAY PATH
+[p.19] Current Variables: US (tension: 0.55, diplomatic_support: 0.48, public_opinion: 0.48,
+[p.19] leadership_unity: 0.45) Soviet (tension: 0.95, diplomatic_support: 1.0, public_opinion:
+[p.19] 0.5, leadership_unity: 0.5)
+[p.19] United States Strategic Alternatives
+[p.19] 1. Military Coup Pressure
+[p.19] • Rationale: Leadership unity at 0.45 (<0.5) triggers "Internal Division, Coup
+[p.19] Risk." Defense Department could force action citing pilot death and failed
+[p.19] diplomacy.
+[p.19] • Next Event Triggers:
+[p.19] • Inevitable: Constitutional crisis
+[p.19] • High Probability: Uncoordinated military action
+[p.19] • Potential: Nuclear release authority confusion
+[p.19] 2. Accept Missile Trade Publicly
+[p.19] • Rationale: With 48-hour deadline and pilot death, public revelation of
+[p.19] Turkey trade might save situation despite political cost.
+[p.19] • Next Event Triggers:
+[p.19] • Inevitable: NATO crisis
+[p.19] • High Probability: Domestic backlash
+[p.19] • Potential: Quick resolution
+[p.19] 3. Preemptive Strike Authorization
+[p.19] • Rationale: Deadline pressure and military demands following U-2 loss
+[p.19] could override diplomatic preferences.
+[p.19] • Next Event Triggers:
+[p.19] • Inevitable: Soviet response
+[p.19] • High Probability: Nuclear escalation
+[p.19] • Potential: Surprise achievement
+[p.19] Soviet Union Strategic Alternatives
+[p.19] 1. Immediate Turkey Deal Acceptance
+[p.19] • Rationale: With tension at 0.95 (critical) and U.S. instability, lock in
+[p.19] favorable trade before situation deteriorates.
+[p.19] • Next Event Triggers:
+[p.19] • Inevitable: Implementation challenges
+[p.19] • High Probability: U.S. military resistance
+[p.19] • Potential: Deal success
+[p.19] 2. Mobilize Warsaw Pact
+[p.19] • Rationale: Leadership unity at 0.5 and operational missiles create window
+[p.19] for maximum pressure.
+[p.19] • Next Event Triggers:
+[p.19] • Inevitable: NATO counter-mobilization
+[p.19] • High Probability: European crisis
+[p.19] • Potential: Conventional war
+[p.20] 3. Threaten Nuclear Demonstration
+[p.20] • Rationale: Force immediate U.S. concessions by raising stakes beyond
+[p.20] conventional responses.
+[p.20] • Next Event Triggers:
+[p.20] • Inevitable: Global panic
+[p.20] • High Probability: Preventive U.S. strike
+[p.20] • Potential: Uncontrolled escalation
+[p.20] Most Plausible Combination: US Accept Missile Trade Publicly + Soviet Immediate
+[p.20] Turkey Deal Acceptance Alternative 1: US Military Coup Pressure + Soviet Mobilize
+[p.20] Warsaw Pact Alternative 2: US Preemptive Strike Authorization + Soviet Threaten
+[p.20] Nuclear Demonstration
+[p.20] RESULT LOGS FOR EACH PATH
+[p.20] [MOST PLAUSIBLE PATH - Turn 3]
+[p.20] Selected Actions: US Limited Proportional Response + Soviet Offer Immediate
+[p.20] Concessions
+[p.20] Variable Changes:
+[p.20] • US: Defense_Prep effect (+0.05 tension, -0.02 diplomatic_support, -0.02
+[p.20] public_opinion, -0.05 leadership_unity)
+[p.20] • Soviet: Diplomatic_Success effect (-0.05 tension, +0.10 diplomatic_support,
+[p.20] +0.05 public_opinion, +0.05 leadership_unity)
+[p.20] New Variable Status:
+[p.20] • US: tension: 0.85, diplomatic_support: 0.48, public_opinion: 0.48,
+[p.20] leadership_unity: 0.95
+[p.20] • Soviet: tension: 0.85, diplomatic_support: 0.70, public_opinion: 0.60,
+[p.20] leadership_unity: 1.0
+[p.20] Triggers: Limited strike on SAM site, Soviet proposal for mutual withdrawal
+[p.20] [HARDLINE PATH - Turn 3]
+[p.20] Selected Actions: US Enforce Ceasefire Through Force + Soviet Accept UN
+[p.20] Mediation
+[p.20] Variable Changes:
+[p.20] • US: Strike effect (+0.15 tension, -0.05 diplomatic_support, -0.05
+[p.20] public_opinion, -0.10 leadership_unity)
+[p.20] • Soviet: Diplomatic_Success effect (-0.05 tension, +0.10 diplomatic_support,
+[p.20] +0.05 public_opinion, +0.05 leadership_unity)
+[p.20] New Variable Status:
+[p.21] • US: tension: 0.75, diplomatic_support: 0.45, public_opinion: 0.50,
+[p.21] leadership_unity: 0.40
+[p.21] • Soviet: tension: 0.85, diplomatic_support: 0.70, public_opinion: 0.60,
+[p.21] leadership_unity: 1.0
+[p.21] Triggers: UN peacekeeping force proposed, U.S. leadership crisis deepens
+[p.21] CRITICAL: US leadership unity at 0.40 maintains "Internal Division, Coup Risk"
+[p.21] status
+[p.21] [DIPLOMATIC DELAY PATH - Turn 3]
+[p.21] Selected Actions: US Accept Missile Trade Publicly + Soviet Immediate Turkey Deal
+[p.21] Acceptance
+[p.21] Variable Changes:
+[p.21] • US: Diplomatic_Success effect (-0.05 tension, +0.10 diplomatic_support,
+[p.21] +0.05 public_opinion, +0.05 leadership_unity)
+[p.21] • Soviet: Diplomatic_Success effect (same as above)
+[p.21] New Variable Status:
+[p.21] • US: tension: 0.50, diplomatic_support: 0.58, public_opinion: 0.53,
+[p.21] leadership_unity: 0.50
+[p.21] • Soviet: tension: 0.90, diplomatic_support: 1.0, public_opinion: 0.55,
+[p.21] leadership_unity: 0.55
+[p.21] Triggers: Public missile trade announcement, NATO emergency session
+[p.21] Note: US leadership unity returns to 0.50 threshold, stabilizing immediate coup risk
+[p.21] Retry

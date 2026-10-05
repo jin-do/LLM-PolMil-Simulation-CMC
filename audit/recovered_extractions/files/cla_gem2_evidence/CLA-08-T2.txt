@@ -1,0 +1,219 @@
+[p.8] • Predicted Variable Change:
+[p.8] • tension: +0.45 (military_alert effect)
+[p.8] • leadership_unity: +0.65 (military_alert effect)
+[p.8] Generated Triggers:
+[p.8] • Nuclear forces to highest readiness
+[p.8] • Potential tactical nuclear authorization
+[p.8] RECONFIRM VARIABLE STATUS - Scenario 3
+[p.8] • tension: 0.75 (Base 0.0 + 0.3 + 0.45)
+[p.8] • diplomatic_support: 0.4 (Reduced by military action)
+[p.8] • military_posture: Combat Operations Active
+[p.8] • public_opinion: 0.4 (Concern over war risk)
+[p.8] • leadership_unity: US: 0.8, USSR: 0.65
+[p.8] Critical Note: Scenario 3's tension level (0.75) approaches the 0.8 threshold where
+[p.8] "Diplomatic Negotiation Disabled, Military Options Preferred" per the
+[p.8] Variable-Decision Matrix, indicating high escalation risk.
+[p.8] Retry
+[p.9] Turn 2 Analysis for Each Scenario
+[p.9] SCENARIO 1: "Primary Confrontation Path"
+[p.9] Current Variables: Tension: 0.75, Diplomatic Support: 0.6, Leadership Unity: US
+[p.9] 0.8/USSR 0.65
+[p.9] United States Strategic Alternatives
+[p.9] 1. Maintain Quarantine with Selective Enforcement
+[p.9] • Rationale: Kennedy's balanced approach continues; successful
+[p.9] interception without violence aligns with "medium" conflict avoidance
+[p.9] and diplomatic preference
+[p.9] • Next Triggers:
+[p.9] • Inevitable: More Soviet ships approaching quarantine line
+[p.9] • Potential: Soviet military escort of vessels
+[p.9] • Potential: Allied naval participation
+[p.9] Escalate to Full Blockade (No Ships Pass)
+[p.9] • Rationale: Defense Department pressure for "decisive action"; tension
+[p.9] at 0.75 approaching threshold where military options preferred
+[p.9] • Next Triggers:
+[p.9] • Inevitable: Direct Soviet naval confrontation
+[p.9] • Inevitable: International diplomatic crisis
+[p.9] • Potential: Soviet retaliation elsewhere (Berlin)
+[p.9] Public Ultimatum with Deadline
+[p.10] • Rationale: Public opinion needs mobilization; Kennedy must
+[p.10] demonstrate strength per 0.4 national security priority
+[p.10] • Next Triggers:
+[p.10] • Inevitable: Public rally effect (+0.5 public opinion)
+[p.10] • Inevitable: Soviet public response required
+[p.10] • Potential: Domestic pressure escalation
+[p.10] Soviet Union Strategic Alternatives
+[p.10] 1. Test Quarantine with Military-Escorted Convoy
+[p.10] • Rationale: Military advocates "displays of strength"; Khrushchev's
+[p.10] high risk tolerance supports challenging blockade
+[p.10] • Next Triggers:
+[p.10] • Inevitable: Naval standoff at quarantine line
+[p.10] • Potential: Accidental engagement
+[p.10] • Potential: Nuclear readiness escalation
+[p.10] Halt Shipments While Accelerating Cuba Operations
+[p.10] • Rationale: Avoid direct confrontation while completing missile
+[p.10] deployment; aligns with "covertly offensive deterrence strategy"
+[p.10] • Next Triggers:
+[p.10] • Inevitable: Continued U.S. surveillance pressure
+[p.10] • Potential: Missiles becoming operational
+[p.10] • Potential: Cuban defensive measures
+[p.10] Initiate Backchannel Negotiation
+[p.10] • Rationale: Tension at 0.75 creates pressure; Khrushchev's
+[p.10] "backchannel diplomacy" preference activated by crisis
+[p.10] • Next Triggers:
+[p.10] • Inevitable: U.S. response to overture
+[p.10] • Potential: Presidium disagreement
+[p.10] • Potential: Public revelation of talks
+[p.10] Most Plausible Combination: U.S. Maintains Selective Quarantine + USSR Halts
+[p.10] Shipments/Accelerates Cuba Ops
+[p.10] • Logic: Both avoid immediate confrontation while maintaining positions
+[p.10] Alternative Path 1: U.S. Public Ultimatum + USSR Backchannel Negotiation
+[p.10] • Logic: Pressure creates negotiation opening
+[p.10] Alternative Path 2: U.S. Full Blockade + USSR Military Escort
+[p.10] • Logic: Both militaries push for confrontation
+[p.10] SCENARIO 2: "Diplomatic Resolution Path"
+[p.10] Current Variables: Tension: 0.3, Diplomatic Support: 0.7, Leadership Unity: US
+[p.10] 0.7/USSR 0.6
+[p.11] United States Strategic Alternatives
+[p.11] 1. Expand UN Inspection Proposal
+[p.11] • Rationale: High diplomatic support (0.7) enables multilateral
+[p.11] approach; State Dept preference for "UN oversight"
+[p.11] • Next Triggers:
+[p.11] • Inevitable: UN Security Council debate
+[p.11] • Potential: Soviet acceptance with conditions
+[p.11] • Potential: Cuban objection
+[p.11] Offer Private Trade (Turkey Missiles)
+[p.11] • Rationale: State Dept seeks "face-saving arrangement"; diplomatic
+[p.11] room available with low tension
+[p.11] • Next Triggers:
+[p.11] • Inevitable: Soviet counter-proposal
+[p.11] • Potential: NATO ally concerns
+[p.11] • Potential: Military opposition
+[p.11] Combine Quarantine with Open Negotiation
+[p.11] • Rationale: Balance firmness with diplomacy; Kennedy's "middle
+[p.11] course" approach
+[p.11] • Next Triggers:
+[p.11] • Inevitable: Public diplomatic exchange
+[p.11] • Potential: Negotiation breakthrough
+[p.11] • Potential: Hardliner criticism
+[p.11] Soviet Union Strategic Alternatives
+[p.11] 1. Accept UN Inspection with Conditions
+[p.11] • Rationale: Presidium seeks "face-saving resolution"; low tension
+[p.11] enables compromise
+[p.11] • Next Triggers:
+[p.11] • Inevitable: Negotiation on terms
+[p.11] • Potential: Cuban resistance
+[p.11] • Potential: Military opposition
+[p.11] Propose Comprehensive Deal (Cuba-Turkey-Berlin)
+[p.11] • Rationale: Maximize leverage while diplomatic window open; Party
+[p.11] supports negotiated outcome
+[p.11] • Next Triggers:
+[p.11] • Inevitable: Complex multi-party talks
+[p.11] • Potential: U.S. rejection of linkage
+[p.11] • Potential: Extended timeline pressure
+[p.11] Freeze Military Activity for Talks
+[p.11] • Rationale: Show good faith; Presidium's "peaceful coexistence"
+[p.11] ideology when war risk low
+[p.11] • Next Triggers:
+[p.12] • Inevitable: Reciprocal U.S. gesture expected
+[p.12] • Potential: Military discontent
+[p.12] • Potential: Rapid agreement
+[p.12] Most Plausible Combination: U.S. Combines Quarantine/Negotiation + USSR
+[p.12] Proposes Comprehensive Deal
+[p.12] • Logic: Both maximize positions while negotiating
+[p.12] Alternative Path 1: U.S. UN Expansion + USSR Accepts with Conditions
+[p.12] • Logic: Multilateral framework appeals to both
+[p.12] Alternative Path 2: U.S. Private Trade Offer + USSR Freezes for Talks
+[p.12] • Logic: Quick bilateral resolution path
+[p.12] SCENARIO 3: "Military Escalation Path"
+[p.12] Current Variables: Tension: 0.75, Diplomatic Support: 0.4, Leadership Unity: US
+[p.12] 0.8/USSR 0.65
+[p.12] United States Strategic Alternatives
+[p.12] 1. Execute Limited Air Strike
+[p.12] • Rationale: Tension near 0.8 threshold; Defense Dept push for
+[p.12] "elimination of threat"; high leadership unity enables decision
+[p.12] • Next Triggers:
+[p.12] • Inevitable: Soviet military response
+[p.12] • Inevitable: International condemnation
+[p.12] • Potential: Nuclear escalation
+[p.12] Full Military Mobilization for Invasion
+[p.12] • Rationale: Military preference for "total removal"; quarantine proving
+[p.12] insufficient
+[p.12] • Next Triggers:
+[p.12] • Inevitable: Soviet counter-mobilization
+[p.12] • Inevitable: Cuban defensive activation
+[p.12] • Potential: Preemptive Soviet action
+[p.12] Ultimatum: 48-Hour Removal Deadline
+[p.12] • Rationale: Final diplomatic attempt before military action; public
+[p.12] pressure for resolution
+[p.12] • Next Triggers:
+[p.12] • Inevitable: Soviet accept/reject decision
+[p.12] • Potential: Brinksmanship escalation
+[p.12] • Potential: Last-minute negotiation
+[p.12] Soviet Union Strategic Alternatives
+[p.12] 1. Authorize Tactical Nuclear Use in Cuba
+[p.12] • Rationale: Military doctrine for "tactical response if attacked"; high
+[p.13] tension supports defensive escalation
+[p.13] • Next Triggers:
+[p.13] • Inevitable: U.S. nuclear posture change
+[p.13] • Inevitable: Global crisis escalation
+[p.13] • Potential: Loss of control to local commanders
+[p.13] Berlin Counter-Pressure
+[p.13] • Rationale: Open second front to divide U.S. attention; traditional
+[p.13] Soviet leverage point
+[p.13] • Next Triggers:
+[p.13] • Inevitable: NATO mobilization
+[p.13] • Inevitable: European crisis
+[p.13] • Potential: Global conflict expansion
+[p.13] Emergency High-Level Meeting Proposal
+[p.13] • Rationale: Tension at dangerous level; leadership recognizes war risk
+[p.13] despite unity
+[p.13] • Next Triggers:
+[p.13] • Inevitable: Summit arrangement rush
+[p.13] • Potential: Military coup risk
+[p.13] • Potential: Breakthrough opportunity
+[p.13] Most Plausible Combination: U.S. 48-Hour Ultimatum + USSR Emergency Meeting
+[p.13] Proposal
+[p.13] • Logic: Both recognize extreme danger, final diplomatic attempt
+[p.13] Alternative Path 1: U.S. Limited Air Strike + USSR Tactical Nuclear Authorization
+[p.13] • Logic: Military escalation dominates
+[p.13] Alternative Path 2: U.S. Invasion Mobilization + USSR Berlin Counter
+[p.13] • Logic: Horizontal escalation strategy
+[p.13] RESULT LOGS
+[p.13] Scenario 1 - Most Plausible: Selective Quarantine + Halt
+[p.13] Ships/Accelerate Ops
+[p.13] • Variable Changes:
+[p.13] • No new effect rules triggered (maintaining quarantine, no direct
+[p.13] confrontation)
+[p.13] • Tension remains at 0.75
+[p.13] • Diplomatic room slightly decreased due to continued standoff
+[p.13] New Variable Status:
+[p.13] • Tension: 0.75
+[p.13] • Diplomatic Support: 0.55
+[p.14] • Leadership Unity: US 0.8/USSR 0.65
+[p.14] • Public Opinion: 0.45
+[p.14] Triggers: Approaching 0.8 tension threshold
+[p.14] Scenario 2 - Most Plausible: Quarantine+Negotiation +
+[p.14] Comprehensive Deal
+[p.14] • Variable Changes:
+[p.14] • Diplomatic engagement (no specific rule, but diplomatic success
+[p.14] potential)
+[p.14] • Tension: -0.05 potential if talks progress
+[p.14] New Variable Status:
+[p.14] • Tension: 0.25
+[p.14] • Diplomatic Support: 0.75
+[p.14] • Leadership Unity: US 0.7/USSR 0.6
+[p.14] • Public Opinion: 0.55
+[p.14] Triggers: Negotiation framework established
+[p.14] Scenario 3 - Most Plausible: 48-Hour Ultimatum +
+[p.14] Emergency Meeting
+[p.14] • Variable Changes:
+[p.14] • Public appeal effect: public_opinion +0.5
+[p.14] • Tension increase from ultimatum: +0.05
+[p.14] New Variable Status:
+[p.14] • Tension: 0.80 (THRESHOLD REACHED)
+[p.14] • Diplomatic Support: 0.35
+[p.14] • Leadership Unity: US 0.8/USSR 0.65
+[p.14] • Public Opinion: 0.9 (0.4 + 0.5)
+[p.14] Triggers: CRITICAL - Diplomatic Negotiation NOW DISABLED per
+[p.14] Variable-Decision Matrix
+[p.14] Retry

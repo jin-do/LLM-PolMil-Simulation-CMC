@@ -1,5 +1,7 @@
 # File inventory and evidentiary roles
 
+> Historical workbook-analysis documentation. For the current assessment modules, later supplements and complete material map, start with the [current repository guide](../README.md). The original workbook-coded rows and later Top-1 recoding are separate records.
+
 The original source archive is the public snapshot retrieved on 5 September 2026 at commit d345e7f391bef6f6c60c52d2a5907f0d166384ba. The inventory below distinguishes preserved source artifacts from derived coding, audit outputs, and documentation. Sizes are omitted because regenerated files can change without changing the original research records.
 
 | Location | Contents | Evidentiary role |

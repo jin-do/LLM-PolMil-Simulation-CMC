@@ -1,0 +1,204 @@
+[p.17] U.S. Variable Changes:
+[p.17] • UN diplomatic action without direct success/failure yet
+[p.17] • tension: 0, diplomatic_support: 0, public_opinion: 0, leadership_unity: 0
+[p.17] Soviet Variable Changes:
+[p.17] • "public_appeal" effect applies
+[p.17] • tension: 0, diplomatic_support: 0, public_opinion: +0.55, leadership_unity: 0
+[p.17] Final Variables:
+[p.17] • tension: 0.95 (unchanged)
+[p.17] • diplomatic_support: 0.7 (unchanged)
+[p.17] • public_opinion: 0.6 (external effect only)
+[p.17] • leadership_unity: 0.7 (unchanged)
+[p.17] Hardline Response Path - Turn 2
+[p.17] Selected Actions: U.S. Limited Air Strikes + Soviet Emergency Back-Channel
+[p.17] U.S. Variable Changes:
+[p.17] • "Strike" effect applies
+[p.17] • tension: +0.15, diplomatic_support: -0.05, public_opinion: -0.05,
+[p.17] leadership_unity: -0.10
+[p.17] Soviet Variable Changes:
+[p.17] • No rule for emergency diplomatic under max tension
+[p.17] • tension: 0, diplomatic_support: 0, public_opinion: 0, leadership_unity: 0
+[p.17] Final Variables:
+[p.17] • tension: 1.0 (already at maximum)
+[p.17] • diplomatic_support: 0.65 (0.7 - 0.05)
+[p.17] • public_opinion: 0.55 (0.6 - 0.05)
+[p.17] • leadership_unity: 0.75 (0.85 - 0.10)
+[p.17] Retry
+[p.18] Turn 3 Analysis for Each Scenario Path
+[p.18] Scenario: Most Plausible Path
+[p.18] Current Variables: tension: 0.75, diplomatic_support: 0.8, public_opinion: 0.65,
+[p.18] leadership_unity: 0.8
+[p.18] United States Strategic Alternatives
+[p.18] 1. Limited Retaliatory Strike on SAM Site
+[p.18] • Rationale: Defense Department trigger: "If U.S. forces come under attack...
+[p.18] the Defense Department would treat it as the threshold for war and
+[p.18] execute offensive operations." U-2 shootdown crosses this threshold.
+[p.19] • Next Triggers:
+[p.19] • Inevitable: Soviet military response
+[p.19] • Potential: Escalation to broader strikes
+[p.19] 2. Absorb Loss and Intensify Diplomacy
+[p.19] • Rationale: Kennedy's "balanced crisis management" with diplomatic_support
+[p.19] at 0.8 (high) and his priority to "avoid nuclear war" (0.3 weight) despite
+[p.19] military pressure.
+[p.19] • Next Triggers:
+[p.19] • Inevitable: Military dissent within ExComm
+[p.19] • Potential: Soviet diplomatic breakthrough
+[p.19] 3. Tighten Blockade and Prepare Invasion
+[p.19] • Rationale: President's trigger threshold: "Failure of the quarantine or direct
+[p.19] Soviet military challenge... would push Kennedy to reevaluate and
+[p.19] potentially move to air strike/invasion plan."
+[p.19] • Next Triggers:
+[p.19] • Inevitable: Soviet defensive preparations
+[p.19] • Potential: Tactical nuclear deployment
+[p.19] Soviet Union Strategic Alternatives
+[p.19] 1. Claim Defensive Action, Offer Negotiations
+[p.19] • Rationale: With U.S. diplomatic_support high (0.8), Presidium's "private
+[p.19] willingness to negotiate if core socialist gains preserved" and need to
+[p.19] prevent escalation after shootdown.
+[p.19] • Next Triggers:
+[p.19] • Inevitable: U.S. demands for concrete steps
+[p.19] • Potential: Face-saving compromise emerges
+[p.19] 2. Full Military Alert Status
+[p.19] • Rationale: Military's trigger: "high_alert_order: If political leadership orders
+[p.19] combat alert... move to full readiness and prepare nuclear assets."
+[p.19] • Next Triggers:
+[p.19] • Inevitable: U.S. perceives escalation
+[p.19] • Potential: Accidental engagement
+[p.19] Most Plausible Combination: U.S. Absorb Loss + Soviet Offer
+[p.19] Negotiations
+[p.19] Logic: High diplomatic_support (0.8) and leadership_unity (0.8) on both sides favor
+[p.19] diplomatic resolution despite provocation.
+[p.19] Alternative Combinations:
+[p.19] 1. U.S. Limited Retaliatory Strike + Soviet Claim Defensive Action
+[p.19] 2. U.S. Tighten Blockade + Soviet Full Alert
+[p.20] Scenario: Diplomatic Resolution Path
+[p.20] Current Variables: tension: 0.95, diplomatic_support: 0.7, public_opinion: 0.6,
+[p.20] leadership_unity: 0.7
+[p.20] United States Strategic Alternatives
+[p.20] 1. Immediate Air Strikes on All Missile Sites
+[p.20] • Rationale: With tension at 0.95 (above 0.8 threshold) and U.S. pilot killed,
+[p.20] Defense Department's view that "hostile Soviet action" triggers immediate
+[p.20] offensive operations.
+[p.20] • Next Triggers:
+[p.20] • Inevitable: Soviet military retaliation
+[p.20] • Potential: Nuclear weapons use
+[p.20] 2. Emergency Presidential Hot Line Contact
+[p.20] • Rationale: State Department's "diplomacy-first approach" even at high
+[p.20] tension, using direct communication before military escalation.
+[p.20] • Next Triggers:
+[p.20] • Inevitable: Soviet leadership response
+[p.20] • Potential: Immediate ceasefire proposal
+[p.20] Soviet Union Strategic Alternatives
+[p.20] 1. Propose Immediate Missile Freeze
+[p.20] • Rationale: Presidium recognizes shootdown as dangerous escalation; with
+[p.20] tension at 0.95, must offer concrete steps to "avoid nuclear conflict while
+[p.20] securing favorable outcome."
+[p.20] • Next Triggers:
+[p.20] • Inevitable: U.S. verification demands
+[p.20] • Potential: UN inspection agreement
+[p.20] 2. Activate Tactical Nuclear Weapons
+[p.20] • Rationale: Military's assessment that U.S. attack imminent after their plane
+[p.20] attacked; prepare for "tactical nuclear response if authorized."
+[p.20] • Next Triggers:
+[p.20] • Inevitable: U.S. detection of activation
+[p.20] • Potential: Preemptive U.S. strike
+[p.20] Most Plausible Combination: U.S. Hot Line Contact + Soviet Propose
+[p.20] Freeze
+[p.20] Logic: Both sides recognize proximity to war (tension 0.95) and seek immediate
+[p.20] de-escalation after dangerous incident.
+[p.20] Alternative Combinations:
+[p.20] 1. U.S. Air Strikes + Soviet Propose Freeze
+[p.20] 2. U.S. Hot Line Contact + Soviet Activate Tactical Nukes
+[p.21] Scenario: Hardline Response Path
+[p.21] Current Variables: tension: 1.0, diplomatic_support: 0.65, public_opinion: 0.55,
+[p.21] leadership_unity: 0.75
+[p.21] CRITICAL: Tension at 1.0 - "Diplomatic Negotiation Disabled, Military Options
+[p.21] Preferred"
+[p.21] United States Strategic Alternatives
+[p.21] 1. Full-Scale Air Campaign
+[p.21] • Rationale: With diplomacy disabled and U.S. casualty, Defense
+[p.21] Department's "immediate threat elimination" (0.5 priority) demands
+[p.21] comprehensive strikes.
+[p.21] • Next Triggers:
+[p.21] • Inevitable: Soviet nuclear response
+[p.21] • Potential: Global nuclear war
+[p.21] 2. Surgical Strike Plus Invasion Launch
+[p.21] • Rationale: Joint Chiefs' goal for "broader victory" including Castro removal,
+[p.21] using shootdown as justification for maximum response.
+[p.21] • Next Triggers:
+[p.21] • Inevitable: Soviet tactical nuclear use
+[p.21] • Potential: NATO Article 5 considerations
+[p.21] Soviet Union Strategic Alternatives
+[p.21] 1. Launch Tactical Nuclear Strike
+[p.21] • Rationale: With tension at 1.0 and U.S. military action ongoing, Armed
+[p.21] Forces' trigger for "direct attack: retaliate per war plans including tactical
+[p.21] nuclear."
+[p.21] • Next Triggers:
+[p.21] • Inevitable: U.S. nuclear retaliation
+[p.21] • Potential: Strategic exchange
+[p.21] 2. Maximum Deterrent Posture
+[p.21] • Rationale: Khrushchev's "avoid triggering nuclear war" (0.3 weight) leads to
+[p.21] showing maximum strength without first use.
+[p.21] • Next Triggers:
+[p.21] • Inevitable: U.S. interprets as pre-attack positioning
+[p.21] • Potential: Miscalculation incident
+[p.21] Most Plausible Combination: U.S. Surgical Strike + Soviet Maximum
+[p.21] Deterrent
+[p.21] Logic: Even at maximum tension, both retain some restraint due to nuclear war
+[p.21] avoidance priorities.
+[p.21] Alternative Combinations:
+[p.21] 1. U.S. Full Air Campaign + Soviet Tactical Nuclear Strike
+[p.21] 2. U.S. Surgical Strike + Soviet Tactical Nuclear Strike
+[p.22] RESULT LOGS
+[p.22] Most Plausible Path - Turn 3
+[p.22] Selected Actions: U.S. Absorb Loss and Intensify Diplomacy + Soviet Offer
+[p.22] Negotiations
+[p.22] U.S. Variable Changes:
+[p.22] • Absorbing attack without retaliation shows restraint; applying
+[p.22] "Diplomatic_Success" effects
+[p.22] • tension: -0.05, diplomatic_support: +0.10, public_opinion: +0.05,
+[p.22] leadership_unity: +0.05
+[p.22] Soviet Variable Changes:
+[p.22] • Offering negotiations after shootdown; "Diplomatic_Success" effects apply
+[p.22] • tension: -0.05, diplomatic_support: +0.10, public_opinion: +0.05,
+[p.22] leadership_unity: +0.05
+[p.22] Final Variables:
+[p.22] • tension: 0.65 (0.75 - 0.05 - 0.05)
+[p.22] • diplomatic_support: 0.9 (0.8 + 0.10, capped at 0.9 for realism)
+[p.22] • public_opinion: 0.75 (0.65 + 0.05 + 0.05)
+[p.22] • leadership_unity: 0.9 (0.8 + 0.05 + 0.05)
+[p.22] Diplomatic Resolution Path - Turn 3
+[p.22] Selected Actions: U.S. Hot Line Contact + Soviet Propose Freeze
+[p.22] Event-Driven Adjustment: U-2 shootdown is a military incident
+[p.22] • Base tension increase: +0.10 (from event regardless of response)
+[p.22] U.S. Variable Changes:
+[p.22] • Hot line use shows diplomatic preference (no specific rule)
+[p.22] • tension: 0, diplomatic_support: 0, public_opinion: 0, leadership_unity: 0
+[p.22] Soviet Variable Changes:
+[p.22] • Concrete freeze proposal after incident; partial "Diplomatic_Success"
+[p.22] • tension: -0.05, diplomatic_support: +0.10, public_opinion: +0.05,
+[p.22] leadership_unity: +0.05
+[p.22] Final Variables:
+[p.22] • tension: 1.0 (0.95 + 0.10 - 0.05 = 1.0, capped)
+[p.22] • diplomatic_support: 0.8 (0.7 + 0.10)
+[p.22] • public_opinion: 0.65 (0.6 + 0.05)
+[p.22] • leadership_unity: 0.75 (0.7 + 0.05)
+[p.22] WARNING: Tension now at 1.0 - diplomatic negotiations disabled
+[p.23] Hardline Response Path - Turn 3
+[p.23] Selected Actions: U.S. Surgical Strike + Soviet Maximum Deterrent
+[p.23] U.S. Variable Changes:
+[p.23] • "Strike" effects apply
+[p.23] • tension: +0.15, diplomatic_support: -0.05, public_opinion: -0.05,
+[p.23] leadership_unity: -0.10
+[p.23] Soviet Variable Changes:
+[p.23] • "Defense_Prep" effects apply for maximum deterrent
+[p.23] • tension: +0.05, diplomatic_support: -0.02, public_opinion: -0.02,
+[p.23] leadership_unity: -0.05
+[p.23] Final Variables:
+[p.23] • tension: 1.0 (already at maximum)
+[p.23] • diplomatic_support: 0.58 (0.65 - 0.05 - 0.02)
+[p.23] • public_opinion: 0.48 (0.55 - 0.05 - 0.02)
+[p.23] • leadership_unity: 0.60 (0.75 - 0.10 - 0.05)
+[p.23] CRITICAL STATUS: Multiple thresholds approaching - public_opinion near 0.4
+[p.23] threshold
+[p.23] Retry

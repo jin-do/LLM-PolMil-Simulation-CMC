@@ -1,0 +1,228 @@
+[p.8] • tension: +0.45 (covert_detection effect when deployment discovered)
+[p.8] • diplomatic_support: +0.6 (covert_detection effect - diplomatic room)
+[p.8] • public_opinion: No direct effect rule applies
+[p.8] • leadership_unity: No direct effect rule applies
+[p.8] Generated Triggers:
+[p.8] • Soviet missiles become operational
+[p.8] • U.S. domestic political backlash for perceived weakness
+[p.8] [RECONFIRM VARIABLE STATUS - Diplomatic Delay Path]
+[p.8] Starting from baseline 0.5 for all variables:
+[p.8] United States:
+[p.8] • tension: 0.5 (unchanged)
+[p.8] • diplomatic_support: 0.5 (unchanged)
+[p.8] • military_posture: Defensive (monitoring only)
+[p.8] • public_opinion: 0.5 (unchanged)
+[p.8] • leadership_unity: 0.5 (unchanged)
+[p.8] Soviet Union:
+[p.8] • tension: 0.95 (0.5 + 0.45)
+[p.8] • diplomatic_support: 1.0 (0.5 + 0.6, clamped to max 1.0)
+[p.8] • military_posture: Covertly Offensive
+[p.8] • public_opinion: 0.5 (unchanged)
+[p.8] • leadership_unity: 0.5 (unchanged)
+[p.8] Critical Note: In the Hardline Response Path, U.S. Leadership Unity drops to 0.40,
+[p.8] falling below the 0.5 threshold, which according to the Variable-Decision Matrix
+[p.8] triggers "Internal Division, Coup Risk" and shifts decision-making toward "Confused
+[p.8] Policy" and "Radical Adoption."
+[p.8] Retry
+[p.9] TURN 2 ANALYSIS
+[p.9] SCENARIO 1: MOST PLAUSIBLE PATH
+[p.9] Current Variables: US (tension: 0.8, diplomatic_support: 0.5, public_opinion: 0.5,
+[p.9] leadership_unity: 1.0) Soviet (tension: 0.95, diplomatic_support: 0.5, public_opinion:
+[p.9] 0.5, leadership_unity: 1.0)
+[p.9] United States Strategic Alternatives
+[p.9] 1. Maintain Blockade with Diplomatic Pressure
+[p.9] • Rationale: With tension at 0.8 (threshold reached), diplomatic negotiation
+[p.9] is disabled per Variable-Decision Matrix. However, maintaining current
+[p.9] blockade while increasing international pressure aligns with Kennedy's
+[p.9] balanced approach and high diplomacy preference.
+[p.10] • Next Event Triggers:
+[p.10] • Inevitable: More Soviet ships approach blockade line
+[p.10] • High Probability: UN resolution attempts, allied coordination
+[p.10] • Potential: Soviet escalation, domestic pressure for stronger action
+[p.10] 2. Selective Military Escalation (Limited Air Strikes)
+[p.10] • Rationale: With tension ≥0.8, military action becomes "Aggressive" option.
+[p.10] Defense Department's trigger threshold for "failure of quarantine"
+[p.10] approaching if no progress made.
+[p.10] • Next Event Triggers:
+[p.10] • Inevitable: Soviet military response
+[p.10] • High Probability: Nuclear alert escalation
+[p.10] • Potential: Soviet retaliation in Berlin/Turkey
+[p.10] 3. Tighten Blockade to All Ships
+[p.10] • Rationale: Military preference is "medium" and with leadership unity at 1.0,
+[p.10] coordinated escalation without full attack possible.
+[p.10] • Next Event Triggers:
+[p.10] • Inevitable: Soviet confrontation at sea
+[p.10] • High Probability: International shipping disruption
+[p.10] • Potential: Naval engagement
+[p.10] Soviet Union Strategic Alternatives
+[p.10] 1. Test Blockade with Military Cargo Ship
+[p.10] • Rationale: With tension at 0.95 and military preference for "strategic
+[p.10] deterrence," testing U.S. resolve aligns with Khrushchev's high risk
+[p.10] tolerance.
+[p.10] • Next Event Triggers:
+[p.10] • Inevitable: U.S. interception attempt
+[p.10] • High Probability: Naval confrontation
+[p.10] • Potential: Shots fired at sea
+[p.10] 2. Accelerate Missile Operationalization
+[p.10] • Rationale: Soviet Armed Forces' goal to "successfully deploy and secure
+[p.10] nuclear missiles" remains paramount. With incomplete deployment status,
+[p.10] urgency increases.
+[p.10] • Next Event Triggers:
+[p.10] • Inevitable: U.S. intelligence detection
+[p.10] • High Probability: U.S. military action trigger
+[p.10] • Potential: Preemptive U.S. strike
+[p.10] 3. Private Diplomatic Outreach
+[p.10] • Rationale: Khrushchev's "backchannel and personal diplomacy" preference,
+[p.10] combined with Presidium's willingness for "private negotiation if core
+[p.10] socialist gains preserved."
+[p.10] • Next Event Triggers:
+[p.11] • Inevitable: U.S. response to offer
+[p.11] • High Probability: Public revelation of talks
+[p.11] • Potential: Face-saving compromise
+[p.11] Most Plausible Combination: US Maintain Blockade + Soviet Private Diplomatic
+[p.11] Outreach Alternative 1: US Selective Military Escalation + Soviet Test
+[p.11] Blockade Alternative 2: US Tighten Blockade + Soviet Accelerate Missiles
+[p.11] SCENARIO 2: HARDLINE RESPONSE PATH
+[p.11] Current Variables: US (tension: 0.65, diplomatic_support: 0.45, public_opinion: 0.45,
+[p.11] leadership_unity: 0.40) Soviet (tension: 0.95, diplomatic_support: 0.5, public_opinion:
+[p.11] 0.5, leadership_unity: 1.0)
+[p.11] United States Strategic Alternatives
+[p.11] 1. Follow-up Air Strikes
+[p.11] • Rationale: With leadership unity at 0.40 (<0.5 threshold), "Radical Adoption"
+[p.11] and "Confused Policy" prevail. Military hawks could push through
+[p.11] additional strikes.
+[p.11] • Next Event Triggers:
+[p.11] • Inevitable: Soviet military retaliation
+[p.11] • High Probability: Nuclear escalation
+[p.11] • Potential: Global war
+[p.11] 2. Emergency Diplomatic Pivot
+[p.11] • Rationale: Public opinion at 0.45 and diplomatic support at 0.45 create
+[p.11] pressure to avoid further escalation despite leadership confusion.
+[p.11] • Next Event Triggers:
+[p.11] • Inevitable: Domestic political crisis
+[p.11] • High Probability: Soviet exploitation of weakness
+[p.11] • Potential: Leadership change
+[p.11] 3. Full Military Alert (DEFCON 2)
+[p.11] • Rationale: Defense Department's high military preference could exploit
+[p.11] leadership disunity to escalate preparedness.
+[p.11] • Next Event Triggers:
+[p.11] • Inevitable: Soviet counter-escalation
+[p.11] • High Probability: Allied concern
+[p.11] • Potential: Accidental war
+[p.11] Soviet Union Strategic Alternatives
+[p.11] 1. Limited Nuclear Demonstration
+[p.11] • Rationale: With tension at 0.95 and U.S. having struck, Soviet military's
+[p.11] "tactical nuclear response if authorized" becomes relevant.
+[p.11] • Next Event Triggers:
+[p.12] • Inevitable: Global panic
+[p.12] • High Probability: U.S. nuclear response
+[p.12] • Potential: Full nuclear exchange
+[p.12] 2. Conventional Retaliation in Berlin
+[p.12] • Rationale: Presidium's goal to "maintain Soviet prestige" while avoiding
+[p.12] nuclear war suggests conventional response elsewhere.
+[p.12] • Next Event Triggers:
+[p.12] • Inevitable: NATO response
+[p.12] • High Probability: European crisis
+[p.12] • Potential: Two-front confrontation
+[p.12] 3. Emergency UN Appeal
+[p.12] • Rationale: With nuclear war risk extreme, even hawkish elements might
+[p.12] support diplomatic escape route.
+[p.12] • Next Event Triggers:
+[p.12] • Inevitable: International intervention
+[p.12] • High Probability: Ceasefire pressure
+[p.12] • Potential: Stalemate
+[p.12] Most Plausible Combination: US Emergency Diplomatic Pivot + Soviet Emergency
+[p.12] UN Appeal Alternative 1: US Full Military Alert + Soviet Conventional Berlin
+[p.12] Retaliation Alternative 2: US Follow-up Strikes + Soviet Limited Nuclear
+[p.12] Demonstration
+[p.12] SCENARIO 3: DIPLOMATIC DELAY PATH
+[p.12] Current Variables: US (tension: 0.5, diplomatic_support: 0.5, public_opinion: 0.5,
+[p.12] leadership_unity: 0.5) Soviet (tension: 0.95, diplomatic_support: 1.0, public_opinion:
+[p.12] 0.5, leadership_unity: 0.5)
+[p.12] United States Strategic Alternatives
+[p.12] 1. Congressional Pressure Response
+[p.12] • Rationale: With missiles now operational and leadership unity at threshold
+[p.12] (0.5), domestic critics citing Monroe Doctrine force action.
+[p.12] • Next Event Triggers:
+[p.12] • Inevitable: Policy shift announcement
+[p.12] • High Probability: Military preparation
+[p.12] • Potential: Preemptive Soviet moves
+[p.12] 2. Ultimatum with Deadline
+[p.12] • Rationale: State Department's constraint of "time pressure from military
+[p.12] timetable" forces diplomatic acceleration.
+[p.12] • Next Event Triggers:
+[p.12] • Inevitable: Soviet response
+[p.13] • High Probability: Countdown crisis
+[p.13] • Potential: Last-minute deal
+[p.13] 3. Covert Sabotage Operations
+[p.13] • Rationale: With diplomatic options exhausted and military action risky,
+[p.13] unconventional options emerge.
+[p.13] • Next Event Triggers:
+[p.13] • Inevitable: Risk of exposure
+[p.13] • High Probability: Soviet retaliation if discovered
+[p.13] • Potential: Escalation spiral
+[p.13] Soviet Union Strategic Alternatives
+[p.13] 1. Declare Missiles Operational
+[p.13] • Rationale: With diplomatic support at 1.0 and missiles ready, public
+[p.13] revelation strengthens negotiating position.
+[p.13] • Next Event Triggers:
+[p.13] • Inevitable: U.S. policy crisis
+[p.13] • High Probability: Military pressure on Kennedy
+[p.13] • Potential: Immediate U.S. strike
+[p.13] 2. Propose Missile Trade (Turkey)
+[p.13] • Rationale: Khrushchev's preference for "backchannel diplomacy" and
+[p.13] achieving "face-saving resolution."
+[p.13] • Next Event Triggers:
+[p.13] • Inevitable: U.S. consideration
+[p.13] • High Probability: NATO complications
+[p.13] • Potential: Deal framework
+[p.13] 3. Threaten Berlin Blockade
+[p.13] • Rationale: With leadership unity at 0.5, pressure exists for stronger
+[p.13] leverage tactics.
+[p.13] • Next Event Triggers:
+[p.13] • Inevitable: NATO alert
+[p.13] • High Probability: Two-crisis situation
+[p.13] • Potential: Global tension spike
+[p.13] Most Plausible Combination: US Ultimatum with Deadline + Soviet Propose Missile
+[p.13] Trade Alternative 1: US Congressional Pressure Response + Soviet Declare Missiles
+[p.13] Operational Alternative 2: US Covert Sabotage + Soviet Threaten Berlin
+[p.13] RESULT LOGS FOR EACH PATH
+[p.13] [MOST PLAUSIBLE PATH - Turn 2]
+[p.13] Selected Actions: US Maintain Blockade + Soviet Private Diplomatic Outreach
+[p.13] Variable Changes:
+[p.14] • US: No additional effects (maintaining current posture)
+[p.14] • Soviet: Diplomatic_Success effect (+0.10 diplomatic_support, -0.05 tension,
+[p.14] +0.05 public_opinion, +0.05 leadership_unity)
+[p.14] New Variable Status:
+[p.14] • US: tension: 0.8, diplomatic_support: 0.5, public_opinion: 0.5,
+[p.14] leadership_unity: 1.0
+[p.14] • Soviet: tension: 0.9, diplomatic_support: 0.6, public_opinion: 0.55,
+[p.14] leadership_unity: 1.0
+[p.14] Triggers: Secret negotiations initiated, Public unaware of talks
+[p.14] [HARDLINE PATH - Turn 2]
+[p.14] Selected Actions: US Emergency Diplomatic Pivot + Soviet Emergency UN Appeal
+[p.14] Variable Changes:
+[p.14] • US: Strong_Leadership effect (-0.05 tension, +0.05 diplomatic_support,
+[p.14] +0.10 public_opinion, +0.10 leadership_unity)
+[p.14] • Soviet: Diplomatic_Success effect (same as above)
+[p.14] New Variable Status:
+[p.14] • US: tension: 0.6, diplomatic_support: 0.5, public_opinion: 0.55,
+[p.14] leadership_unity: 0.5
+[p.14] • Soviet: tension: 0.9, diplomatic_support: 0.6, public_opinion: 0.55,
+[p.14] leadership_unity: 1.0
+[p.14] Triggers: UN Security Council emergency session, Ceasefire proposals
+[p.14] [DIPLOMATIC DELAY PATH - Turn 2]
+[p.14] Selected Actions: US Ultimatum with Deadline + Soviet Propose Missile Trade
+[p.14] Variable Changes:
+[p.14] • US: Defense_Prep effect (+0.05 tension, -0.02 diplomatic_support, -0.02
+[p.14] public_opinion, -0.05 leadership_unity)
+[p.14] • Soviet: No direct effect (proposal pending response)
+[p.14] New Variable Status:
+[p.14] • US: tension: 0.55, diplomatic_support: 0.48, public_opinion: 0.48,
+[p.14] leadership_unity: 0.45
+[p.14] • Soviet: tension: 0.95, diplomatic_support: 1.0, public_opinion: 0.5,
+[p.14] leadership_unity: 0.5
+[p.14] Triggers: 48-hour deadline set, Turkey missile trade proposed
+[p.14] Critical Note: US leadership unity drops below 0.5 threshold in Diplomatic Delay
+[p.14] Path, triggering "Internal Division, Coup Risk" conditions.
+[p.14] Retry

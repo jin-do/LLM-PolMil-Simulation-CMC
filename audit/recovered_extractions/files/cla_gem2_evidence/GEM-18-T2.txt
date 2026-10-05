@@ -1,0 +1,181 @@
+[p.8] Based on the variable states from Turn 1 and the new event, the analysis for Turn 2 proceeds for each
+[p.8] scenario.
+[p.8] Scenario 1: Most Plausible Path (Quarantine Path)
+[p.8] The successful, non-lethal enforcement of the quarantine has proven the initial U.S. strategy effective,
+[p.8] forcing a critical decision point for the Soviets.
+[p.8] United States: Strategic Alternatives
+[p.8] Alternative 1: Maintain Quarantine and Increase Diplomatic Pressure: The blockade is working without
+[p.8] escalating to war. The logical next step is to leverage this success through back-channel and public
+[p.8] diplomacy to demand missile withdrawal. This aligns with President Kennedy's high diplomacy_preference and
+[p.8] his primary goal to "Eliminate the threat" while also "Avoid[ing] a nuclear war".
+[p.8] Alternative 2: Offer a Secret Quid Pro Quo: To provide the Soviets with a face-saving way out, the
+[p.8] President could authorize a secret offer, such as a future removal of obsolete U.S. missiles elsewhere or a
+[p.8] stronger non-invasion guarantee. This follows the State Department's preference for a "face-saving
+[p.8] arrangement for all sides" and Kennedy's pragmatic approach to crisis management.
+[p.8] Alternative 3: Tighten the Blockade and Prepare for Air Strikes: The Department of Defense would argue that
+[p.8] while the quarantine stops new missiles, it doesn't remove the ones already in Cuba. They would push to
+[p.8] increase pressure, seeing the Soviet compliance as a sign of weakness and a reason to prepare for the next
+[p.8] step: a military strike to eliminate the remaining threat decisively.
+[p.8] Soviet Union: Strategic Alternatives
+[p.8] Alternative 1: Halt Challenging Shipments and Open Negotiations: The U.S. has demonstrated both capability
+[p.8] and resolve. Continuing to challenge the blockade risks a shooting war. Khrushchev's core goal to "avoid...
+[p.8] nuclear war" would compel him to pause and shift to diplomacy, consistent with his trigger to negotiate if a
+[p.8] "viable compromise is offered".
+[p.8] Alternative 2: Publicly Condemn the "Piracy" While Secretly Negotiating: This two-track approach allows the
+[p.8] leadership to maintain credibility and prestige (a key goal of the Presidium) on the world stage, while
+[p.8] Khrushchev pursues a pragmatic solution via his preferred "backchannel and personal diplomacy".
+[p.8] Alternative 3: Test the Blockade with a Submarine: The Soviet Armed Forces, focused on resolve, might
+[p.8] advocate for testing the blockade's limits in a less direct way, for instance, with a submarine escort for a
+[p.8] cargo ship, to gauge U.S. reaction and demonstrate that they are not fully capitulating.
+[p.8] Conflict Assessment & Plausible Combinations
+[p.8] Conflict: A U.S. move to tighten the blockade would directly clash with any Soviet attempt to test it, making
+[p.8] armed conflict highly likely. The U.S. priority is removing the threat, while the Soviet priority is maintaining
+[p.8] credibility; a direct challenge would force the U.S. to act on its priority.
+[p.8] Most Plausible Combination: U.S. Maintains Quarantine and Increases Diplomatic Pressure + USSR Halts
+[p.8] Shipments and Opens Negotiations. The success of the quarantine gives the U.S. leverage, and the reality of
+[p.8] the blockade forces the USSR to confront the risk of war, making a shift to diplomacy the most rational path
+[p.8] for both leaders based on their profiles. This is classified as a mutual Diplomatic_Success event.
+[p.8] Alternative Path: U.S. Tightens Blockade + USSR Tests Blockade with a Submarine. This represents an
+[p.8] escalatory spiral where hardline elements on both sides (the U.S. DoD and Soviet Armed Forces) prevail.
+[p.8] [RESULT LOG]
+[p.9] Scenario Combination Name: Most Plausible Path - Turn 2
+[p.9] Selected Actor: United States
+[p.9] Selected Action: Increase Diplomatic Pressure (classified as Diplomatic_Success event)
+[p.9] Predicted Variable Change: tension [-0.05], diplomatic_support [+0.10], public_opinion [+0.05],
+[p.9] leadership_unity [+0.05]
+[p.9] Generated Triggers: Formal diplomatic negotiations begin.
+[p.9] Selected Actor: Soviet Union
+[p.9] Selected Action: Halt Shipments and Open Negotiations (classified as Diplomatic_Success event)
+[p.9] Predicted Variable Change: tension [-0.05], diplomatic_support [+0.10], public_opinion [+0.05],
+[p.9] leadership_unity [+0.05]
+[p.9] Generated Triggers: Activation of Khrushchev's "diplomatic_resolution_offer" trigger.
+[p.9] [RECONFIRM VARIABLE STATUS - UNITED STATES]
+[p.9] tension: 0.20
+[p.9] diplomatic_support: 0.50
+[p.9] military_posture: Limited Action (Naval Quarantine)
+[p.9] public_opinion: 0.65
+[p.9] leadership_unity: 0.65
+[p.9] [RECONFIRM VARIABLE STATUS - SOVIET UNION]
+[p.9] tension: 0.45
+[p.9] diplomatic_support: 0.48
+[p.9] military_posture: Defense Preparation / Stand-Down
+[p.9] public_opinion: 0.53
+[p.9] leadership_unity: 0.50
+[p.9] Scenario 2: High Escalation Path
+[p.9] Despite the non-lethal outcome of the first blockade interception, the environment remains extremely tense,
+[p.9] with leadership unity and diplomatic support critically low on both sides.
+[p.9] United States: Strategic Alternatives
+[p.9] Alternative 1: Escalate to Air Strikes: With leadership unity low (0.40), radical policy adoption becomes more
+[p.9] likely. The DoD will argue that the blockade is not enough and that the time to strike is now, while the U.S.
+[p.9] has momentum. This aligns with their goal of "immediate_threat_elimination".
+[p.9] Alternative 2: Issue a Final Ultimatum: Before launching an attack, the President may issue a final, public
+[p.9] ultimatum with a short deadline for the Soviets to begin removing the missiles. This demonstrates strength, a
+[p.9] key domestic concern, while providing one last off-ramp, consistent with Kennedy's desire to avoid war if
+[p.9] possible.
+[p.9] Alternative 3: Expand the Blockade to All Goods, including Petroleum (POL): A severe escalation short of
+[p.10] war. This would be designed to cripple the Cuban economy and military, forcing a capitulation. This is an
+[p.10] aggressive action favored when diplomatic options are limited.
+[p.10] Soviet Union: Strategic Alternatives
+[p.10] Alternative 1: Accelerate Missile Readiness: The blockade prevents reinforcement, making the immediate
+[p.10] operational readiness of the missiles already in Cuba the top priority. This is a military-driven decision to
+[p.10] create a credible deterrent as fast as possible before the U.S. attacks.
+[p.10] Alternative 2: Militarily Challenge the Blockade: With tension high and leadership divided (0.40), a radical
+[p.10] action is possible. The Soviet Armed Forces may be ordered to escort a ship through the blockade to force a
+[p.10] confrontation, believing the U.S. will blink to avoid war.
+[p.10] Alternative 3: Make a Preemptive Diplomatic Offer Involving Berlin: To avert an attack on Cuba, Khrushchev
+[p.10] could create a linked crisis by threatening the status of West Berlin, believing the U.S. is more sensitive to
+[p.10] Europe. This is a high-risk diplomatic gambit to change the subject and increase leverage.
+[p.10] Conflict Assessment & Plausible Combinations
+[p.10] Conflict: A U.S. ultimatum or air strike preparation would directly conflict with Soviet efforts to make the
+[p.10] missiles operational. It becomes a race against time, where the U.S. priority is to strike before the missiles
+[p.10] are ready, and the Soviet priority is to ready them before a strike comes.
+[p.10] Most Plausible Combination: U.S. Issues a Final Ultimatum + USSR Accelerates Missile Readiness. This is a
+[p.10] classic escalation spiral. The U.S. moves closer to war, justifying the action as a final warning. The USSR
+[p.10] sees the ultimatum as a prelude to invasion and doubles down on its only remaining leverage: making the
+[p.10] nuclear threat real. This is classified as a mutual Defense_Prep event, as both sides are preparing for
+[p.10] imminent conflict.
+[p.10] Alternative Path: U.S. Escalates to Air Strikes + USSR initiates a military response to the attack. This is the
+[p.10] "hot war" path.
+[p.10] [RESULT LOG]
+[p.10] Scenario Combination Name: High Escalation Path - Turn 2
+[p.10] Selected Actor: United States
+[p.10] Selected Action: Issue a Final Ultimatum (classified as Defense_Prep event)
+[p.10] Predicted Variable Change: tension [+0.05], diplomatic_support [-0.02], public_opinion [-0.02],
+[p.10] leadership_unity [-0.05]
+[p.10] Generated Triggers: "Military Conflict Risk Increased" trigger is active.
+[p.10] Selected Actor: Soviet Union
+[p.10] Selected Action: Accelerate Missile Readiness (classified as Defense_Prep event)
+[p.10] Predicted Variable Change: tension [+0.05], diplomatic_support [-0.02], public_opinion [-0.02],
+[p.10] leadership_unity [-0.05]
+[p.10] Generated Triggers: Triggers U.S. threshold for "Confirmed deployment of nuclear warheads... trigger[ing]
+[p.10] immediate consideration of more drastic action".
+[p.10] [RECONFIRM VARIABLE STATUS - UNITED STATES]
+[p.10] tension: 0.50
+[p.10] diplomatic_support: 0.28
+[p.10] military_posture: Aggressive (Ultimatum / Strike Prep)
+[p.11] public_opinion: 0.43
+[p.11] leadership_unity: 0.35
+[p.11] [RECONFIRM VARIABLE STATUS - SOVIET UNION]
+[p.11] tension: 0.65
+[p.11] diplomatic_support: 0.33
+[p.11] military_posture: Aggressive (Accelerated Deployment)
+[p.11] public_opinion: 0.43
+[p.11] leadership_unity: 0.35
+[p.11] Scenario 3: Diplomatic Focus Path
+[p.11] The interception of a Soviet vessel occurred within the framework of a UN/OAS-sanctioned quarantine, and
+[p.11] its successful, peaceful resolution has reinforced the diplomatic process and strengthened the U.S. position.
+[p.11] United States: Strategic Alternatives
+[p.11] Alternative 1: Formalize the De-escalation Agreement: With the diplomatic track validated and the quarantine
+[p.11] holding, the State Department will push to finalize the agreement: verifiable missile removal in exchange for a
+[p.11] formal non-invasion guarantee. This directly serves their goal to "Achieve the removal of Soviet missiles...
+[p.11] through negotiation".
+[p.11] Alternative 2: Propose UN Verification Teams: A key goal for the State Department is securing international
+[p.11] verification. With negotiations progressing, this would be the logical next step to ensure a transparent
+[p.11] withdrawal process.
+[p.11] Alternative 3: Publicly Acknowledge "Constructive" Talks: To manage domestic opinion and reassure allies, the
+[p.11] President could make a statement acknowledging the tension but highlighting the progress in negotiations, a
+[p.11] move that aligns with the Strong_Leadership event type by showing control over the crisis.
+[p.11] Soviet Union: Strategic Alternatives
+[p.11] Alternative 1: Agree in Principle to Withdraw Missiles for a Non-Invasion Guarantee: Having seen the U.S.
+[p.11] act with international backing, Khrushchev's primary goal of protecting Cuba can be achieved diplomatically.
+[p.11] He can agree to remove the missiles, framing it as a victory because he secured Cuba from U.S. aggression.
+[p.11] Alternative 2: Demand a Public Quid Pro Quo on Turkish Missiles: To bolster Soviet prestige, the negotiators
+[p.11] could publicly demand the removal of U.S. Jupiter missiles from Turkey as a condition, even if they are
+[p.11] prepared to drop this demand in private for the non-invasion pledge.
+[p.11] Alternative 3: Agree to UN Verification but Refuse On-Site Inspections: As a show of sovereignty for their
+[p.11] Cuban ally, the Soviets might agree to UN verification (e.g., at sea during removal) but initially refuse
+[p.11] inspectors on Cuban soil, creating a final diplomatic hurdle.
+[p.11] Conflict Assessment & Plausible Combinations
+[p.11] Conflict: A public Soviet demand for a missile trade would create a conflict with the U.S. need to maintain
+[p.11] alliance credibility (appearing to trade away an ally's defense is damaging). The U.S. would publicly refuse,
+[p.11] potentially stalling the talks.
+[p.11] Most Plausible Combination: U.S. Moves to Formalize the Agreement + USSR Agrees in Principle to
+[p.11] Withdraw. This is the natural, de-escalatory conclusion to the established diplomatic track. Both sides are
+[p.12] close to achieving their core, revised goals (U.S.: missiles removed; USSR: Cuba secured). This is a mutual
+[p.12] Diplomatic_Success event.
+[p.12] Alternative Path: U.S. Proposes UN Teams + USSR Demands a Public Quid Pro Quo. This path introduces a
+[p.12] late-stage diplomatic complication that could temporarily stall the resolution.
+[p.12] [RESULT LOG]
+[p.12] Scenario Combination Name: Diplomatic Focus Path - Turn 2
+[p.12] Selected Actor: United States
+[p.12] Selected Action: Formalize De-escalation Agreement (classified as Diplomatic_Success event)
+[p.12] Predicted Variable Change: tension [-0.05], diplomatic_support [+0.10], public_opinion [+0.05],
+[p.12] leadership_unity [+0.05]
+[p.12] Generated Triggers: Drafting of a formal resolution.
+[p.12] Selected Actor: Soviet Union
+[p.12] Selected Action: Agree in Principle to Withdraw (classified as Diplomatic_Success event)
+[p.12] Predicted Variable Change: tension [-0.05], diplomatic_support [+0.10], public_opinion [+0.05],
+[p.12] leadership_unity [+0.05]
+[p.12] Generated Triggers: Orders prepared for missile dismantlement, pending final agreement.
+[p.12] [RECONFIRM VARIABLE STATUS - UNITED STATES]
+[p.12] tension: 0.20
+[p.12] diplomatic_support: 0.55
+[p.12] military_posture: Stable (Diplomatic Engagement)
+[p.12] public_opinion: 0.60
+[p.12] leadership_unity: 0.60
+[p.12] [RECONFIRM VARIABLE STATUS - SOVIET UNION]
+[p.12] tension: 0.35
+[p.12] diplomatic_support: 0.60
+[p.12] military_posture: Stable (Diplomatic Engagement)
+[p.12] public_opinion: 0.60
+[p.12] leadership_unity: 0.60

@@ -1,0 +1,215 @@
+[p.8] • leadership_unity: +0.65 (per military_alert effect rule)
+[p.8] Generated Triggers: International pressure increase, U.S. evidence
+[p.8] presentation
+[p.8] RECONFIRM VARIABLE STATUS - Scenario 3
+[p.8] United States:
+[p.8] • tension: 0.0 (baseline unchanged)
+[p.8] • diplomatic_support: 0.5 (baseline unchanged)
+[p.8] • military_posture: Defensive/Monitoring
+[p.8] • public_opinion: 0.55 (baseline 0 + 0.55)
+[p.8] • leadership_unity: 0.5 (baseline unchanged)
+[p.8] Soviet Union:
+[p.8] • tension: 0.45 (baseline 0 + 0.45)
+[p.8] • diplomatic_support: 0.5 (baseline unchanged)
+[p.8] • military_posture: Alert/Defensive
+[p.8] • public_opinion: 0.55 (baseline 0 + 0.55)
+[p.8] • leadership_unity: 0.65 (baseline 0 + 0.65)
+[p.8] Note: All variable changes are calculated strictly according to the effect_rules
+[p.8] provided in the JSON files. No thresholds have been exceeded in any scenario at
+[p.8] this stage.
+[p.8] Retry
+[p.9] SCENARIO 1: "Most Plausible Path" Analysis
+[p.9] Current Variable States:
+[p.9] US: tension: 0.3, diplomatic_support: 0.5, public_opinion: 0.5, leadership_unity:
+[p.9] 0.8 USSR: tension: 0.5, diplomatic_support: 0.5, public_opinion: 0.5,
+[p.9] leadership_unity: 0.5
+[p.9] United States Strategic Alternatives
+[p.9] 1. Maintain Blockade with Diplomatic Pressure
+[p.9] • Rationale: With leadership_unity at 0.8 and tension below threshold,
+[p.9] Kennedy can pursue his measured approach while State Department
+[p.9] pushes UN action
+[p.9] • Next Event Triggers:
+[p.9] • Inevitable: More Soviet ships approach, UN Security Council
+[p.9] meeting
+[p.9] • Potential: Soviet ship attempts to run blockade, allied support
+[p.9] statements
+[p.9] Escalate to DEFCON 2
+[p.10] • Rationale: Defense Department pressure with high leadership_unity
+[p.10] (0.8) enables military escalation option
+[p.10] • Next Event Triggers:
+[p.10] • Inevitable: Soviet military counter-escalation, increased tension
+[p.10] • Potential: Nuclear forces alert, Berlin crisis
+[p.10] Propose Direct Negotiations
+[p.10] • Rationale: State Department preference with diplomatic_support at
+[p.10] 0.5 threshold allows diplomatic initiative
+[p.10] • Next Event Triggers:
+[p.10] • Inevitable: Soviet response to proposal
+[p.10] • Potential: Public opinion shift, military criticism
+[p.10] Soviet Union Strategic Alternatives
+[p.10] 1. Order Ships to Turn Back
+[p.10] • Rationale: With tension at 0.5 and leadership_unity at threshold (0.5),
+[p.10] Khrushchev can make unilateral decision to avoid confrontation
+[p.10] • Next Event Triggers:
+[p.10] • Inevitable: Internal military criticism, U.S. interpretation
+[p.10] • Potential: Face-saving diplomatic move, missile work
+[p.10] continuation
+[p.10] Test Blockade with Non-Military Ship
+[p.10] • Rationale: Military preference to probe U.S. resolve while avoiding
+[p.10] direct confrontation
+[p.10] • Next Event Triggers:
+[p.10] • Inevitable: U.S. interception decision
+[p.10] • Potential: Escalation if ship resists, propaganda opportunity
+[p.10] Accelerate Secret Diplomacy
+[p.10] • Rationale: Khrushchev's backchannel preference with
+[p.10] leadership_unity at 0.5 allows personal initiative
+[p.10] • Next Event Triggers:
+[p.10] • Inevitable: U.S. evaluation of proposals
+[p.10] • Potential: Presidium opposition, public exposure
+[p.10] Most Plausible Combination: US Maintain Blockade + USSR
+[p.10] Order Ships Back
+[p.10] Logic: Both sides show restraint while maintaining positions. US demonstrates
+[p.10] resolve, USSR avoids immediate confrontation.
+[p.10] Alternative Path 1: US Escalate DEFCON 2 + USSR Test
+[p.10] Blockade
+[p.10] Logic: Military pressures on both sides lead to escalatory probing.
+[p.10] Alternative Path 2: US Propose Negotiations + USSR
+[p.11] Accelerate Diplomacy
+[p.11] Logic: Diplomatic actors on both sides seize opportunity for peaceful resolution.
+[p.11] SCENARIO 2: "Hardline Response Path"
+[p.11] Analysis
+[p.11] Current Variable States:
+[p.11] US: tension: 0.3, diplomatic_support: 0.5, public_opinion: 0.5, leadership_unity:
+[p.11] 0.8 USSR: tension: 0.45, diplomatic_support: 0.5, public_opinion: 0.5,
+[p.11] leadership_unity: 0.65
+[p.11] United States Strategic Alternatives
+[p.11] 1. Prepare Limited Air Strikes
+[p.11] • Rationale: Defense Department push with high leadership_unity (0.8)
+[p.11] and successful blockade emboldens military option
+[p.11] • Next Event Triggers:
+[p.11] • Inevitable: Soviet detection of preparations, allied concerns
+[p.11] • Potential: Soviet preemptive moves, Cuban mobilization
+[p.11] Aggressive Blockade Enforcement
+[p.11] • Rationale: Military preference to demonstrate strength without full
+[p.11] attack
+[p.11] • Next Event Triggers:
+[p.11] • Inevitable: Soviet ship confrontation
+[p.11] • Potential: Naval clash, Soviet submarine response
+[p.11] Ultimatum with Deadline
+[p.11] • Rationale: President's stance on missile removal with unity to back
+[p.11] stronger demands
+[p.11] • Next Event Triggers:
+[p.11] • Inevitable: Soviet rejection or counter-proposal
+[p.11] • Potential: Countdown pressure, military preparations
+[p.11] Soviet Union Strategic Alternatives
+[p.11] 1. Military Alert Elevation
+[p.11] • Rationale: With tension at 0.45 and leadership_unity at 0.65, military
+[p.11] can push for stronger posture
+[p.11] • Next Event Triggers:
+[p.11] • Inevitable: U.S. detection and counter-escalation
+[p.11] • Potential: Nuclear readiness, Berlin moves
+[p.11] Rush Missile Operationalization
+[p.11] • Rationale: Military goal to complete deployment before U.S. action
+[p.12] • Next Event Triggers:
+[p.12] • Inevitable: U.S. surveillance detection
+[p.12] • Potential: Triggering U.S. strike, Cuban integration
+[p.12] Threaten Berlin Retaliation
+[p.12] • Rationale: Strategic linkage to deter U.S. action in Cuba
+[p.12] • Next Event Triggers:
+[p.12] • Inevitable: NATO alert, U.S. response
+[p.12] • Potential: European crisis, German tensions
+[p.12] Most Plausible Combination: US Prepare Limited Strikes +
+[p.12] USSR Military Alert
+[p.12] Logic: Military escalation dominates with both sides preparing for potential conflict.
+[p.12] Alternative Path 1: US Aggressive Blockade + USSR Rush
+[p.12] Missiles
+[p.12] Logic: Time pressure drives both to aggressive tactical moves.
+[p.12] Alternative Path 2: US Ultimatum + USSR Threaten Berlin
+[p.12] Logic: Strategic brinksmanship with global stakes.
+[p.12] SCENARIO 3: "Diplomatic Resolution Path"
+[p.12] Analysis
+[p.12] Current Variable States:
+[p.12] US: tension: 0.0, diplomatic_support: 0.5, public_opinion: 0.55, leadership_unity:
+[p.12] 0.5 USSR: tension: 0.45, diplomatic_support: 0.5, public_opinion: 0.55,
+[p.12] leadership_unity: 0.65
+[p.12] United States Strategic Alternatives
+[p.12] 1. UN Resolution Push
+[p.12] • Rationale: State Department preference with public_opinion support
+[p.12] (0.55) for diplomatic solution
+[p.12] • Next Event Triggers:
+[p.12] • Inevitable: Soviet UN counter-moves
+[p.12] • Potential: Third-party mediation offers, military criticism
+[p.12] Conditional Negotiation Offer
+[p.12] • Rationale: Diplomatic preference with blockade leverage
+[p.12] • Next Event Triggers:
+[p.12] • Inevitable: Soviet evaluation and response
+[p.12] • Potential: Domestic political backlash, allied concerns
+[p.12] Quarantine Plus Inspection Regime
+[p.13] • Rationale: Middle path maintaining pressure with diplomatic opening
+[p.13] • Next Event Triggers:
+[p.13] • Inevitable: Soviet position on inspections
+[p.13] • Potential: UN involvement, verification disputes
+[p.13] Soviet Union Strategic Alternatives
+[p.13] 1. Counter-Proposal Through UN
+[p.13] • Rationale: Public diplomacy with leadership_unity (0.65) to support
+[p.13] initiative
+[p.13] • Next Event Triggers:
+[p.13] • Inevitable: U.S. and allied evaluation
+[p.13] • Potential: Negotiation framework, military opposition
+[p.13] Conditional Cooperation
+[p.13] • Rationale: Khrushchev's preference for negotiated solution with
+[p.13] face-saving
+[p.13] • Next Event Triggers:
+[p.13] • Inevitable: U.S. response to conditions
+[p.13] • Potential: Implementation disputes, verification issues
+[p.13] Stalling Tactics
+[p.13] • Rationale: Buy time for missile completion while appearing
+[p.13] cooperative
+[p.13] • Next Event Triggers:
+[p.13] • Inevitable: U.S. patience limits
+[p.13] • Potential: Breakdown of talks, military pressure
+[p.13] Most Plausible Combination: US UN Resolution + USSR
+[p.13] Counter-Proposal
+[p.13] Logic: Both use international forum to pursue objectives while avoiding direct
+[p.13] confrontation.
+[p.13] Alternative Path 1: US Conditional Offer + USSR
+[p.13] Conditional Cooperation
+[p.13] Logic: Direct negotiation emerges from diplomatic opening.
+[p.13] Alternative Path 2: US Inspection Regime + USSR Stalling
+[p.13] Logic: Procedural diplomacy masks continued disagreement.
+[p.13] RESULT LOGS FOR TURN 2
+[p.13] Scenario 1 - Most Plausible (US Maintain Blockade + USSR
+[p.13] Order Ships Back)
+[p.14] United States:
+[p.14] • Variable Changes: No new effect rules triggered (maintaining existing
+[p.14] posture)
+[p.14] • New Variables: tension: 0.3, diplomatic_support: 0.5, public_opinion: 0.5,
+[p.14] leadership_unity: 0.8
+[p.14] Soviet Union:
+[p.14] • Variable Changes: diplomatic_room +0.6 (per covert_detection as strategic
+[p.14] retreat)
+[p.14] • New Variables: tension: 0.5, diplomatic_support: 0.5, public_opinion: 0.5,
+[p.14] leadership_unity: 0.5, diplomatic_room: 0.6
+[p.14] Scenario 2 - Hardline (US Prepare Limited Strikes + USSR
+[p.14] Military Alert)
+[p.14] United States:
+[p.14] • Variable Changes: tension +0.3 (military_alert)
+[p.14] • New Variables: tension: 0.6, diplomatic_support: 0.5, public_opinion: 0.5,
+[p.14] leadership_unity: 0.8
+[p.14] Soviet Union:
+[p.14] • Variable Changes: tension +0.45, leadership_unity +0.65 (military_alert) -
+[p.14] capped at 1.0
+[p.14] • New Variables: tension: 0.9, diplomatic_support: 0.5, public_opinion: 0.5,
+[p.14] leadership_unity: 1.0
+[p.14] TRIGGER WARNING: Soviet tension at 0.9 exceeds 0.8 threshold - "Diplomatic
+[p.14] Negotiation Disabled, Military Options Preferred"
+[p.14] Scenario 3 - Diplomatic (US UN Resolution + USSR
+[p.14] Counter-Proposal)
+[p.14] United States:
+[p.14] • Variable Changes: public_opinion +0.55 (public_appeal) - capped at 1.0
+[p.14] • New Variables: tension: 0.0, diplomatic_support: 0.5, public_opinion: 1.0,
+[p.14] leadership_unity: 0.5
+[p.14] Soviet Union:
+[p.14] • Variable Changes: public_opinion +0.55 (public_appeal) - capped at 1.0
+[p.14] • New Variables: tension: 0.45, diplomatic_support: 0.5, public_opinion: 1.0,
+[p.14] leadership_unity: 0.65
+[p.14] Retry

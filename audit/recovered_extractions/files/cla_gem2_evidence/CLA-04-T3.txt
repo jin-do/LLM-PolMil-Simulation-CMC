@@ -1,0 +1,219 @@
+[p.14] • diplomatic_support: 0.6 (0.5 + 0.10)
+[p.14] • public_opinion: 0.55 (0.5 + 0.05)
+[p.14] • leadership_unity: 0.775 (0.725 + 0.05)
+[p.14] Combination 2 - Hardline (Execute Limited Air Strikes +
+[p.14] Tactical Nuclear Demonstration)
+[p.14] • Variable Changes:
+[p.14] • Double "Strike" event effects
+[p.14] • tension: +0.30, diplomatic_support: -0.10, public_opinion: -0.10,
+[p.14] leadership_unity: -0.20
+[p.14] New Variable Status:
+[p.14] • tension: 1.0 (0.8 + 0.30, clamped at 1.0)
+[p.14] • diplomatic_support: 0.3 (0.4 - 0.10)
+[p.14] • public_opinion: 0.3 (0.4 - 0.10)
+[p.14] • leadership_unity: 0.1 (0.3 - 0.20)
+[p.14] Critical State: All thresholds breached, system collapse imminent
+[p.14] Combination 3 - Diplomatic (Tighten Blockade + Halt
+[p.14] Military Shipments)
+[p.14] • Variable Changes:
+[p.14] • Partial de-escalation, using "Defense_Prep" as proxy
+[p.14] • tension: +0.05, diplomatic_support: -0.02, public_opinion: -0.02,
+[p.14] leadership_unity: -0.05
+[p.14] New Variable Status:
+[p.14] • tension: 0.775 (0.725 + 0.05)
+[p.14] • diplomatic_support: 0.48 (0.5 - 0.02)
+[p.14] • public_opinion: 0.48 (0.5 - 0.02)
+[p.14] • leadership_unity: 0.45 (0.5 - 0.05)
+[p.14] Warning: Leadership_unity approaching critical threshold of 0.5
+[p.14] Retry
+[p.15] COMBINATION 1: Most Plausible Path
+[p.15] (Maintain Quarantine + Propose Secret
+[p.15] Negotiations)
+[p.15] Current Variables: tension: 0.825, diplomatic_support: 0.6, public_opinion: 0.55,
+[p.15] leadership_unity: 0.775
+[p.16] United States Strategic Alternatives
+[p.16] 1. Limited Retaliatory Strike on SAM Site
+[p.16] • Rationale: Defense Department trigger threshold explicitly states: "If U.S.
+[p.16] forces come under attack - for example, a U-2 reconnaissance plane is
+[p.16] shot down... would treat it as the threshold for war and execute offensive
+[p.16] operations at once." With their 0.25 power weight, they push for
+[p.16] immediate retaliation.
+[p.16] • Next Event Triggers:
+[p.16] • Inevitable: Soviet military response
+[p.16] • Potential: Escalation to full air strikes
+[p.16] • Potential: Loss of diplomatic initiative
+[p.16] 2. Absorb Loss, Accelerate Diplomacy
+[p.16] • Rationale: Kennedy's "balanced crisis management" and State Department's
+[p.16] high diplomatic_support (0.6) enable restraint. President can override
+[p.16] military pressure with strong leadership_unity (0.775).
+[p.16] • Next Event Triggers:
+[p.16] • Inevitable: Military dissent
+[p.16] • Potential: Public backlash for weakness
+[p.16] • Potential: Soviet diplomatic response
+[p.16] 3. Ultimatum with 48-Hour Deadline
+[p.16] • Rationale: Middle path between Kennedy's pragmatism and military
+[p.16] pressure. Public_opinion at 0.55 supports firm action without war.
+[p.16] • Next Event Triggers:
+[p.16] • Inevitable: Soviet decision point
+[p.16] • Potential: Compliance or defiance
+[p.16] • Potential: Allied concern
+[p.16] Soviet Union Strategic Alternatives
+[p.16] 1. Deny Responsibility, Blame Cuba
+[p.16] • Rationale: Khrushchev's "initial denial/deception" approach. Preserves
+[p.16] negotiation possibility while avoiding direct confrontation.
+[p.16] • Next Event Triggers:
+[p.16] • Inevitable: U.S. credibility challenge
+[p.16] • Potential: Cuban complications
+[p.16] • Potential: Evidence emergence
+[p.16] 2. Acknowledge and Offer Compensation
+[p.16] • Rationale: With ongoing secret negotiations and tension at 0.825,
+[p.16] Presidium's "if a compromise is possible... support a diplomatic solution"
+[p.16] applies.
+[p.16] • Next Event Triggers:
+[p.16] • Inevitable: Terms negotiation
+[p.17] • Potential: Military opposition
+[p.17] • Potential: Face-saving deal
+[p.17] 3. Elevate Nuclear Alert Status
+[p.17] • Rationale: Military's "if political leadership orders combat alert... move to
+[p.17] full readiness" following hostile act.
+[p.17] • Next Event Triggers:
+[p.17] • Inevitable: U.S. counter-alert
+[p.17] • Potential: Accidental launch
+[p.17] • Potential: Global panic
+[p.17] Most Plausible Combination: Absorb Loss + Acknowledge
+[p.17] and Offer Compensation
+[p.17] Logic: Both sides' strong leadership_unity (0.775) enables control over military
+[p.17] pressure. High diplomatic_support maintains negotiation momentum despite
+[p.17] provocation.
+[p.17] Alternative Path 1: Limited Retaliatory Strike + Deny
+[p.17] Responsibility
+[p.17] Logic: U.S. military pressure succeeds, but Soviet denial prevents full escalation.
+[p.17] Alternative Path 2: Ultimatum + Elevate Nuclear Alert
+[p.17] Logic: Both sides escalate but stop short of direct combat, creating maximum
+[p.17] brinkmanship.
+[p.17] COMBINATION 2: Hardline Response Path
+[p.17] Current Variables: tension: 1.0, diplomatic_support: 0.3, public_opinion: 0.3,
+[p.17] leadership_unity: 0.1
+[p.17] United States Strategic Alternatives
+[p.17] 1. Full-Scale Air Campaign
+[p.17] • Rationale: With all thresholds breached and leadership_unity at 0.1,
+[p.17] "Radical Policy Preference" dominates. Defense Department's trigger for
+[p.17] U-2 shootdown activated.
+[p.17] • Next Event Triggers:
+[p.17] • Inevitable: Soviet nuclear response
+[p.17] • Potential: Global war
+[p.17] • Potential: Command breakdown
+[p.17] 2. Emergency Military Coup/Leadership Change
+[p.17] • Rationale: Leadership_unity at 0.1 indicates "Coup Risk." Military might
+[p.17] remove civilian leadership.
+[p.17] • Next Event Triggers:
+[p.18] • Inevitable: Constitutional crisis
+[p.18] • Potential: Policy paralysis
+[p.18] • Potential: Uncontrolled escalation
+[p.18] Soviet Union Strategic Alternatives
+[p.18] 1. Launch Tactical Nuclear Strike
+[p.18] • Rationale: With leadership_unity at 0.1 and tension at 1.0, military doctrine
+[p.18] for "tactical nuclear response if authorized" activates.
+[p.18] • Next Event Triggers:
+[p.18] • Inevitable: Nuclear exchange
+[p.18] • Potential: Strategic escalation
+[p.18] • Potential: Mutual destruction
+[p.18] 2. Military Command Breakdown
+[p.18] • Rationale: Leadership_unity at 0.1 triggers "Internal Division, Coup Risk."
+[p.18] Command structure may fragment.
+[p.18] • Next Event Triggers:
+[p.18] • Inevitable: Unpredictable actions
+[p.18] • Potential: Rogue launches
+[p.18] • Potential: Surrender/collapse
+[p.18] Most Plausible Combination: Full-Scale Air Campaign +
+[p.18] Launch Tactical Nuclear Strike
+[p.18] Logic: Complete system failure on both sides leads to automatic military escalation
+[p.18] per doctrine.
+[p.18] Alternative Path 1: Both Experience Command Breakdown
+[p.18] Logic: Leadership collapse prevents coordinated response, creating chaos rather
+[p.18] than planned escalation.
+[p.18] COMBINATION 3: Diplomatic Resolution Path
+[p.18] Current Variables: tension: 0.775, diplomatic_support: 0.48, public_opinion: 0.48,
+[p.18] leadership_unity: 0.45
+[p.18] United States Strategic Alternatives
+[p.18] 1. Measured Response - Destroy Single SAM Site
+[p.18] • Rationale: With leadership_unity at 0.45 (below 0.5 threshold), "Confused
+[p.18] Policy" and pressure for "Radical Adoption." Limited strike satisfies military
+[p.18] while preserving options.
+[p.18] • Next Event Triggers:
+[p.18] • Inevitable: Soviet response decision
+[p.18] • Potential: Escalation control
+[p.19] • Potential: Leadership crisis
+[p.19] 2. Emergency UN Security Council
+[p.19] • Rationale: State Department leverages remaining diplomatic_support (0.48)
+[p.19] before crossing 0.5 threshold.
+[p.19] • Next Event Triggers:
+[p.19] • Inevitable: Soviet veto consideration
+[p.19] • Potential: International pressure
+[p.19] • Potential: Time loss
+[p.19] Soviet Union Strategic Alternatives
+[p.19] 1. Propose Immediate Summit
+[p.19] • Rationale: With leadership_unity at 0.45 approaching critical threshold,
+[p.19] Khrushchev must act to prevent "Severe Internal Conflict."
+[p.19] • Next Event Triggers:
+[p.19] • Inevitable: U.S. response required
+[p.19] • Potential: Terms framework
+[p.19] • Potential: Military coup
+[p.19] 2. Withdraw Some Missiles as Gesture
+[p.19] • Rationale: Presidium's "seek a face-saving resolution" with concrete action
+[p.19] to de-escalate.
+[p.19] • Next Event Triggers:
+[p.19] • Inevitable: U.S. verification
+[p.19] • Potential: Full withdrawal negotiation
+[p.19] • Potential: Cuban anger
+[p.19] Most Plausible Combination: Measured Response + Propose
+[p.19] Immediate Summit
+[p.19] Logic: Both sides recognize critical thresholds approaching and seek controlled
+[p.19] escalation with diplomatic exit.
+[p.19] Alternative Path 1: Emergency UN + Withdraw Some
+[p.19] Missiles
+[p.19] Logic: Both choose de-escalation, potentially breaking crisis momentum.
+[p.19] Alternative Path 2: Measured Response + No Soviet
+[p.19] Response
+[p.19] Logic: Soviet paralysis from low leadership_unity creates dangerous vacuum.
+[p.19] RESULT LOGS FOR TURN 3
+[p.19] Combination 1 - Most Plausible (Absorb Loss +
+[p.20] Acknowledge and Offer Compensation)
+[p.20] • Variable Changes:
+[p.20] • U.S. restraint under pressure: Using "Strong_Leadership" effect
+[p.20] • Soviet diplomatic gesture: Using "Diplomatic_Success" effect
+[p.20] • Combined: tension: -0.10, diplomatic_support: +0.15, public_opinion:
+[p.20] +0.15, leadership_unity: +0.15
+[p.20] New Variable Status:
+[p.20] • tension: 0.725 (0.825 - 0.10)
+[p.20] • diplomatic_support: 0.75 (0.6 + 0.15)
+[p.20] • public_opinion: 0.70 (0.55 + 0.15)
+[p.20] • leadership_unity: 0.925 (0.775 + 0.15)
+[p.20] Status: Diplomatic breakthrough achieved, all variables improving
+[p.20] Combination 2 - Hardline (Full-Scale Air Campaign +
+[p.20] Launch Tactical Nuclear Strike)
+[p.20] • Variable Changes:
+[p.20] • System failure - no meaningful calculation possible
+[p.20] New Variable Status:
+[p.20] • tension: 1.0 (maximum)
+[p.20] • diplomatic_support: 0.0 (collapsed)
+[p.20] • public_opinion: 0.0 (irrelevant)
+[p.20] • leadership_unity: 0.0 (ceased to exist)
+[p.20] Status: Mutual destruction scenario
+[p.20] Combination 3 - Diplomatic (Measured Response + Propose
+[p.20] Immediate Summit)
+[p.20] • Variable Changes:
+[p.20] • Limited strike: Using "Strike" at half value
+[p.20] • Summit proposal: Using "Diplomatic_Success" at half value due to
+[p.20] tensions
+[p.20] • Combined: tension: +0.025, diplomatic_support: +0.025,
+[p.20] public_opinion: 0, leadership_unity: -0.025
+[p.20] New Variable Status:
+[p.20] • tension: 0.8 (0.775 + 0.025)
+[p.20] • diplomatic_support: 0.505 (0.48 + 0.025)
+[p.20] • public_opinion: 0.48 (unchanged)
+[p.20] • leadership_unity: 0.425 (0.45 - 0.025)
+[p.20] Critical: Tension reaches 0.8 threshold - "Diplomatic Negotiation Disabled"
+[p.20] triggered
+[p.20] Critical: Leadership_unity below 0.5 - "Internal Division, Coup Risk" active
+[p.20] Retry

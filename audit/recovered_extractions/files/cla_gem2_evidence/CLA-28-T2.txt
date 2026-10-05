@@ -1,0 +1,261 @@
+[p.8] • public_opinion -0.02
+[p.8] • leadership_unity -0.05
+[p.8] Soviet Union
+[p.8] • Selected Action: Continue Covert Deployment
+[p.8] • Predicted Variable Change:
+[p.8] • When covert activity detected (per Soviet effect_rules):
+[p.8] • tension +0.45 (covert_detection effect)
+[p.8] • diplomatic_room +0.60 (covert_detection effect - interpreting
+[p.8] as diplomatic flexibility)
+[p.8] No direct effects on other variables specified
+[p.8] Combined Effects:
+[p.8] • Total tension increase: +0.50 (0.05 + 0.45)
+[p.8] • US diplomatic_support: -0.02
+[p.8] • US public_opinion: -0.02
+[p.8] • US leadership_unity: -0.05
+[p.8] • Soviet diplomatic flexibility: +0.60
+[p.8] Generated Triggers:
+[p.8] • [Imminent military confrontation risk]
+[p.8] • [Potential for preemptive strike consideration]
+[p.8] • [Allied concern over U.S. aggressive posture]
+[p.8] RECONFIRM VARIABLE STATUS - ALTERNATIVE PATH 2
+[p.8] • tension: 0.60 (0.1 baseline + 0.50)
+[p.8] • diplomatic_support: 0.48 (0.5 - 0.02)
+[p.8] • military_posture: High Alert/Offensive Preparation
+[p.8] • public_opinion: 0.48 (0.5 - 0.02)
+[p.8] • leadership_unity: US: 0.45 (0.5 - 0.05), Soviet: 0.50 (maintained)
+[p.8] Note: All calculations strictly follow the effect_rules from the JSON files and
+[p.8] Variable-Decision Matrix. Where specific effects are not defined in the JSON files,
+[p.8] the closest matching event from the Variable-Decision Matrix has been applied
+[p.8] with clear notation.
+[p.8] Retry
+[p.9] Turn 2 Analysis: DEFCON 3 and
+[p.9] Naval Blockade Implementation
+[p.9] PRIMARY PATH: "Measured Escalation Path"
+[p.10] Current Variables: Tension: 0.75, Diplomatic Support: 0.5, Public Opinion: 0.5,
+[p.10] Leadership Unity: US 0.80/Soviet 0.65
+[p.10] United States Strategic Alternatives
+[p.10] Alternative 1: Maintain Blockade with Selective Enforcement
+[p.10] • Rationale: With tension at 0.75 (approaching 0.8 threshold), Kennedy's
+[p.10] "balanced crisis management" approach and medium conflict avoidance
+[p.10] suggest continuing measured response.
+[p.10] • Next Triggers:
+[p.10] • Inevitable: Additional Soviet ships approaching blockade
+[p.10] • Potential: Soviet military escalation response
+[p.10] • Potential: Allied diplomatic pressure
+[p.10] Alternative 2: Escalate to Air Strike Readiness
+[p.10] • Rationale: Defense Department (0.25 power weight) trigger threshold:
+[p.10] "failure of quarantine would push Kennedy to reevaluate and potentially
+[p.10] move to air strike/invasion plan."
+[p.10] • Next Triggers:
+[p.10] • Inevitable: Soviet defensive preparations
+[p.10] • Potential: Preemptive Soviet action
+[p.10] • Potential: Public panic (public survival priority 0.4)
+[p.10] Alternative 3: Propose Direct Negotiations
+[p.10] • Rationale: State Department's high diplomacy preference and concern
+[p.10] about approaching tension threshold (0.8) where "Diplomatic Negotiation
+[p.10] Disabled."
+[p.10] • Next Triggers:
+[p.10] • Inevitable: Soviet response to negotiation offer
+[p.10] • Potential: Domestic political criticism
+[p.10] • Potential: Military opposition
+[p.10] Soviet Union Strategic Alternatives
+[p.10] Alternative 1: Test Blockade with Civilian Ships
+[p.10] • Rationale: Khrushchev's "covertly offensive deterrence strategy" and need
+[p.10] to maintain credibility while avoiding war (avoid_nuclear_war: 0.3 priority).
+[p.10] • Next Triggers:
+[p.10] • Inevitable: U.S. boarding/inspection
+[p.10] • Potential: Incident at sea
+[p.10] • Potential: International opinion shift
+[p.10] Alternative 2: Accelerate Missile Operational Status
+[p.10] • Rationale: Soviet Armed Forces' mission_success priority (0.4) and
+[p.10] constraint of "incomplete deployment of missiles."
+[p.10] • Next Triggers:
+[p.10] • Inevitable: U.S. detection of acceleration
+[p.11] • Potential: U.S. preemptive strike
+[p.11] • Potential: Operational accidents
+[p.11] Alternative 3: Initiate Secret Diplomatic Contact
+[p.11] • Rationale: Khrushchev's preference for "backchannel and personal
+[p.11] diplomacy" with diplomatic_resolution_offer trigger threshold.
+[p.11] • Next Triggers:
+[p.11] • Inevitable: U.S. response evaluation
+[p.11] • Potential: Presidium disagreement
+[p.11] • Potential: Public exposure
+[p.11] Most Plausible Combination: U.S. Maintains Blockade +
+[p.11] Soviet Tests with Civilian Ships
+[p.11] Logic: Both avoid immediate escalation while testing resolve. U.S. leadership unity
+[p.11] (0.80) supports consistent policy; Soviet need to maintain credibility without
+[p.11] triggering war.
+[p.11] Alternative Branch 1: U.S. Air Strike Readiness + Soviet
+[p.11] Accelerates Deployment
+[p.11] Logic: Military pressure on both sides with tension at 0.75 approaching critical
+[p.11] threshold.
+[p.11] Alternative Branch 2: U.S. Proposes Negotiations + Soviet
+[p.11] Secret Diplomatic Contact
+[p.11] Logic: Both recognize danger of tension threshold and seek off-ramp.
+[p.11] ALTERNATIVE PATH 1: "Diplomatic Resolution
+[p.11] Path"
+[p.11] Current Variables: Tension: 0.0, Diplomatic Support: 0.70, Public Opinion: 0.60,
+[p.11] Leadership Unity: 0.60
+[p.11] United States Strategic Alternatives
+[p.11] Alternative 1: Expand UN Mediation Framework
+[p.11] • Rationale: High diplomatic support (0.70) and State Department preference
+[p.11] for "UN diplomacy or East-West negotiations."
+[p.11] • Next Triggers:
+[p.11] • Inevitable: Soviet UN response
+[p.11] • Potential: Military criticism
+[p.11] • Potential: Allied coordination
+[p.11] Alternative 2: Conditional Blockade Suspension
+[p.11] • Rationale: Public opinion favorable (0.60) and low tension enables flexibility
+[p.12] per Kennedy's utility formula.
+[p.12] • Next Triggers:
+[p.12] • Inevitable: Soviet reciprocal action expected
+[p.12] • Potential: Domestic political backlash
+[p.12] • Potential: Military opposition
+[p.12] Soviet Union Strategic Alternatives
+[p.12] Alternative 1: Propose Mutual De-escalation
+[p.12] • Rationale: Low tension (0.0) and diplomatic support (0.70) create
+[p.12] opportunity per Khrushchev's "peaceful coexistence" ideology.
+[p.12] • Next Triggers:
+[p.12] • Inevitable: U.S. counter-proposal
+[p.12] • Potential: Cuban objection
+[p.12] • Potential: Military resistance
+[p.12] Alternative 2: Offer Limited Withdrawal
+[p.12] • Rationale: Party Presidium's "preserve_peace: 0.35" priority with favorable
+[p.12] diplomatic conditions.
+[p.12] • Next Triggers:
+[p.12] • Inevitable: U.S. verification demands
+[p.12] • Potential: Internal opposition
+[p.12] • Potential: Face-saving requirements
+[p.12] Most Plausible Combination: U.S. Expands UN Framework +
+[p.12] Soviet Proposes Mutual De-escalation
+[p.12] Logic: Both leverage high diplomatic support (0.70) and favorable public opinion
+[p.12] (0.60).
+[p.12] Alternative Branch: U.S. Conditional Suspension + Soviet
+[p.12] Limited Withdrawal
+[p.12] Logic: Direct bilateral arrangement bypassing UN complexity.
+[p.12] ALTERNATIVE PATH 2: "Hardline Escalation
+[p.12] Path"
+[p.12] Current Variables: Tension: 0.60, Diplomatic Support: 0.48, Public Opinion: 0.48,
+[p.12] Leadership Unity: US 0.45/Soviet 0.50
+[p.12] United States Strategic Alternatives
+[p.12] Alternative 1: Full Military Mobilization
+[p.12] • Rationale: Defense Department's high military preference and leadership
+[p.12] unity below 0.5 threshold enabling "Radical Policy Preference."
+[p.13] • Next Triggers:
+[p.13] • Inevitable: Soviet counter-mobilization
+[p.13] • Potential: Nuclear forces alert
+[p.13] • Potential: Allied alarm
+[p.13] Alternative 2: Ultimatum with Deadline
+[p.13] • Rationale: Public opinion below 0.5 and military pressure for "decisive
+[p.13] action" per Defense utility formula.
+[p.13] • Next Triggers:
+[p.13] • Inevitable: Soviet rejection or compliance
+[p.13] • Potential: International crisis
+[p.13] • Potential: Domestic unrest
+[p.13] Soviet Union Strategic Alternatives
+[p.13] Alternative 1: Full Combat Readiness
+[p.13] • Rationale: Armed Forces' force_survival priority (0.3) and medium tension
+[p.13] requiring defensive posture.
+[p.13] • Next Triggers:
+[p.13] • Inevitable: U.S. detection and response
+[p.13] • Potential: Accidental engagement
+[p.13] • Potential: Cuban initiative
+[p.13] Alternative 2: Tactical Nuclear Deployment Authorization
+[p.13] • Rationale: Military's emphasis on "tactical nuclear weapons if war breaks
+[p.13] out" per behavior algorithm.
+[p.13] • Next Triggers:
+[p.13] • Inevitable: U.S. intelligence detection
+[p.13] • Potential: Preemptive U.S. strike
+[p.13] • Potential: Loss of control
+[p.13] Most Plausible Combination: U.S. Full Mobilization + Soviet
+[p.13] Combat Readiness
+[p.13] Logic: Both military establishments dominate with weakened leadership unity.
+[p.13] Alternative Branch: U.S. Ultimatum + Soviet Tactical
+[p.13] Nuclear Authorization
+[p.13] Logic: Maximum pressure tactics reflecting leadership unity crisis on both sides.
+[p.13] RESULT LOGS FOR TURN 2
+[p.13] PRIMARY PATH - Most Plausible: U.S.
+[p.14] Maintains Blockade + Soviet Tests with
+[p.14] Civilian Ships
+[p.14] RESULT LOG
+[p.14] • Selected Actor: United States
+[p.14] • Action: Maintain Blockade with Selective Enforcement
+[p.14] • Variable Change: (DEFCON 3 = Defense_Prep per matrix)
+[p.14] • tension +0.05, diplomatic_support -0.02, public_opinion -0.02,
+[p.14] leadership_unity -0.05
+[p.14] Selected Actor: Soviet Union
+[p.14] • Action: Test Blockade with Civilian Ships
+[p.14] • Variable Change: (No direct rule; treating as controlled probe)
+[p.14] • tension +0.05, leadership_unity +0.05
+[p.14] Combined Variable Changes:
+[p.14] • tension: 0.75 + 0.10 = 0.85
+[p.14] • diplomatic_support: 0.50 - 0.02 = 0.48
+[p.14] • public_opinion: 0.50 - 0.02 = 0.48
+[p.14] • leadership_unity: US: 0.80 - 0.05 = 0.75, Soviet: 0.65 + 0.05 = 0.70
+[p.14] VARIABLE STATUS CONFIRMATION
+[p.14] • tension: 0.85 [EXCEEDS 0.8 THRESHOLD]
+[p.14] • diplomatic_support: 0.48 [BELOW 0.5 THRESHOLD]
+[p.14] • military_posture: High Alert
+[p.14] • public_opinion: 0.48
+[p.14] • leadership_unity: US: 0.75, Soviet: 0.70
+[p.14] TRIGGERED EFFECTS:
+[p.14] • Tension >0.8: "Diplomatic Negotiation Disabled, Military Options Preferred"
+[p.14] • Diplomatic Support ≤0.5: "Diplomatic Solution Blocked, Alliance
+[p.14] Withdrawal Increased"
+[p.14] ALTERNATIVE PATH 1 - Most Plausible: U.S.
+[p.14] UN Framework + Soviet Mutual De-escalation
+[p.14] RESULT LOG
+[p.14] • Selected Actor: United States
+[p.14] • Action: Expand UN Mediation
+[p.14] • Variable Change: (Diplomatic_Success)
+[p.14] • tension -0.05, diplomatic_support +0.10, public_opinion +0.05,
+[p.14] leadership_unity +0.05
+[p.15] Selected Actor: Soviet Union
+[p.15] • Action: Propose Mutual De-escalation
+[p.15] • Variable Change: (Diplomatic_Success)
+[p.15] • tension -0.05, diplomatic_support +0.10, public_opinion +0.05,
+[p.15] leadership_unity +0.05
+[p.15] Combined Variable Changes:
+[p.15] • tension: 0.00 - 0.10 = 0.00 (clamped at 0)
+[p.15] • diplomatic_support: 0.70 + 0.20 = 0.90
+[p.15] • public_opinion: 0.60 + 0.10 = 0.70
+[p.15] • leadership_unity: 0.60 + 0.10 = 0.70
+[p.15] VARIABLE STATUS CONFIRMATION
+[p.15] • tension: 0.00
+[p.15] • diplomatic_support: 0.90
+[p.15] • military_posture: Defensive
+[p.15] • public_opinion: 0.70
+[p.15] • leadership_unity: 0.70
+[p.15] POSITIVE CONDITIONS:
+[p.15] • All variables in optimal ranges
+[p.15] • Diplomatic solutions strongly enabled
+[p.15] ALTERNATIVE PATH 2 - Most Plausible: U.S.
+[p.15] Mobilization + Soviet Combat Readiness
+[p.15] RESULT LOG
+[p.15] • Selected Actor: United States
+[p.15] • Action: Full Military Mobilization
+[p.15] • Variable Change: (Military buildup = Strike preparation)
+[p.15] • tension +0.15, diplomatic_support -0.05, public_opinion -0.05,
+[p.15] leadership_unity -0.10
+[p.15] Selected Actor: Soviet Union
+[p.15] • Action: Full Combat Readiness
+[p.15] • Variable Change: (Military alert)
+[p.15] • tension +0.45, leadership_unity +0.65
+[p.15] Combined Variable Changes:
+[p.15] • tension: 0.60 + 0.60 = 1.00 (clamped at 1.0)
+[p.15] • diplomatic_support: 0.48 - 0.05 = 0.43
+[p.15] • public_opinion: 0.48 - 0.05 = 0.43
+[p.15] • leadership_unity: US: 0.45 - 0.10 = 0.35, Soviet: 0.50 + 0.65 = 1.00
+[p.15] (clamped)
+[p.16] VARIABLE STATUS CONFIRMATION
+[p.16] • tension: 1.00 [MAXIMUM]
+[p.16] • diplomatic_support: 0.43 [BELOW 0.5 THRESHOLD]
+[p.16] • military_posture: Maximum Alert/War Footing
+[p.16] • public_opinion: 0.43
+[p.16] • leadership_unity: US: 0.35 [BELOW 0.5], Soviet: 1.00
+[p.16] CRITICAL TRIGGERS:
+[p.16] • Tension = 1.0: Military conflict imminent
+[p.16] • US Leadership <0.5: "Confused Policy, Radical Adoption"
+[p.16] • Diplomatic Support <0.5: "Diplomatic Solution Blocked"
+[p.16] Retry

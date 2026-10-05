@@ -1,0 +1,39 @@
+{
+  "module_version": "revision29-later-calculation-supplement",
+  "prepared_date": "2026-10-05",
+  "repository_inputs": {
+    "top1": {
+      "path": "coding/top1_reanalysis/data/top1_source_recoding.csv",
+      "digest_kind": "sha256_bytes",
+      "sha256": "71722afb2faff08f3e8ed7e647c3304a401aec46d723f7490f8e2a558f077efa",
+      "source_commit": "4acc5add26f9b61d63ca3f51e7dfcc51c4a4e3fa",
+      "source_url": "https://github.com/jin-do/LLM-PolMil-Simulation-CMC/blob/4acc5add26f9b61d63ca3f51e7dfcc51c4a4e3fa/coding/top1_reanalysis/data/top1_source_recoding.csv"
+    },
+    "vdm": {
+      "path": "vdm/Variable-Decision Matrix.json",
+      "digest_kind": "sha256_lf_normalized",
+      "sha256": "be0e56e182015348af3a6916d07b302c9382c54bd3624795f6aa51dcbbed4977",
+      "source_commit": "6867755772bfb74dd56c211df8c9a399607b5419",
+      "source_url": "https://github.com/jin-do/LLM-PolMil-Simulation-CMC/blob/6867755772bfb74dd56c211df8c9a399607b5419/vdm/Variable-Decision%20Matrix.json"
+    },
+    "claude_01_pdf": {
+      "path": "runs/raw_logs/Claude_Opus_4/1. Strategic Decision Modeling Protocol.pdf",
+      "digest_kind": "sha256_bytes",
+      "sha256": "40d5cae1d73766c272755651180a2bd68fc15bcba8e8b191d49ea919c615a314",
+      "source_commit": "6867755772bfb74dd56c211df8c9a399607b5419",
+      "source_url": "https://github.com/jin-do/LLM-PolMil-Simulation-CMC/blob/6867755772bfb74dd56c211df8c9a399607b5419/runs/raw_logs/Claude_Opus_4/1.%20Strategic%20Decision%20Modeling%20Protocol.pdf"
+    }
+  },
+  "source_transcription": "Conditional states, named effects and page locators were checked against the preserved CLA-01 PDF during AI-assisted packaging on 2026-10-05. No new author coding pass or independent human validation is implied.",
+  "source_pages": "One-based PDF positions, not printed page labels.",
+  "numeric_assumptions": [
+    "Read full effect rows from the preserved repository VDM; do not copy coefficients into this supplement.",
+    "Apply each named row once and clip each component to [0,1] after summation.",
+    "Start each transition from the recorded prior; never propagate a recalculated value.",
+    "Mapping effects to actions and historical validity remain unverified."
+  ],
+  "historical_extraction_status": "No missing historical extraction files are recreated or relabeled as originals. Runtime does not extract PDFs; short locators and transcribed inputs are public.",
+  "top1_scope": "Compares existing original_outcome and outcome_5 fields. Original case-specific selection histories are incomplete; disagreements are not verified errors.",
+  "new_simulations": false,
+  "new_outcome_adjudication": false
+}

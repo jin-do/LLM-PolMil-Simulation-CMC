@@ -1,0 +1,4 @@
+case_id,table,turn,scenario,recorded_prior,effect_names,checked,reported,differing_components
+CLA-01-S1-T2,D2,2,Scenario 1: Balanced Confrontation Path,"(0.75, 0.60, 0.55, 0.85)",Defense_Prep + Diplomatic_Success,"(0.75, 0.68, 0.58, 0.85)","(0.75, 0.70, 0.55, 0.80)",Diplomatic_Support; Public_Opinion; Leadership_Unity
+CLA-01-S1-T3,D2,3,Scenario 1: Balanced Confrontation Path,"(0.75, 0.70, 0.55, 0.80)",Diplomatic_Success + Strong_Leadership,"(0.65, 0.85, 0.70, 0.95)","(0.65, 0.80, 0.70, 0.95)",Diplomatic_Support
+CLA-01-S1-T4,D2,4,Scenario 1: Balanced Confrontation Path,"(0.65, 0.80, 0.70, 0.95)",Diplomatic_Success + Alliance_Strengthening,"(0.55, 1.00, 0.80, 1.00)","(0.55, 1.00, 0.80, 1.00)",None

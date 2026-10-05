@@ -1,0 +1,224 @@
+[p.8] • leadership_unity: +0.05 (per Variable-Decision Matrix "Diplomatic_Success")
+[p.8] Selected Actor: Soviet Union
+[p.8] Selected Action: Secret Diplomatic Outreach
+[p.8] Predicted Variable Change:
+[p.8] • No direct effect rules for secret diplomacy in Soviet JSON
+[p.8] • Applying general diplomatic approach: minimal immediate variable change
+[p.8] Combined Effect: tension: -0.05, diplomatic_support: +0.10, public_opinion: +0.05,
+[p.8] leadership_unity: +0.05
+[p.8] Generated Triggers:
+[p.8] • [Public Revelation Required Soon]
+[p.8] • [Military Hawks Opposition in Both Countries]
+[p.8] RECONFIRM VARIABLE STATUS -
+[p.8] ALTERNATIVE PATH 2
+[p.8] • tension: 0.45 (reduced from baseline)
+[p.8] • diplomatic_support: 0.60
+[p.8] • military_posture: Defensive Readiness
+[p.8] • public_opinion: 0.55
+[p.8] • leadership_unity: 0.55
+[p.8] Note: All calculations strictly follow the effect_rules from the JSON files and the
+[p.8] Variable-Decision Matrix. Initial baseline values assumed at 0.5 where not specified.
+[p.8] All values clamped to 0-1 range as required.
+[p.8] Retry
+[p.9] PRIMARY PATH: U.S. Naval Quarantine +
+[p.9] Soviet Acceleration/Denial Path
+[p.9] Current Variables: tension: 0.75, diplomatic_support: 0.5, public_opinion: 0.5,
+[p.9] leadership_unity: 1.0
+[p.9] United States Strategic Alternatives
+[p.9] 1. Maintain Quarantine with Selective Enforcement Rationale: Kennedy's
+[p.9] behavior algorithm shows "balanced crisis management" and preference
+[p.9] for "middle course." Current successful interception without violence aligns
+[p.9] with his goals to "avoid nuclear war while resolving crisis." Next Event
+[p.9] Triggers:
+[p.9] • Inevitable: More Soviet ships approaching quarantine line
+[p.9] • Probable: Soviet diplomatic response to blockade
+[p.10] • Possible: Soviet submarine detection near quarantine zone
+[p.10] 1. Escalate to Full Blockade (All Ships Stopped) Rationale: Defense
+[p.10] Department (0.25 power) likely pressing for stronger action given their
+[p.10] view that "blockade alone would [not] compel Soviets." Military preference
+[p.10] remains high. Next Event Triggers:
+[p.10] • Inevitable: Direct Soviet military response
+[p.10] • Probable: Soviet ships refuse to stop
+[p.10] • Possible: Naval engagement/shots fired
+[p.10] 1. Public Address to Nation and UN Appeal Rationale: State Department's
+[p.10] goal to "maintain allied and international support" requires public
+[p.10] justification. Kennedy's constraint of "domestic political pressure"
+[p.10] necessitates public communication. Next Event Triggers:
+[p.10] • Inevitable: Global diplomatic reaction
+[p.10] • Probable: Soviet public counter-statement
+[p.10] • Possible: Allied pressure for negotiation
+[p.10] Soviet Union Strategic Alternatives
+[p.10] 1. Continue Shipping with Armed Escorts Rationale: Military (0.2 power)
+[p.10] "hawkish, deterrence-oriented" stance supports "displays of strength."
+[p.10] Khrushchev's high risk tolerance and goal to "redress strategic imbalance"
+[p.10] justify escalation. Next Event Triggers:
+[p.10] • Inevitable: Armed confrontation at sea
+[p.10] • Probable: U.S. military escalation
+[p.10] • Possible: Accidental engagement
+[p.10] 1. Halt Military Shipments, Continue Civilian Rationale: Khrushchev's behavior
+[p.10] shows "avoid triggering nuclear war" priority (0.3 weight). Current tension
+[p.10] (0.75) approaching trigger threshold requires de-escalation. Next Event
+[p.10] Triggers:
+[p.10] • Inevitable: Continued U.S. inspections
+[p.10] • Probable: Internal Soviet debate on next steps
+[p.10] • Possible: U.S. demands for missile removal
+[p.10] 1. Secret Diplomatic Offer Through Backchannel Rationale: Khrushchev's
+[p.10] "backchannel and personal diplomacy" preference and trigger threshold "if
+[p.10] viable compromise offered guaranteeing Cuba's security, shift to
+[p.10] negotiation." Next Event Triggers:
+[p.10] • Inevitable: U.S. response to offer
+[p.10] • Probable: Leak of negotiations
+[p.10] • Possible: Military opposition in both countries
+[p.10] Most Plausible Combination: U.S. Maintains Selective
+[p.10] Quarantine + Soviet Halts Military Shipments
+[p.10] Logic: Both sides demonstrated restraint in first encounter. High tension (0.75)
+[p.11] approaching critical threshold (0.8) incentivizes controlled de-escalation while
+[p.11] maintaining face.
+[p.11] Alternative Path 1: U.S. Public Address + Soviet Secret
+[p.11] Diplomacy
+[p.11] Logic: Both sides seek to shape narrative while exploring resolution. Aligns with
+[p.11] diplomatic preferences in both governments.
+[p.11] Alternative Path 2: U.S. Full Blockade + Soviet Armed
+[p.11] Escorts
+[p.11] Logic: Military hawks prevail due to perceived weakness in initial encounter.
+[p.11] Represents dangerous escalation path.
+[p.11] ALTERNATIVE PATH 1: Hardline Military
+[p.11] Response Path
+[p.11] Current Variables: tension: 0.60, diplomatic_support: 0.45, public_opinion: 0.45,
+[p.11] leadership_unity: 0.55
+[p.11] United States Strategic Alternatives
+[p.11] 1. Follow-up Air Strikes on Operational Sites Rationale: Defense Department's
+[p.11] view that "delay or half-measures increase danger." Initial strikes require
+[p.11] completion before missiles operational. Next Event Triggers:
+[p.11] • Inevitable: Soviet military retaliation
+[p.11] • Probable: Cuban defensive actions
+[p.11] • Possible: Soviet strikes elsewhere (Berlin/Turkey)
+[p.11] 1. Invasion Preparations with Ultimatum Rationale: Military's goal to "achieve
+[p.11] broader victory such as removal of Castro regime." Public opinion (0.45)
+[p.11] still above crisis threshold (0.4). Next Event Triggers:
+[p.11] • Inevitable: Soviet nuclear threat escalation
+[p.11] • Probable: Allied abandonment
+[p.11] • Possible: Preemptive Soviet action
+[p.11] 1. Pause for Damage Assessment Rationale: Kennedy's "balanced crisis
+[p.11] management" and need to evaluate strike success before further
+[p.11] escalation. Next Event Triggers:
+[p.11] • Inevitable: Soviet response window
+[p.11] • Probable: Reconnaissance missions
+[p.11] • Possible: Diplomatic opening
+[p.11] Soviet Union Strategic Alternatives
+[p.11] 1. Tactical Nuclear Demonstration Rationale: Military doctrine includes
+[p.12] "tactical nuclear use on invading forces." Strike on Cuba justifies
+[p.12] proportional response. Next Event Triggers:
+[p.12] • Inevitable: U.S. nuclear response consideration
+[p.12] • Probable: Global panic
+[p.12] • Possible: Command breakdown
+[p.12] 1. Conventional Retaliation in Berlin Rationale: Presidium's need to "maintain
+[p.12] Soviet prestige" while avoiding direct nuclear exchange. Berlin provides
+[p.12] symmetric pressure point. Next Event Triggers:
+[p.12] • Inevitable: NATO Article 5 consideration
+[p.12] • Probable: European war expansion
+[p.12] • Possible: German reunification crisis
+[p.12] 1. Emergency UN Security Council Rationale: Diplomatic support (0.45) below
+[p.12] threshold requires international intervention. Presidium's "collective
+[p.12] deliberation" supports multilateral approach. Next Event Triggers:
+[p.12] • Inevitable: U.S. justification required
+[p.12] • Probable: Chinese involvement
+[p.12] • Possible: Ceasefire proposal
+[p.12] Most Plausible Combination: U.S. Pause for Assessment +
+[p.12] Soviet UN Appeal
+[p.12] Logic: Both sides recognize nearness to nuclear threshold. Brief pause allows
+[p.12] face-saving diplomatic intervention.
+[p.12] Alternative Path 1: U.S. Invasion Preparations + Soviet
+[p.12] Berlin Retaliation
+[p.12] Logic: Geographic escalation avoids direct nuclear exchange while maintaining
+[p.12] pressure.
+[p.12] Alternative Path 2: U.S. Follow-up Strikes + Soviet Tactical
+[p.12] Nuclear Response
+[p.12] Logic: Worst-case escalation following military doctrine on both sides.
+[p.12] ALTERNATIVE PATH 2: Diplomatic Resolution
+[p.12] Path
+[p.12] Current Variables: tension: 0.45, diplomatic_support: 0.60, public_opinion: 0.55,
+[p.12] leadership_unity: 0.55
+[p.12] United States Strategic Alternatives
+[p.12] 1. Formal UN Resolution for Inspection Rationale: State Department's goal for
+[p.12] "international inspectors" and high diplomatic support (0.60) enables
+[p.13] multilateral approach. Next Event Triggers:
+[p.13] • Inevitable: Soviet UN response
+[p.13] • Probable: Cuban sovereignty debate
+[p.13] • Possible: Inspector access negotiations
+[p.13] 1. Private Turkey-Cuba Missile Trade Offer Rationale: Kennedy's "high
+[p.13] diplomacy preference" and State suggestion of "face-saving arrangement."
+[p.13] Leadership unity (0.55) allows flexibility. Next Event Triggers:
+[p.13] • Inevitable: Soviet consideration
+[p.13] • Probable: NATO concerns
+[p.13] • Possible: Leak to press
+[p.13] 1. Conditional Quarantine Suspension Rationale: Demonstrate good faith while
+[p.13] UN process proceeds. Public opinion (0.55) supports de-escalation. Next
+[p.13] Event Triggers:
+[p.13] • Inevitable: Soviet response test
+[p.13] • Probable: Missile work continuation
+[p.13] • Possible: Congressional opposition
+[p.13] Soviet Union Strategic Alternatives
+[p.13] 1. Accept UN Inspection with Conditions Rationale: Presidium's goal to "avoid
+[p.13] nuclear conflict while securing favorable outcome." Diplomatic path
+[p.13] preserves options. Next Event Triggers:
+[p.13] • Inevitable: Inspection negotiations
+[p.13] • Probable: Cuban resistance
+[p.13] • Possible: Military opposition
+[p.13] 1. Counter-Propose Mutual Withdrawal Rationale: Khrushchev's goal to "gain
+[p.13] leverage and prestige" through equal treatment of Turkey/Cuba
+[p.13] missiles. Next Event Triggers:
+[p.13] • Inevitable: U.S. evaluation
+[p.13] • Probable: NATO consultation
+[p.13] • Possible: Public revelation
+[p.13] 1. Freeze Construction Pending Talks Rationale: Show good faith while
+[p.13] maintaining bargaining position. Aligns with "peaceful coexistence"
+[p.13] ideology. Next Event Triggers:
+[p.13] • Inevitable: Verification demands
+[p.13] • Probable: Timeline negotiations
+[p.13] • Possible: Internal opposition
+[p.13] Most Plausible Combination: U.S. UN Resolution + Soviet
+[p.13] Conditional Acceptance
+[p.13] Logic: Both sides committed to diplomatic track. International framework provides
+[p.13] face-saving structure.
+[p.13] Alternative Path 1: U.S. Turkey Trade Offer + Soviet
+[p.14] Counter-Proposal
+[p.14] Logic: Direct bilateral negotiation on missile swap represents quickest resolution
+[p.14] path.
+[p.14] Alternative Path 2: U.S. Conditional Quarantine Suspension
+[p.14] + Soviet Construction Freeze
+[p.14] Logic: Mutual de-escalation steps build confidence for broader agreement.
+[p.14] RESULT LOGS
+[p.14] PRIMARY PATH - Most Plausible: Maintain Quarantine +
+[p.14] Halt Military Shipments
+[p.14] • Combined Variable Changes:
+[p.14] • tension: -0.05 (diplomatic opening)
+[p.14] • diplomatic_support: +0.05 (restraint shown)
+[p.14] • public_opinion: 0 (no public announcement yet)
+[p.14] • leadership_unity: 0 (no change)
+[p.14] New Variable Status: tension: 0.70, diplomatic_support: 0.55, public_opinion:
+[p.14] 0.50, leadership_unity: 1.0
+[p.14] Generated Triggers: [Continued Ship Inspections], [Diplomatic Channel
+[p.14] Opening]
+[p.14] ALTERNATIVE PATH 1 - Most Plausible: Pause Assessment
+[p.14] + UN Appeal
+[p.14] • Combined Variable Changes (per Defense_Prep + Diplomatic_Success):
+[p.14] • tension: 0 (pause prevents increase)
+[p.14] • diplomatic_support: +0.10
+[p.14] • public_opinion: +0.05
+[p.14] • leadership_unity: +0.05
+[p.14] New Variable Status: tension: 0.60, diplomatic_support: 0.55, public_opinion:
+[p.14] 0.50, leadership_unity: 0.60
+[p.14] Generated Triggers: [UN Emergency Session], [Military Pressure for Action]
+[p.14] ALTERNATIVE PATH 2 - Most Plausible: UN Resolution +
+[p.14] Conditional Acceptance
+[p.14] • Combined Variable Changes (per Diplomatic_Success):
+[p.14] • tension: -0.05
+[p.14] • diplomatic_support: +0.10
+[p.14] • public_opinion: +0.05
+[p.14] • leadership_unity: +0.05
+[p.15] New Variable Status: tension: 0.40, diplomatic_support: 0.70, public_opinion:
+[p.15] 0.60, leadership_unity: 0.60
+[p.15] Generated Triggers: [Inspection Protocol Negotiations], [Implementation
+[p.15] Timeline Debate]
+[p.15] Retry

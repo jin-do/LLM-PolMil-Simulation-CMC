@@ -1,0 +1,116 @@
+[p.8] Based on the variable states from the previous turn and the new event, the simulation continues for each
+[p.8] branching scenario.
+[p.8] Scenario 1: Most Plausible Path - Analysis
+[p.8] Previous State: The U.S. established a naval quarantine, and the Soviets chose to deny and defy. Variables
+[p.8] were tense, with declining unity and support.
+[p.8] Turn 2 Event: The U.S. blockade successfully intercepted a Soviet vessel. This action is classified as a
+[p.8] "Defense_Prep" event in the Variable-Decision Matrix.json, as it represents a successful military action short
+[p.8] of a direct strike.
+[p.8] [RESULT LOG]
+[p.8] Scenario Combination Name: Scenario 1A: The Diplomatic Turn (Most Plausible)
+[p.8] Selected Actor: United States
+[p.8] Selected Action: Open Backchannel Negotiations to Propose a Resolution
+[p.8] Predicted Variable Change: This action is classified as "Diplomatic_Success". Tension [-0.05],
+[p.8] Diplomatic_Support [+0.10], Public_Opinion [+0.05], Leadership_Unity [+0.05].
+[p.8] Generated Triggers: This offer meets the Soviet diplomatic_resolution_offer threshold, creating a high
+[p.8] probability that Khrushchev will "shift to negotiation to avert war".
+[p.8] Scenario Combination Name: Scenario 1A: The Diplomatic Turn (Most Plausible)
+[p.8] Selected Actor: Soviet Union
+[p.8] Selected Action: Agree to Secret Negotiations
+[p.8] Predicted Variable Change: (This is a reaction; the primary variable change is driven by the U.S. diplomatic
+[p.8] action.) Tension [-0.05], Diplomatic_Support [+0.10], Public_Opinion [+0.05], Leadership_Unity [+0.05].
+[p.8] Generated Triggers: Agreement to negotiate triggers a de-escalation cycle, though the U.S. DoD
+[p.8] trigger_threshold for "imminent military action" remains a risk if talks stall.
+[p.8] [RECONFIRM VARIABLE STATUS]
+[p.8] Initial state from Turn 1 Quarantine: Tension(0.55), Dip. Support(0.48), Pub. Opinion(0.48), Lead.
+[p.8] Unity(0.45)
+[p.8] tension: 0.50
+[p.8] diplomatic_support: 0.58
+[p.8] military_posture: De-escalating. With Tension decreasing and Diplomatic_Support rising above 0.5,
+[p.8] Military_Action shifts back from "Primary Option" to "Limited".
+[p.8] public_opinion: 0.53
+[p.8] leadership_unity: 0.50
+[p.8] [RESULT LOG]
+[p.8] Scenario Combination Name: Scenario 1B: The Hardline Test (Alternative)
+[p.8] Selected Actor: United States
+[p.9] Selected Action: Maintain and Tighten the Quarantine
+[p.9] Predicted Variable Change: This action is another "Defense_Prep" event. Tension [+0.05], Diplomatic_Support
+[p.9] [-0.02], Public_Opinion [-0.02], Leadership_Unity [-0.05].
+[p.9] Generated Triggers: Continued pressure without an off-ramp risks crossing the DoD's own trigger that the
+[p.9] quarantine is failing, pushing for an "air strike/invasion plan".
+[p.9] Scenario Combination Name: Scenario 1B: The Hardline Test (Alternative)
+[p.9] Selected Actor: Soviet Union
+[p.9] Selected Action: Challenge the Blockade with a Submarine Escort
+[p.9] Predicted Variable Change: (This is a reaction; the primary variable change is driven by the U.S. action.)
+[p.9] Tension [+0.05], Diplomatic_Support [-0.02], Public_Opinion [-0.02], Leadership_Unity [-0.05].
+[p.9] Generated Triggers: This action would be a "direct Soviet military challenge," triggering the U.S. to
+[p.9] "reevaluate and potentially move to an air strike/invasion plan". It also risks a "Military Conflict" trigger if
+[p.9] Tension exceeds 0.8.
+[p.9] [RECONFIRM VARIABLE STATUS]
+[p.9] Initial state from Turn 1 Quarantine: Tension(0.55), Dip. Support(0.48), Pub. Opinion(0.48), Lead.
+[p.9] Unity(0.45)
+[p.9] tension: 0.60
+[p.9] diplomatic_support: 0.46
+[p.9] military_posture: Escalating. Military_Action remains the "Primary Option" due to low Diplomatic_Support. Low
+[p.9] Leadership_Unity (0.40) increases the chance of "Radical Adoption" of military plans.
+[p.9] public_opinion: 0.46
+[p.9] leadership_unity: 0.40
+[p.9] Scenario 2: Aggressive Escalation Path - Analysis
+[p.9] Note: The specified Turn 2 Event (naval blockade) is logically inconsistent with the established history of
+[p.9] this scenario (a U.S. air strike in Turn 1). To maintain the scenario's integrity, a compatible event is
+[p.9] substituted: "Following the U.S. air strike, Soviet forces have retaliated against a U.S. naval vessel, and global
+[p.9] forces are on high alert." This is classified as a "Strike" event.
+[p.9] [RESULT LOG]
+[p.9] Scenario Combination Name: Scenario 2A: The Invasion (Most Plausible)
+[p.9] Selected Actor: United States
+[p.9] Selected Action: Launch a Full-Scale Invasion of Cuba
+[p.9] Predicted Variable Change: This is another "Strike" event. Tension [+0.15], Diplomatic_Support [-0.05],
+[p.9] Public_Opinion [-0.05], Leadership_Unity [-0.10].
+[p.9] Generated Triggers: The invasion crosses the Soviet US_invasion_Cuba threshold, triggering the order to
+[p.9] "Initiate military response, including possible tactical nuclear use on invading forces".
+[p.9] Scenario Combination Name: Scenario 2A: The Invasion (Most Plausible)
+[p.9] Selected Actor: Soviet Union
+[p.10] Selected Action: Authorize Tactical Nuclear Weapon Use
+[p.10] Predicted Variable Change: (This is a reaction; the primary variable change is driven by the U.S. action.)
+[p.10] Tension [+0.15], Diplomatic_Support [-0.05], Public_Opinion [-0.05], Leadership_Unity [-0.10].
+[p.10] Generated Triggers: Use of a nuclear weapon would be a catastrophic event, guaranteeing maximum escalation
+[p.10] and triggering DEFCON 1 / full nuclear exchange protocols.
+[p.10] [RECONFIRM VARIABLE STATUS]
+[p.10] Initial state from Turn 1 Strike: Tension(0.65), Dip. Support(0.45), Pub. Opinion(0.45), Lead. Unity(0.40)
+[p.10] tension: 0.80
+[p.10] diplomatic_support: 0.40
+[p.10] military_posture: War. Tension has reached the 0.8 threshold, meaning Diplomatic_Negotiation is "Disabled"
+[p.10] and Military_Action is "Aggressive." All emergency responses are "Required".
+[p.10] public_opinion: 0.40
+[p.10] leadership_unity: 0.30
+[p.10] Scenario 3: Diplomatic Focus Path - Analysis
+[p.10] Previous State: A U.S. diplomatic ultimatum failed, and Soviet denial led to a tense standoff with deteriorating
+[p.10] political variables.
+[p.10] Turn 2 Event: The U.S. implemented a naval blockade, which successfully intercepted a Soviet vessel. This
+[p.10] logical next step after failed diplomacy is classified as a "Defense_Prep" event.
+[p.10] [RESULT LOG]
+[p.10] Scenario Combination Name: Scenario 3A: The Secret Deal (Most Plausible)
+[p.10] Selected Actor: United States
+[p.10] Selected Action: Propose Secret Removal of Turkish Missiles for Cuban Missiles
+[p.10] Predicted Variable Change: This action is a "Diplomatic_Success". Tension [-0.05], Diplomatic_Support
+[p.10] [+0.10], Public_Opinion [+0.05], Leadership_Unity [+0.05].
+[p.10] Generated Triggers: This proposal directly addresses the Soviet goal of guaranteeing Cuban security and
+[p.10] provides a face-saving exit, meeting the diplomatic_resolution_offer trigger.
+[p.10] Scenario Combination Name: Scenario 3A: The Secret Deal (Most Plausible)
+[p.10] Selected Actor: Soviet Union
+[p.10] Selected Action: Accept the Secret Trade
+[p.10] Predicted Variable Change: (This is a reaction; the primary variable change is driven by the U.S. action.)
+[p.10] Tension [-0.05], Diplomatic_Support [+0.10], Public_Opinion [+0.05], Leadership_Unity [+0.05].
+[p.10] Generated Triggers: Acceptance would lead to de-escalation, but could trigger future "Internal Division" or
+[p.10] "Coup Risk" if hardliners in either country view the compromise as a sign of weakness.
+[p.10] [RECONFIRM VARIABLE STATUS]
+[p.10] Initial state from Turn 1 Diplomacy Failure: Tension(0.60), Dip. Support(0.40), Pub. Opinion(0.45), Lead.
+[p.10] Unity(0.45)
+[p.10] Effect of intermediate blockade event: Tension(0.65), Dip. Support(0.38), Pub. Opinion(0.43), Lead.
+[p.11] Unity(0.40)
+[p.11] tension: 0.60
+[p.11] diplomatic_support: 0.48
+[p.11] military_posture: Stabilizing. While still tense, the successful diplomatic maneuver raises Diplomatic_Support
+[p.11] and halts the slide towards military action being the only option.
+[p.11] public_opinion: 0.48
+[p.11] leadership_unity: 0.45

@@ -1,0 +1,186 @@
+[p.8] Generated Triggers: Soviet military response imminent, International
+[p.8] condemnation
+[p.8] RESULT LOG - Soviet Military Alert
+[p.8] • Scenario Combination Name: Hardline Response Path
+[p.8] • Selected Actor: Soviet Union
+[p.8] • Selected Action: Military Alert and Deterrence Posturing
+[p.8] • Predicted Variable Change:
+[p.8] • tension +0.45 (military_alert effect from Soviet effect_rules)
+[p.8] • diplomatic_support: No direct effect rule
+[p.8] • public_opinion: No direct effect rule
+[p.8] • leadership_unity +0.65 (military_alert effect from Soviet effect_rules)
+[p.8] Generated Triggers: Nuclear forces on high alert, Potential tactical nuclear
+[p.8] authorization
+[p.8] RECONFIRM VARIABLE STATUS - Combination 3
+[p.8] • tension: 0.5 + 0.30 + 0.45 = 1.0 (clamped to maximum 1.0)
+[p.8] • diplomatic_support: 0.5 (unchanged)
+[p.8] • military_posture: Combat Ready (active military operations)
+[p.8] • public_opinion: 0.5 (unchanged)
+[p.8] • leadership_unity: 0.5 + 0.80 + 0.65 = 1.0 (clamped to maximum 1.0)
+[p.8] CRITICAL WARNING: Tension at maximum (1.0) with active military operations -
+[p.8] "Military Conflict Risk Increased" trigger activated
+[p.8] Retry
+[p.9] COMBINATION 1: MOST PLAUSIBLE PATH
+[p.9] (FROM TURN 1)
+[p.9] Current Variable Status: Tension: 1.0, Diplomatic_Support: 1.0, Public_Opinion: 0.5,
+[p.9] Leadership_Unity: 1.0
+[p.9] UNITED STATES STRATEGIC ALTERNATIVES
+[p.9] 1. Maintain Quarantine with Escalation Readiness
+[p.9] Rationale: With Tension at 1.0 (>0.8 threshold), the Variable-Decision Matrix
+[p.9] indicates "Military_Action: Aggressive" and "Diplomatic_Negotiation: Disabled."
+[p.9] Defense Department's high military preference (0.25 power weight) gains influence.
+[p.9] Next Event Triggers:
+[p.9] • Inevitable: Continued Soviet vessel encounters
+[p.9] • Potential: Soviet military provocation, U-2 shootdown (per Defense trigger
+[p.9] threshold)
+[p.10] 2. Execute Limited Air Strikes on Operational Sites
+[p.10] Rationale: Variable-Decision Matrix mandates "Emergency_Response: Required" at
+[p.10] current tension. Defense Department trigger threshold indicates "if quarantine fails
+[p.10] to resolve crisis by set time" would push for strikes.
+[p.10] Next Event Triggers:
+[p.10] • Inevitable: Soviet military response per their doctrine
+[p.10] • Potential: Tactical nuclear use by Soviet forces (per Soviet military
+[p.10] preference)
+[p.10] SOVIET UNION STRATEGIC ALTERNATIVES
+[p.10] 1. Comply with Blockade While Accelerating Deployment
+[p.10] Rationale: With Tension at 1.0, Soviet Variable-Decision Matrix requires
+[p.10] "Military_Action: Aggressive." However, Khrushchev's behavior algorithm prioritizes
+[p.10] "avoid_nuclear_war: 0.3" while maintaining "deterrence: 0.4."
+[p.10] Next Event Triggers:
+[p.10] • Inevitable: U.S. detection of continued deployment
+[p.10] • Potential: Missiles becoming operational, triggering U.S. military action
+[p.10] 2. Direct Military Challenge to Blockade
+[p.10] Rationale: Variable-Decision Matrix at maximum tension mandates aggressive
+[p.10] response. Soviet Armed Forces (0.2 power weight) advocate "robust defense and
+[p.10] readiness."
+[p.10] Next Event Triggers:
+[p.10] • Inevitable: Naval confrontation escalation
+[p.10] • Potential: Exchange of fire, triggering both nations' military response
+[p.10] protocols
+[p.10] MOST PLAUSIBLE COMBINATION: U.S. Maintains Quarantine
+[p.10] + Soviet Complies While Accelerating
+[p.10] Logic: Despite maximum tension, both sides' nuclear war avoidance priorities (U.S.:
+[p.10] 0.3, Soviet: 0.3) create restraint.
+[p.10] Variable Changes:
+[p.10] • From Event-Driven Adjustments: "Defense_Prep" applies
+[p.10] • Tension: +0.05 = 1.0 (already at maximum)
+[p.10] • Diplomatic_Support: -0.02 = 0.98
+[p.10] • Public_Opinion: -0.02 = 0.48
+[p.10] • Leadership_Unity: -0.05 = 0.95
+[p.10] ALTERNATIVE PATH: U.S. Limited Strikes + Soviet Military
+[p.10] Challenge
+[p.10] Logic: Maximum tension triggers both sides' military preferences per
+[p.10] Variable-Decision Matrix requirements.
+[p.11] Variable Changes:
+[p.11] • From Event-Driven Adjustments: "Strike" applies
+[p.11] • Tension: +0.15 = 1.0 (already at maximum)
+[p.11] • Diplomatic_Support: -0.05 = 0.95
+[p.11] • Public_Opinion: -0.05 = 0.45
+[p.11] • Leadership_Unity: -0.10 = 0.90
+[p.11] COMBINATION 2: DIPLOMATIC RESOLUTION
+[p.11] PATH (FROM TURN 1)
+[p.11] Current Variable Status: Tension: 0.95, Diplomatic_Support: 1.0, Public_Opinion: 1.0,
+[p.11] Leadership_Unity: 0.5
+[p.11] UNITED STATES STRATEGIC ALTERNATIVES
+[p.11] 1. Enforce Blockade with UN Oversight
+[p.11] Rationale: With Leadership_Unity at 0.5 threshold, Variable-Decision Matrix
+[p.11] indicates "Confused Policy" and "Radical Adoption" possible. State Department's
+[p.11] preference for UN involvement gains traction.
+[p.11] Next Event Triggers:
+[p.11] • Inevitable: UN Security Council debate
+[p.11] • Potential: Soviet veto, requiring alternate diplomatic channels
+[p.11] 2. Escalate to Full Quarantine with Air Patrols
+[p.11] Rationale: Tension at 0.95 (>0.8) requires "Military_Action: Aggressive" per
+[p.11] Variable-Decision Matrix. Public Opinion at 1.0 provides strong backing.
+[p.11] Next Event Triggers:
+[p.11] • Inevitable: Increased Soviet-U.S. military encounters
+[p.11] • Potential: Accidental engagement, aerial incident
+[p.11] SOVIET UNION STRATEGIC ALTERNATIVES
+[p.11] 1. Propose Missile Freeze with Conditions
+[p.11] Rationale: Despite high tension (0.95), maximum Diplomatic_Support (1.0) enables
+[p.11] diplomatic initiatives. Khrushchev's "backchannel diplomacy" preference activates.
+[p.11] Next Event Triggers:
+[p.11] • Inevitable: U.S. response to conditions
+[p.11] • Potential: Secret negotiations breakthrough, public revelation of talks
+[p.11] 2. Test Blockade with Civilian Ships
+[p.11] Rationale: High tension mandates aggressive response, but Soviet constraint of
+[p.11] "incomplete deployment" requires buying time.
+[p.11] Next Event Triggers:
+[p.11] • Inevitable: U.S. boarding decisions
+[p.12] • Potential: International incident if civilians harmed, propaganda
+[p.12] opportunity
+[p.12] MOST PLAUSIBLE COMBINATION: U.S. UN Oversight +
+[p.12] Soviet Missile Freeze Proposal
+[p.12] Logic: Maximum Diplomatic_Support (1.0) on both sides creates opening despite
+[p.12] high tension.
+[p.12] Variable Changes:
+[p.12] • From Event-Driven Adjustments: "Diplomatic_Success" applies
+[p.12] • Tension: -0.05 = 0.90
+[p.12] • Diplomatic_Support: +0.10 = 1.0 (already at maximum)
+[p.12] • Public_Opinion: +0.05 = 1.0 (already at maximum)
+[p.12] • Leadership_Unity: +0.05 = 0.55
+[p.12] ALTERNATIVE PATH: U.S. Full Quarantine + Soviet Civilian
+[p.12] Test
+[p.12] Logic: Tension-driven escalation with both sides testing limits.
+[p.12] Variable Changes:
+[p.12] • From Event-Driven Adjustments: "Defense_Prep" applies
+[p.12] • Tension: +0.05 = 1.0 (clamped to maximum)
+[p.12] • Diplomatic_Support: -0.02 = 0.98
+[p.12] • Public_Opinion: -0.02 = 0.98
+[p.12] • Leadership_Unity: -0.05 = 0.45
+[p.12] WARNING: Leadership_Unity drops below 0.5 threshold - "Internal Division, Coup
+[p.12] Risk"
+[p.12] COMBINATION 3: HARDLINE RESPONSE PATH
+[p.12] (FROM TURN 1)
+[p.12] Current Variable Status: Tension: 1.0, Diplomatic_Support: 0.5, Public_Opinion: 0.5,
+[p.12] Leadership_Unity: 1.0
+[p.12] UNITED STATES STRATEGIC ALTERNATIVES
+[p.12] 1. Execute Comprehensive Air Campaign
+[p.12] Rationale: With Diplomatic_Support at 0.5 threshold, Variable-Decision Matrix states
+[p.12] "Military_Action: Primary Option." Defense Department's trigger for "direct Soviet
+[p.12] military challenge" is met.
+[p.12] Next Event Triggers:
+[p.12] • Inevitable: Large-scale combat operations
+[p.12] • Potential: Soviet nuclear response, global war
+[p.13] 2. Surgical Strike on One Site as Warning
+[p.13] Rationale: Leadership_Unity at 1.0 enables "Stable Decision" per Variable-Decision
+[p.13] Matrix, allowing calibrated response.
+[p.13] Next Event Triggers:
+[p.13] • Inevitable: Soviet retaliation decision point
+[p.13] • Potential: Escalation pause, or spiral
+[p.13] SOVIET UNION STRATEGIC ALTERNATIVES
+[p.13] 1. Tactical Nuclear Demonstration
+[p.13] Rationale: Maximum tension with Diplomatic_Support at threshold (0.5) triggers
+[p.13] "Military_Action: Primary Option." Soviet military doctrine includes "tactical nuclear
+[p.13] response if authorized."
+[p.13] Next Event Triggers:
+[p.13] • Inevitable: Global nuclear alert
+[p.13] • Potential: U.S. nuclear response, negotiation under nuclear shadow
+[p.13] 2. Conventional Retaliation in Berlin
+[p.13] Rationale: Soviet behavior algorithm seeks to "maximize strategic advantage minus
+[p.13] escalation risk." Berlin offers retaliation without direct U.S.-Soviet clash.
+[p.13] Next Event Triggers:
+[p.13] • Inevitable: NATO Article 5 consideration
+[p.13] • Potential: European theater expansion, multi-front crisis
+[p.13] MOST PLAUSIBLE COMBINATION: U.S. Surgical Strike +
+[p.13] Soviet Berlin Retaliation
+[p.13] Logic: Both sides seek decisive action while avoiding direct nuclear exchange.
+[p.13] Variable Changes:
+[p.13] • From Event-Driven Adjustments: "Strike" applies
+[p.13] • Tension: +0.15 = 1.0 (already at maximum)
+[p.13] • Diplomatic_Support: -0.05 = 0.45
+[p.13] • Public_Opinion: -0.05 = 0.45
+[p.13] • Leadership_Unity: -0.10 = 0.90
+[p.13] CRITICAL: Diplomatic_Support drops below 0.5 - "Diplomatic Isolation" trigger
+[p.13] activated
+[p.13] ALTERNATIVE PATH: U.S. Comprehensive Campaign +
+[p.13] Soviet Nuclear Demonstration
+[p.13] Logic: Maximum escalation path per Variable-Decision Matrix requirements.
+[p.13] Variable Changes:
+[p.13] • From Event-Driven Adjustments: Double "Strike" effect
+[p.13] • Tension: +0.30 = 1.0 (already at maximum)
+[p.13] • Diplomatic_Support: -0.10 = 0.40
+[p.14] • Public_Opinion: -0.10 = 0.40
+[p.14] • Leadership_Unity: -0.20 = 0.80
+[p.14] CRITICAL: Public_Opinion at 0.40 threshold - "Civil Unrest, Chaos" trigger activated
+[p.14] Retry

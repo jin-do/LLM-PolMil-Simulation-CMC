@@ -1,0 +1,112 @@
+[p.11] Here are the result logs for Turn 3, branching from the distinct outcomes of each of the three scenarios
+[p.11] established in Turn 2.
+[p.11] Scenario 1: Most Plausible Path
+[p.11] Initial State (Start of Turn 3):
+[p.11] Tension: 0.50
+[p.11] Diplomatic Support: 0.66
+[p.11] Public Opinion: 0.56
+[p.11] Leadership Unity: 0.50
+[p.11] Turn 3 Event Analysis: The downing of the U-2 is a "Strike" event that shatters the fragile calm of the
+[p.11] backchannel negotiations. This action gives extreme leverage to U.S. hardliners. The Department of Defense's
+[p.11] trigger for "Hostile Soviet or Cuban military action" is met. However, President Kennedy's primary goal
+[p.11] remains avoiding nuclear war. The most plausible path is that both leaders attempt to contain the crisis,
+[p.11] suspecting it was not a centrally ordered attack. Kennedy prepares for retaliation to appease the military
+[p.11] while demanding answers, and Khrushchev, fearing the deal will collapse, attempts to de-escalate.
+[p.11] [RESULT LOG]
+[p.11] Scenario Combination Name: Most Plausible Path - Turn 3
+[p.11] Selected Actor: Soviet Union
+[p.11] Selected Action: (The Event) U-2 is shot down over Cuba.
+[p.11] Predicted Variable Change (based on "Strike"): tension [+0.15], diplomatic_support [-0.05], public_opinion
+[p.11] [-0.05], leadership_unity [-0.10]
+[p.11] Generated Triggers: Meets the U.S. Department of Defense's trigger for direct military retaliation.
+[p.11] Scenario Combination Name: Most Plausible Path - Turn 3
+[p.11] Selected Actor: United States
+[p.11] Selected Action: Demand Explanation via Backchannel and Order Military to Prepare Retaliation
+[p.11] Predicted Variable Change (based on "Defense_Prep"): tension [+0.05], diplomatic_support [-0.02],
+[p.11] public_opinion [-0.02], leadership_unity [-0.05]
+[p.11] Generated Triggers: Elevates U.S. military posture, placing forces on higher alert for a potential strike on
+[p.11] Cuban SAM sites.
+[p.11] [RECONFIRM VARIABLE STATUS]
+[p.11] Rationale: The U-2 shootdown causes a severe spike in tension and damages leadership unity. The U.S.
+[p.11] decision to prepare for a strike rather than immediately launching one adds to the tension but reflects a
+[p.11] desire to maintain control, preventing an immediate spiral into all-out war.
+[p.11] Cumulative Change: tension [+0.20], diplomatic_support [-0.07], public_opinion [-0.07], leadership_unity
+[p.11] [-0.15]
+[p.11] tension: 0.70
+[p.11] diplomatic_support: 0.59
+[p.11] military_posture: Limited (Tension < 0.8)
+[p.12] public_opinion: 0.49
+[p.12] leadership_unity: 0.35 (Threshold of <=0.5 met. Effect: "Decision Delay, Radical Policy Preference". Trigger: "Internal Division, Coup Risk")
+[p.12] Scenario 2: The Military Path
+[p.12] Initial State (Start of Turn 3):
+[p.12] Tension: 0.70
+[p.12] Diplomatic Support: 0.50
+[p.12] Public Opinion: 0.60
+[p.12] Leadership Unity: 0.50
+[p.12] Turn 3 Event Analysis: In this timeline, the U-2 is shot down during a fragile ceasefire. This act is the final
+[p.12] proof for U.S. military leadership that negotiation is futile and the ceasefire is a failure. It is the unambiguous
+[p.12] "Hostile... military action" that the Department of Defense's triggers are built for. The U.S. response will be
+[p.12] overwhelming, as this is seen as a profound breach of faith during an attempt to de-escalate. The Soviet
+[p.12] Armed Forces, in turn, will be forced by their own triggers to retaliate against a U.S. attack. The path to
+[p.12] wider war is now unavoidable.
+[p.12] [RESULT LOG]
+[p.12] Scenario Combination Name: The Military Path - Turn 3
+[p.12] Selected Actor: Soviet Union
+[p.12] Selected Action: (The Event) U-2 is shot down over Cuba, breaking the ceasefire.
+[p.12] Predicted Variable Change (based on "Strike"): tension [+0.15], diplomatic_support [-0.05], public_opinion
+[p.12] [-0.05], leadership_unity [-0.10]
+[p.12] Generated Triggers: Collapses the ceasefire and guarantees a massive U.S. military response.
+[p.12] Scenario Combination Name: The Military Path - Turn 3
+[p.12] Selected Actor: United States
+[p.12] Selected Action: Launch Full-Scale Air Strikes and Initiate Invasion of Cuba
+[p.12] Predicted Variable Change (based on "Strike"): tension [+0.15], diplomatic_support [-0.05], public_opinion
+[p.12] [-0.05], leadership_unity [-0.10]
+[p.12] Generated Triggers: Triggers Khrushchev's last-resort option to "Initiate military response, including possible
+[p.12] tactical nuclear use on invading forces".
+[p.12] [RECONFIRM VARIABLE STATUS]
+[p.12] Rationale: The shootdown and subsequent full-scale U.S. attack represent a catastrophic failure of
+[p.12] de-escalation. Both actions are "Strike" events, pushing tension past the breaking point and causing all other
+[p.12] variables to collapse into a crisis state.
+[p.12] Cumulative Change: tension [+0.30], diplomatic_support [-0.10], public_opinion [-0.10], leadership_unity
+[p.12] [-0.20]
+[p.12] tension: 1.00 (Threshold of >=0.8 met. Effect: "Diplomatic Negotiation Disabled, Military Options Preferred". Trigger: "Military Conflict Risk Increased")
+[p.13] diplomatic_support: 0.40 (Threshold of <=0.5 met. Effect: "Diplomatic Solution Blocked...". Trigger: "Diplomatic Isolation")
+[p.13] military_posture: Aggressive (Tension >= 0.8)
+[p.13] public_opinion: 0.50
+[p.13] leadership_unity: 0.30 (Threshold of <=0.5 met. Effect: "Severe Internal Conflict". Trigger: "Internal Division, Coup Risk")
+[p.13] Scenario 3: The Diplomatic Path
+[p.13] Initial State (Start of Turn 3):
+[p.13] Tension: 0.30
+[p.13] Diplomatic Support: 0.90
+[p.13] Public Opinion: 0.70
+[p.13] Leadership Unity: 0.70
+[p.13] Turn 3 Event Analysis: The U-2 shootdown occurs when a peaceful resolution is nearly finalized. The
+[p.13] variables are extremely positive. In this context, both leaders have an overwhelming incentive to prevent a
+[p.13] single, likely unauthorized, action from derailing the entire peace process. Kennedy, prioritizing the goal to
+[p.13] "avoid a nuclear war", and Khrushchev, desperate to secure his deal, will choose to quietly contain the
+[p.13] incident and rush to finalize the agreement they have worked for. The event is a "Strike," but the response
+[p.13] from both leaders is a final, desperate act of "Diplomatic Success."
+[p.13] [RESULT LOG]
+[p.13] Scenario Combination Name: The Diplomatic Path - Turn 3
+[p.13] Selected Actor: Soviet Union / Uncontrolled Elements
+[p.13] Selected Action: (The Event) U-2 is shot down over Cuba.
+[p.13] Predicted Variable Change (based on "Strike"): tension [+0.15], diplomatic_support [-0.05], public_opinion
+[p.13] [-0.05], leadership_unity [-0.10]
+[p.13] Generated Triggers: Creates extreme pressure from U.S. hardliners to abandon the diplomatic path.
+[p.13] Scenario Combination Name: The Diplomatic Path - Turn 3
+[p.13] Selected Actor: United States & Soviet Union
+[p.13] Selected Action: Mutually Agree to Ignore the Incident and Immediately Finalize the Resolution Deal
+[p.13] Predicted Variable Change (based on two "Diplomatic_Success" events): tension [-0.10], diplomatic_support
+[p.13] [+0.20], public_opinion [+0.10], leadership_unity [+0.10]
+[p.13] Generated Triggers: The crisis is resolved.
+[p.13] [RECONFIRM VARIABLE STATUS]
+[p.13] Rationale: The "Strike" of the shootdown causes a shock to the system, but the immediate and decisive
+[p.13] diplomatic actions by both leaders to finalize the deal overwhelm the negative effects, leading to a net
+[p.13] positive outcome as the crisis concludes.
+[p.14] Cumulative Change: tension [+0.05], diplomatic_support [+0.15], public_opinion [+0.05], leadership_unity
+[p.14] [+0.00]
+[p.14] tension: 0.35
+[p.14] diplomatic_support: 1.00
+[p.14] military_posture: Limited (Tension < 0.8)
+[p.14] public_opinion: 0.75
+[p.14] leadership_unity: 0.70

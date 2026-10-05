@@ -1,0 +1,186 @@
+[p.8] Retry
+[p.9] SCENARIO 1: Most Plausible Path (Current
+[p.9] Variables: Tension 0.8, Diplomatic Support
+[p.9] 0.6, Public Opinion 0.5, Leadership Unity 0.8)
+[p.9] United States Strategic Alternatives
+[p.9] Option 1: Maintain Blockade with Selective Enforcement
+[p.9] • Rationale: Despite tension at 0.8 threshold ("Diplomatic Negotiation
+[p.9] Disabled"), Kennedy's utility formula still weights "avoid nuclear war" at
+[p.9] 0.3. Selective enforcement demonstrates resolve while avoiding direct
+[p.9] confrontation.
+[p.9] • Next Triggers:
+[p.9] • Inevitable: More Soviet ships approach blockade line
+[p.9] • Potential: Soviet submarine detection, Castro's response
+[p.9] Option 2: Escalate to DEFCON 2 and Prepare Invasion
+[p.9] • Rationale: Defense Department (0.25 power) argues blockade alone
+[p.9] insufficient. With tension ≥0.8, military options are now "Aggressive" per
+[p.9] Decision Matrix.
+[p.9] • Next Triggers:
+[p.9] • Inevitable: Soviet counter-escalation, global alarm
+[p.9] • Potential: Preemptive Soviet action, allied concerns
+[p.9] Option 3: Secret Diplomatic Channel While Maintaining Pressure
+[p.9] • Rationale: State Department recognizes diplomatic support at 0.6 enables
+[p.9] backchannel attempts despite public negotiation being "Disabled."
+[p.9] • Next Triggers:
+[p.9] • Inevitable: Soviet response to overture
+[p.9] • Potential: Public exposure of talks, domestic criticism
+[p.9] Soviet Union Strategic Alternatives
+[p.9] Option 1: Order Ships to Turn Back While Protesting
+[p.9] • Rationale: Khrushchev's "conflict_avoidance: Medium" and priority to "avoid
+[p.9] nuclear war" (0.3) suggests tactical retreat to prevent escalation.
+[p.9] • Next Triggers:
+[p.9] • Inevitable: Internal military criticism
+[p.9] • Potential: Face-saving counter-move elsewhere
+[p.9] Option 2: Test Blockade with Civilian Ships
+[p.9] • Rationale: Party Presidium's stance of "reactive use of force only if
+[p.10] attacked" allows probing U.S. resolve without military confrontation.
+[p.10] • Next Triggers:
+[p.10] • Inevitable: U.S. boarding decisions
+[p.10] • Potential: Incident during inspection, public opinion shift
+[p.10] Option 3: Accelerate Cuba Missile Operationalization
+[p.10] • Rationale: Soviet Armed Forces (0.2 power) emphasizes completing
+[p.10] Operation Anadyr. High tension validates urgency.
+[p.10] • Next Triggers:
+[p.10] • Inevitable: U.S. intelligence detection
+[p.10] • Potential: Preemptive U.S. strike decision
+[p.10] Conflict Assessment
+[p.10] With tension at 0.8, both sides' military preferences increase while diplomatic
+[p.10] options narrow. U.S. "national_security" (0.4) conflicts with Soviet "deterrence" (0.4),
+[p.10] but shared "avoid_nuclear_war" priority creates restraint.
+[p.10] Strategic Combinations for Scenario 1
+[p.10] 1. MOST PLAUSIBLE: U.S. Maintain Blockade + Soviet Ships Turn Back
+[p.10] • Logic: Both leaders retain control despite military pressure. Demonstrates
+[p.10] firmness while avoiding immediate escalation.
+[p.10] 2. Alternative: U.S. DEFCON 2 + Soviet Accelerate Missiles
+[p.10] • Logic: Military establishments on both sides drive escalation given high
+[p.10] tension threshold.
+[p.10] 3. Alternative: U.S. Secret Diplomacy + Soviet Test with Civilians
+[p.10] • Logic: Both probe for resolution while maintaining public postures.
+[p.10] SCENARIO 2: Hardline Response Path (Current
+[p.10] Variables: Tension 1.0, Diplomatic Support
+[p.10] 0.45, Public Opinion 0.45, Leadership Unity
+[p.10] 0.55)
+[p.10] United States Strategic Alternatives
+[p.10] Option 1: Execute Limited Air Strikes on Operational Sites
+[p.10] • Rationale: With tension at maximum and diplomatic support <0.5, Decision
+[p.10] Matrix mandates "Military_Action: Primary Option."
+[p.10] • Next Triggers:
+[p.10] • Inevitable: Soviet military response
+[p.10] • Potential: Nuclear escalation, global intervention
+[p.10] Option 2: Full Invasion Preparation with Ultimatum
+[p.10] • Rationale: Defense Department can push aggressive options with leadership
+[p.10] unity near 0.5 threshold.
+[p.11] • Next Triggers:
+[p.11] • Inevitable: Soviet mobilization
+[p.11] • Potential: Preemptive nuclear use
+[p.11] Option 3: Emergency UN Appeal for Mediation
+[p.11] • Rationale: Public opinion at 0.45 creates pressure for last-ditch peace
+[p.11] effort before catastrophe.
+[p.11] • Next Triggers:
+[p.11] • Inevitable: Soviet response at UN
+[p.11] • Potential: Military coup attempt
+[p.11] Soviet Union Strategic Alternatives
+[p.11] Option 1: Authorize Tactical Nuclear Use if Attacked
+[p.11] • Rationale: Maximum tension with leadership unity at 0.55 enables military's
+[p.11] "tactical nuclear response if authorized."
+[p.11] • Next Triggers:
+[p.11] • Inevitable: Global nuclear alert
+[p.11] • Potential: Immediate escalation
+[p.11] Option 2: Emergency Withdrawal Offer
+[p.11] • Rationale: Khrushchev's survival instinct overrides other considerations at
+[p.11] maximum tension.
+[p.11] • Next Triggers:
+[p.11] • Inevitable: Military opposition
+[p.11] • Potential: Leadership challenge
+[p.11] Option 3: Berlin Counterpressure
+[p.11] • Rationale: Open second front to divide U.S. attention and gain negotiating
+[p.11] leverage.
+[p.11] • Next Triggers:
+[p.11] • Inevitable: NATO response
+[p.11] • Potential: European war
+[p.11] Strategic Combinations for Scenario 2
+[p.11] 1. MOST PLAUSIBLE: U.S. Limited Strikes + Soviet Tactical Nuclear Authorization
+[p.11] • Logic: Maximum tension forces military solutions on both sides.
+[p.11] 2. Alternative: U.S. UN Appeal + Soviet Berlin Pressure
+[p.11] • Logic: Last attempt at avoiding direct Cuba confrontation through other
+[p.11] venues.
+[p.11] 3. Alternative: U.S. Invasion Prep + Soviet Emergency Withdrawal
+[p.11] • Logic: Brinkmanship forces one side to blink first.
+[p.11] SCENARIO 3: Diplomatic Resolution Path
+[p.11] (Current Variables: Tension 0.55, Diplomatic
+[p.12] Support 0.48, Public Opinion 0.53, Leadership
+[p.12] Unity 0.45)
+[p.12] United States Strategic Alternatives
+[p.12] Option 1: Propose Missile Freeze with Verification
+[p.12] • Rationale: State Department can pursue diplomacy with support near 0.5
+[p.12] and leadership unity <0.5 creating "Confused Policy."
+[p.12] • Next Triggers:
+[p.12] • Inevitable: Soviet negotiating position
+[p.12] • Potential: Military opposition, allied reaction
+[p.12] Option 2: Tighten Blockade to All Ships
+[p.12] • Rationale: Pressure without direct attack, responding to Soviet acceleration
+[p.12] detected in Turn 1.
+[p.12] • Next Triggers:
+[p.12] • Inevitable: Soviet response escalation
+[p.12] • Potential: Humanitarian concerns, UN intervention
+[p.12] Option 3: Public Ultimatum with Time Limit
+[p.12] • Rationale: Public opinion >0.5 enables rallying domestic support for firm
+[p.12] deadline.
+[p.12] • Next Triggers:
+[p.12] • Inevitable: Soviet public response
+[p.12] • Potential: Global diplomatic scramble
+[p.12] Soviet Union Strategic Alternatives
+[p.12] Option 1: Offer Partial Withdrawal for Guarantees
+[p.12] • Rationale: Leadership unity at 0.45 (<0.5 threshold) creates "Radical
+[p.12] Adoption" possibility for face-saving deal.
+[p.12] • Next Triggers:
+[p.12] • Inevitable: U.S. response to terms
+[p.12] • Potential: Cuban opposition, military resistance
+[p.12] Option 2: Complete Missile Deployment Quietly
+[p.12] • Rationale: Continue original plan while engaging in negotiations as
+[p.12] distraction.
+[p.12] • Next Triggers:
+[p.12] • Inevitable: U.S. detection and response
+[p.12] • Potential: Breakdown of talks
+[p.12] Option 3: Internationalize Crisis at UN
+[p.12] • Rationale: Diplomatic support near 0.5 and moderate tension allows
+[p.12] multilateral approach.
+[p.12] • Next Triggers:
+[p.12] • Inevitable: Security Council debate
+[p.13] • Potential: Third-party mediation
+[p.13] Strategic Combinations for Scenario 3
+[p.13] 1. MOST PLAUSIBLE: U.S. Missile Freeze Proposal + Soviet Partial Withdrawal Offer
+[p.13] • Logic: Both sides' weakened leadership unity creates opening for
+[p.13] compromise.
+[p.13] 2. Alternative: U.S. Tighten Blockade + Soviet UN Internationalization
+[p.13] • Logic: Escalate pressure while seeking diplomatic cover.
+[p.13] 3. Alternative: U.S. Public Ultimatum + Soviet Complete Deployment
+[p.13] • Logic: Both sides commit to their positions for final showdown.
+[p.13] RESULT LOGS
+[p.13] Scenario 1 Result Log (Most Plausible: U.S. Maintain
+[p.13] Blockade + Soviet Ships Turn Back)
+[p.13] • Variable Changes:
+[p.13] • No specific rule for maintaining status quo
+[p.13] • Soviet retreat could trigger "Strong_Leadership" (+0.10
+[p.13] leadership_unity for U.S.)
+[p.13] • Tension remains at 0.8 (no escalation)
+[p.13] New Variables: Tension 0.8, Diplomatic Support 0.6, Public Opinion 0.5,
+[p.13] Leadership Unity 0.9
+[p.13] Triggers: Continued blockade enforcement, Soviet internal debate
+[p.13] Scenario 2 Result Log (Most Plausible: U.S. Limited Strikes
+[p.13] + Soviet Nuclear Authorization)
+[p.13] • Variable Changes:
+[p.13] • Already at maximum tension (1.0)
+[p.13] • "Strike" event already calculated
+[p.13] • System at critical failure point
+[p.13] New Variables: Tension 1.0, Diplomatic Support 0.45, Public Opinion 0.45,
+[p.13] Leadership Unity 0.55
+[p.13] Triggers: Nuclear war imminent
+[p.13] Scenario 3 Result Log (Most Plausible: U.S. Freeze Proposal
+[p.13] + Soviet Withdrawal Offer)
+[p.13] • Variable Changes:
+[p.13] • Potential "Diplomatic_Success": Tension -0.05, Diplomatic Support
+[p.13] +0.10, Public Opinion +0.05, Leadership Unity +0.05
+[p.13] New Variables: Tension 0.5, Diplomatic Support 0.58, Public Opinion 0.58,
+[p.13] Leadership Unity 0.5
+[p.13] Triggers: Negotiation details, verification mechanisms

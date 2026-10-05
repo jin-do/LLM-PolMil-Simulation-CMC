@@ -1,0 +1,97 @@
+[p.10] Scenario 1: Most Plausible Path (From De-escalation to Brinkmanship)
+[p.10] This path continues from a state of high tension where diplomatic off-ramps were just beginning to be
+[p.10] explored. The Turn 3 event (U-2 shot down) shatters the fragile progress, forcing both leaders to confront
+[p.10] the immediate risk of war and make a final choice between escalation and a definitive deal.
+[p.10] [RESULT LOG]
+[p.10] Scenario Combination Name: Most Plausible Path (Turn 3 - The Final Ultimatum)
+[p.10] Selected Actor: United States
+[p.10] Selected Action: Deliver a Final Ultimatum (No variable change; policy action)
+[p.10] Predicted Variable Change: tension [+0.00], diplomatic_support [+0.00], public_opinion [+0.00],
+[p.10] leadership_unity [+0.00]
+[p.10] Generated Triggers: Existing triggers (Internal Division) are reinforced. Tension moves to 0.70, keeping
+[p.10] military options as the primary focus.
+[p.10] Scenario Combination Name: Most Plausible Path (Turn 3 - The Final Ultimatum)
+[p.10] Selected Actor: Soviet Union
+[p.10] Selected Action: Claim Cuban Action, Accelerate Talks (Applying "Diplomatic_Success" rules)
+[p.10] Predicted Variable Change: tension [-0.05], leadership_unity [+0.05]
+[p.10] Generated Triggers: The action lowers tension from a critical 1.0 to 0.95, a marginal but vital step back from
+[p.10] the brink, and solidifies leadership consensus around a diplomatic exit.
+[p.10] [RECONFIRM VARIABLE STATUS]
+[p.10] (Calculations include the effect of the Turn 3 Event plus the selected actions)
+[p.10] United States
+[p.10] tension: 0.70
+[p.10] diplomatic_support: 0.51
+[p.10] military_posture: Primary Option
+[p.10] public_opinion: 0.46
+[p.10] leadership_unity: 0.35
+[p.10] Soviet Union
+[p.10] tension: 0.95
+[p.10] diplomatic_support: 0.50
+[p.10] military_posture: Aggressive
+[p.10] public_opinion: N/A
+[p.10] leadership_unity: 0.95
+[p.10] Scenario 2: Aggressive Escalation (From Escalation to All-Out War)
+[p.10] This path continues from a state of low-level conflict following initial air strikes. The Turn 3 event (U-2
+[p.10] shot down) is the final catalyst that pushes the situation into a full-scale military confrontation, as all
+[p.11] diplomatic and political variables are at critical lows.
+[p.11] [RESULT LOG]
+[p.11] Scenario Combination Name: Aggressive Escalation (Turn 3 - Invasion)
+[p.11] Selected Actor: United States
+[p.11] Selected Action: Commence Full-Scale Invasion of Cuba (Applying "Strike" rules)
+[p.11] Predicted Variable Change: tension [+0.15], diplomatic_support [-0.05], public_opinion [-0.05],
+[p.11] leadership_unity [-0.10]
+[p.11] Generated Triggers: All variables are pushed to their absolute limits. Tension is at maximum, and Diplomatic
+[p.11] Support, Public Opinion, and Leadership Unity are near total collapse.
+[p.11] Scenario Combination Name: Aggressive Escalation (Turn 3 - Invasion)
+[p.11] Selected Actor: Soviet Union
+[p.11] Selected Action: Authorize Use of Tactical Nuclear Weapons (Applying "Strike" rules)
+[p.11] Predicted Variable Change: tension [+0.15], leadership_unity [-0.10]
+[p.11] Generated Triggers: The action maximizes Tension and pushes Leadership Unity to near zero, indicating a
+[p.11] state of total crisis and potential command collapse.
+[p.11] [RECONFIRM VARIABLE STATUS]
+[p.11] (Calculations include the effect of the Turn 3 Event plus the selected actions)
+[p.11] United States
+[p.11] tension: 1.00
+[p.11] diplomatic_support: 0.33
+[p.11] military_posture: Aggressive
+[p.11] public_opinion: 0.33
+[p.11] leadership_unity: 0.15
+[p.11] Soviet Union
+[p.11] tension: 1.00
+[p.11] diplomatic_support: 0.50
+[p.11] military_posture: Radical Adoption
+[p.11] public_opinion: N/A
+[p.11] leadership_unity: 0.10
+[p.11] Scenario 3: Diplomatic Focus (From Negotiation to Crisis Management)
+[p.11] This path continues from a state of productive negotiation. The Turn 3 event (U-2 shot down) acts as a
+[p.11] severe shock that tests the resolve of both leaders to see the diplomatic process through, forcing them to
+[p.11] communicate urgently to prevent the situation from spiraling out of control.
+[p.11] [RESULT LOG]
+[p.11] Scenario Combination Name: Diplomatic Focus (Turn 3 - Saving the Deal)
+[p.12] Selected Actor: United States
+[p.12] Selected Action: Demand Explanation and Continue Talks (Applying "Diplomatic_Success" rules from Soviet
+[p.12] action)
+[p.12] Predicted Variable Change: tension [-0.05], diplomatic_support [+0.10], public_opinion [+0.05],
+[p.12] leadership_unity [+0.05]
+[p.12] Generated Triggers: The successful diplomatic maneuver reverses the negative impact of the U-2 incident,
+[p.12] pulling Leadership Unity back from the brink (<=0.5) and further strengthening Diplomatic Support.
+[p.12] Scenario Combination Name: Diplomatic Focus (Turn 3 - Saving the Deal)
+[p.12] Selected Actor: Soviet Union
+[p.12] Selected Action: Convey Urgent Secret Message (Applying "Diplomatic_Success" rules)
+[p.12] Predicted Variable Change: tension [-0.05], leadership_unity [+0.05]
+[p.12] Generated Triggers: The action successfully lowers Tension and restores Leadership Unity to a stable level,
+[p.12] keeping the diplomatic track viable.
+[p.12] [RECONFIRM VARIABLE STATUS]
+[p.12] (Calculations include the effect of the Turn 3 Event plus the selected actions)
+[p.12] United States
+[p.12] tension: 0.55
+[p.12] diplomatic_support: 0.73
+[p.12] military_posture: Restrained
+[p.12] public_opinion: 0.58
+[p.12] leadership_unity: 0.50
+[p.12] Soviet Union
+[p.12] tension: 0.55
+[p.12] diplomatic_support: 0.50
+[p.12] military_posture: Restrained
+[p.12] public_opinion: N/A
+[p.12] leadership_unity: 0.55

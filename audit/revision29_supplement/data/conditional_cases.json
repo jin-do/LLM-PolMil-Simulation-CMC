@@ -1,0 +1,70 @@
+{
+  "variable_order": ["Tension", "Diplomatic_Support", "Public_Opinion", "Leadership_Unity"],
+  "source_id": "CLA-01",
+  "source_pdf_key": "claude_01_pdf",
+  "scale": "0-1; clip only after summing the complete named effect rows",
+  "input_policy": "Each case starts from its own recorded prior. Do not propagate a checked value into the next case.",
+  "selection": "Purpose-selected explanatory cases; not a random sample of transitions.",
+  "cases": [
+    {
+      "case_id": "CLA-01-S1-T2",
+      "table": "D2",
+      "turn": 2,
+      "scenario": "Scenario 1: Balanced Confrontation Path",
+      "recorded_prior": ["0.75", "0.60", "0.55", "0.85"],
+      "prior_pages": [8],
+      "effect_names": ["Defense_Prep", "Diplomatic_Success"],
+      "effects_pages": [12],
+      "reported_result": ["0.75", "0.70", "0.55", "0.80"],
+      "reported_pages": [12],
+      "source_action_pair": "U.S. Maintain Quarantine + Soviet Selective Compliance",
+      "source_excerpt": "Defense_Prep effect (US): tension +0.05, leadership_unity -0.05; Diplomatic_Success effect (Soviet): tension -0.05, diplomatic_support +0.10",
+      "limit": "The source displays partial increments. The calculation conditionally applies both full preserved VDM rows once; it does not validate their assignment to the actions."
+    },
+    {
+      "case_id": "CLA-01-S1-T3",
+      "table": "D2",
+      "turn": 3,
+      "scenario": "Scenario 1: Balanced Confrontation Path",
+      "recorded_prior": ["0.75", "0.70", "0.55", "0.80"],
+      "prior_pages": [13, 14],
+      "effect_names": ["Diplomatic_Success", "Strong_Leadership"],
+      "effects_pages": [17],
+      "reported_result": ["0.65", "0.80", "0.70", "0.95"],
+      "reported_pages": [17],
+      "source_action_pair": "U.S. Absorb Loss + Soviet Express Regret",
+      "source_excerpt": "Strong_Leadership effect (US): tension -0.05, public_opinion +0.10, leadership_unity +0.10",
+      "limit": "The source omits the diplomatic-support increment from its Strong_Leadership description. The complete preserved row is applied once. The prior is the recorded Turn 2 result, not its recalculated value."
+    },
+    {
+      "case_id": "CLA-01-S1-T4",
+      "table": "D2",
+      "turn": 4,
+      "scenario": "Scenario 1: Balanced Confrontation Path",
+      "recorded_prior": ["0.65", "0.80", "0.70", "0.95"],
+      "prior_pages": [19],
+      "effect_names": ["Diplomatic_Success", "Alliance_Strengthening"],
+      "effects_pages": [23],
+      "reported_result": ["0.55", "1.00", "0.80", "1.00"],
+      "reported_pages": [23],
+      "source_action_pair": "U.S. Secret Communication + Soviet Formal Negotiation",
+      "source_excerpt": "Alliance_Strengthening effect: tension -0.05, diplomatic_support +0.10, public_opinion +0.05, leadership_unity +0.05",
+      "limit": "Local agreement retains the preceding recorded values, including earlier discrepancies. It does not certify the whole path."
+    },
+    {
+      "case_id": "CLA-01-S3-T4",
+      "table": "A2",
+      "turn": 4,
+      "scenario": "Scenario 3: Maximum Danger Path",
+      "recorded_prior": ["0.85", "0.65", "0.70", "1.00"],
+      "prior_pages": [22],
+      "effect_names": ["Strong_Leadership", "Diplomatic_Success"],
+      "effects_pages": [23],
+      "reported_result": ["0.75", "0.80", "0.80", "1.00"],
+      "reported_pages": [23],
+      "source_action_pair": "U.S. Unofficial Channel + Soviet Comprehensive Proposal",
+      "source_excerpt": "Diplomatic_Success effect: tension -0.05, diplomatic_support +0.10",
+      "limit": "Applying both full rows reveals the omitted public-opinion increment. Clipping can mask a missing leadership-unity increment. Effect assignment, the unofficial-channel exception, and preceding states remain unresolved."
+    }
+  ]
+}

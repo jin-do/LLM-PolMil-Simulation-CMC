@@ -1,0 +1,98 @@
+[p.13] Scenario 1: Most Plausible Path (Resolution at the Brink)
+[p.13] This path continues from a state of extreme tension where a final ultimatum has been delivered. The Turn 4
+[p.13] event (DEFCON 2 and the submarine incident) represents the absolute peak of the crisis, forcing a final
+[p.13] decision between global war and a negotiated peace. The underlying diplomatic track, though strained, provides
+[p.13] the necessary off-ramp.
+[p.13] [RESULT LOG]
+[p.13] Scenario Combination Name: Most Plausible Path (Turn 4 - The Resolution)
+[p.13] Selected Actor: United States
+[p.13] Selected Action: Propose a Final Deal (Applying "Diplomatic_Success" rules)
+[p.13] Predicted Variable Change: tension [-0.05], diplomatic_support [+0.10], public_opinion [+0.05],
+[p.13] leadership_unity [+0.05]
+[p.13] Generated Triggers: The action pulls Tension back from the 0.8 threshold, re-enabling diplomatic options. It
+[p.13] slightly improves Leadership Unity, though internal division remains a critical issue.
+[p.13] Scenario Combination Name: Most Plausible Path (Turn 4 - The Resolution)
+[p.13] Selected Actor: Soviet Union
+[p.13] Selected Action: Announce Missile Withdrawal for Non-Invasion Pledge (Applying "Diplomatic_Success" rules)
+[p.13] Predicted Variable Change: tension [-0.05], leadership_unity [+0.05]
+[p.13] Generated Triggers: The action pulls Tension down from the maximum, signaling de-escalation. Leadership
+[p.13] Unity is reinforced around the decision to end the crisis.
+[p.13] [RECONFIRM VARIABLE STATUS]
+[p.13] (Calculations include the effect of the Turn 4 Event plus the selected actions)
+[p.13] United States
+[p.13] tension: 0.80
+[p.13] diplomatic_support: 0.56
+[p.13] military_posture: Primary Option
+[p.13] public_opinion: 0.46
+[p.13] leadership_unity: 0.30
+[p.13] Soviet Union
+[p.13] tension: 0.95
+[p.13] diplomatic_support: 0.50
+[p.13] military_posture: Aggressive
+[p.13] public_opinion: N/A
+[p.13] leadership_unity: 0.90
+[p.13] Scenario 2: Aggressive Escalation (Mutually Assured Destruction)
+[p.13] This path continues from a state of open warfare. The Turn 4 event is merely a report from the unfolding
+[p.14] global catastrophe. All political variables have collapsed, and only the logic of military protocol remains. The
+[p.14] result is the inevitable, tragic conclusion of the scenario's escalatory path.
+[p.14] [RESULT LOG]
+[p.14] Scenario Combination Name: Aggressive Escalation (Turn 4 - Annihilation)
+[p.14] Selected Actor: United States
+[p.14] Selected Action: Execute Full Strategic Retaliation (Applying "Strike" rules)
+[p.14] Predicted Variable Change: tension [+0.15], diplomatic_support [-0.05], public_opinion [-0.05],
+[p.14] leadership_unity [-0.10]
+[p.14] Generated Triggers: All variables are driven to their worst possible states, representing total societal and
+[p.14] governmental collapse.
+[p.14] Scenario Combination Name: Aggressive Escalation (Turn 4 - Annihilation)
+[p.14] Selected Actor: Soviet Union
+[p.14] Selected Action: Execute Full Strategic Retaliation (Applying "Strike" rules)
+[p.14] Predicted Variable Change: tension [+0.15], leadership_unity [-0.10]
+[p.14] Generated Triggers: All variables are driven to their worst possible states. Leadership Unity hits zero,
+[p.14] signifying a complete breakdown of command and control.
+[p.14] [RECONFIRM VARIABLE STATUS]
+[p.14] (Calculations include the effect of the Turn 4 Event plus the selected actions)
+[p.14] United States
+[p.14] tension: 1.00
+[p.14] diplomatic_support: 0.23
+[p.14] military_posture: Aggressive
+[p.14] public_opinion: 0.23
+[p.14] leadership_unity: 0.00
+[p.14] Soviet Union
+[p.14] tension: 1.00
+[p.14] diplomatic_support: 0.50
+[p.14] military_posture: Radical Adoption
+[p.14] public_opinion: N/A
+[p.14] leadership_unity: 0.00
+[p.14] Scenario 3: Diplomatic Focus (Resolution Through Crisis)
+[p.14] This path continues from a state of successful negotiation that was violently disrupted by the U-2 incident.
+[p.14] The Turn 4 event (DEFCON 2) acts as a powerful catalyst, shocking both sides into immediately finalizing
+[p.14] the agreement they had already built, proving that the diplomatic foundation was strong enough to withstand
+[p.14] even the most severe crisis.
+[p.15] [RESULT LOG]
+[p.15] Scenario Combination Name: Diplomatic Focus (Turn 4 - The Final Handshake)
+[p.15] Selected Actor: United States
+[p.15] Selected Action: Accept the Soviet Deal (Applying "Diplomatic_Success" rules)
+[p.15] Predicted Variable Change: tension [-0.05], diplomatic_support [+0.10], public_opinion [+0.05],
+[p.15] leadership_unity [+0.05]
+[p.15] Generated Triggers: The action reverses the dangerous spike in Tension and pulls Leadership Unity back into
+[p.15] stable territory, securing the diplomatic outcome.
+[p.15] Scenario Combination Name: Diplomatic Focus (Turn 4 - The Final Handshake)
+[p.15] Selected Actor: Soviet Union
+[p.15] Selected Action: Finalize the Diplomatic Agreement Immediately (Applying "Diplomatic_Success" rules)
+[p.15] Predicted Variable Change: tension [-0.05], leadership_unity [+0.05]
+[p.15] Generated Triggers: The action successfully de-escalates Tension and restores Leadership Unity to a stable
+[p.15] majority, cementing the peaceful resolution.
+[p.15] [RECONFIRM VARIABLE STATUS]
+[p.15] (Calculations include the effect of the Turn 4 Event plus the selected actions)
+[p.15] United States
+[p.15] tension: 0.65
+[p.15] diplomatic_support: 0.78
+[p.15] military_posture: Limited
+[p.15] public_opinion: 0.58
+[p.15] leadership_unity: 0.45
+[p.15] Soviet Union
+[p.15] tension: 0.65
+[p.15] diplomatic_support: 0.50
+[p.15] military_posture: Restrained
+[p.15] public_opinion: N/A
+[p.15] leadership_unity: 0.50

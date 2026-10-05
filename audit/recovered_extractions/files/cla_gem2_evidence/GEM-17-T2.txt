@@ -1,0 +1,117 @@
+[p.7] Here are the result logs for Turn 2, branching from the distinct outcomes of each of the three scenarios
+[p.7] established in Turn 1.
+[p.7] Scenario 1: Most Plausible Path
+[p.7] Initial State (Start of Turn 2):
+[p.7] Tension: 0.60
+[p.7] Diplomatic Support: 0.46 (Threshold Met: Diplomatic Isolation)
+[p.7] Public Opinion: 0.46
+[p.7] Leadership Unity: 0.40 (Threshold Met: Internal Division)
+[p.7] Turn 2 Event Analysis: The successful, non-lethal interception of a Soviet vessel under the quarantine is a
+[p.7] pivotal moment. With public diplomacy failing (Diplomatic Support at 0.46) and leadership shaky (Leadership
+[p.7] Unity at 0.40), both leaders are incentivized to find a way out that avoids both humiliation and all-out war.
+[p.7] President Kennedy's preference for measured responses and Khrushchev's trigger to negotiate if a viable
+[p.7] compromise is offered make backchannel diplomacy the most logical next step.
+[p.7] [RESULT LOG]
+[p.7] Scenario Combination Name: Most Plausible Path - Turn 2
+[p.7] Selected Actor: United States
+[p.7] Selected Action: Open a Secret Backchannel to Propose a Quid Pro Quo (Missile Swap)
+[p.7] Predicted Variable Change (based on "Diplomatic_Success"): tension [-0.05], diplomatic_support [+0.10],
+[p.7] public_opinion [+0.05], leadership_unity [+0.05]
+[p.7] Generated Triggers: Creates a viable path to de-escalation, directly engaging Khrushchev's
+[p.7] "diplomatic_resolution_offer" trigger. Empowers the Department of State's preference for a negotiated
+[p.7] settlement.
+[p.7] Scenario Combination Name: Most Plausible Path - Turn 2
+[p.7] Selected Actor: Soviet Union
+[p.7] Selected Action: Agree to Secret Backchannel Negotiations to Resolve the Standoff
+[p.7] Predicted Variable Change (based on "Diplomatic_Success"): tension [-0.05], diplomatic_support [+0.10],
+[p.7] public_opinion [+0.05], leadership_unity [+0.05]
+[p.7] Generated Triggers: Activates the Presidium's "negotiable_settlement" threshold to find a face-saving
+[p.7] resolution. Temporarily bypasses the hawkish Soviet Armed Forces' preference for confrontation.
+[p.7] [RECONFIRM VARIABLE STATUS]
+[p.7] Rationale: The mutual decision to open a secret channel constitutes a major diplomatic breakthrough,
+[p.7] significantly lowering tension and restoring faith in leadership and diplomacy.
+[p.7] Cumulative Change: tension [-0.10], diplomatic_support [+0.20], public_opinion [+0.10], leadership_unity
+[p.7] [+0.10]
+[p.7] tension: 0.50
+[p.7] diplomatic_support: 0.66
+[p.7] military_posture: Limited (Tension < 0.8)
+[p.8] public_opinion: 0.56
+[p.8] leadership_unity: 0.50
+[p.8] Scenario 2: The Military Path
+[p.8] Initial State (Start of Turn 2):
+[p.8] Tension: 0.80 (Threshold Met: Military Conflict)
+[p.8] Diplomatic Support: 0.40 (Threshold Met: Diplomatic Isolation)
+[p.8] Public Opinion: 0.40 (Threshold Met: Civil Unrest)
+[p.8] Leadership Unity: 0.30 (Threshold Met: Internal Division, Coup Risk)
+[p.8] Turn 2 Event Analysis: This scenario is already in a state of active military conflict following the Turn 1 air
+[p.8] strike and retaliation. The variables are at critical, unstable levels. The U.S. interception of a Soviet vessel
+[p.8] occurs amidst this chaos, indicating the conflict is ongoing and not yet total. In this environment of extreme
+[p.8] tension and broken leadership, the overriding priority for rational actors becomes preventing annihilation.
+[p.8] Kennedy's goal to "avoid a nuclear war" and the Soviet Presidium's trigger to "prioritize de-escalation" if
+[p.8] nuclear war seems unavoidable become the single most important drivers of action.
+[p.8] [RESULT LOG]
+[p.8] Scenario Combination Name: The Military Path - Turn 2
+[p.8] Selected Actor: United States
+[p.8] Selected Action: Use Emergency Channels to Propose an Immediate Ceasefire and De-escalation
+[p.8] Predicted Variable Change (based on "Strong_Leadership"): tension [-0.05], diplomatic_support [+0.05],
+[p.8] public_opinion [+0.10], leadership_unity [+0.10]
+[p.8] Generated Triggers: A direct attempt to reverse catastrophic escalation, appealing to the Soviet leadership's
+[p.8] "imminent_nuclear_war" de-escalation trigger.
+[p.8] Scenario Combination Name: The Military Path - Turn 2
+[p.8] Selected Actor: Soviet Union
+[p.8] Selected Action: Accept an Immediate Ceasefire to Avert Total War
+[p.8] Predicted Variable Change (based on "Strong_Leadership"): tension [-0.05], diplomatic_support [+0.05],
+[p.8] public_opinion [+0.10], leadership_unity [+0.10]
+[p.8] Generated Triggers: The Party Presidium asserts control to prevent mutual destruction, overriding the
+[p.8] military's standing orders to continue retaliation.
+[p.8] [RECONFIRM VARIABLE STATUS]
+[p.8] Rationale: A desperate, top-down decision by both leaders to halt the conflict pulls the situation back from
+[p.8] the absolute brink. This act of "Strong_Leadership" slightly reduces tension and begins to repair the shattered
+[p.8] public and internal confidence.
+[p.8] Cumulative Change: tension [-0.10], diplomatic_support [+0.10], public_opinion [+0.20], leadership_unity
+[p.8] [+0.20]
+[p.8] tension: 0.70
+[p.9] diplomatic_support: 0.50
+[p.9] military_posture: Limited (Tension < 0.8)
+[p.9] public_opinion: 0.60
+[p.9] leadership_unity: 0.50
+[p.9] Scenario 3: The Diplomatic Path
+[p.9] Initial State (Start of Turn 2):
+[p.9] Tension: 0.40
+[p.9] Diplomatic Support: 0.70
+[p.9] Public Opinion: 0.60
+[p.9] Leadership Unity: 0.60
+[p.9] Turn 2 Event Analysis: In this timeline, the U.S. quarantine is acting as leverage during active negotiations.
+[p.9] The peaceful interception demonstrates U.S. resolve without derailing the talks. With variables in a healthy
+[p.9] state, the incentive is to use this momentum to finalize a deal. The U.S. State Department will push for a
+[p.9] concrete proposal, and Khrushchev, wanting to secure his goal of redressing the strategic imbalance, is
+[p.9] positioned to make a definitive offer.
+[p.9] [RESULT LOG]
+[p.9] Scenario Combination Name: The Diplomatic Path - Turn 2
+[p.9] Selected Actor: United States
+[p.9] Selected Action: Formally Propose the Removal of Soviet Missiles from Cuba in Exchange for a U.S.
+[p.9] Non-Invasion Pledge
+[p.9] Predicted Variable Change (based on "Diplomatic_Success"): tension [-0.05], diplomatic_support [+0.10],
+[p.9] public_opinion [+0.05], leadership_unity [+0.05]
+[p.9] Generated Triggers: Directly addresses the primary Soviet goal of safeguarding the Castro regime. This
+[p.9] solidifies the diplomatic track as the primary path to resolution.
+[p.9] Scenario Combination Name: The Diplomatic Path - Turn 2
+[p.9] Selected Actor: Soviet Union
+[p.9] Selected Action: Agree to the U.S. Proposal and Counter-Propose a Secret Removal of U.S. Missiles from
+[p.9] Turkey
+[p.9] Predicted Variable Change (based on "Diplomatic_Success"): tension [-0.05], diplomatic_support [+0.10],
+[p.9] public_opinion [+0.05], leadership_unity [+0.05]
+[p.9] Generated Triggers: Moves the negotiation to its final stage. The counter-proposal is a key step for
+[p.9] Khrushchev to achieve his secondary goal of redressing the strategic imbalance, making the deal palatable to
+[p.9] the Soviet Armed Forces.
+[p.9] [RECONFIRM VARIABLE STATUS]
+[p.9] Rationale: The negotiations have produced a clear framework for a final deal. This massive
+[p.9] "Diplomatic_Success" further lowers tension and boosts all other variables as a peaceful resolution appears
+[p.10] imminent.
+[p.10] Cumulative Change: tension [-0.10], diplomatic_support [+0.20], public_opinion [+0.10], leadership_unity
+[p.10] [+0.10]
+[p.10] tension: 0.30
+[p.10] diplomatic_support: 0.90
+[p.10] military_posture: Limited (Tension < 0.8)
+[p.10] public_opinion: 0.70
+[p.10] leadership_unity: 0.70

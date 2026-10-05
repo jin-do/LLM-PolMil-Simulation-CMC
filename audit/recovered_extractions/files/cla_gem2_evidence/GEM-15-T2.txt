@@ -1,0 +1,73 @@
+[p.8] Based on the variable states from the previous turn and the events of Turn 2, the following result logs are
+[p.8] generated for each scenario. All judgments and calculations are derived strictly from the provided JSON files.
+[p.8] Scenario 1: Most Plausible Path - Result Log
+[p.8] Scenario Context: Following the U.S. quarantine and a Soviet deterrent threat, the U.S. successfully intercepts
+[p.8] a Soviet vessel without violence. This is interpreted as a "Strong_Leadership" event for the U.S. and a
+[p.8] "Diplomatic_Failure" for the USSR. The most plausible path is that the U.S. leverages this success to open
+[p.8] secret talks while maintaining the quarantine, and the Soviets, seeing the blockade is real, agree to negotiate
+[p.8] to achieve their core goals.
+[p.8] Selected Actor: United States
+[p.8] Selected Action: Maintain Quarantine & Open Backchannel (Interpreted as "Strong_Leadership" event)
+[p.8] Selected Actor: Soviet Union
+[p.8] Selected Action: Seek Secret Negotiations (Interpreted as "Diplomatic_Success" event, as they are agreeing to
+[p.8] talks)
+[p.8] Predicted Variable Change: tension [0.00], diplomatic_support [+0.15], public_opinion [+0.15],
+[p.8] leadership_unity [+0.15]
+[p.8] Generated Triggers:
+[p.8] Variable Trigger (Leadership Unity): The variable has risen to 0.55, crossing the > 0.5 threshold. The risk
+[p.8] of "Internal Division" recedes, and policy shifts to "Stable Decision" and "Restrained" military action.
+[p.8] Variable Trigger (Diplomatic Support): The variable has risen to 0.61, crossing the > 0.5 threshold.
+[p.8] "Diplomatic Negotiation" is now "Strongly Encouraged," and the "Diplomatic Isolation" trigger is removed.
+[p.8] [RECONFIRM VARIABLE STATUS]
+[p.8] tension: 0.60
+[p.8] diplomatic_support: 0.61
+[p.8] military_posture: Limited
+[p.8] public_opinion: 0.61
+[p.8] leadership_unity: 0.55
+[p.8] Scenario 2: Alternative Plausible Path A - Result Log
+[p.8] Scenario Context: The U.S. quarantine has exposed the Soviet "Deny and Delay" tactic as a lie by
+[p.8] intercepting a vessel with military cargo. This is a major public embarrassment for the Soviets and a
+[p.8] vindication for the U.S. The most plausible path is for the U.S. to use this proof to maximize public pressure,
+[p.8] while the cornered Soviet leadership urgently seeks a secret deal to cut their losses.
+[p.8] Selected Actor: United States
+[p.8] Selected Action: Publicly Expose Soviet Deception (Interpreted as "Strong_Leadership" event)
+[p.8] Selected Actor: Soviet Union
+[p.9] Selected Action: Urgently Propose a Secret Deal (Interpreted as "Diplomatic_Failure" on their part, as they
+[p.9] are forced to negotiate from a weak position)
+[p.9] Predicted Variable Change: tension [+0.05], diplomatic_support [-0.05], public_opinion [+0.05],
+[p.9] leadership_unity [+0.05]
+[p.9] Generated Triggers:
+[p.9] U.S. Trigger: The successful exposure of the deception reinforces the "rally-around-the-flag" effect and
+[p.9] strengthens the President's hand both domestically and internationally.
+[p.9] Soviet Trigger: The failure of the denial strategy and the successful U.S. interception triggers Khrushchev's
+[p.9] need to find a "diplomatic_resolution_offer" to prevent a military attack on Cuba, which now seems more
+[p.9] likely.
+[p.9] [RECONFIRM VARIABLE STATUS]
+[p.9] tension: 0.70
+[p.9] diplomatic_support: 0.33
+[p.9] military_posture: Limited
+[p.9] public_opinion: 0.48
+[p.9] leadership_unity: 0.45
+[p.9] Scenario 3: Alternative Plausible Path B - Result Log
+[p.9] Scenario Context: The previous turn saw a U.S. air strike and Soviet retaliation. The conflict is already hot.
+[p.9] A subsequent event where a U.S. reconnaissance plane is shot down over Cuba is a severe escalation. The
+[p.9] most plausible path is for both sides to proceed to the next stage of their war plans.
+[p.9] Selected Actor: United States
+[p.9] Selected Action: Launch Full Invasion of Cuba (Interpreted as "Strike" event)
+[p.9] Selected Actor: Soviet Union
+[p.9] Selected Action: Authorize Tactical Nuclear Use Against Invading Fleet (Interpreted as "Strike" event)
+[p.9] Predicted Variable Change: tension [+0.30], diplomatic_support [-0.10], public_opinion [-0.10],
+[p.9] leadership_unity [-0.20]
+[p.9] Generated Triggers:
+[p.9] Variable Trigger (Tension): The variable has reached 1.0 (clamped from 1.1), far exceeding the >= 0.8
+[p.9] threshold. Policy is locked into "Aggressive" military action.
+[p.9] U.S. Trigger: The invasion order fulfills the DoD's goal of "total removal of the Soviet strategic foothold" and
+[p.9] eliminating the "Castro regime".
+[p.9] Soviet Trigger: The U.S. invasion is the final trigger for "last-resort retaliation," and the authorization of
+[p.9] tactical nuclear weapons is the explicit response outlined in Khrushchev's profile.
+[p.9] [RECONFIRM VARIABLE STATUS]
+[p.9] tension: 1.00
+[p.9] diplomatic_support: 0.20
+[p.10] military_posture: Aggressive
+[p.10] public_opinion: 0.25
+[p.10] leadership_unity: 0.10

@@ -1,5 +1,7 @@
 # Replication notes
 
+> Historical workbook-analysis documentation. For the current assessment modules, later supplements and complete material map, start with the [current repository guide](../README.md). The original workbook-coded rows and later Top-1 recoding are separate records.
+
 ## What can be reproduced
 
 The revised scripts reproduce tabulations and statistics from the existing workbook-coded records and search for specified text markers in the execution PDFs. Reproduction of those calculations does not independently validate the coding, state arithmetic, provider identity, or factual correctness of the narratives. Exact regeneration of the original model outputs is not supported by the incomplete generation records.

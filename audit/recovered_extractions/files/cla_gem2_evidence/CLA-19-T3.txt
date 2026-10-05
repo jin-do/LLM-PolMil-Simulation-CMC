@@ -1,0 +1,170 @@
+[p.13] leadership_unity: 0.72
+[p.13] COMBINATION 2 - PATH 2A
+[p.13] US Action: Intensify Diplomatic Pressure with Allied Support Variable Changes:
+[p.13] tension +0.02, diplomatic_support +0.08, public_opinion +0.03, leadership_unity
+[p.13] +0.05 Final Values: tension: 0.37, diplomatic_support: 0.78, public_opinion: 0.55,
+[p.13] leadership_unity: 0.78
+[p.13] Soviet Action: Full Diplomatic Engagement Variable Changes: tension -0.03,
+[p.13] diplomatic_support +0.08, public_opinion +0.02, leadership_unity +0.03 Final Values:
+[p.13] tension: 0.30, diplomatic_support: 0.70, public_opinion: 0.52, leadership_unity: 0.75
+[p.13] COMBINATION 3 - PATH 3A
+[p.13] US Action: Pause for Damage Assessment Variable Changes: tension -0.02,
+[p.13] diplomatic_support +0.03, public_opinion +0.05, leadership_unity -0.05 Final Values:
+[p.13] tension: 0.43, diplomatic_support: 0.58, public_opinion: 0.50, leadership_unity: 0.55
+[p.13] Soviet Action: Strategic Withdrawal Under Protest Variable Changes: tension -0.08,
+[p.13] diplomatic_support +0.05, public_opinion -0.05, leadership_unity -0.10 Final Values:
+[p.13] tension: 0.32, diplomatic_support: 0.62, public_opinion: 0.50, leadership_unity: 0.68
+[p.13] Retry
+[p.14] TURN 3 ANALYSIS: U-2
+[p.14] SHOOTDOWN OVER CUBA
+[p.14] COMBINATION 1 (Most Plausible Path) -
+[p.14] Current Variables
+[p.14] US: tension: 0.45, diplomatic_support: 0.60, public_opinion: 0.60, leadership_unity:
+[p.14] 0.78 Soviet: tension: 0.30, diplomatic_support: 0.60, public_opinion: 0.48,
+[p.14] leadership_unity: 0.72
+[p.14] UNITED STATES STRATEGIC ALTERNATIVES
+[p.14] Alternative 1: Immediate Retaliatory Air Strike Rationale from JSON: Defense
+[p.14] Department trigger threshold "hostile Soviet or Cuban military action" activates: "if
+[p.14] a U-2 reconnaissance plane is shot down...the Defense Department would treat it
+[p.14] as the threshold for war and execute offensive operations at once." High
+[p.14] leadership_unity (0.78) enables decisive action.
+[p.14] Next Event Triggers:
+[p.14] • Inevitable: Soviet military response to air strike
+[p.15] • Potential: Escalation to full invasion, Additional U.S. casualties
+[p.15] Alternative 2: Measured Military Response with Diplomatic Warning Rationale from
+[p.15] JSON: Kennedy's algorithm seeks "middle course that addresses the threat but
+[p.15] leaves room to escalate if needed." Balanced tension (0.45) and good public_opinion
+[p.15] (0.60) allow measured response.
+[p.15] Next Event Triggers:
+[p.15] • Inevitable: Soviet interpretation of U.S. restraint/escalation
+[p.15] • Potential: Time pressure for next U.S. decision, Allied consultation process
+[p.15] Alternative 3: Pause for Crisis Assessment Rationale from JSON: Kennedy's
+[p.15] constraint about "danger of rapid escalation to nuclear war if the U.S. acts too
+[p.15] aggressively." State Department influence from diplomatic_support (0.60) advocates
+[p.15] restraint.
+[p.15] Next Event Triggers:
+[p.15] • Inevitable: Internal U.S. decision deadline pressure
+[p.15] • Potential: Soviet interpretation as weakness, Public pressure for action
+[p.15] SOVIET UNION STRATEGIC ALTERNATIVES
+[p.15] Alternative 1: Defensive Justification and De-escalation Rationale from JSON:
+[p.15] Khrushchev's constraint "need to avoid triggering a U.S.-Soviet nuclear war" and
+[p.15] behavior algorithm's "shift to negotiation to avert war" when facing escalation. Low
+[p.15] tension (0.30) enables restraint.
+[p.15] Next Event Triggers:
+[p.15] • Inevitable: U.S. response to Soviet de-escalation attempt
+[p.15] • Potential: Internal Soviet criticism of weakness
+[p.15] Alternative 2: Military Alert Escalation Rationale from JSON: Military's trigger
+[p.15] threshold "direct attack" activates readiness protocols. Party Presidium's
+[p.15] unwillingness to "appear weak in the face of U.S. pressure" drives response.
+[p.15] Next Event Triggers:
+[p.15] • Inevitable: U.S. assessment of Soviet military posture
+[p.15] • Potential: Tactical nuclear authorization consideration
+[p.15] Alternative 3: Negotiation Initiative Under Crisis Rationale from JSON: Khrushchev's
+[p.15] readiness for "diplomatic resolution offer" when crisis escalates. Good
+[p.15] diplomatic_support (0.60) and leadership_unity (0.72) enable initiative.
+[p.15] Next Event Triggers:
+[p.15] • Inevitable: U.S. response to negotiation offer
+[p.15] • Potential: Third-party mediation activation
+[p.15] CONFLICT PRIORITIES
+[p.15] • US Retaliation vs Soviet De-escalation: Pentagon war threshold vs
+[p.15] Khrushchev's nuclear war avoidance
+[p.15] • US Measured Response vs Soviet Alert: Calibrated escalation vs military
+[p.15] readiness
+[p.16] • US Pause vs Soviet Negotiation: Aligned toward crisis management
+[p.16] MOST PLAUSIBLE COMBINATIONS FOR COMBINATION 1
+[p.16] Path 1A (Most Plausible): US Measured Military Response + Soviet Defensive
+[p.16] Justification Logic: Kennedy's balanced approach responds to attack but avoids
+[p.16] triggering Soviet nuclear threshold; Khrushchev seeks to prevent escalation spiral
+[p.16] Path 1B: US Immediate Retaliation + Soviet Military Alert Logic: Pentagon influence
+[p.16] from clear provocation; Soviet military responds to direct threat
+[p.16] Path 1C: US Pause Assessment + Soviet Negotiation Initiative Logic: State
+[p.16] Department argues for avoiding escalation trap; Soviet uses crisis to push
+[p.16] resolution
+[p.16] COMBINATION 2 (Diplomatic Resolution Path)
+[p.16] - Current Variables
+[p.16] US: tension: 0.37, diplomatic_support: 0.78, public_opinion: 0.55, leadership_unity:
+[p.16] 0.78 Soviet: tension: 0.30, diplomatic_support: 0.70, public_opinion: 0.52,
+[p.16] leadership_unity: 0.75
+[p.16] UNITED STATES STRATEGIC ALTERNATIVES
+[p.16] Alternative 1: Diplomatic Protest with Military Warning Rationale from JSON: High
+[p.16] diplomatic_support (0.78) enables State Department's preference for "working with
+[p.16] allies" and "international law." Leadership_unity (0.78) supports coordinated
+[p.16] response.
+[p.16] Alternative 2: Limited Military Response with Negotiation Opening Rationale from
+[p.16] JSON: Kennedy's approach to use "threat of force as leverage rather than the first
+[p.16] tool" while maintaining diplomatic track.
+[p.16] Alternative 3: Escalate Due to Provocation Rationale from JSON: Defense
+[p.16] Department argument that shootdown proves "diplomatic efforts have failed" and
+[p.16] "more coercive measures" needed.
+[p.16] SOVIET UNION STRATEGIC ALTERNATIVES
+[p.16] Alternative 1: Immediate Negotiation Proposal Rationale from JSON: High
+[p.16] diplomatic_support (0.70) and leadership_unity (0.75) enable Presidium's "private
+[p.16] willingness to negotiate a resolution." Low tension (0.30) supports de-escalation.
+[p.16] Alternative 2: Blame Local Command and Seek Reset Rationale from JSON:
+[p.16] Khrushchev's goal to "maintain Soviet credibility" while avoiding "triggering nuclear
+[p.16] war." Blame shifting preserves negotiation space.
+[p.16] Alternative 3: Defensive Stance with Conditions Rationale from JSON: Party
+[p.16] Presidium's goal to "ensure Cuba remains a socialist ally" while showing willingness
+[p.16] for "face-saving resolution."
+[p.17] MOST PLAUSIBLE COMBINATIONS FOR COMBINATION 2
+[p.17] Path 2A (Most Plausible): US Diplomatic Protest + Soviet Immediate
+[p.17] Negotiation Logic: High diplomatic support enables coordinated de-escalation effort
+[p.17] Path 2B: US Limited Military + Soviet Blame Local Command Logic: Balanced
+[p.17] response with face-saving mechanism for both sides
+[p.17] Path 2C: US Escalate + Soviet Defensive Stance Logic: Pentagon influence forces
+[p.17] escalation despite diplomatic track
+[p.17] COMBINATION 3 (Hardline Response Path) -
+[p.17] Current Variables
+[p.17] US: tension: 0.43, diplomatic_support: 0.58, public_opinion: 0.50, leadership_unity:
+[p.17] 0.55 Soviet: tension: 0.32, diplomatic_support: 0.62, public_opinion: 0.50,
+[p.17] leadership_unity: 0.68
+[p.17] UNITED STATES STRATEGIC ALTERNATIVES
+[p.17] Alternative 1: Full Military Retaliation Rationale from JSON: Low leadership_unity
+[p.17] (0.55) but Defense Department's conviction that shootdown is "threshold for war."
+[p.17] Moderate tension (0.43) supports military response.
+[p.17] Alternative 2: Calibrated Strike Response Rationale from JSON: Kennedy's constraint
+[p.17] about "rapid escalation" balanced against need to respond to direct provocation.
+[p.17] Alternative 3: Crisis De-escalation Attempt Rationale from JSON: Moderate
+[p.17] public_opinion (0.50) and diplomatic_support (0.58) enable State Department
+[p.17] influence for restraint.
+[p.17] SOVIET UNION STRATEGIC ALTERNATIVES
+[p.17] Alternative 1: Military Counter-Escalation Rationale from JSON: Military's "retaliate
+[p.17] per war plans" protocol and good leadership_unity (0.68) enable strong response.
+[p.17] Alternative 2: Strategic Withdrawal Acceleration Rationale from JSON: Khrushchev's
+[p.17] "avoid triggering nuclear war" constraint becomes paramount with direct
+[p.17] U.S.-Soviet clash.
+[p.17] Alternative 3: Conditional De-escalation Rationale from JSON: Moderate tension
+[p.17] (0.32) and diplomatic_support (0.62) enable face-saving withdrawal with conditions.
+[p.17] MOST PLAUSIBLE COMBINATIONS FOR COMBINATION 3
+[p.17] Path 3A (Most Plausible): US Calibrated Strike + Soviet Strategic Withdrawal Logic:
+[p.17] Measured retaliation followed by Soviet recognition of escalation danger
+[p.17] Path 3B: US Full Retaliation + Soviet Military Counter-Escalation Logic: Pentagon
+[p.17] dominance triggers full military confrontation
+[p.17] Path 3C: US De-escalation + Soviet Conditional De-escalation Logic: Both sides
+[p.17] recognize crisis danger and seek face-saving exit
+[p.18] RESULT LOGS WITH VARIABLE UPDATES
+[p.18] COMBINATION 1 - PATH 1A
+[p.18] US Action: Measured Military Response with Diplomatic Warning Variable Changes:
+[p.18] tension +0.10, diplomatic_support -0.02, public_opinion +0.05, leadership_unity
+[p.18] +0.02 Final Values: tension: 0.55, diplomatic_support: 0.58, public_opinion: 0.65,
+[p.18] leadership_unity: 0.80
+[p.18] Soviet Action: Defensive Justification and De-escalation Variable Changes: tension
+[p.18] +0.05, diplomatic_support +0.05, public_opinion -0.03, leadership_unity -0.05 Final
+[p.18] Values: tension: 0.35, diplomatic_support: 0.65, public_opinion: 0.45,
+[p.18] leadership_unity: 0.67
+[p.18] COMBINATION 2 - PATH 2A
+[p.18] US Action: Diplomatic Protest with Military Warning Variable Changes: tension
+[p.18] +0.05, diplomatic_support +0.05, public_opinion +0.02, leadership_unity +0.03 Final
+[p.18] Values: tension: 0.42, diplomatic_support: 0.83, public_opinion: 0.57,
+[p.18] leadership_unity: 0.81
+[p.18] Soviet Action: Immediate Negotiation Proposal Variable Changes: tension -0.05,
+[p.18] diplomatic_support +0.08, public_opinion +0.03, leadership_unity +0.05 Final Values:
+[p.18] tension: 0.25, diplomatic_support: 0.78, public_opinion: 0.55, leadership_unity: 0.80
+[p.18] COMBINATION 3 - PATH 3A
+[p.18] US Action: Calibrated Strike Response Variable Changes: tension +0.12,
+[p.18] diplomatic_support -0.03, public_opinion +0.03, leadership_unity -0.03 Final Values:
+[p.18] tension: 0.55, diplomatic_support: 0.55, public_opinion: 0.53, leadership_unity: 0.52
+[p.18] Soviet Action: Strategic Withdrawal Acceleration Variable Changes: tension -0.08,
+[p.18] diplomatic_support +0.03, public_opinion -0.05, leadership_unity -0.08 Final Values:
+[p.18] tension: 0.24, diplomatic_support: 0.65, public_opinion: 0.45, leadership_unity: 0.60
+[p.18] Retry

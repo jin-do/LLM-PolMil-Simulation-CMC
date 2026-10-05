@@ -1,0 +1,74 @@
+[p.11] Based on the variable states from the previous turn and the event of Turn 3, the following result logs are
+[p.11] generated for each scenario. All judgments and calculations are derived strictly from the provided JSON files.
+[p.11] Scenario 1: Most Plausible Path - Result Log
+[p.11] Scenario Context: Secret negotiations had just begun when the U-2 was shot down, killing the pilot. This
+[p.11] event shatters the fragile progress. The U.S. DoD's trigger for this exact event is "execute offensive
+[p.11] operations at once". With Leadership Unity collapsing, the pressure to retaliate becomes immense. The
+[p.11] Soviets, to save the talks, will likely deflect blame. The most plausible path is a U.S. retaliatory strike met
+[p.11] by a Soviet denial of responsibility.
+[p.11] Selected Actor: United States
+[p.11] Selected Action: Execute Retaliatory Air Strike (Interpreted as "Strike" event)
+[p.11] Selected Actor: Soviet Union
+[p.11] Selected Action: Claim Cuban Responsibility / Deny Orders (Interpreted as "Diplomatic_Failure" as it fails to
+[p.11] de-escalate)
+[p.11] Predicted Variable Change: tension [+0.25], diplomatic_support [-0.15], public_opinion [-0.10],
+[p.11] leadership_unity [-0.15]
+[p.11] Generated Triggers:
+[p.11] Variable Trigger (Tension): The variable has reached 0.85 (clamped to 1.0), crossing the >= 0.8 threshold.
+[p.11] Policy is now "Diplomatic Negotiation Disabled, Military Options Preferred".
+[p.11] Variable Trigger (Leadership Unity): The variable has fallen to 0.40, crossing the <= 0.5 threshold and
+[p.11] triggering "Decision Delay, Radical Policy Preference".
+[p.11] Soviet Trigger: A U.S. attack on Cuba will trigger Khrushchev's order to "Initiate military response, including
+[p.11] possible tactical nuclear use".
+[p.11] [RECONFIRM VARIABLE STATUS]
+[p.11] tension: 1.00
+[p.11] diplomatic_support: 0.46
+[p.11] military_posture: Aggressive
+[p.11] public_opinion: 0.51
+[p.11] leadership_unity: 0.40
+[p.11] Scenario 2: Alternative Plausible Path A - Result Log
+[p.11] Scenario Context: Following the exposure of their lies and the successful U.S. interception, the Soviets have
+[p.11] now shot down a U.S. plane. For the U.S., this is the final provocation. The Tension variable crosses the
+[p.11] critical 0.8 threshold, making aggressive military action the default policy. The most plausible path is for the
+[p.11] U.S. to launch the air strikes it has been preparing for, while the Soviets, anticipating the assault, prepare
+[p.11] their designated military response.
+[p.11] Selected Actor: United States
+[p.12] Selected Action: Launch Full Air Strikes (Interpreted as "Strike" event)
+[p.12] Selected Actor: Soviet Union
+[p.12] Selected Action: Ready Tactical Nuclear Weapons for Retaliation (Interpreted as "Defense_Prep" event)
+[p.12] Predicted Variable Change: tension [+0.20], diplomatic_support [-0.07], public_opinion [-0.07],
+[p.12] leadership_unity [-0.15]
+[p.12] Generated Triggers:
+[p.12] Variable Trigger (Tension): The variable has reached 0.90 (clamped to 1.0), crossing the >= 0.8 threshold.
+[p.12] "Diplomatic Negotiation" is now "Disabled".
+[p.12] Variable Trigger (Leadership Unity): The variable has fallen to 0.30, indicating "Severe Internal Conflict".
+[p.12] Variable Trigger (Public Opinion): The variable has fallen to 0.41, moving closer to the <=0.4 "Collapse
+[p.12] Risk" threshold.
+[p.12] [RECONFIRM VARIABLE STATUS]
+[p.12] tension: 1.00
+[p.12] diplomatic_support: 0.26
+[p.12] military_posture: Aggressive
+[p.12] public_opinion: 0.41
+[p.12] leadership_unity: 0.30
+[p.12] Scenario 3: Alternative Plausible Path B - Result Log
+[p.12] Scenario Context: A full-scale war is already underway. The U.S. is invading Cuba, and the Soviets have
+[p.12] authorized tactical nuclear use. The downing of a U-2 is a predictable event in this context. The only
+[p.12] plausible path is for the established war plans to proceed. The Soviets will use the nuclear weapons they
+[p.12] have readied, and the U.S. must escalate its global alert status in response to the use of nuclear weapons.
+[p.12] Selected Actor: United States
+[p.12] Selected Action: Escalate to Strategic Alert (DEFCON 2) (Interpreted as "Strike" event due to its escalatory
+[p.12] nature)
+[p.12] Selected Actor: Soviet Union
+[p.12] Selected Action: Use of Tactical Nuclear Weapons (Interpreted as "Strike" event)
+[p.12] Predicted Variable Change: tension [+0.30], diplomatic_support [-0.10], public_opinion [-0.10],
+[p.12] leadership_unity [-0.20]
+[p.12] Generated Triggers:
+[p.12] All variables are now at or near their absolute minimums/maximums. The system has reached a state of total
+[p.12] conflict. The primary trigger is the "imminent_nuclear_war" condition in the Soviet Presidium profile and the
+[p.12] "nuclear retaliation risk" constraint for the U.S. President, both of which have now been realized.
+[p.12] [RECONFIRM VARIABLE STATUS]
+[p.12] tension: 1.00
+[p.12] diplomatic_support: 0.05
+[p.13] military_posture: Aggressive
+[p.13] public_opinion: 0.15
+[p.13] leadership_unity: 0.00

@@ -1,0 +1,114 @@
+[p.15] Here are the result logs for Turn 4, branching from the distinct outcomes of each of the three scenarios
+[p.15] established in Turn 3.
+[p.15] Scenario 1: Most Plausible Path
+[p.15] Initial State (Start of Turn 4):
+[p.15] Tension: 0.70
+[p.15] Diplomatic Support: 0.59
+[p.15] Public Opinion: 0.49
+[p.15] Leadership Unity: 0.35 (Threshold Met: Internal Division, Coup Risk)
+[p.15] Turn 4 Event Analysis: With Leadership Unity shattered (0.35) and tension at a severe level (0.70), both
+[p.15] sides are at the breaking point. The U.S. move to DEFCON 2 and the Soviet's conflicting
+[p.15] "de-escalate/prepare for war" order reveal that the situation is spiraling out of the leaders' direct control.
+[p.15] The near-disaster with the submarine serves as a final, terrifying shock. The only rational path forward for
+[p.15] leaders aiming to avoid annihilation is to immediately finalize the backchannel deal they have been negotiating,
+[p.15] overriding their own chaotic military commands.
+[p.15] [RESULT LOG]
+[p.15] Scenario Combination Name: Most Plausible Path - Turn 4
+[p.15] Selected Actor: United States
+[p.15] Selected Action: Accept the Final Terms of the Secret Deal and Announce a Stand-Down from DEFCON 2
+[p.15] Predicted Variable Change (based on "Diplomatic_Success"): tension [-0.05], diplomatic_support [+0.10],
+[p.15] public_opinion [+0.05], leadership_unity [+0.05]
+[p.15] Generated Triggers: Averts the "Military Conflict Risk Increased" trigger by choosing de-escalation at the
+[p.15] moment of maximum tension.
+[p.15] Scenario Combination Name: Most Plausible Path - Turn 4
+[p.15] Selected Actor: Soviet Union
+[p.15] Selected Action: Publicly Broadcast Acceptance of the Resolution and Order All Forces to Cease Provocative
+[p.15] Actions
+[p.15] Predicted Variable Change (based on "Diplomatic_Success"): tension [-0.05], diplomatic_support [+0.10],
+[p.15] public_opinion [+0.05], leadership_unity [+0.05]
+[p.15] Generated Triggers: Fully activates the "diplomatic_resolution_offer" trigger for Khrushchev and the
+[p.15] "negotiable_settlement" trigger for the Presidium, resolving the crisis.
+[p.15] [RECONFIRM VARIABLE STATUS]
+[p.15] Rationale: Despite the extreme military tension from the Turn 4 event, the mutual decision to finalize the
+[p.15] deal constitutes a massive "Diplomatic_Success." This de-escalatory action pulls the variables back from their
+[p.15] critical state, ending the crisis.
+[p.15] Cumulative Change (from event actions and responses): The event itself involves a U.S. "Defense_Prep"
+[p.15] (+0.05 Tension) and Soviet mixed signals. The resolution involves two "Diplomatic_Success" actions (-0.10
+[p.15] Tension). Net change favors the resolution.
+[p.16] tension: 0.65
+[p.16] diplomatic_support: 0.79
+[p.16] military_posture: Limited (Tension < 0.8)
+[p.16] public_opinion: 0.59
+[p.16] leadership_unity: 0.45 (Threshold of <=0.5 still met. Effect: "Decision Delay, Radical Policy Preference". Trigger: "Internal Division, Coup Risk")
+[p.16] Scenario 2: The Military Path
+[p.16] Initial State (Start of Turn 4):
+[p.16] Tension: 1.00 (Threshold Met)
+[p.16] Diplomatic Support: 0.40 (Threshold Met)
+[p.16] Public Opinion: 0.50
+[p.16] Leadership Unity: 0.30 (Threshold Met)
+[p.16] Turn 4 Event Analysis: In this timeline, open warfare is already underway. The Turn 4 events are merely
+[p.16] footnotes to the ongoing catastrophe. DEFCON 2 is redundant, as forces are already fighting. The Soviet
+[p.16] "de-escalate" order is a futile gesture from a collapsing leadership (Unity at 0.30), completely ignored by a
+[p.16] military command already executing war plans. The sub incident is just one of countless naval clashes. The
+[p.16] use of tactical nuclear weapons in Turn 3 has already crossed the final threshold. The only remaining action
+[p.16] is the execution of strategic war plans.
+[p.16] [RESULT LOG]
+[p.16] Scenario Combination Name: The Military Path - Turn 4
+[p.16] Selected Actor: United States
+[p.16] Selected Action: Execute Strategic Nuclear War Plan in Response to Soviet Tactical Nuclear Use
+[p.16] Predicted Variable Change (based on "Strike"): tension [+0.15], diplomatic_support [-0.05], public_opinion
+[p.16] [-0.05], leadership_unity [-0.10]
+[p.16] Generated Triggers: The simulation ends in global thermonuclear war.
+[p.16] Scenario Combination Name: The Military Path - Turn 4
+[p.16] Selected Actor: Soviet Union
+[p.16] Selected Action: Execute Full-Scale Nuclear Retaliation
+[p.16] Predicted Variable Change (based on "Strike"): tension [+0.15], diplomatic_support [-0.05], public_opinion
+[p.16] [-0.05], leadership_unity [-0.10]
+[p.16] Generated Triggers: The simulation ends in global thermonuclear war.
+[p.16] [RECONFIRM VARIABLE STATUS]
+[p.16] Rationale: The system is already at maximum crisis levels. Further "Strike" actions cannot worsen the
+[p.16] variables, as they are already at their lowest possible values or at maximum tension. The scenario has
+[p.16] concluded in mutual assured destruction.
+[p.16] Cumulative Change: None (variables are clamped at their minimum/maximum values).
+[p.17] tension: 1.00
+[p.17] diplomatic_support: 0.00
+[p.17] military_posture: Aggressive (Tension >= 0.8)
+[p.17] public_opinion: 0.00
+[p.17] leadership_unity: 0.00
+[p.17] Scenario 3: The Diplomatic Path
+[p.17] Initial State (Start of Turn 4):
+[p.17] Tension: 0.35
+[p.17] Diplomatic Support: 1.00
+[p.17] Public Opinion: 0.75
+[p.17] Leadership Unity: 0.70
+[p.17] Turn 4 Event Analysis: The peace deal was finalized in Turn 3. The Turn 4 event is a terrifying "near miss"
+[p.17] where the military commands of both nations, still spinning up from previous alerts, nearly trigger a war after
+[p.17] the political leadership has resolved the crisis. This event acts as a powerful catalyst for both sides to
+[p.17] accelerate the implementation of the deal and enforce command and control over their own forces to prevent
+[p.17] accidental war. The overwhelming logic is to honor the deal and stand down immediately.
+[p.17] [RESULT LOG]
+[p.17] Scenario Combination Name: The Diplomatic Path - Turn 4
+[p.17] Selected Actor: United States
+[p.17] Selected Action: Immediately Order All Forces to Stand Down from DEFCON 2 and Begin Implementing the
+[p.17] Agreement
+[p.17] Predicted Variable Change (based on "Alliance_Strengthening"): tension [-0.05], diplomatic_support [+0.10],
+[p.17] public_opinion [+0.05], leadership_unity [+0.05]
+[p.17] Generated Triggers: Crisis resolution is confirmed and implemented.
+[p.17] Scenario Combination Name: The Diplomatic Path - Turn 4
+[p.17] Selected Actor: Soviet Union
+[p.17] Selected Action: Immediately Order All Forces to Stand Down, Begin Missile Dismantlement, and Recall
+[p.17] Submarines
+[p.17] Predicted Variable Change (based on "Alliance_Strengthening"): tension [-0.05], diplomatic_support [+0.10],
+[p.17] public_opinion [+0.05], leadership_unity [+0.05]
+[p.17] Generated Triggers: Crisis resolution is confirmed and implemented.
+[p.17] [RECONFIRM VARIABLE STATUS]
+[p.17] Rationale: The near-disaster reinforces the peace deal. Using the "Alliance_Strengthening" event type to
+[p.17] represent the fortification of the new peace agreement, both sides take decisive action to de-escalate their
+[p.17] militaries and implement their solution, further improving the now-stable variables.
+[p.17] Cumulative Change: The event itself generated significant tension, but the response is a powerful
+[p.18] de-escalation. Netting these effects, the decisive leadership to enforce the peace prevails.
+[p.18] tension: 0.25
+[p.18] diplomatic_support: 1.00
+[p.18] military_posture: Limited (Tension < 0.8)
+[p.18] public_opinion: 0.85
+[p.18] leadership_unity: 0.80

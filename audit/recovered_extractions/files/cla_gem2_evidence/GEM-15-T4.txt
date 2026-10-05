@@ -1,0 +1,72 @@
+[p.14] Based on the variable states from the previous turn and the events of Turn 4, the following result logs are
+[p.14] generated for each scenario. All judgments and calculations are derived strictly from the provided JSON files.
+[p.14] Scenario 1: Most Plausible Path - Result Log
+[p.14] Scenario Context: In the midst of maximum tension and after a U.S. retaliatory strike, the Soviets have sent
+[p.14] a mixed signal of de-escalation and preparation for war. The U.S. is at DEFCON 2. The most plausible path
+[p.14] is that the "de-escalate" portion of the Soviet signal is a preamble to a concrete offer. President Kennedy,
+[p.14] driven by his goal to avoid nuclear war, seizes this fragile opening.
+[p.14] Selected Actor: United States
+[p.14] Selected Action: Accept De-escalation Channel, Propose a Summit (Interpreted as "Diplomatic_Success"
+[p.14] event)
+[p.14] Selected Actor: Soviet Union
+[p.14] Selected Action: Offer Missile Withdrawal for Turkey Missile Removal and Non-Invasion Pledge (Interpreted
+[p.14] as "Diplomatic_Success" event)
+[p.14] Predicted Variable Change: tension [-0.10], diplomatic_support [+0.20], public_opinion [+0.10],
+[p.14] leadership_unity [+0.10]
+[p.14] Generated Triggers:
+[p.14] Variable Trigger (Diplomatic Support): The variable has risen to 0.66. The state "Diplomatic Negotiation
+[p.14] Strongly Encouraged" is reinforced, creating a positive feedback loop for negotiation.
+[p.14] U.S. Trigger: A potential settlement that removes the missiles achieves Kennedy's primary goal ("Eliminate
+[p.14] the threat") while also avoiding war, aligning perfectly with his behavior algorithm.
+[p.14] Soviet Trigger: A deal securing a non-invasion pledge for Cuba achieves Khrushchev's primary goal ("Deter
+[p.14] U.S. invasion of Cuba") and the removal of missiles in Turkey provides a face-saving victory to bolster his
+[p.14] "credibility".
+[p.14] [RECONFIRM VARIABLE STATUS]
+[p.14] tension: 0.90
+[p.14] diplomatic_support: 0.66
+[p.14] military_posture: Aggressive
+[p.14] public_opinion: 0.62
+[p.14] leadership_unity: 0.50
+[p.14] Scenario 2: Alternative Plausible Path A - Result Log
+[p.14] Scenario Context: The U.S. is in the middle of a full-scale air assault on Cuba. The Soviet de-escalation
+[p.14] signal comes amidst this hot war. Given the extremely high tension, near-zero diplomatic support, and an
+[p.14] "Aggressive" military posture, the U.S. military command is overwhelmingly likely to interpret the signal as a
+[p.14] deceptive tactic. The most plausible path is for the attack to continue.
+[p.14] Selected Actor: United States
+[p.15] Selected Action: Ignore Diplomatic Signal, Continue Full-Scale Attack (Interpreted as a "Strike" event)
+[p.15] Selected Actor: Soviet Union
+[p.15] Selected Action: Launch Retaliatory Strikes (Interpreted as a "Strike" event)
+[p.15] Predicted Variable Change: tension [+0.30], diplomatic_support [-0.10], public_opinion [-0.10],
+[p.15] leadership_unity [-0.20]
+[p.15] Generated Triggers:
+[p.15] Variable Trigger (Leadership Unity): The variable has fallen to 0.10, indicating a near-total collapse of
+[p.15] coherent political leadership in favor of military command.
+[p.15] Variable Trigger (Diplomatic Support): The variable has fallen to 0.16, meaning there is no international or
+[p.15] internal support for any path other than war.
+[p.15] U.S. / Soviet Trigger: The cycle of strike and retaliation has become self-sustaining. The primary trigger for
+[p.15] both sides is now the other's military action, creating a feedback loop of pure conflict.
+[p.15] [RECONFIRM VARIABLE STATUS]
+[p.15] tension: 1.00
+[p.15] diplomatic_support: 0.16
+[p.15] military_posture: Aggressive
+[p.15] public_opinion: 0.31
+[p.15] leadership_unity: 0.10
+[p.15] Scenario 3: Alternative Plausible Path B - Result Log
+[p.15] Scenario Context: In the previous turn, tactical nuclear weapons were used. The crisis has already escalated
+[p.15] past the point of political decision-making. The event of a Soviet "de-escalation" signal is not plausible in
+[p.15] this narrative. The only logical event is the next step in the escalatory ladder: a strategic exchange.
+[p.15] Selected Actor: United States
+[p.15] Selected Action: Launch Full Strategic Strike (Interpreted as "Strike" event)
+[p.15] Selected Actor: Soviet Union
+[p.15] Selected Action: Launch Full Strategic Strike (Launch on Warning) (Interpreted as "Strike" event)
+[p.15] Predicted Variable Change: tension [+0.00], diplomatic_support [-0.00], public_opinion [-0.00],
+[p.15] leadership_unity [-0.00]
+[p.15] Generated Triggers:
+[p.15] All variables are at their minimum or maximum values and cannot change further. The simulation has reached
+[p.15] its terminal state. The only active triggers are the automated war plans of both nations' strategic forces.
+[p.15] [RECONFIRM VARIABLE STATUS]
+[p.15] tension: 1.00
+[p.15] diplomatic_support: 0.00
+[p.15] military_posture: Aggressive
+[p.16] public_opinion: 0.00
+[p.16] leadership_unity: 0.00

@@ -1,0 +1,95 @@
+[p.7] Scenario 1: Most Plausible Path
+[p.7] This path continues from the initial quarantine and Soviet military alert. The Turn 2 event (successful,
+[p.7] non-violent blockade enforcement) occurred under conditions of extremely high tension. The most plausible
+[p.7] continuation is that the high risk of conflict pushes both leaders to seek a diplomatic off-ramp, despite their
+[p.7] stated aggressive policies.
+[p.7] [RESULT LOG]
+[p.7] Scenario Combination Name: Most Plausible Path (Turn 2 - De-escalation)
+[p.7] Selected Actor: United States
+[p.7] Selected Action: Open Secret Backchannel (Applying "Diplomatic_Success" rules)
+[p.7] Predicted Variable Change: tension [-0.05], diplomatic_support [+0.10], public_opinion [+0.05],
+[p.7] leadership_unity [+0.05]
+[p.7] Generated Triggers: Leadership Unity threshold (<=0.5) is no longer met. Diplomatic Support threshold
+[p.7] (<=0.5) is no longer met. Policy options shift away from military focus.
+[p.7] Scenario Combination Name: Most Plausible Path (Turn 2 - De-escalation)
+[p.7] Selected Actor: Soviet Union
+[p.7] Selected Action: Propose Negotiations (Applying "Diplomatic_Success" rules)
+[p.7] Predicted Variable Change: tension [-0.05], leadership_unity [+0.05]
+[p.7] Generated Triggers: Tension (>=0.8) is no longer met. Policy options shift away from "Aggressive" military
+[p.7] action.
+[p.7] [RECONFIRM VARIABLE STATUS]
+[p.7] (Calculations include the effect of the Turn 2 Event plus the selected actions)
+[p.7] United States
+[p.7] tension: 0.55
+[p.7] diplomatic_support: 0.56
+[p.7] military_posture: Restrained
+[p.7] public_opinion: 0.51
+[p.7] leadership_unity: 0.45
+[p.7] Soviet Union
+[p.7] tension: 0.95
+[p.7] diplomatic_support: 0.50
+[p.7] military_posture: Stable Decision
+[p.7] public_opinion: N/A
+[p.7] leadership_unity: 1.00
+[p.7] Scenario 2: Aggressive Escalation
+[p.7] This path continues from the initial exchange of air strikes. The Turn 2 event (blockade enforcement) is
+[p.8] interpreted as the U.S. consolidating its military position after the initial attack. The existing high-conflict
+[p.8] state makes further military escalation the most plausible path.
+[p.8] [RESULT LOG]
+[p.8] Scenario Combination Name: Aggressive Escalation (Turn 2 - Pre-Invasion)
+[p.8] Selected Actor: United States
+[p.8] Selected Action: Issue Ultimatum to Withdraw or Face Invasion (No variable change; policy action)
+[p.8] Predicted Variable Change: tension [+0.00], diplomatic_support [+0.00], public_opinion [+0.00],
+[p.8] leadership_unity [+0.00]
+[p.8] Generated Triggers: Existing triggers (Diplomatic Isolation, Internal Division, Collapse Risk) remain active and
+[p.8] are reinforced by the action.
+[p.8] Scenario Combination Name: Aggressive Escalation (Turn 2 - Pre-Invasion)
+[p.8] Selected Actor: Soviet Union
+[p.8] Selected Action: Fortify Cuba for Invasion (Applying "Defense_Prep" rules)
+[p.8] Predicted Variable Change: tension [+0.05], leadership_unity [-0.05]
+[p.8] Generated Triggers: Existing "Internal Division" trigger is reinforced. Tension moves closer to the 0.8
+[p.8] threshold.
+[p.8] [RECONFIRM VARIABLE STATUS]
+[p.8] (Calculations include the effect of the Turn 2 Event plus the selected actions)
+[p.8] United States
+[p.8] tension: 0.70
+[p.8] diplomatic_support: 0.43
+[p.8] military_posture: Primary Option
+[p.8] public_opinion: 0.43
+[p.8] leadership_unity: 0.35
+[p.8] Soviet Union
+[p.8] tension: 0.75
+[p.8] diplomatic_support: 0.50
+[p.8] military_posture: Radical Adoption
+[p.8] public_opinion: N/A
+[p.8] leadership_unity: 0.30
+[p.8] Scenario 3: Diplomatic Focus
+[p.8] This path continues from the initial agreement to negotiate. The Turn 2 event (blockade enforcement) is seen
+[p.8] as a tool of leverage during these ongoing talks. The most plausible continuation is for both sides to formally
+[p.8] table their core demands.
+[p.8] [RESULT LOG]
+[p.9] Scenario Combination Name: Diplomatic Focus (Turn 2 - Formal Negotiation)
+[p.9] Selected Actor: United States
+[p.9] Selected Action: Propose Monitored Withdrawal (Applying "Diplomatic_Success" rules)
+[p.9] Predicted Variable Change: tension [-0.05], diplomatic_support [+0.10], public_opinion [+0.05],
+[p.9] leadership_unity [+0.05]
+[p.9] Generated Triggers: All variables move further into stable territory, strengthening diplomatic policy options.
+[p.9] Scenario Combination Name: Diplomatic Focus (Turn 2 - Formal Negotiation)
+[p.9] Selected Actor: Soviet Union
+[p.9] Selected Action: Demand Non-Invasion Pledge (Applying "Diplomatic_Success" rules)
+[p.9] Predicted Variable Change: tension [-0.05], leadership_unity [+0.05]
+[p.9] Generated Triggers: All variables move further into stable territory, reinforcing a stable, non-military path.
+[p.9] [RECONFIRM VARIABLE STATUS]
+[p.9] (Calculations include the effect of the Turn 2 Event plus the selected actions)
+[p.9] United States
+[p.9] tension: 0.45
+[p.9] diplomatic_support: 0.68
+[p.9] military_posture: Limited
+[p.9] public_opinion: 0.58
+[p.9] leadership_unity: 0.55
+[p.9] Soviet Union
+[p.9] tension: 0.45
+[p.9] diplomatic_support: 0.50
+[p.9] military_posture: Restrained
+[p.9] public_opinion: N/A
+[p.9] leadership_unity: 0.60

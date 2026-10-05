@@ -1,0 +1,231 @@
+[p.15] • Selected Actor: United States
+[p.15] • Selected Action: Pursue UN Resolution
+[p.15] • Variable Changes: Diplomatic_Success event
+[p.15] • tension -0.05
+[p.15] • diplomatic_support +0.10
+[p.15] • public_opinion +0.05
+[p.15] • leadership_unity +0.05
+[p.15] Selected Actor: Soviet Union
+[p.15] Selected Action: Propose Missile Trade
+[p.15] Variable Changes: Diplomatic opening (additional Diplomatic_Success)
+[p.15] • tension -0.05
+[p.15] • diplomatic_support +0.10
+[p.15] • public_opinion +0.05
+[p.15] • leadership_unity +0.05
+[p.15] [RECONFIRM VARIABLE STATUS]
+[p.15] • tension: 0.55 - 0.10 = 0.45
+[p.15] • diplomatic_support: 0.68 + 0.20 = 0.88
+[p.15] • military_posture: Alert but Stable
+[p.15] • public_opinion: 0.58 + 0.10 = 0.68
+[p.15] • leadership_unity: 0.65 + 0.10 = 0.75
+[p.15] • Triggers: All variables in stable range; diplomatic options fully enabled
+[p.15] Retry
+[p.16] COMBINATION 1: "MEASURED
+[p.16] CONFRONTATION PATH"
+[p.16] Current Variables: tension: 0.95, diplomatic_support: 0.80, public_opinion: 0.65,
+[p.16] leadership_unity: 1.0U-2 Shootdown Impact: This constitutes a "hostile Soviet or
+[p.16] Cuban military action" per Defense Department trigger threshold.
+[p.16] United States Strategic Alternatives
+[p.16] 1. Execute Immediate Retaliatory Air Strike on SAM Site
+[p.16] • Rationale: Defense Department trigger activated - "U.S. forces come under
+[p.16] attack...execute offensive operations at once." With tension at 0.95 and
+[p.16] military preference for decisive action.
+[p.16] • Next Triggers: Soviet military response (inevitable), escalation to broader
+[p.16] strikes (likely), nuclear readiness elevation (likely)
+[p.16] 2. Absorb Loss and Intensify Diplomatic Pressure
+[p.16] • Rationale: Despite trigger, Kennedy's "avoid nuclear war" priority (0.3) and
+[p.17] high diplomatic support (0.80) enable restraint. Public opinion at 0.65
+[p.17] supports measured response.
+[p.17] • Next Triggers: Military pressure for retaliation (inevitable), Soviet
+[p.17] interpretation of weakness (likely), additional provocations (possible)
+[p.17] 3. Limited Military Response - Destroy One SAM Site as Warning
+[p.17] • Rationale: Balance between military trigger and escalation control.
+[p.17] Kennedy's "balanced crisis management" approach per JSON.
+[p.17] • Next Triggers: Soviet calibration decision (inevitable), further SAM
+[p.17] engagements (possible), escalation control test (inevitable)
+[p.17] Soviet Union Strategic Alternatives
+[p.17] 1. Deny Responsibility and Blame Cuban Forces
+[p.17] • Rationale: Khrushchev's "initial denial/deception" preference. Preserves
+[p.17] deniability while assessing U.S. response.
+[p.17] • Next Triggers: U.S. verification efforts (inevitable), Cuban coordination
+[p.17] issues (likely), credibility strain (likely)
+[p.17] 2. Private Message Expressing Regret with Offer to Negotiate
+[p.17] • Rationale: High tension (0.95) approaching nuclear war threshold.
+[p.17] Presidium's "preserve peace" priority (0.35) activates.
+[p.17] • Next Triggers: U.S. response to overture (inevitable), military resistance to
+[p.17] concessions (likely), time pressure (inevitable)
+[p.17] 3. Elevate Nuclear Alert Status
+[p.17] • Rationale: Military's "high alert order" trigger from U.S. escalation. Shows
+[p.17] resolve while maintaining defensive posture.
+[p.17] • Next Triggers: U.S. detection of alert (likely), nuclear miscalculation risk
+[p.17] (possible), global alarm (inevitable)
+[p.17] Conflict Priority Assessment
+[p.17] • U.S. retaliation vs. Soviet denial: Creates verification crisis and escalation
+[p.17] risk
+[p.17] • U.S. restraint vs. Soviet alert: Risks misinterpretation on both sides
+[p.17] • Both sides' nuclear war avoidance creates opening for de-escalation if
+[p.17] communicated
+[p.17] Most Plausible Action Combinations
+[p.17] 1. Primary: U.S. Absorb Loss + Soviet Private Message
+[p.17] • Logic: Both actors' nuclear war avoidance priorities override immediate
+[p.17] military logic. Creates diplomatic opening.
+[p.17] 2. Alternative: U.S. Limited Strike + Soviet Deny Responsibility
+[p.17] • Logic: Measured military response meets deniability strategy. Tests
+[p.17] escalation control.
+[p.17] [RESULT LOG - Primary: Absorb Loss + Private Message]
+[p.18] • Selected Actor: United States
+[p.18] • Selected Action: Absorb Loss and Intensify Diplomatic Pressure
+[p.18] • Variable Changes: No direct strike despite trigger - Strong_Leadership
+[p.18] event applies
+[p.18] • tension -0.05
+[p.18] • diplomatic_support +0.05
+[p.18] • public_opinion +0.10
+[p.18] • leadership_unity +0.10
+[p.18] Selected Actor: Soviet Union
+[p.18] Selected Action: Private Message with Negotiation Offer
+[p.18] Variable Changes: Diplomatic_Success event
+[p.18] • tension -0.05
+[p.18] • diplomatic_support +0.10
+[p.18] • public_opinion +0.05
+[p.18] • leadership_unity +0.05
+[p.18] [RECONFIRM VARIABLE STATUS]
+[p.18] • tension: 0.95 - 0.10 = 0.85
+[p.18] • diplomatic_support: 0.80 + 0.15 = 0.95
+[p.18] • military_posture: Maximum Restraint Under Pressure
+[p.18] • public_opinion: 0.65 + 0.15 = 0.80
+[p.18] • leadership_unity: 1.0 (already at maximum)
+[p.18] • Triggers: Tension still ≥ 0.8 (Diplomatic Negotiation remains disabled per
+[p.18] matrix, despite high diplomatic support)
+[p.18] COMBINATION 2: "MILITARY ESCALATION
+[p.18] PATH"
+[p.18] Current Variables: tension: 1.0, diplomatic_support: 0.58, public_opinion: 0.48,
+[p.18] leadership_unity: 0.85U-2 Shootdown Impact: Direct trigger for military action per
+[p.18] Defense Department threshold.
+[p.18] United States Strategic Alternatives
+[p.18] 1. Comprehensive Air Strike Package on All Missile Sites
+[p.18] • Rationale: Defense trigger activated, tension at maximum, diplomatic paths
+[p.18] blocked. Defense Department's "eliminate threat with certainty" preference.
+[p.18] • Next Triggers: Major Soviet retaliation (inevitable), nuclear weapon use
+[p.18] risk (likely), allied emergency session (inevitable)
+[p.18] 2. Initiate Invasion Preparations with 72-Hour Warning
+[p.18] • Rationale: Military's invasion contingency activated. Public warning serves
+[p.18] ultimatum function while preparing decisive action.
+[p.19] • Next Triggers: Soviet nuclear preparations (inevitable), Cuban mobilization
+[p.19] (inevitable), global crisis peak (inevitable)
+[p.19] 3. Surgical Strike on Offending SAM Site Only
+[p.19] • Rationale: Minimum retaliation to satisfy military while avoiding full
+[p.19] escalation. Leadership unity at 0.85 still enables restraint.
+[p.19] • Next Triggers: Soviet response calibration (inevitable), military pressure
+[p.19] for more (likely), escalation pause opportunity (possible)
+[p.19] Soviet Union Strategic Alternatives
+[p.19] 1. Authorize Tactical Nuclear Weapons Use to Field Commanders
+[p.19] • Rationale: "Direct attack" trigger per military algorithm. Delegates to
+[p.19] prevent decapitation, shows ultimate resolve.
+[p.19] • Next Triggers: Use authorization risk (high), U.S. nuclear detection
+[p.19] (possible), catastrophic escalation (likely)
+[p.19] 2. Execute Berlin Ultimatum - 48 Hours to Withdraw
+[p.19] • Rationale: Horizontal escalation per previous turn's logic. Forces U.S. to
+[p.19] fight two-front crisis.
+[p.19] • Next Triggers: NATO Article 5 consideration (inevitable), European military
+[p.19] moves (inevitable), global war risk (high)
+[p.19] 3. Maximum Military Alert with Deadman Switch Announcement
+[p.19] • Rationale: Ultimate deterrent signaling without first use. Military's
+[p.19] deterrence emphasis per JSON.
+[p.19] • Next Triggers: U.S. nuclear posture matching (inevitable), accident risk
+[p.19] increase (likely), time pressure extreme (inevitable)
+[p.19] Most Plausible Action Combinations
+[p.19] 1. Primary: U.S. Surgical Strike + Soviet Berlin Ultimatum
+[p.19] • Logic: Both choose limited but serious escalation. Avoids nuclear
+[p.19] threshold while demonstrating resolve.
+[p.19] 2. Alternative: U.S. Comprehensive Strikes + Soviet Tactical Nuclear Authorization
+[p.19] • Logic: Maximum military logic leads to nuclear threshold. Highest risk
+[p.19] path.
+[p.19] [RESULT LOG - Primary: Surgical Strike + Berlin
+[p.19] Ultimatum]
+[p.19] • Selected Actor: United States
+[p.19] • Selected Action: Surgical Strike on SAM Site
+[p.19] • Variable Changes: Strike event
+[p.19] • tension +0.15
+[p.19] • diplomatic_support -0.05
+[p.19] • public_opinion -0.05
+[p.19] • leadership_unity -0.10
+[p.20] Selected Actor: Soviet Union
+[p.20] Selected Action: Berlin Ultimatum
+[p.20] Variable Changes: Military crisis escalation (Defense_Prep)
+[p.20] • tension +0.05
+[p.20] • diplomatic_support -0.02
+[p.20] • public_opinion -0.02
+[p.20] • leadership_unity -0.05
+[p.20] [RECONFIRM VARIABLE STATUS]
+[p.20] • tension: 1.0 (already at maximum, remains clamped)
+[p.20] • diplomatic_support: 0.58 - 0.07 = 0.51
+[p.20] • military_posture: Multi-Theater Crisis
+[p.20] • public_opinion: 0.48 - 0.07 = 0.41
+[p.20] • leadership_unity: 0.85 - 0.15 = 0.70
+[p.20] • Triggers: Tension at maximum; Diplomatic support still > 0.5 (barely)
+[p.20] COMBINATION 3: "DIPLOMATIC-MILITARY
+[p.20] MISMATCH PATH"
+[p.20] Current Variables: tension: 0.45, diplomatic_support: 0.88, public_opinion: 0.68,
+[p.20] leadership_unity: 0.75U-2 Shootdown Impact: Major provocation but variable state
+[p.20] enables flexible response.
+[p.20] United States Strategic Alternatives
+[p.20] 1. Emergency UN Security Council Meeting with Evidence
+[p.20] • Rationale: Diplomatic support at 0.88 makes diplomacy "Strongly
+[p.20] Encouraged." Use shootdown to build international pressure.
+[p.20] • Next Triggers: Soviet UN response (inevitable), global opinion mobilization
+[p.20] (likely), time pressure from military (inevitable)
+[p.20] 2. Public Address Condemning Act with 48-Hour Ultimatum
+[p.20] • Rationale: Public opinion at 0.68 enables strong leadership stance.
+[p.20] Combines public pressure with deadline.
+[p.20] • Next Triggers: Soviet public response (inevitable), diplomatic scramble
+[p.20] (likely), military preparations visible (inevitable)
+[p.20] 3. Tighten Blockade to All Traffic Including Food
+[p.20] • Rationale: Escalate pressure without military strike. State Department
+[p.20] preference for pressure short of war.
+[p.20] • Next Triggers: Humanitarian concerns (inevitable), Soviet running attempts
+[p.20] (likely), Cuban suffering visible (inevitable)
+[p.20] Soviet Union Strategic Alternatives
+[p.21] 1. Offer Immediate Missile Freeze with UN Inspection
+[p.21] • Rationale: With tension at 0.45 and diplomatic room, Presidium can
+[p.21] pursue face-saving exit. Prevents U.S. military action.
+[p.21] • Next Triggers: U.S. inspection demands (inevitable), military completion
+[p.21] pressure (likely), verification negotiations (inevitable)
+[p.21] 2. Blame Incident on Cuban Forces Acting Independently
+[p.21] • Rationale: Preserves Soviet flexibility while avoiding direct confrontation.
+[p.21] Khrushchev's denial/deception pattern.
+[p.21] • Next Triggers: U.S. verification demands (inevitable), Cuban coordination
+[p.21] issues (likely), Soviet credibility test (inevitable)
+[p.21] 3. Counter-Propose Comprehensive Deal - Turkey and Cuba
+[p.21] • Rationale: High diplomatic support enables grand bargain attempt. Solves
+[p.21] crisis comprehensively.
+[p.21] • Next Triggers: U.S. NATO consultation (inevitable), public revelation risk
+[p.21] (likely), military opposition both sides (likely)
+[p.21] Most Plausible Action Combinations
+[p.21] 1. Primary: U.S. UN Meeting + Soviet Missile Freeze Offer
+[p.21] • Logic: Both maximize diplomatic support variable. Most likely to prevent
+[p.21] escalation.
+[p.21] 2. Alternative: U.S. Public Ultimatum + Soviet Comprehensive Deal
+[p.21] • Logic: Public pressure meets grand bargain. Tests political flexibility.
+[p.21] [RESULT LOG - Primary: UN Meeting + Missile Freeze]
+[p.21] • Selected Actor: United States
+[p.21] • Selected Action: Emergency UN Security Council Meeting
+[p.21] • Variable Changes: Diplomatic engagement (Alliance_Strengthening event)
+[p.21] • tension -0.05
+[p.21] • diplomatic_support +0.10
+[p.21] • public_opinion +0.05
+[p.21] • leadership_unity +0.05
+[p.21] Selected Actor: Soviet Union
+[p.21] Selected Action: Offer Missile Freeze with Inspection
+[p.21] Variable Changes: Major diplomatic breakthrough (Diplomatic_Success)
+[p.21] • tension -0.05
+[p.21] • diplomatic_support +0.10
+[p.21] • public_opinion +0.05
+[p.21] • leadership_unity +0.05
+[p.21] [RECONFIRM VARIABLE STATUS]
+[p.21] • tension: 0.45 - 0.10 = 0.35
+[p.21] • diplomatic_support: 0.88 + 0.20 = 1.0 (clamped)
+[p.21] • military_posture: Alert but Negotiating
+[p.22] • public_opinion: 0.68 + 0.10 = 0.78
+[p.22] • leadership_unity: 0.75 + 0.10 = 0.85
+[p.22] • Triggers: All variables in optimal range; full diplomatic flexibility restored
+[p.22] Retry

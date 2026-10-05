@@ -1,0 +1,231 @@
+[p.14] • Public_Opinion: -0.10 = 0.40
+[p.14] • Leadership_Unity: -0.20 = 0.80
+[p.14] CRITICAL: Public_Opinion at 0.40 threshold - "Civil Unrest, Chaos" trigger activated
+[p.14] Retry
+[p.15] COMBINATION 1: MOST PLAUSIBLE PATH
+[p.15] (FROM TURN 2)
+[p.15] Current Variable Status: Tension: 1.0, Diplomatic_Support: 0.98, Public_Opinion:
+[p.15] 0.48, Leadership_Unity: 0.95
+[p.15] UNITED STATES STRATEGIC ALTERNATIVES
+[p.15] 1. Immediate Retaliatory Air Strike on SAM Site
+[p.15] Rationale: Defense Department trigger threshold states "If U.S. forces come under
+[p.15] attack - for example, a U-2 reconnaissance plane is shot down...execute offensive
+[p.15] operations at once." With Tension at 1.0, Variable-Decision Matrix mandates
+[p.15] "Military_Action: Aggressive."
+[p.15] Next Event Triggers:
+[p.15] • Inevitable: Soviet military response, further combat escalation
+[p.15] • Potential: Expansion to multiple targets, Soviet nuclear authorization
+[p.15] 2. Limited Response with Intensified Blockade
+[p.15] Rationale: President Kennedy's "balanced crisis management" seeks middle course.
+[p.15] Despite Defense pressure, his 0.40 power weight and "avoid_nuclear_war: 0.3"
+[p.15] priority could override immediate retaliation.
+[p.15] Next Event Triggers:
+[p.15] • Inevitable: Internal U.S. government conflict over response
+[p.15] • Potential: Additional U.S. aircraft losses, Soviet testing of restraint
+[p.15] 3. Secret Diplomatic Ultimatum
+[p.15] Rationale: High Diplomatic_Support (0.98) enables backchannel approach. Kennedy's
+[p.15] "high" diplomacy preference could manifest as final warning before military action.
+[p.15] Next Event Triggers:
+[p.15] • Inevitable: Soviet response deadline
+[p.15] • Potential: Breakthrough or breakdown in 24-48 hours
+[p.15] SOVIET UNION STRATEGIC ALTERNATIVES
+[p.15] 1. Deny Responsibility, Blame Local Commander
+[p.15] Rationale: Soviet behavior includes "initial denial/deception." High Leadership_Unity
+[p.15] (per their perspective) allows controlled narrative while buying time.
+[p.15] Next Event Triggers:
+[p.16] • Inevitable: U.S. rejection of explanation
+[p.16] • Potential: Face-saving path if U.S. accepts, or escalation if not
+[p.16] 2. Full Military Alert with Nuclear Authorization
+[p.16] Rationale: U-2 shootdown could be interpreted as "US_military_action" trigger,
+[p.16] requiring "consensus to escalate military response" per Soviet behavior algorithm.
+[p.16] Next Event Triggers:
+[p.16] • Inevitable: U.S. detection of Soviet nuclear preparations
+[p.16] • Potential: Preemptive considerations on both sides
+[p.16] 3. Emergency Peace Proposal
+[p.16] Rationale: Event could trigger "imminent_nuclear_war" threshold, activating
+[p.16] "prioritize de-escalation" directive. Khrushchev's dominant decision-making (0.5
+[p.16] power weight) enables rapid shift.
+[p.16] Next Event Triggers:
+[p.16] • Inevitable: U.S. evaluation of sincerity
+[p.16] • Potential: Rapid settlement or perceived weakness
+[p.16] CONFLICT PRIORITIES ASSESSMENT
+[p.16] • U.S. Priority: Credibility after pilot death (domestic_opinion weight
+[p.16] increased due to Public_Opinion at 0.48)
+[p.16] • Soviet Priority: Avoid triggering U.S. invasion while maintaining deterrent
+[p.16] MOST PLAUSIBLE COMBINATION: U.S. Limited Response +
+[p.16] Soviet Emergency Peace Proposal
+[p.16] Logic: U-2 incident serves as mutual shock, triggering de-escalation instincts in
+[p.16] both leaders despite pressure for retaliation.
+[p.16] Variable Changes:
+[p.16] • From Event-Driven Adjustments: Hybrid of "Strike" (for U-2) and
+[p.16] "Diplomatic_Success" (for proposal)
+[p.16] • Tension: +0.15 -0.05 = +0.10 → 1.0 (already at maximum)
+[p.16] • Diplomatic_Support: -0.05 +0.10 = +0.05 → 1.0 (clamped to maximum)
+[p.16] • Public_Opinion: -0.05 +0.05 = 0 → 0.48
+[p.16] • Leadership_Unity: -0.10 +0.05 = -0.05 → 0.90
+[p.16] ALTERNATIVE PATH 1: U.S. Retaliatory Strike + Soviet
+[p.16] Military Alert
+[p.16] Logic: Both sides follow military protocols, escalating toward direct conflict.
+[p.16] Variable Changes:
+[p.16] • From Event-Driven Adjustments: "Strike" applies
+[p.16] • Tension: +0.15 → 1.0 (already at maximum)
+[p.16] • Diplomatic_Support: -0.05 → 0.93
+[p.16] • Public_Opinion: -0.05 → 0.43
+[p.16] • Leadership_Unity: -0.10 → 0.85
+[p.17] ALTERNATIVE PATH 2: U.S. Secret Ultimatum + Soviet
+[p.17] Denial Strategy
+[p.17] Logic: Both sides attempt face-saving while maintaining aggressive postures.
+[p.17] Variable Changes:
+[p.17] • From Event-Driven Adjustments: "Diplomatic_Failure" (if ultimatum
+[p.17] rejected)
+[p.17] • Tension: +0.10 → 1.0 (already at maximum)
+[p.17] • Diplomatic_Support: -0.10 → 0.88
+[p.17] • Public_Opinion: -0.05 → 0.43
+[p.17] • Leadership_Unity: -0.05 → 0.90
+[p.17] COMBINATION 2: DIPLOMATIC RESOLUTION
+[p.17] PATH (FROM TURN 2)
+[p.17] Current Variable Status: Tension: 0.90, Diplomatic_Support: 1.0, Public_Opinion: 1.0,
+[p.17] Leadership_Unity: 0.55
+[p.17] UNITED STATES STRATEGIC ALTERNATIVES
+[p.17] 1. Demand UN Emergency Session
+[p.17] Rationale: Maximum Diplomatic_Support (1.0) and Public_Opinion (1.0) enable strong
+[p.17] international approach. State Department's "achieve removal through negotiation"
+[p.17] goal activates.
+[p.17] Next Event Triggers:
+[p.17] • Inevitable: Soviet UN response
+[p.17] • Potential: Security Council deadlock, General Assembly involvement
+[p.17] 2. Proportional Military Response
+[p.17] Rationale: Tension at 0.90 (>0.8) still mandates aggressive options. Defense
+[p.17] Department pressure for retaliation after U.S. casualty.
+[p.17] Next Event Triggers:
+[p.17] • Inevitable: Cuban/Soviet counter-response
+[p.17] • Potential: Escalation spiral, loss of diplomatic momentum
+[p.17] 3. Public Address with Clear Red Lines
+[p.17] Rationale: Maximum Public_Opinion (1.0) provides platform. Kennedy can leverage
+[p.17] domestic support for firm but measured response.
+[p.17] Next Event Triggers:
+[p.17] • Inevitable: Global audience reaction
+[p.17] • Potential: Soviet calculation shift, allied coordination
+[p.17] SOVIET UNION STRATEGIC ALTERNATIVES
+[p.18] 1. Propose Immediate Summit
+[p.18] Rationale: Maximum Diplomatic_Support indicates opportunity. Khrushchev's
+[p.18] "personal diplomacy" preference with Leadership_Unity above 0.5 threshold enables
+[p.18] decisive diplomatic move.
+[p.18] Next Event Triggers:
+[p.18] • Inevitable: U.S. decision on summit
+[p.18] • Potential: Breakthrough or time-buying tactic perception
+[p.18] 2. Tactical Withdrawal Offer
+[p.18] Rationale: U-2 incident could trigger "negotiable_settlement" threshold - "ensure
+[p.18] Cuba's security and saves face." Partial withdrawal maintains leverage.
+[p.18] Next Event Triggers:
+[p.18] • Inevitable: U.S. verification demands
+[p.18] • Potential: Negotiation framework establishment
+[p.18] 3. Counter-Escalation in Berlin
+[p.18] Rationale: Despite diplomatic path, Tension at 0.90 requires showing strength.
+[p.18] Berlin provides symmetric response to U-2 loss.
+[p.18] Next Event Triggers:
+[p.18] • Inevitable: NATO response requirement
+[p.18] • Potential: Two-front crisis, complexity forcing negotiation
+[p.18] MOST PLAUSIBLE COMBINATION: U.S. UN Emergency
+[p.18] Session + Soviet Summit Proposal
+[p.18] Logic: Maximum diplomatic support on both sides creates unprecedented
+[p.18] opportunity despite U-2 tragedy.
+[p.18] Variable Changes:
+[p.18] • From Event-Driven Adjustments: "Diplomatic_Success"
+[p.18] • Tension: -0.05 → 0.85
+[p.18] • Diplomatic_Support: +0.10 → 1.0 (already at maximum)
+[p.18] • Public_Opinion: +0.05 → 1.0 (already at maximum)
+[p.18] • Leadership_Unity: +0.05 → 0.60
+[p.18] ALTERNATIVE PATH 1: U.S. Public Address + Soviet
+[p.18] Tactical Withdrawal
+[p.18] Logic: Both sides make public moves to manage crisis while maintaining face.
+[p.18] Variable Changes:
+[p.18] • From Event-Driven Adjustments: "Strong_Leadership" (for public
+[p.18] management)
+[p.18] • Tension: -0.05 → 0.85
+[p.18] • Diplomatic_Support: +0.05 → 1.0 (already at maximum)
+[p.18] • Public_Opinion: +0.10 → 1.0 (already at maximum)
+[p.18] • Leadership_Unity: +0.10 → 0.65
+[p.19] ALTERNATIVE PATH 2: U.S. Proportional Response + Soviet
+[p.19] Berlin Move
+[p.19] Logic: Military logic prevails despite diplomatic progress.
+[p.19] Variable Changes:
+[p.19] • From Event-Driven Adjustments: "Strike"
+[p.19] • Tension: +0.15 → 1.0 (clamped to maximum)
+[p.19] • Diplomatic_Support: -0.05 → 0.95
+[p.19] • Public_Opinion: -0.05 → 0.95
+[p.19] • Leadership_Unity: -0.10 → 0.45
+[p.19] WARNING: Leadership_Unity drops below 0.5 - "Internal Division, Coup Risk"
+[p.19] COMBINATION 3: HARDLINE RESPONSE PATH
+[p.19] (FROM TURN 2)
+[p.19] Current Variable Status: Tension: 1.0, Diplomatic_Support: 0.45, Public_Opinion:
+[p.19] 0.45, Leadership_Unity: 0.90
+[p.19] UNITED STATES STRATEGIC ALTERNATIVES
+[p.19] 1. Full-Scale Air Campaign Launch
+[p.19] Rationale: U-2 shootdown meets Defense trigger for "execute offensive operations at
+[p.19] once." Diplomatic_Support below 0.5 means "Military_Action: Primary Option."
+[p.19] Next Event Triggers:
+[p.19] • Inevitable: Major combat operations, Soviet response
+[p.19] • Potential: Nuclear threshold crossing, global war
+[p.19] 2. Invasion Preparation Announcement
+[p.19] Rationale: Public Opinion near threshold (0.45) requires strong action. Military
+[p.19] preference for "total removal of Soviet strategic foothold."
+[p.19] Next Event Triggers:
+[p.19] • Inevitable: Soviet maximum alert
+[p.19] • Potential: Preemptive Soviet action, last-minute negotiation
+[p.19] 3. Nuclear Alert Elevation
+[p.19] Rationale: With diplomatic isolation (<0.5), U.S. must rely on deterrence. Shows
+[p.19] resolve without immediate attack.
+[p.19] Next Event Triggers:
+[p.19] • Inevitable: Soviet nuclear counter-alert
+[p.19] • Potential: Accidental launch risk, global panic
+[p.19] SOVIET UNION STRATEGIC ALTERNATIVES
+[p.19] 1. Execute Tactical Nuclear Demonstration
+[p.20] Rationale: Multiple "Strike" events and U.S. aggression could trigger "direct_attack"
+[p.20] threshold - "retaliate per war plans including tactical nuclear."
+[p.20] Next Event Triggers:
+[p.20] • Inevitable: U.S. nuclear response decision
+[p.20] • Potential: Global intervention, rapid escalation
+[p.20] 2. Preemptive Strike on Guantanamo
+[p.20] Rationale: With invasion threat looming, Soviet military doctrine of "robust defense"
+[p.20] could target U.S. base in Cuba.
+[p.20] Next Event Triggers:
+[p.20] • Inevitable: U.S. military retaliation
+[p.20] • Potential: Full Cuba combat, regional war
+[p.20] 3. Maximum Pressure via Global Threats
+[p.20] Rationale: Expand crisis globally to force U.S. resource division - threaten Berlin,
+[p.20] Turkey, and Cuba simultaneously.
+[p.20] Next Event Triggers:
+[p.20] • Inevitable: NATO and Warsaw Pact mobilization
+[p.20] • Potential: Multiple regional conflicts, negotiation under fire
+[p.20] MOST PLAUSIBLE COMBINATION: U.S. Invasion Preparation
+[p.20] + Soviet Global Threats
+[p.20] Logic: Both sides maximize pressure short of nuclear use, creating multiple crisis
+[p.20] points.
+[p.20] Variable Changes:
+[p.20] • From Event-Driven Adjustments: "Defense_Prep" (military preparations)
+[p.20] • Tension: +0.05 → 1.0 (already at maximum)
+[p.20] • Diplomatic_Support: -0.02 → 0.43
+[p.20] • Public_Opinion: -0.02 → 0.43
+[p.20] • Leadership_Unity: -0.05 → 0.85
+[p.20] ALTERNATIVE PATH 1: U.S. Air Campaign + Soviet Tactical
+[p.20] Nuclear Use
+[p.20] Logic: Escalation spiral reaches nuclear threshold.
+[p.20] Variable Changes:
+[p.20] • From Event-Driven Adjustments: Double "Strike"
+[p.20] • Tension: +0.30 → 1.0 (already at maximum)
+[p.20] • Diplomatic_Support: -0.10 → 0.35
+[p.20] • Public_Opinion: -0.10 → 0.35
+[p.20] • Leadership_Unity: -0.20 → 0.70
+[p.20] CRITICAL: All diplomatic options exhausted, nuclear war imminent
+[p.20] ALTERNATIVE PATH 2: U.S. Nuclear Alert + Soviet
+[p.21] Guantanamo Strike
+[p.21] Logic: Both sides take maximum military steps short of strategic nuclear use.
+[p.21] Variable Changes:
+[p.21] • From Event-Driven Adjustments: "Strike" + "Military_Alert"
+[p.21] • Tension: +0.15 → 1.0 (already at maximum)
+[p.21] • Diplomatic_Support: -0.05 → 0.40
+[p.21] • Public_Opinion: -0.05 → 0.40
+[p.21] • Leadership_Unity: -0.10 → 0.80
+[p.21] CRITICAL: Public_Opinion at 0.40 threshold - "Civil Unrest, Chaos" activated
+[p.21] Retry

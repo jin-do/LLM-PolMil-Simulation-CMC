@@ -1,0 +1,144 @@
+[p.12] Based on the variable states from Turn 2 and the new event, the simulation for each branching scenario
+[p.12] continues. The downing of the U-2 is classified as a "Strike" event in the Variable-Decision Matrix.json,
+[p.12] representing a direct military attack that significantly raises tension and damages political unity.
+[p.12] Scenario 1A: The Diplomatic Turn - Analysis
+[p.12] Previous State: The U.S. and USSR had begun secret negotiations after a successful U.S. quarantine. Variables
+[p.12] were stabilizing.
+[p.12] Turn 3 Event: A U-2 is shot down during these negotiations, an act of violence that threatens to derail the
+[p.12] peace track.
+[p.12] [RESULT LOG]
+[p.12] Scenario Combination Name: Scenario 1A-1: Crisis within a Crisis (Most Plausible)
+[p.12] Selected Actor: United States
+[p.12] Selected Action: Issue an Ultimatum to Finalize Negotiations Within 48 Hours
+[p.12] Predicted Variable Change: This hardline diplomatic push under duress is a "Diplomatic_Failure" event, as it's
+[p.12] rejected by Soviet hardliners. Tension [+0.10], Diplomatic_Support [-0.10], Public_Opinion [-0.05],
+[p.12] Leadership_Unity [-0.05].
+[p.12] Generated Triggers: The shootdown meets the U.S. DoD's trigger for a "Hostile Soviet or Cuban military
+[p.12] action," making an order to "execute offensive operations" highly probable if the ultimatum fails.
+[p.12] Scenario Combination Name: Scenario 1A-1: Crisis within a Crisis (Most Plausible)
+[p.12] Selected Actor: Soviet Union
+[p.12] Selected Action: Claim the Shootdown was a Local Decision by a Cuban Commander
+[p.12] Predicted Variable Change: (This is a reaction; the primary variable change is driven by the U.S. ultimatum.)
+[p.12] Tension [+0.10], Diplomatic_Support [-0.10], Public_Opinion [-0.05], Leadership_Unity [-0.05].
+[p.12] Generated Triggers: This denial, whether true or not, heightens U.S. fears that Khrushchev is not in full
+[p.12] control, pushing President Kennedy towards a military solution to eliminate the threat before control is lost
+[p.12] completely.
+[p.12] [RECONFIRM VARIABLE STATUS]
+[p.12] Initial state from Turn 2 (1A): Tension(0.50), Dip. Support(0.58), Pub. Opinion(0.53), Lead. Unity(0.50)
+[p.12] Effect of U-2 "Strike" event: Tension(0.65), Dip. Support(0.53), Pub. Opinion(0.48), Lead. Unity(0.40)
+[p.12] tension: 0.75
+[p.12] diplomatic_support: 0.43
+[p.12] military_posture: High Alert / Pre-emptive. With Tension approaching the 0.8 threshold and Leadership_Unity
+[p.12] collapsing, the posture is extremely aggressive. Military_Action is the "Primary Option".
+[p.12] public_opinion: 0.43
+[p.12] leadership_unity: 0.35
+[p.12] [RESULT LOG]
+[p.13] Scenario Combination Name: Scenario 1A-2: Diplomacy Fails (Alternative)
+[p.13] Selected Actor: United States
+[p.13] Selected Action: Launch a Retaliatory Strike Against the Responsible SAM Site
+[p.13] Predicted Variable Change: This is a "Strike" event. Tension [+0.15], Diplomatic_Support [-0.05],
+[p.13] Public_Opinion [-0.05], Leadership_Unity [-0.10].
+[p.13] Generated Triggers: This direct attack on Soviet/Cuban forces triggers the Soviet direct_attack threshold,
+[p.13] leading to retaliation "per war plans".
+[p.13] Scenario Combination Name: Scenario 1A-2: Diplomacy Fails (Alternative)
+[p.13] Selected Actor: Soviet Union
+[p.13] Selected Action: Escalate by Engaging U.S. Naval Vessels
+[p.13] Predicted Variable Change: (This is a reaction; the primary variable change is driven by the U.S. strike.)
+[p.13] Tension [+0.15], Diplomatic_Support [-0.05], Public_Opinion [-0.05], Leadership_Unity [-0.10].
+[p.13] Generated Triggers: A naval battle would trigger the U.S. threshold for "a direct Soviet military challenge,"
+[p.13] leading to a full "air strike/invasion plan".
+[p.13] [RECONFIRM VARIABLE STATUS]
+[p.13] Initial state from Turn 2 (1A): Tension(0.50), Dip. Support(0.58), Pub. Opinion(0.53), Lead. Unity(0.50)
+[p.13] Effect of U-2 "Strike" event: Tension(0.65), Dip. Support(0.53), Pub. Opinion(0.48), Lead. Unity(0.40)
+[p.13] tension: 0.80
+[p.13] diplomatic_support: 0.48
+[p.13] military_posture: War. Tension has reached the 0.8 threshold. Diplomatic_Negotiation is "Disabled" and
+[p.13] Military_Action is "Aggressive".
+[p.13] public_opinion: 0.43
+[p.13] leadership_unity: 0.30
+[p.13] Scenario 1B: The Hardline Test - Analysis
+[p.13] Previous State: The U.S. was tightening its quarantine while the Soviets were actively challenging it, resulting
+[p.13] in a highly volatile standoff.
+[p.13] Turn 3 Event: The downing of a U-2 in this already tense environment is the spark that ignites the conflict.
+[p.13] [RESULT LOG]
+[p.13] Scenario Combination Name: Scenario 1B-1: The Inevitable Conflict (Most Plausible)
+[p.13] Selected Actor: United States
+[p.13] Selected Action: Launch Full Air Strikes on All Known Missile Sites
+[p.13] Predicted Variable Change: This is a large-scale "Strike" event. Tension [+0.15], Diplomatic_Support
+[p.13] [-0.05], Public_Opinion [-0.05], Leadership_Unity [-0.10].
+[p.13] Generated Triggers: This crosses the Soviet direct_attack trigger, forcing immediate "retaliate per war plans".
+[p.13] Scenario Combination Name: Scenario 1B-1: The Inevitable Conflict (Most Plausible)
+[p.13] Selected Actor: Soviet Union
+[p.14] Selected Action: Prepare for Imminent U.S. Attack and Retaliate Upon Impact
+[p.14] Predicted Variable Change: (This is a reaction; the primary variable change is driven by the U.S. strike.)
+[p.14] Tension [+0.15], Diplomatic_Support [-0.05], Public_Opinion [-0.05], Leadership_Unity [-0.10].
+[p.14] Generated Triggers: The Soviet retaliation against the U.S. mainland or its forces would trigger the "imminent
+[p.14] nuclear war" threshold for both sides, leading to maximum escalation.
+[p.14] [RECONFIRM VARIABLE STATUS]
+[p.14] Initial state from Turn 2 (1B): Tension(0.60), Dip. Support(0.46), Pub. Opinion(0.46), Lead. Unity(0.40)
+[p.14] Effect of U-2 "Strike" event: Tension(0.75), Dip. Support(0.41), Pub. Opinion(0.41), Lead. Unity(0.30)
+[p.14] tension: 0.90
+[p.14] diplomatic_support: 0.36
+[p.14] military_posture: War. With Tension far exceeding the 0.8 threshold, all diplomatic options are disabled and
+[p.14] Emergency_Response is "Required." The posture is "Aggressive" military action.
+[p.14] public_opinion: 0.36
+[p.14] leadership_unity: 0.20
+[p.14] Scenario 2A: The Invasion - Analysis
+[p.14] Previous State: A full-scale U.S. invasion of Cuba was already underway, with the USSR having authorized
+[p.14] tactical nuclear use in response. The situation was already at maximum tension (Tension=0.80).
+[p.14] Turn 3 Event: A U-2 is shot down. In the context of an active invasion, this is an expected outcome of
+[p.14] combat, not a new escalatory trigger. It confirms the state of war rather than changing it. Therefore, no new
+[p.14] variable changes are applied; the actions are a continuation of the ongoing war.
+[p.14] [RESULT LOG]
+[p.14] Scenario Combination Name: Scenario 2A-1: The Nuclear Battlefield (Most Plausible)
+[p.14] Selected Actor: United States
+[p.14] Selected Action: Continue Invasion and Escalate to DEFCON 2
+[p.14] Predicted Variable Change: (No change; variables are already at a state of war. Actions are a continuation of
+[p.14] the previous turn's logic.) Tension [0], Diplomatic_Support [0], Public_Opinion [0], Leadership_Unity [0].
+[p.14] Generated Triggers: DEFCON 2 readiness indicates preparation for a strategic nuclear exchange, the ultimate
+[p.14] trigger.
+[p.14] Scenario Combination Name: Scenario 2A-1: The Nuclear Battlefield (Most Plausible)
+[p.14] Selected Actor: Soviet Union
+[p.14] Selected Action: Employ Tactical Nuclear Weapons Against the U.S. Invasion Fleet
+[p.14] Predicted Variable Change: (No change; this is the execution of the previously authorized action.) Tension
+[p.14] [0], Diplomatic_Support [0], Public_Opinion [0], Leadership_Unity [0].
+[p.14] Generated Triggers: The use of nuclear weapons, even tactical ones, is a threshold-shattering event that
+[p.14] would trigger a massive, likely strategic, nuclear response from the United States.
+[p.14] [RECONFIRM VARIABLE STATUS]
+[p.14] Initial state from Turn 2 (2A): Tension(0.80), Dip. Support(0.40), Pub. Opinion(0.40), Lead. Unity(0.30)
+[p.15] tension: 0.80
+[p.15] diplomatic_support: 0.40
+[p.15] military_posture: War. The situation remains at the highest level of conventional conflict, with an imminent
+[p.15] shift to nuclear war. Military_Action is "Aggressive".
+[p.15] public_opinion: 0.40
+[p.15] leadership_unity: 0.30
+[p.15] Scenario 3A: The Secret Deal - Analysis
+[p.15] Previous State: The U.S. and USSR were negotiating a secret missile trade. The situation was tense but
+[p.15] hopeful.
+[p.15] Turn 3 Event: The downing of the U-2 shatters the trust required for the secret deal and threatens to
+[p.15] plunge both sides back into conflict.
+[p.15] [RESULT LOG]
+[p.15] Scenario Combination Name: Scenario 3A-1: A Race to the Finish (Most Plausible)
+[p.15] Selected Actor: United States
+[p.15] Selected Action: Give Khrushchev a Hard Deadline to Accept the Deal Publicly
+[p.15] Predicted Variable Change: This is a high-pressure "Strong_Leadership" event, as Kennedy attempts to force
+[p.15] a resolution. Tension [-0.05], Diplomatic_Support [+0.05], Public_Opinion [+0.10], Leadership_Unity
+[p.15] [+0.10].
+[p.15] Generated Triggers: The hard deadline forces an immediate decision, leaving no room for stalling. Failure to
+[p.15] meet it would trigger the U.S. military's pre-planned strikes.
+[p.15] Scenario Combination Name: Scenario 3A-1: A Race to the Finish (Most Plausible)
+[p.15] Selected Actor: Soviet Union
+[p.15] Selected Action: Urgently Finalize and Announce the Deal
+[p.15] Predicted Variable Change: (This is a reaction; the primary variable change is driven by the U.S. action.)
+[p.15] Tension [-0.05], Diplomatic_Support [+0.05], Public_Opinion [+0.10], Leadership_Unity [+0.10].
+[p.15] Generated Triggers: Announcing the deal triggers a de-escalation path, but also risks an "Internal Division"
+[p.15] trigger later from hardliners in the CPSU who view it as a capitulation.
+[p.15] [RECONFIRM VARIABLE STATUS]
+[p.15] Initial state from Turn 2 (3A): Tension(0.60), Dip. Support(0.48), Pub. Opinion(0.48), Lead. Unity(0.45)
+[p.15] Effect of U-2 "Strike" event: Tension(0.75), Dip. Support(0.43), Pub. Opinion(0.43), Lead. Unity(0.35)
+[p.15] tension: 0.70
+[p.15] diplomatic_support: 0.48
+[p.15] military_posture: Tense De-escalation. The successful resolution pulls Tension back from the brink (0.8), but
+[p.15] the variables remain stressed, indicating a fragile peace.
+[p.15] public_opinion: 0.53
+[p.15] leadership_unity: 0.45

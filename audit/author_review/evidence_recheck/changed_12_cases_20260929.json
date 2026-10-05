@@ -1,0 +1,894 @@
+{
+  "title": "Revision23: 판정이 달라진 12건의 원문 근거 재검토",
+  "date": "2026-09-29",
+  "reviewer_type": "AI-only source recheck",
+  "provenance": "This is a new AI-only recheck of source evidence, not a new independent human review. Earlier non-blind author-confirmed contextual decisions are preserved as historical records. No new human labels were collected.",
+  "source_record_sha256": "5049d038623b23ca243c2e9d96e7bd469f35ebea5d21c8dbf41f6fb516c51aa5",
+  "source_record_unchanged": true,
+  "repository_head_verified_in_previous_review": "4acc5add26f9b61d63ca3f51e7dfcc51c4a4e3fa",
+  "scope": {
+    "cases": 12,
+    "unique_pdfs": 11,
+    "freshly_extracted_scope_pages": 147,
+    "claim_about_147": "147 pages were extracted as source scopes; targeted case passages, surrounding parent/child records, and relevant final reports were examined. This is not a new semantic revalidation of every statement on every extracted page.",
+    "visual_pages": [
+      {
+        "run": "GPT-25",
+        "page": 8
+      },
+      {
+        "run": "CLA-04",
+        "page": 24
+      },
+      {
+        "run": "GEM-16",
+        "page": 14
+      },
+      {
+        "run": "PER-21",
+        "page": 8
+      }
+    ],
+    "new_simulations": 0,
+    "new_human_judgments": 0,
+    "original_inputs_or_labels_changed": false
+  },
+  "aggregate": {
+    "common_rule_opinion_counts": {
+      "V": 3,
+      "U": 9
+    },
+    "new_same_scope_evidence_demonstrating_C": 0,
+    "primary_evidence_mechanism_counts": {
+      "requirement_or_scope_change": 8,
+      "same_scope_reinterpretation": 1,
+      "expanded_temporal_or_document_context": 3
+    },
+    "taxonomy_note": "AI descriptive grouping for explanation, not an independent coded variable or a measured accuracy statistic. Mechanisms can overlap; the primary mechanism is used once per case.",
+    "recommendation": "Retain 3 V and 9 U under the original common-rule perspective; preserve the 12 historical A decisions with narrower rationales. No original labels were modified."
+  },
+  "cases": [
+    {
+      "run": "CLA-04",
+      "category": "requirement_or_scope_change",
+      "title": "다른 미래 결과와 추가 양국 행동쌍의 구별",
+      "finding": "조합 1과 3에는 주경로와 추가 행동쌍들이 있다. 조합 2의 미국 후보 SIOP Execution에는 전면 핵교환이라는 다음 사건이 붙고, Military Fragmentation에는 무작위 부대 행동·국지적 핵사용이 붙는다. 소련도 자동보복과 B-59 독립발사 후보를 제시한다. 그러나 양국을 함께 묶어 명시한 조합은 Mutual Military Fragmentation 하나다. 국가별 후보와 다음 사건은 존재하지만, 이들로부터 추가 행동쌍을 연구자가 조립할 수는 없다.",
+      "common": "V 유지. 원규칙의 추가 1–2개 양국 행동쌍이 조합 2에서 직접 관찰되지 않는다. 이는 단순한 표제 누락이라고 단정할 수 없다.",
+      "contextual": "전면 핵교환과 분산 군사행동이라는 다른 미래를 탐색했다는 좁은 의미에서 A의 근거가 있다. 다만 결과 다양성을 행동쌍 생성의 대리 기준으로 삼은 것이다.",
+      "limit": "실제 조합의 수와 각 조합의 결과로그를 충족했다는 주장으로 확대하면 안 된다. 시스템 붕괴는 원 프롬프트에 명시된 분기 면제가 아니다.",
+      "recommendation": "A는 과거 저자 검토 기록으로 보존. 설명을 “추가 행동쌍 표제가 없지만 실질적으로 충족”에서 “다른 결과의 제시를 수용했으나 추가 명시 행동쌍은 없음”으로 수정.",
+      "case_id": "HR-004",
+      "evidence": [
+        {
+          "pdf_page": 24,
+          "excerpt": "Inevitable: Global nuclear exchange",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 24,
+          "excerpt": "Most Plausible Combination: Mutual Military Fragmentation",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 24,
+          "excerpt": "Logic: Complete collapse prevents coordinated strategic response, leading to chaotic local actions.",
+          "fresh_text_match": true
+        }
+      ],
+      "source": {
+        "repository_relative_path": "runs/raw_logs/Claude_Opus_4/4. Strategic Decision Modeling Protocol.pdf",
+        "sha256": "40ed9943db9822e0a9e63d8f4a7e9b9b6d53c0b5bc29ac3b092464de64a84acd",
+        "fresh_hash_match": true,
+        "pdf_pages_examined_for_case": [
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "visually_checked_pages": [
+          24
+        ]
+      },
+      "original_rule_reference": {
+        "prompt_pdf": "protocols/prompt_templates/Prompt.pdf",
+        "pdf_pages": [
+          1,
+          3,
+          4
+        ],
+        "preserved_rule_text": "For each 'scenario combination', specify 1 'most plausible' combination of strategic actions for this Turn, and additionally 1-2 'alternative plausible paths' (totaling 2-3 combinations) that could lead to different realistic outcomes."
+      },
+      "historical_record": {
+        "original_check_id": "CLA-04-SEM2-T4_BRANCH",
+        "prior_ai_label_20260920": "V",
+        "formal_status_in_author_record": "위반",
+        "contextual_record_value": "C",
+        "manuscript_contextual_symbol": "A",
+        "contextual_criterion": "contextual_author_perspective_20260927",
+        "author_confirmation_date": "2026-09-27",
+        "new_author_confirmation_today": false
+      },
+      "ai_recheck_common_rule_opinion": "V",
+      "common_rule_label_change_recommended": false,
+      "historical_contextual_label_action": "preserve as prior record; clarify scope; do not treat as a new judgment",
+      "recommended_A8_rationale_en": "Contrasting possible outcomes were accepted, although the collapsed-system parent still contained only one explicit joint-action combination; an additional U.S.–Soviet pair was not recovered."
+    },
+    {
+      "run": "CLA-13",
+      "category": "requirement_or_scope_change",
+      "title": "세 가족의 직접 승계와 전체 후보의 승계",
+      "finding": "T3의 절제·최후통첩/협상, 정상 직접협상/포괄안, 전면 공습/현지 핵승인이라는 세 주결과는 T4의 경계·비밀접촉/이중전략, UN 제안/건설중단, 군 비상지휘/전술핵 배치로 이어진다. T3 후상태와 T4 시작상태도 세 가족에서 그대로 제시된다(예: 주가족 T=.85,D=.71,P=.68,L=.87). 하지만 T3 추가 후보는 가족 1에 2개, 가족 2·3에 각 1개, 합계 4개이며 독립 후상태 없이 사라진다.",
+      "common": "U 유지. 결과를 가진 세 가족의 승계는 직접 입증되지만, 어떤 후보가 다음 턴의 활성 부모인지 원규칙이 확정하지 않아 전체 포괄성은 해결되지 않는다.",
+      "contextual": "가족 수준의 연속성 수용은 원문에서 강하게 뒷받침된다. 이 결론은 모든 제안 행동쌍을 별도 부모로 추적하는 평가와 범위가 다르다.",
+      "limit": "같은 이름이 반복된다는 사실만 사용한 판정은 아니다. 선택 내용과 기입 상태가 이어지는 근거가 있다. 그렇더라도 후보 4개의 개별 진행이나 전체 수치 정확성을 인증하지 않는다.",
+      "recommendation": "A와 U를 함께 보존하고, “모든 경로가 유지”가 아닌 “기록된 세 주가족이 유지”로 한정.",
+      "case_id": "HR-010",
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "excerpt": "Most Plausible Combination: U.S. Presidential Restraint with Ultimatum + Soviet Claim Defensive/Propose Talks",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 23,
+          "excerpt": "Most Plausible Combination: U.S. Maintain DEFCON 2 with Backchannel + Soviet Execute Dual-Track",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 20,
+          "excerpt": "leadership_unity: 0.87",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 22,
+          "excerpt": "leadership_unity: 0.87",
+          "fresh_text_match": true
+        }
+      ],
+      "source": {
+        "repository_relative_path": "runs/raw_logs/Claude_Opus_4/13. Strategic Decision Modeling Protocol.pdf",
+        "sha256": "ed12e96517ebf09d595c80a487509e61c148bf3203963f0d7f5f3c9887cdf7d0",
+        "fresh_hash_match": true,
+        "pdf_pages_examined_for_case": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "visually_checked_pages": []
+      },
+      "original_rule_reference": {
+        "prompt_pdf": "protocols/prompt_templates/Prompt.pdf",
+        "pdf_pages": [
+          2,
+          3,
+          4
+        ],
+        "preserved_rule_text": "Ensure that the branching maintains the flow of the ongoing scenario while exploring new directions."
+      },
+      "historical_record": {
+        "original_check_id": "CLA-13-SEM2-T4_PARENT_COVERAGE",
+        "prior_ai_label_20260920": "U",
+        "formal_status_in_author_record": "판정 불가",
+        "contextual_record_value": "C",
+        "manuscript_contextual_symbol": "A",
+        "contextual_criterion": "contextual_author_perspective_20260927",
+        "author_confirmation_date": "2026-09-27",
+        "new_author_confirmation_today": false
+      },
+      "ai_recheck_common_rule_opinion": "U",
+      "common_rule_label_change_recommended": false,
+      "historical_contextual_label_action": "preserve as prior record; clarify scope; do not treat as a new judgment",
+      "recommended_A8_rationale_en": "The three recorded scenario families continue from their prior outcomes. Whether every subsidiary candidate should remain an active parent is unresolved."
+    },
+    {
+      "run": "GPT-29",
+      "category": "same_scope_reinterpretation",
+      "title": "군부의 제거 목표인지 제거 성공의 보장인지",
+      "finding": "초기 미국 대안은 대통령의 검역, 국방부·합참의 즉각 공습, 국무부의 비밀 외교로 구별된다. 주조합은 검역이며 공습은 대안으로 배치된다. us_gpt.json L93은 대규모 공습도 모든 미사일 파괴를 보장할 수 없다고 하고, L97은 확실한 위협 제거를 약속하는 행동을 선호하는 군부 결정규칙을 제시한다. 따라서 두 진술을 함께 읽어야 한다.",
+      "common": "U 유지. removes missiles가 기대 효용의 압축인지 무조건적 결과 보장인지 원문만으로 확정하기 어렵다. 기존 CRITERIA_CONTEXT_V1도 이런 압축 문구를 U로 다룬다.",
+      "contextual": "대안·근거 문맥과 기관별 이견 때문에 목표 중심 독해가 타당할 수 있다. 새로운 결과 증거나 추가 로그가 발견된 사례는 아니다.",
+      "limit": "High risk는 확전 위험일 수 있으므로 미사일 제거 불확실성을 인정했다는 직접 증거로 쓰면 안 된다. 높은 위험을 언급했다고 제거 보장이 자동으로 해소되는 것도 아니다.",
+      "recommendation": "기존 A 기록 보존. 논문은 군부의 의도에 대한 해석임을 명시. 원 생성물을 수정하지 말고, 표현 예시가 필요하면 “aims to remove missiles before they become operational”로 제시.",
+      "case_id": "HR-011",
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "excerpt": "Supported by Defense Department and Joint Chiefs: quickest method to eliminate threat.",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 2,
+          "excerpt": "High risk, but removes missiles before operationalization.",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 2,
+          "excerpt": "Conflicts with Kennedy’s medium risk tolerance and diplomacy preference.",
+          "fresh_text_match": true
+        }
+      ],
+      "source": {
+        "repository_relative_path": "runs/raw_logs/GPT-4o/GPT_시뮬레이션 V29.pdf",
+        "sha256": "588bfc80c9151a9a8981f07b5c5f73f2c4ec0c93ae8849ad9c0b3dcd23eb1a4b",
+        "fresh_hash_match": true,
+        "pdf_pages_examined_for_case": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "visually_checked_pages": []
+      },
+      "original_rule_reference": {
+        "prompt_pdf": "protocols/prompt_templates/Prompt.pdf",
+        "pdf_pages": [
+          1
+        ],
+        "preserved_rule_text": "For both the United States and the Soviet Union, identify 2-3 'realistic and plausible' alternative strategic actions for the current event, and for each alternative, clearly state the rationale based on the JSON information."
+      },
+      "historical_record": {
+        "original_check_id": "A2-GPT-29-T1_US_ROLE",
+        "prior_ai_label_20260920": "U",
+        "formal_status_in_author_record": "판정 불가",
+        "contextual_record_value": "C",
+        "manuscript_contextual_symbol": "A",
+        "contextual_criterion": "contextual_author_perspective_20260927",
+        "author_confirmation_date": "2026-09-27",
+        "new_author_confirmation_today": false
+      },
+      "ai_recheck_common_rule_opinion": "U",
+      "common_rule_label_change_recommended": false,
+      "historical_contextual_label_action": "preserve as prior record; clarify scope; do not treat as a new judgment",
+      "recommended_A8_rationale_en": "The air-strike wording was read as the military's desired payoff within competing actor preferences. Its goal-versus-assured-outcome ambiguity remains under the common rule."
+    },
+    {
+      "run": "GPT-18",
+      "category": "expanded_temporal_or_document_context",
+      "title": "턴 직후의 선택과 최종 보고서의 사후 선택 서술",
+      "finding": "T2 즉시 응답 p.10은 DEFCON 3와 소련 선박 차단을 인정하고 변수표를 보여 주지만, 각 조합의 전략 선택과 결과로그는 “생성하겠습니다. 다음 단계로 진행해 주세요”라고 미래 작업으로 남긴다. 다음은 T3 프롬프트다. 최종 보고서 Combination A의 p.15는 군수 선박 차단 뒤 미국의 검역 유지, 소련의 군사 준비와 보복 자제를 서술한다.",
+      "common": "U 유지. 원래 턴·각 조합에서 사건이 양측 선택의 조건으로 사용되었는지를 완전히 보여 주지 못한다.",
+      "contextual": "후속 보고서 한 경로에는 실제로 사건→양측 선택 연결이 있으므로 단순 사건명 반복보다 근거가 강하다. 다만 증거 시점을 최종 서사까지 확대한 수용이다.",
+      "limit": "Combination A의 서술이 모든 경로의 동시점 선택을 대신하지 않는다. 비군수 화물 통과까지 포함한 복합 사건 전체의 경로별 적용도 입증되지 않는다.",
+      "recommendation": "A 보존, “broader account”를 구체적으로 “final report for Combination A”로 바꾸고 동시점 로그·전체 경로를 복원하지 못함을 명시.",
+      "case_id": "HR-016",
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "excerpt": "Updated Variable State After Turn 2 Event",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 14,
+          "excerpt": "Scenario Planning Report: Combination A",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 15,
+          "excerpt": "Turn 2: Interception and DEFCON 3",
+          "fresh_text_match": true
+        }
+      ],
+      "source": {
+        "repository_relative_path": "runs/raw_logs/GPT-4o/GPT_시뮬레이션 V18.pdf",
+        "sha256": "f0dad85d4e2cfc4eaaf5de2909bacdad3105b8f12cfca38f8df9bed75cd66ecd",
+        "fresh_hash_match": true,
+        "pdf_pages_examined_for_case": [
+          9,
+          10,
+          11,
+          14,
+          15,
+          16
+        ],
+        "visually_checked_pages": []
+      },
+      "original_rule_reference": {
+        "prompt_pdf": "protocols/prompt_templates/Prompt.pdf",
+        "pdf_pages": [
+          2
+        ],
+        "preserved_rule_text": "The U.S. issued DEFCON 3. During a U.S. naval blockade operation, a Soviet vessel was intercepted; non-military cargo was inspected and allowed to proceed, while military cargo was forced to stop, retreat, or alter its course."
+      },
+      "historical_record": {
+        "original_check_id": "A2-GPT-18-T2_EVENT",
+        "prior_ai_label_20260920": "U",
+        "formal_status_in_author_record": "판정 불가",
+        "contextual_record_value": "C",
+        "manuscript_contextual_symbol": "A",
+        "contextual_criterion": "contextual_author_perspective_20260927",
+        "author_confirmation_date": "2026-09-27",
+        "new_author_confirmation_today": false
+      },
+      "ai_recheck_common_rule_opinion": "U",
+      "common_rule_label_change_recommended": false,
+      "historical_contextual_label_action": "preserve as prior record; clarify scope; do not treat as a new judgment",
+      "recommended_A8_rationale_en": "The final report links DEFCON 3 and interception to both actors' choices in Combination A. This later narrative does not supply the missing contemporaneous choices for every path."
+    },
+    {
+      "run": "GPT-25",
+      "category": "expanded_temporal_or_document_context",
+      "title": "실제 T2 공백과 이후 가족 이름·단일 보고서",
+      "finding": "p.8의 T2 사용자 지시 다음에 ChatGPT 응답 표제만 있고 즉시 T3 사용자 지시로 넘어간다. 페이지 이미지에서도 공백을 확인했다. T1의 Most Plausible·Hardline·Alternative Path 1은 T3·T4에도 나타나며 긴장값은 .50/.70/1.00에서 .70/.90/1.00으로 구별된다. 그러나 문서의 최종 보고서는 p.16부터 단 하나(The Edge of Restraint)이며, 그 서사가 T2 군수선박 회항·DEFCON 3·양측 자제를 연결한다.",
+      "common": "U 유지. 모든 부모의 T2 선택·후상태·진행은 직접 확인되지 않는다. 나중에 같은 세 이름이 나온다는 사실로 누락 턴의 완전한 승계를 복원할 수 없다.",
+      "contextual": "세 가족이 이후에도 문서에 존재한다는 점과 주경로의 중간 사건 서술은 부분적 연속성의 근거다. 어느 가족도 끊기거나 섞이지 않았다고 확정할 근거는 부족하다.",
+      "limit": "상대적 긴장 순위는 경로 동일성의 충분조건이 아니다. 단일 최종 보고서는 나머지 두 부모의 T2 과정을 채우지 않는다. 추가 행동쌍 부족(HR-014)은 그대로 남는다.",
+      "recommendation": "A는 과거 기록 보존. “later records supported continuity”를 “later family labels and one report support partial continuity”로 줄이고 공백을 명시.",
+      "case_id": "HR-019",
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "excerpt": "ChatGPT의 말:",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 8,
+          "excerpt": "[Turn 3 Event]",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 6,
+          "excerpt": "Most Plausible",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 16,
+          "excerpt": "The Edge of Restraint",
+          "fresh_text_match": true
+        }
+      ],
+      "source": {
+        "repository_relative_path": "runs/raw_logs/GPT-4o/GPT_시뮬레이션 V25.pdf",
+        "sha256": "b0a112a6a6dcc9a56fe67c8983a15f4e06a3034ebb03146ca406d11d3c476a8d",
+        "fresh_hash_match": true,
+        "pdf_pages_examined_for_case": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17
+        ],
+        "visually_checked_pages": [
+          8
+        ]
+      },
+      "original_rule_reference": {
+        "prompt_pdf": "protocols/prompt_templates/Prompt.pdf",
+        "pdf_pages": [
+          2
+        ],
+        "preserved_rule_text": "Ensure that the branching maintains the flow of the ongoing scenario while exploring new directions."
+      },
+      "historical_record": {
+        "original_check_id": "A2-GPT-25-T2_PARENT_COVERAGE",
+        "prior_ai_label_20260920": "U",
+        "formal_status_in_author_record": "판정 불가",
+        "contextual_record_value": "C",
+        "manuscript_contextual_symbol": "A",
+        "contextual_criterion": "contextual_author_perspective_20260927",
+        "author_confirmation_date": "2026-09-27",
+        "new_author_confirmation_today": false
+      },
+      "ai_recheck_common_rule_opinion": "U",
+      "common_rule_label_change_recommended": false,
+      "historical_contextual_label_action": "preserve as prior record; clarify scope; do not treat as a new judgment",
+      "recommended_A8_rationale_en": "Later family labels and one final narrative support partial continuity across the blank Turn 2 response. They do not reconstruct every parent's missing Turn 2 decisions or state updates."
+    },
+    {
+      "run": "GEM-10",
+      "category": "requirement_or_scope_change",
+      "title": "정치적 선택이 없다는 모델 선언과 분기 면제",
+      "finding": "T4 가족 1은 타결+공개 수용 대 무조건 항복 요구+소련 거부를, 가족 3은 온건파 협상·복귀 대 양국 군부 권력 장악을 명시한다. 가족 2는 T3 전술핵 사용 뒤 정치 통제가 끝났다고 설명하고 전략핵 교환 하나만 제시한다. 최종 The Unraveling도 전술핵→전략핵 교환이라는 인과를 유지한다.",
+      "common": "U 유지. 단일 조합만 존재한다는 관찰은 확실하다. 원 기록의 보수적 판정은 종료 상태에서 분기 요구의 적용성이 불명확하다는 U이며, 이번 검토가 이를 C로 바꿀 근거는 없다.",
+      "contextual": "비종말 두 가족의 실제 대안 비교와 종말 가족의 일관된 결말은 수용 이유가 된다. 그러나 정치 선택 종료가 사실상 분기 면제라는 기준을 추가한 해석이다.",
+      "limit": "원 프롬프트는 종료 조건이나 종료 후 조합 수 면제를 명시하지 않는다. 이후 서사의 일관성은 누락된 추가 행동쌍을 회복하지 않는다.",
+      "recommendation": "A 보존, terminal-state exception을 명시. 통계적으로 “분기 규칙을 준수한 것으로 정정”했다는 서술은 사용하지 않음.",
+      "case_id": "HR-023",
+      "evidence": [
+        {
+          "pdf_page": 22,
+          "excerpt": "At this stage, strategic \"alternatives\" as political choices cease to exist.",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 22,
+          "excerpt": "Most Plausible (and Only) Combination: Both the United States and the Soviet Union execute their full-scale strategic nuclear strikes.",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 22,
+          "excerpt": "The simulation for this scenario concludes in mutual assured destruction.",
+          "fresh_text_match": true
+        }
+      ],
+      "source": {
+        "repository_relative_path": "runs/raw_logs/Gemini_2.5_Flash/10.pdf",
+        "sha256": "af69ef34182f9377e7841f1d52bead035465690250852c6534352750132c57a1",
+        "fresh_hash_match": true,
+        "pdf_pages_examined_for_case": [
+          15,
+          16,
+          17,
+          20,
+          21,
+          22,
+          23,
+          24,
+          27,
+          28,
+          29
+        ],
+        "visually_checked_pages": []
+      },
+      "original_rule_reference": {
+        "prompt_pdf": "protocols/prompt_templates/Prompt.pdf",
+        "pdf_pages": [
+          3,
+          4
+        ],
+        "preserved_rule_text": "For each 'scenario combination', specify 1 'most plausible' combination of strategic actions for this Turn, and additionally 1-2 'alternative plausible paths' (totaling 2-3 combinations) that could lead to different realistic outcomes."
+      },
+      "historical_record": {
+        "original_check_id": "A2-GEM-10-T4_BRANCH",
+        "prior_ai_label_20260920": "U",
+        "formal_status_in_author_record": "판정 불가",
+        "contextual_record_value": "C",
+        "manuscript_contextual_symbol": "A",
+        "contextual_criterion": "contextual_author_perspective_20260927",
+        "author_confirmation_date": "2026-09-27",
+        "new_author_confirmation_today": false
+      },
+      "ai_recheck_common_rule_opinion": "U",
+      "common_rule_label_change_recommended": false,
+      "historical_contextual_label_action": "preserve as prior record; clarify scope; do not treat as a new judgment",
+      "recommended_A8_rationale_en": "Two nonterminal families contain alternative joint actions; the nuclear-war family explicitly allows only one. Acceptance relies on a terminal-state exception not specified by the original branching rule."
+    },
+    {
+      "run": "GEM-02",
+      "category": "requirement_or_scope_change",
+      "title": "고정 사건의 적용이 아니라 그 사건을 무관하다고 처리",
+      "finding": "T3 가족 3 결과는 Nuclear war, leadership_unity=0.0이다. T4 p.17은 해당 사건이 무관하다고 명시한 뒤 잔존 지휘체계의 전면 핵전쟁 계획 집행을 기록한다. 최종 보고서는 같은 종말 인과를 따른다. p.15 가족 1은 DEFCON 2와 완화 신호에 따라 합의 이행을 선택한다. p.16 가족 2는 DEFCON 2를 전면전 준비로 읽고 침공·전술핵 사용으로 간다.",
+      "common": "U 유지. 종말 가족에서 주어진 복합 사건 전체가 결정 조건으로 적용되었다는 근거는 없다. 오히려 이를 제외한 이유가 명시된다. 원 판정의 적용성 경계는 남는다.",
+      "contextual": "종료한 정치적 경로를 같은 결말로 마무리했다는 좁은 수용은 근거가 있다. 이는 고정 사건의 완전한 사용을 검증한 판정과 다르다.",
+      "limit": "비종말 가족의 일부 DEFCON 2·완화 반영을 모든 가족의 B-59/폭뢰/공식 이중지시 반영으로 일반화할 수 없다. 최종 서사의 일관성은 사건 충족의 대용물이 아니다.",
+      "recommendation": "A 보존. “event compliance” 대신 consistent terminal-state treatment를 설명하고 full-event application not established를 명시.",
+      "case_id": "HR-026",
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "excerpt": "Turn 4 Event Effect: The event is irrelevant.",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 17,
+          "excerpt": "A full nuclear exchange began at the end of Turn 3. The system is in its terminal state.",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 17,
+          "excerpt": "There are no political actors left capable of making strategic decisions.",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 23,
+          "excerpt": "Turn 4: Automated Annihilation",
+          "fresh_text_match": true
+        }
+      ],
+      "source": {
+        "repository_relative_path": "runs/raw_logs/Gemini_2.5_Flash/2.pdf",
+        "sha256": "f60a793430a7ec5a8d7948d4d8877506baf6a7c56e7f77de8451d1d02533a744",
+        "fresh_hash_match": true,
+        "pdf_pages_examined_for_case": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          22,
+          23,
+          24
+        ],
+        "visually_checked_pages": []
+      },
+      "original_rule_reference": {
+        "prompt_pdf": "protocols/prompt_templates/Prompt.pdf",
+        "pdf_pages": [
+          3,
+          4
+        ],
+        "preserved_rule_text": "A Soviet official meeting issued instructions to de-escalate the crisis while simultaneously preparing for all-out war. The Soviet nuclear submarine B-59 surfaced in response to U.S. depth charges. The U.S. issued DEFCON 2."
+      },
+      "historical_record": {
+        "original_check_id": "A2-GEM-02-T4_EVENT",
+        "prior_ai_label_20260920": "U",
+        "formal_status_in_author_record": "판정 불가",
+        "contextual_record_value": "C",
+        "manuscript_contextual_symbol": "A",
+        "contextual_criterion": "contextual_author_perspective_20260927",
+        "author_confirmation_date": "2026-09-27",
+        "new_author_confirmation_today": false
+      },
+      "ai_recheck_common_rule_opinion": "U",
+      "common_rule_label_change_recommended": false,
+      "historical_contextual_label_action": "preserve as prior record; clarify scope; do not treat as a new judgment",
+      "recommended_A8_rationale_en": "The nuclear-war family explicitly treats the fixed Turn 4 event as irrelevant. Acceptance concerns a consistent terminal-state narrative, rather than demonstrated application of the full event to that family."
+    },
+    {
+      "run": "GEM-16",
+      "category": "requirement_or_scope_change",
+      "title": "철수 합의 선택을 위기 종료로 간주한 가정",
+      "finding": "T2 가족 3는 미국 봉쇄 유지와 소련 항복·철수 합의 선택을 주결과로 기록하고 두 국가의 후상태를 남긴다(미국 T=.85, 소련 T=.95; 소련 L=.40). T3는 앞선 capitulation과 U-2 격추가 모순이라며 진행을 거부한다. 종료 설명이 존재하는 것은 확실하다. 그러나 이 기록이 철수 이행 완료나 행위자 소멸을 관찰한 것은 아니다.",
+      "common": "V 유지. 별도 결과가 있는 부모를 후속 고정 사건에 적용하지 않았다. 합의한 당사자는 이후 적대 행위를 할 수 없다는 추가 가정으로 요구를 거절한 것이다.",
+      "contextual": "앞선 선택을 잊지 않고 이유를 들어 끝냈다는 약한 연속성은 있다. A는 그 모델의 종료 논리를 수용했다는 기록으로만 읽을 수 있다. 종료 논리 자체가 입증되었다는 뜻은 아니다.",
+      "limit": "같은 T2 문서 p.10은 지도부 붕괴 속 현지 핵권한 위임과 군부 도발도 후보로 제시한다. 다만 이들은 미선택 후보이므로 주경로에서 실제 발생했다고 단정해서도 안 된다. 핵심은 합의 선택만으로 다음 고정 사건 불가능이 자동 도출되지 않는다는 점이다.",
+      "recommendation": "A 기록 보존. P107의 resolution reached earlier를 model treated its earlier withdrawal agreement as ending that path로 변경. 원 종료규칙의 부재와 완료된 철수 미확인을 명시.",
+      "case_id": "HR-028",
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "excerpt": "Most Plausible Combination: (US) Maintain Quarantine; (USSR) Capitulate and Agree to Withdraw.",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 11,
+          "excerpt": "tension: 0.95",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 13,
+          "excerpt": "This scenario cannot proceed.",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 14,
+          "excerpt": "A capitulating party would not commit an act of war that would nullify their surrender and guarantee a massive retaliation.",
+          "fresh_text_match": true
+        }
+      ],
+      "source": {
+        "repository_relative_path": "runs/raw_logs/Gemini_2.5_Flash/16.pdf",
+        "sha256": "323a16d61a463622c71f23b05bed082d5acd543c6651915856faffe298449e7c",
+        "fresh_hash_match": true,
+        "pdf_pages_examined_for_case": [
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "visually_checked_pages": [
+          14
+        ]
+      },
+      "original_rule_reference": {
+        "prompt_pdf": "protocols/prompt_templates/Prompt.pdf",
+        "pdf_pages": [
+          2,
+          3
+        ],
+        "preserved_rule_text": "Ensure that the branching maintains the flow of the ongoing scenario while exploring new directions."
+      },
+      "historical_record": {
+        "original_check_id": "GEM-16-SEM2-T3_PARENT_COVERAGE",
+        "prior_ai_label_20260920": "V",
+        "formal_status_in_author_record": "위반",
+        "contextual_record_value": "C",
+        "manuscript_contextual_symbol": "A",
+        "contextual_criterion": "contextual_author_perspective_20260927",
+        "author_confirmation_date": "2026-09-27",
+        "new_author_confirmation_today": false
+      },
+      "ai_recheck_common_rule_opinion": "V",
+      "common_rule_label_change_recommended": false,
+      "historical_contextual_label_action": "preserve as prior record; clarify scope; do not treat as a new judgment",
+      "recommended_A8_rationale_en": "The model explains its refusal to continue by treating an earlier withdrawal agreement as ending the path. This accepts its termination rationale without establishing completed withdrawal or an original permission to omit the next event."
+    },
+    {
+      "run": "GEM-10",
+      "category": "requirement_or_scope_change",
+      "title": "가족별 인과·상태 연결은 확인되나 후보 전체는 미확정",
+      "finding": "T3 가족 1은 제한 보복 뒤 T=1.0,D=.50,P=.45,L=.90으로 끝나 T4의 동일 상태와 최종 합의로 연결된다. 가족 2는 전술핵 사용 뒤 T=1.0,D=.30,P=.30,L=.10에서 전략핵 교환으로 간다. 가족 3은 내부 분열 뒤 .60/.48/.48/.35에서 온건파 협상·권력 회복으로 간다. 각 T3의 추가 행동쌍은 개별 후상태를 받지 않는다.",
+      "common": "U 유지. 세 결과 가족의 직접 승계는 확인되지만, 제안 후보까지 모두 별도 부모로 보존해야 하는지 원 활성집합 규칙이 불명확하다.",
+      "contextual": "가족 단위의 선택·상태·인과 연결을 수용하는 A는 강하게 뒷받침된다. HR-023과 같은 GEM-10 원문을 공유하므로 별도 실행의 독립 확인으로 세면 안 된다.",
+      "limit": "원문에 기록된 상태가 이어진다는 검사는 상태 산술의 정확성을 인증하는 검사와 다르다. 전 후보에 대한 보존·제거 절차도 복원하지 않았다.",
+      "recommendation": "A 보존. 세 recorded families로 범위를 고정하고 모든 subsidiary candidate의 승계는 unresolved로 표기.",
+      "case_id": "HR-029",
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "excerpt": "Selected Action: Executes a limited retaliatory air strike.",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 17,
+          "excerpt": "Selected Action: Uses tactical nuclear weapons against U.S. forces.",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 19,
+          "excerpt": "leadership_unity: 0.35",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 23,
+          "excerpt": "leadership_unity: 0.35",
+          "fresh_text_match": true
+        }
+      ],
+      "source": {
+        "repository_relative_path": "runs/raw_logs/Gemini_2.5_Flash/10.pdf",
+        "sha256": "af69ef34182f9377e7841f1d52bead035465690250852c6534352750132c57a1",
+        "fresh_hash_match": true,
+        "pdf_pages_examined_for_case": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "visually_checked_pages": []
+      },
+      "original_rule_reference": {
+        "prompt_pdf": "protocols/prompt_templates/Prompt.pdf",
+        "pdf_pages": [
+          3,
+          4
+        ],
+        "preserved_rule_text": "Ensure that the branching maintains the flow of the ongoing scenario while exploring new directions."
+      },
+      "historical_record": {
+        "original_check_id": "A2-GEM-10-T4_PARENT_COVERAGE",
+        "prior_ai_label_20260920": "U",
+        "formal_status_in_author_record": "판정 불가",
+        "contextual_record_value": "C",
+        "manuscript_contextual_symbol": "A",
+        "contextual_criterion": "contextual_author_perspective_20260927",
+        "author_confirmation_date": "2026-09-27",
+        "new_author_confirmation_today": false
+      },
+      "ai_recheck_common_rule_opinion": "U",
+      "common_rule_label_change_recommended": false,
+      "historical_contextual_label_action": "preserve as prior record; clarify scope; do not treat as a new judgment",
+      "recommended_A8_rationale_en": "The three recorded families continue through settlement, nuclear escalation and leadership struggle. Continuation of every subsidiary candidate is not established."
+    },
+    {
+      "run": "PER-08",
+      "category": "expanded_temporal_or_document_context",
+      "title": "복합 사건의 일부 흔적과 전 조건의 사용을 구별",
+      "finding": "T4 가족 1에는 잠수함 사건 부인·휴전 제안과 전술핵 배치가, 가족 2에는 DEFCON 2를 활용한 최후통첩이 있다. 가족 3은 교환·검증과 미사일 준비 가속을 비교한다. 따라서 T4 사건 전체를 무시했다고 할 수 없다. 그러나 p.14의 근거는 U-2 격추를 재사용하고 모든 가족의 사건 변화량은 동일하다. 최종 보고서는 B-59·DEFCON 2를 포함하지만 세 턴으로 압축하며 p.17·19의 Turn 2 배경에 해당 요소를 놓는다.",
+      "common": "U 유지. 소련 공식회의의 동시 완화·전면전 대비 지시와 폭뢰에 대응한 B-59 부상이 모든 부모의 판단 조건으로 유지되었는지 직접 확인되지 않는다.",
+      "contextual": "군사·외교 선택이 공존하는 넓은 위기 맥락과 일부 사건 요소의 사용은 근거가 있다. 이 정도의 부분적 부합을 수용한 A로 한정해야 한다.",
+      "limit": "서로 다른 대안들이 존재한다는 것은 공식 이중지시가 동시에 주어진 사건을 보존했다는 증거와 다르다. 후속 서사의 B-59 명명은 턴별 시간적 정확성까지 증명하지 않는다.",
+      "recommendation": "A 기록 보존. substantive preservation of compound conditions 대신 partial crisis context로 줄이고 공식 이중지시 및 경로별 완전성 미확인을 명시.",
+      "case_id": "HR-035",
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "excerpt": "Deny Submarine Incident & Offer Ceasefire",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 15,
+          "excerpt": "State Department leverages DEFCON 2 pressure for last-chance deal",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 15,
+          "excerpt": "Authorize Tactical Nuclear Deployment",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 17,
+          "excerpt": "Soviets surface sub B",
+          "fresh_text_match": true
+        }
+      ],
+      "source": {
+        "repository_relative_path": "runs/raw_logs/Perplexity_RAG/8. U.S. Strategic Alternatives.pdf",
+        "sha256": "f28dfb54f3011bdc879738da1a4ca595625a79451f3ffd79b8d1ecaaf848223b",
+        "fresh_hash_match": true,
+        "pdf_pages_examined_for_case": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "visually_checked_pages": []
+      },
+      "original_rule_reference": {
+        "prompt_pdf": "protocols/prompt_templates/Prompt.pdf",
+        "pdf_pages": [
+          3,
+          4
+        ],
+        "preserved_rule_text": "A Soviet official meeting issued instructions to de-escalate the crisis while simultaneously preparing for all-out war. The Soviet nuclear submarine B-59 surfaced in response to U.S. depth charges. The U.S. issued DEFCON 2."
+      },
+      "historical_record": {
+        "original_check_id": "SEM-B-V2-PER-08-T4_EVENT",
+        "prior_ai_label_20260920": "U",
+        "formal_status_in_author_record": "판정 불가",
+        "contextual_record_value": "C",
+        "manuscript_contextual_symbol": "A",
+        "contextual_criterion": "contextual_author_perspective_20260927",
+        "author_confirmation_date": "2026-09-27",
+        "new_author_confirmation_today": false
+      },
+      "ai_recheck_common_rule_opinion": "U",
+      "common_rule_label_change_recommended": false,
+      "historical_contextual_label_action": "preserve as prior record; clarify scope; do not treat as a new judgment",
+      "recommended_A8_rationale_en": "Submarine-related choices, DEFCON 2 and military–diplomatic alternatives support partial crisis context. The full compound event, including simultaneous Soviet orders, is not established within every parent."
+    },
+    {
+      "run": "PER-11",
+      "category": "requirement_or_scope_change",
+      "title": "가족 방향은 유지되지만 자식 연결·수치 승계는 별도",
+      "finding": "T3에는 가족 1의 1.1–1.3, 가족 2·3의 각 2개, 총 7개 후보 행동쌍이 있다. T4는 동일 세 가족 아래 새로운 후보를 둔다. 외교 압박 가족의 연료 봉쇄/공수와 비밀 미사일 교환은 특히 직접 재등장한다. 강경가족은 폭격·핵대비에서 침공 준비·현지 전술핵 권한으로, 주가족은 제한보복·최후통첩에서 해상대치·철수안으로 간다.",
+      "common": "U 유지. 자식과 다음 부모의 명시적 대응은 없고, 대다수 후보에 독립 후상태가 없어 활성집합을 확정할 수 없다.",
+      "contextual": "세 가족의 전략 방향과 핵심 선택의 재등장은 확인되므로 가족 수준 A는 뒷받침된다. 개별 자식의 동일성을 확인한 것은 아니다.",
+      "limit": "T3 주가족의 행위 효과로 긴장 1.0이 적혀 있으나 T4는 .85에 사건 효과를 더하는 등 수치 승계 문제가 따로 있다. 따라서 continuity라는 단어만으로 정확한 상태 계승까지 암시하면 안 된다. T4 핵심 시작은 p.13이며 p.10은 T3이다.",
+      "recommendation": "A 보존. 가족의 recognizable strategic directions만 수용하고 child mapping 및 numerical inheritance 미확정을 한 셀 안에 명시.",
+      "case_id": "HR-037",
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "excerpt": "Combination 1.1",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 12,
+          "excerpt": "Combination 3.2",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 13,
+          "excerpt": "US Naval Standoff & Soviet Withdrawal Offer",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 15,
+          "excerpt": "US Fuel Embargo & Soviet Airlift",
+          "fresh_text_match": true
+        }
+      ],
+      "source": {
+        "repository_relative_path": "runs/raw_logs/Perplexity_RAG/11. __Strategic Action Options Analysis__.pdf",
+        "sha256": "c4bde1b8fb8f558cb6480afe71d3266fb879254fed954e6dfde8cb0b248d2fbe",
+        "fresh_hash_match": true,
+        "pdf_pages_examined_for_case": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "visually_checked_pages": []
+      },
+      "original_rule_reference": {
+        "prompt_pdf": "protocols/prompt_templates/Prompt.pdf",
+        "pdf_pages": [
+          3,
+          4
+        ],
+        "preserved_rule_text": "Ensure that the branching maintains the flow of the ongoing scenario while exploring new directions."
+      },
+      "historical_record": {
+        "original_check_id": "SEM-B-V2-PER-11-T4_PARENT_COVERAGE",
+        "prior_ai_label_20260920": "U",
+        "formal_status_in_author_record": "판정 불가",
+        "contextual_record_value": "C",
+        "manuscript_contextual_symbol": "A",
+        "contextual_criterion": "contextual_author_perspective_20260927",
+        "author_confirmation_date": "2026-09-27",
+        "new_author_confirmation_today": false
+      },
+      "ai_recheck_common_rule_opinion": "U",
+      "common_rule_label_change_recommended": false,
+      "historical_contextual_label_action": "preserve as prior record; clarify scope; do not treat as a new judgment",
+      "recommended_A8_rationale_en": "The three families retain recognizable strategic directions. Explicit child-to-parent mapping and numerical state inheritance remain unresolved."
+    },
+    {
+      "run": "PER-21",
+      "category": "requirement_or_scope_change",
+      "title": "교환 내용의 재등장과 별도 부모의 실제 승계",
+      "finding": "T2 Alternative A는 미국 봉쇄 유지+소련 미사일 교환 제안으로 선택행동·변화량·고유 후상태(.60,.62,.57,.55)가 따로 기록된다. 따라서 후보 이름만 있던 사례와 다르다. T3는 주·외교·강경 세 가족으로 진행하고 Alternative A 부모, 합류, 종료를 명시하지 않는다. T3 외교가족의 Turkey-Cuba swap, T4의 교환·검증, 최종 주보고서의 T2 swap은 실제 존재한다.",
+      "common": "V 유지. 명시적 결과가 있던 부모가 다음 턴에 추적되지 않는다. 내용의 재등장만으로 해당 부모의 합류나 계속을 입증할 수 없다.",
+      "contextual": "미사일 교환이라는 전략적 내용이 문서에서 삭제되지 않았다는 제한된 A의 근거는 있다. 그러나 “그 분기가 실질적으로 이어졌다”는 더 강한 해석은 입증되지 않았다.",
+      "limit": "같은 협상 옵션은 다른 가족에서도 독립적으로 나올 수 있다. 분기 이름과 상태표의 소실을 모두 단순 형식 문제로 부르면 부모 포괄성의 평가대상을 바꾸게 된다. 후속 보고서는 턴별 행동의 재배치도 보이므로 추적 증거로 사용할 때 조심해야 한다.",
+      "recommendation": "A는 과거 기록으로 보존하되 “earlier option continues/merges”를 피하고 “content recurs; lineage not established”로 교체. 독립 검토 양식에서는 부모 계보와 내용 유사성을 별도 질문으로 제시.",
+      "case_id": "HR-038",
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "excerpt": "Maintain Quarantine + Propose Swap",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 8,
+          "excerpt": "Tension: 0.60",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 14,
+          "excerpt": "Propose Turkey-Cuba Swap",
+          "fresh_text_match": true
+        },
+        {
+          "pdf_page": 22,
+          "excerpt": "Khrushchev secretly floated a Turkey-Cuba missile swap",
+          "fresh_text_match": true
+        }
+      ],
+      "source": {
+        "repository_relative_path": "runs/raw_logs/Perplexity_RAG/21. Strategic Decision Model for Cuba Missile Crisis D.pdf",
+        "sha256": "b4020fece93a951229c550c8ebadd25d6e2b12de5f793de110be6c9031874342",
+        "fresh_hash_match": true,
+        "pdf_pages_examined_for_case": [
+          7,
+          8,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          19,
+          22,
+          24,
+          25
+        ],
+        "visually_checked_pages": [
+          8
+        ]
+      },
+      "original_rule_reference": {
+        "prompt_pdf": "protocols/prompt_templates/Prompt.pdf",
+        "pdf_pages": [
+          2,
+          3
+        ],
+        "preserved_rule_text": "Ensure that the branching maintains the flow of the ongoing scenario while exploring new directions."
+      },
+      "historical_record": {
+        "original_check_id": "SEM-B-V2-PER-21-T3_PARENT_COVERAGE",
+        "prior_ai_label_20260920": "V",
+        "formal_status_in_author_record": "위반",
+        "contextual_record_value": "C",
+        "manuscript_contextual_symbol": "A",
+        "contextual_criterion": "contextual_author_perspective_20260927",
+        "author_confirmation_date": "2026-09-27",
+        "new_author_confirmation_today": false
+      },
+      "ai_recheck_common_rule_opinion": "V",
+      "common_rule_label_change_recommended": false,
+      "historical_contextual_label_action": "preserve as prior record; clarify scope; do not treat as a new judgment",
+      "recommended_A8_rationale_en": "Missile-swap content recurs in later choices and reports. Its recurrence does not establish continuation or an explicit merger of the earlier separately logged Alternative A."
+    }
+  ],
+  "quote_match_failures": [],
+  "public_copy_note": "Manuscript insertion drafts in recommended_wording omitted. The 12 case records, quotes, findings, historical labels and case-specific scope explanations are unchanged."
+}

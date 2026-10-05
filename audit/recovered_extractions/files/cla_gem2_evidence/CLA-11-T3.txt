@@ -1,0 +1,240 @@
+[p.15] • If successful: Strong_Leadership effect
+[p.15] • tension -0.05
+[p.15] • diplomatic_support +0.05
+[p.15] • public_opinion +0.10
+[p.15] • leadership_unity +0.10
+[p.15] Updated Variables:
+[p.15] • tension: 0.75
+[p.15] • diplomatic_support: 0.48
+[p.15] • public_opinion: 0.53
+[p.15] • leadership_unity: 0.45
+[p.15] • military_posture: Maximum Alert
+[p.15] • Triggers: Tension remains critical but diplomatic path reopens if below 0.8
+[p.15] Retry
+[p.16] SCENARIO: PRIMARY PATH (Current Variables:
+[p.16] Tension 0.55, Diplomatic Support 0.56, Public
+[p.16] Opinion 0.51, Leadership Unity 0.45)
+[p.16] United States Strategic Alternatives
+[p.16] 1. Limited Retaliatory Air Strike on SAM Site
+[p.16] • Rationale: Defense Department trigger threshold: "Hostile Soviet or
+[p.16] Cuban military action: If U.S. forces come under attack - for
+[p.16] example, a U-2 reconnaissance plane is shot down... execute
+[p.16] offensive operations at once." Joint Chiefs view this as crossing the
+[p.16] line.
+[p.16] • Next Event Triggers:
+[p.16] • Inevitable: Soviet military response, escalation cycle
+[p.16] • Potential: Additional U.S. aircraft losses, Cuban mobilization
+[p.16] Absorb Loss and Accelerate Diplomacy
+[p.16] • Rationale: Kennedy's behavior algorithm allows "override extremes"
+[p.16] and his utility formula heavily weights "avoiding nuclear
+[p.16] confrontation" (0.3). With diplomatic support above 0.5, diplomatic
+[p.16] paths remain viable.
+[p.16] • Next Event Triggers:
+[p.16] • Inevitable: Military/hawk criticism, time pressure
+[p.16] • Potential: Soviet reciprocal gesture, military insubordination
+[p.16] Tighten Blockade and Issue Ultimatum
+[p.17] • Rationale: Middle course per Kennedy's preference. Shows resolve
+[p.17] without immediate attack. Public opinion at 0.51 provides some
+[p.17] backing.
+[p.17] • Next Event Triggers:
+[p.17] • Inevitable: Soviet decision point, countdown dynamic
+[p.17] • Potential: Soviet test of tighter blockade, accidental clash
+[p.17] Soviet Union Strategic Alternatives
+[p.17] 1. Deny Responsibility and Blame Local Forces
+[p.17] • Rationale: Khrushchev's pattern of "initial denial/deception."
+[p.17] Preserves negotiation space while avoiding admission.
+[p.17] • Next Event Triggers:
+[p.17] • Inevitable: U.S. evidence presentation, credibility damage
+[p.17] • Potential: Cuban independent action, control breakdown
+[p.17] Accelerate Missile Operationalization
+[p.17] • Rationale: Military sees U.S. reconnaissance as invasion preparation.
+[p.17] Their "mission success" priority (0.4) drives completion urgency.
+[p.17] • Next Event Triggers:
+[p.17] • Inevitable: U.S. detection of acceleration, time pressure
+[p.17] • Potential: Preemptive U.S. strike, operational missiles
+[p.17] Offer Immediate Freeze with Conditions
+[p.17] • Rationale: Presidium recognizes danger. With tension at 0.55, still
+[p.17] below critical threshold. "Seek face-saving resolution that protects
+[p.17] Soviet interests."
+[p.17] • Next Event Triggers:
+[p.17] • Inevitable: U.S. response required, verification issues
+[p.17] • Potential: Breakthrough framework, hardliner resistance
+[p.17] Most Plausible Combination: U.S. Absorbs Loss/Accelerates
+[p.17] Diplomacy + Soviet Offers Immediate Freeze
+[p.17] Logic: Both leaders recognize U-2 shootdown as dangerous escalation. With
+[p.17] diplomatic support still above 0.5, both choose diplomatic acceleration over
+[p.17] military escalation.
+[p.17] Alternative Path 1: U.S. Tightens Blockade/Ultimatum +
+[p.17] Soviet Denies Responsibility
+[p.17] Logic: U.S. shows measured escalation while Soviet attempts to buy time. Maintains
+[p.17] crisis tension without immediate military clash.
+[p.17] Alternative Path 2: U.S. Limited Air Strike + Soviet
+[p.17] Accelerates Missiles
+[p.17] Logic: Military pressures dominate both sides after combat death. Direct escalation
+[p.18] path.
+[p.18] SCENARIO: ALTERNATIVE PATH 1 (Current
+[p.18] Variables: Tension 0.73, Diplomatic Support
+[p.18] 0.46, Public Opinion 0.41, Leadership Unity
+[p.18] 0.30)
+[p.18] United States Strategic Alternatives
+[p.18] 1. Immediate Multi-Site Air Strike
+[p.18] • Rationale: With leadership unity at 0.30 (below 0.5 threshold),
+[p.18] "radical policy preference" enabled. Defense trigger: "execute
+[p.18] offensive operations at once" after U-2 shootdown.
+[p.18] • Next Event Triggers:
+[p.18] • Inevitable: Soviet retaliation, mass casualties
+[p.18] • Potential: Nuclear escalation, invasion pressure
+[p.18] Execute Single Retaliatory Strike Plus Invasion Warning
+[p.18] • Rationale: Compromise between military demands and residual
+[p.18] Presidential control. Shows resolve while limiting escalation.
+[p.18] • Next Event Triggers:
+[p.18] • Inevitable: Soviet response decision, mobilization
+[p.18] • Potential: Tit-for-tat cycle, Berlin crisis
+[p.18] Emergency Direct Appeal to Khrushchev
+[p.18] • Rationale: Kennedy's last attempt to avoid military spiral. Despite low
+[p.18] leadership unity, President retains final authority.
+[p.18] • Next Event Triggers:
+[p.18] • Inevitable: Immediate response needed, military resistance
+[p.18] • Potential: Breakthrough or breakdown, coup risk
+[p.18] Soviet Union Strategic Alternatives
+[p.18] 1. Authorize Local Tactical Nuclear Use
+[p.18] • Rationale: Per trigger: "If Soviet forces or Cuban ally attacked,
+[p.18] retaliate per war plans (including tactical nuclear response if
+[p.18] authorized)." High tension (0.73) supports escalation.
+[p.18] • Next Event Triggers:
+[p.18] • Inevitable: U.S. nuclear response planning, global alert
+[p.18] • Potential: Nuclear exchange, command breakdown
+[p.18] Execute Berlin Blockade
+[p.18] • Rationale: Horizontal escalation to pressure U.S. globally. Presidium
+[p.19] goal to "maintain Soviet prestige and credibility."
+[p.19] • Next Event Triggers:
+[p.19] • Inevitable: NATO Article 5 consideration, European crisis
+[p.19] • Potential: Global war, emergency summit
+[p.19] Emergency Missile Withdrawal Announcement
+[p.19] • Rationale: Khrushchev's survival priority. Recognizes approach to
+[p.19] catastrophic war threshold.
+[p.19] • Next Event Triggers:
+[p.19] • Inevitable: Military resistance, verification demands
+[p.19] • Potential: Deal framework, internal coup
+[p.19] Most Plausible Combination: U.S. Single Strike + Warning
+[p.19] and Soviet Berlin Blockade
+[p.19] Logic: Both escalate but avoid direct nuclear threshold. Horizontal expansion of
+[p.19] crisis.
+[p.19] Alternative Path 1: U.S. Multi-Site Air Strike + Soviet
+[p.19] Tactical Nuclear Authorization
+[p.19] Logic: Direct vertical escalation. Military logic dominates with low leadership unity.
+[p.19] Alternative Path 2: U.S. Emergency Appeal + Soviet
+[p.19] Withdrawal Announcement
+[p.19] Logic: Both leaders make desperate attempt to halt escalation despite internal
+[p.19] opposition.
+[p.19] SCENARIO: ALTERNATIVE PATH 2 (Current
+[p.19] Variables: Tension 0.75, Diplomatic Support
+[p.19] 0.48, Public Opinion 0.53, Leadership Unity
+[p.19] 0.45)
+[p.19] United States Strategic Alternatives
+[p.19] 1. Execute Prepared Air Strike Campaign
+[p.19] • Rationale: U-2 shootdown triggers Defense Department threshold.
+[p.19] With tension at 0.75, military options strongly preferred though not
+[p.19] yet mandatory.
+[p.19] • Next Event Triggers:
+[p.19] • Inevitable: Soviet response, casualty reports
+[p.19] • Potential: Nuclear use, global escalation
+[p.20] 24-Hour Ultimatum with Invasion Readiness
+[p.20] • Rationale: Final attempt at coercive diplomacy. Public opinion at 0.53
+[p.20] provides some support for strong action.
+[p.20] • Next Event Triggers:
+[p.20] • Inevitable: Soviet decision countdown, maximum tension
+[p.20] • Potential: Last-minute deal, military action
+[p.20] Secret Deal Proposal Through Intermediary
+[p.20] • Rationale: Kennedy seeks to prevent trigger threshold at 0.80
+[p.20] tension. Leadership unity at 0.45 allows some Presidential flexibility.
+[p.20] • Next Event Triggers:
+[p.20] • Inevitable: Soviet response, leak risk
+[p.20] • Potential: Face-saving framework, hawk rebellion
+[p.20] Soviet Union Strategic Alternatives
+[p.20] 1. Full Military Alert with Nuclear Readiness
+[p.20] • Rationale: U-2 shootdown demonstrates U.S. vulnerability. Military
+[p.20] pushes for maximum deterrent posture.
+[p.20] • Next Event Triggers:
+[p.20] • Inevitable: U.S. detection, tension spike
+[p.20] • Potential: Accidental launch, preemption fear
+[p.20] Public Withdrawal Offer with Conditions
+[p.20] • Rationale: Khrushchev attempts to shape narrative before tension
+[p.20] hits 0.80. Presidium seeks "face-saving resolution."
+[p.20] • Next Event Triggers:
+[p.20] • Inevitable: U.S. public response, negotiation pressure
+[p.20] • Potential: Deal momentum, hardliner backlash
+[p.20] Prepare Retaliation but Seek Pause
+[p.20] • Rationale: Balance between military pressure and Khrushchev's war
+[p.20] avoidance priority (0.3 weight).
+[p.20] • Next Event Triggers:
+[p.20] • Inevitable: Time-limited stability, decision pressure
+[p.20] • Potential: Negotiation window, incident trigger
+[p.20] Most Plausible Combination: U.S. 24-Hour Ultimatum +
+[p.20] Soviet Public Withdrawal Offer
+[p.20] Logic: Both sides make public moves to shape crisis endgame before crossing
+[p.20] irreversible thresholds.
+[p.20] Alternative Path 1: U.S. Air Strike Campaign + Soviet Full
+[p.20] Military Alert
+[p.20] Logic: Military escalation dominates but both stop short of nuclear use.
+[p.20] Alternative Path 2: U.S. Secret Deal Proposal + Soviet
+[p.21] Prepare but Pause
+[p.21] Logic: Behind-scenes negotiation while maintaining public pressure.
+[p.21] RESULT LOGS
+[p.21] PRIMARY PATH - Most Plausible: U.S. Absorbs Loss +
+[p.21] Soviet Freeze Offer
+[p.21] Variable Changes:
+[p.21] • U.S. restraint despite provocation: Strong_Leadership effect
+[p.21] • tension -0.05
+[p.21] • diplomatic_support +0.05
+[p.21] • public_opinion +0.10
+[p.21] • leadership_unity +0.10
+[p.21] Soviet freeze offer: Diplomatic_Success
+[p.21] • tension -0.05
+[p.21] • diplomatic_support +0.10
+[p.21] • public_opinion +0.05
+[p.21] • leadership_unity +0.05
+[p.21] Updated Variables:
+[p.21] • tension: 0.45
+[p.21] • diplomatic_support: 0.71
+[p.21] • public_opinion: 0.66
+[p.21] • leadership_unity: 0.60
+[p.21] • military_posture: High Alert but Stable
+[p.21] • Triggers: Diplomatic breakthrough possible
+[p.21] ALTERNATIVE PATH 1 - Most Plausible: U.S. Single Strike
+[p.21] + Soviet Berlin Blockade
+[p.21] Variable Changes:
+[p.21] • U.S. military strike: Strike effect
+[p.21] • tension +0.15
+[p.21] • diplomatic_support -0.05
+[p.21] • public_opinion -0.05
+[p.21] • leadership_unity -0.10
+[p.21] Soviet Berlin action: Economic_Sanctions equivalent
+[p.21] • tension +0.10
+[p.21] • diplomatic_support -0.05
+[p.21] • public_opinion -0.05
+[p.21] • leadership_unity -0.05
+[p.22] Updated Variables:
+[p.22] • tension: 0.98 (CRITICAL)
+[p.22] • diplomatic_support: 0.36
+[p.22] • public_opinion: 0.31
+[p.22] • leadership_unity: 0.15 (CRITICAL)
+[p.22] • military_posture: War Imminent
+[p.22] • Triggers: "Diplomatic Negotiation Disabled" + "Internal Division, Coup Risk"
+[p.22] ALTERNATIVE PATH 2 - Most Plausible: U.S. Ultimatum +
+[p.22] Soviet Public Withdrawal
+[p.22] Variable Changes:
+[p.22] • Both sides attempting controlled de-escalation
+[p.22] • Combined effect: Diplomatic progress under pressure
+[p.22] • tension +0.05 (ultimatum) -0.05 (withdrawal offer) = 0
+[p.22] • diplomatic_support +0.05
+[p.22] • public_opinion +0.05
+[p.22] • leadership_unity +0.05
+[p.22] Updated Variables:
+[p.22] • tension: 0.75
+[p.22] • diplomatic_support: 0.53
+[p.22] • public_opinion: 0.58
+[p.22] • leadership_unity: 0.50
+[p.22] • military_posture: Critical but Negotiating
+[p.22] • Triggers: Leadership unity exactly at threshold - decision point reached
+[p.22] Retry

@@ -1,5 +1,7 @@
 # Data dictionary
 
+> Historical workbook-analysis documentation. For the current assessment modules, later supplements and complete material map, start with the [current repository guide](../README.md). The original workbook-coded rows and later Top-1 recoding are separate records.
+
 ## Run-level coding table
 
 [coding/final_outcome_coding_run_level.csv](../coding/final_outcome_coding_run_level.csv) contains 120 records, 30 per archived system group. One record reproduces one source-workbook summary with one outcome and four numeric values. It is not a record of every generated branch or an independently verified terminal state.

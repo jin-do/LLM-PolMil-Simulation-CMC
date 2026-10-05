@@ -1,0 +1,180 @@
+[p.8] • tension: 1.0 (0.5 + 0.05 + 0.45 = 1.0)
+[p.8] • diplomatic_support: 0.48 (0.5 - 0.02)
+[p.8] • military_posture: Offensive Preparation
+[p.8] • public_opinion: 0.48 (0.5 - 0.02)
+[p.8] • leadership_unity: 0.45 (0.5 - 0.05)
+[p.8] Triggers Activated:
+[p.8] • Tension ≥ 0.8 - "Diplomatic Negotiation Disabled, Military Options
+[p.8] Preferred"
+[p.8] • Leadership_Unity ≤ 0.5 - "Confused Policy, Radical Adoption" (at
+[p.8] threshold)
+[p.8] All calculations strictly follow the effect_rules and event_driven_adjustments
+[p.8] specified in the provided JSON files.
+[p.8] Retry
+[p.9] Turn 2 Analysis - Most Plausible Path
+[p.9] Scenario
+[p.9] Current Variables: tension: 1.0, diplomatic_support: 0.5, public_opinion: 0.5,
+[p.9] leadership_unity: 1.0 Active Trigger: Diplomatic Negotiation Disabled, Military
+[p.9] Options Preferred
+[p.9] United States Strategic Alternatives
+[p.9] 1. Maintain Blockade with Selective Enforcement
+[p.9] Rationale: Despite tension at 1.0, Kennedy's behavior_algorithm shows "balanced
+[p.9] crisis management" and tendency to "pick a middle course." The successful
+[p.9] inspection demonstrates quarantine effectiveness without direct violence.
+[p.9] Next Event Triggers:
+[p.9] • Inevitable: Soviet decision on remaining military shipments
+[p.9] • Potential:
+[p.9] • Soviet ship refuses inspection → military clash
+[p.9] • Time pressure from Defense Department for escalation
+[p.9] 2. Escalate to Air Strike Preparation
+[p.9] Rationale: With Diplomatic Negotiation disabled (tension ≥ 0.8) and military options
+[p.9] preferred, Defense Department (power_weight 0.25) would press for their original
+[p.9] preference of air strikes, especially given successful blockade demonstration.
+[p.9] Next Event Triggers:
+[p.9] • Inevitable: Soviet military response to visible strike preparations
+[p.9] • Potential:
+[p.9] • Soviet preemptive tactical nuclear authorization
+[p.10] • Allied concerns over escalation
+[p.10] Soviet Union Strategic Alternatives
+[p.10] 1. Comply with Blockade While Accelerating On-Island Work
+[p.10] Rationale: Khrushchev's stance shows "initial denial/deception followed by
+[p.10] negotiation when confronted." With missiles already in Cuba, focus shifts to making
+[p.10] them operational while avoiding direct confrontation.
+[p.10] Next Event Triggers:
+[p.10] • Inevitable: U.S. detection of accelerated work
+[p.10] • Potential:
+[p.10] • Missiles become operational → enhanced bargaining position
+[p.10] • U.S. military action if deadline approached
+[p.10] 2. Challenge Blockade with Non-Military Vessel
+[p.10] Rationale: With tension at 1.0 and military alert active, Soviet Armed Forces'
+[p.10] "hawkish, deterrence-oriented" stance might test U.S. resolve using civilian ships to
+[p.10] create propaganda opportunity.
+[p.10] Next Event Triggers:
+[p.10] • Inevitable: U.S. boarding decision
+[p.10] • Potential:
+[p.10] • International opinion shift if civilians harmed
+[p.10] • Escalation if U.S. uses force
+[p.10] Most Plausible Combination: U.S. Maintains Blockade +
+[p.10] Soviet Complies While Accelerating
+[p.10] Logic: Both sides avoid immediate confrontation while pursuing objectives - U.S.
+[p.10] demonstrates resolve, USSR races to complete deployment.
+[p.10] Alternative Path: U.S. Strike Preparation + Soviet Blockade
+[p.10] Challenge
+[p.10] Logic: Military hawks on both sides push for advantage, creating dangerous
+[p.10] escalation dynamic.
+[p.10] Turn 2 Analysis - Alternative Path 1
+[p.10] (Diplomatic) Scenario
+[p.10] Current Variables: tension: 0.45, diplomatic_support: 0.60, public_opinion: 0.55,
+[p.10] leadership_unity: 0.55 No Active Triggers
+[p.10] United States Strategic Alternatives
+[p.10] 1. Propose Formal UN-Mediated Agreement
+[p.11] Rationale: State Department (high diplomacy preference) leverages successful
+[p.11] diplomatic support (0.60) and public opinion (0.55) to formalize missile removal
+[p.11] under international oversight.
+[p.11] Next Event Triggers:
+[p.11] • Inevitable: Soviet response to formal proposal
+[p.11] • Potential:
+[p.11] • If accepted → further Diplomatic_Success
+[p.11] • If rejected → shift toward military options
+[p.11] 2. Offer Private Trade (Turkey Missiles)
+[p.11] Rationale: Kennedy's pragmatic approach and "balanced crisis management" might
+[p.11] consider secret negotiations, especially with diplomatic channels open.
+[p.11] Next Event Triggers:
+[p.11] • Inevitable: Soviet evaluation of trade
+[p.11] • Potential:
+[p.11] • Leak to public → public_opinion decrease
+[p.11] • Allied concern over precedent
+[p.11] Soviet Union Strategic Alternatives
+[p.11] 1. Accept Inspection with Conditions
+[p.11] Rationale: Party Presidium's goal to "secure favorable outcome" while avoiding war
+[p.11] supports conditional acceptance that preserves face.
+[p.11] Next Event Triggers:
+[p.11] • Inevitable: Negotiation over specific conditions
+[p.11] • Potential:
+[p.11] • Successful framework → crisis resolution
+[p.11] • Disagreement on terms → renewed tension
+[p.11] 2. Counter-Propose Broader Agreement
+[p.11] Rationale: Khrushchev's "peaceful coexistence" ideology and negotiation preference
+[p.11] might expand talks to include U.S. bases globally.
+[p.11] Next Event Triggers:
+[p.11] • Inevitable: U.S. assessment of expanded scope
+[p.11] • Potential:
+[p.11] • Rejection → diplomatic stalemate
+[p.11] • Consideration → extended negotiations
+[p.11] Most Plausible Combination: U.S. UN Proposal + Soviet
+[p.11] Conditional Acceptance
+[p.11] Logic: Both sides use international framework to save face while moving toward
+[p.11] resolution.
+[p.11] Alternative Path: U.S. Private Trade + Soviet
+[p.11] Counter-Proposal
+[p.12] Logic: Secret bilateral negotiations explore comprehensive Cold War de-escalation.
+[p.12] Turn 2 Analysis - Alternative Path 2 (Military
+[p.12] Escalation) Scenario
+[p.12] Current Variables: tension: 1.0, diplomatic_support: 0.48, public_opinion: 0.48,
+[p.12] leadership_unity: 0.45 Active Triggers:
+[p.12] • Diplomatic Negotiation Disabled
+[p.12] • Leadership Unity ≤ 0.5: "Confused Policy, Radical Adoption"
+[p.12] United States Strategic Alternatives
+[p.12] 1. Execute Limited Air Strike
+[p.12] Rationale: With leadership_unity at 0.45 triggering "radical adoption" and Defense
+[p.12] Department pressing for action, limited strike on one site might occur despite
+[p.12] Kennedy's preference for restraint.
+[p.12] Next Event Triggers:
+[p.12] • Inevitable: Soviet military response
+[p.12] • Potential:
+[p.12] • Strike event → tension +0.15, leadership_unity -0.10
+[p.12] • Soviet retaliation decision
+[p.12] 2. Emergency Leadership Consolidation
+[p.12] Rationale: Kennedy recognizes leadership_unity crisis (0.45) and takes strong action
+[p.12] to restore control before military hawks act independently.
+[p.12] Next Event Triggers:
+[p.12] • Inevitable: Internal power struggle resolution
+[p.12] • Potential:
+[p.12] • Strong_Leadership event if successful
+[p.12] • Further fragmentation if failed
+[p.12] Soviet Union Strategic Alternatives
+[p.12] 1. Authorize Tactical Nuclear Use
+[p.12] Rationale: With "confused policy" and "radical adoption" triggered, Soviet military's
+[p.12] preference for tactical nuclear response if attacked might override political
+[p.12] restraint.
+[p.12] Next Event Triggers:
+[p.12] • Inevitable: Global crisis escalation
+[p.12] • Potential:
+[p.12] • U.S. nuclear response
+[p.12] • International intervention attempts
+[p.12] 2. Emergency Back-Channel Communication
+[p.13] Rationale: Khrushchev's "backchannel and personal diplomacy" preference might
+[p.13] bypass formal channels to prevent catastrophe despite high tension.
+[p.13] Next Event Triggers:
+[p.13] • Inevitable: U.S. reception of message
+[p.13] • Potential:
+[p.13] • Secret deal possibility
+[p.13] • Military opposition to talks
+[p.13] Most Plausible Combination: U.S. Leadership Consolidation
+[p.13] + Soviet Back-Channel
+[p.13] Logic: Both leaders recognize catastrophic risk and act to regain control despite
+[p.13] internal pressures.
+[p.13] Alternative Path: U.S. Limited Strike + Soviet Tactical
+[p.13] Authorization
+[p.13] Logic: Leadership weakness on both sides allows military escalation to proceed.
+[p.13] RESULT LOGS
+[p.13] Most Plausible Path - Turn 2 Results
+[p.13] U.S. Maintains Blockade: No additional variable changes (maintaining status
+[p.13] quo) Soviet Complies While Accelerating: No direct effect rules for compliance
+[p.13] Variable Status: Unchanged from Turn 1
+[p.13] • tension: 1.0
+[p.13] • diplomatic_support: 0.5
+[p.13] • public_opinion: 0.5
+[p.13] • leadership_unity: 1.0
+[p.13] Alternative Path 1 - Turn 2 Results
+[p.13] U.S. UN Proposal + Soviet Conditional Acceptance: Applying Diplomatic_Success
+[p.13] • tension: -0.05 → 0.40
+[p.13] • diplomatic_support: +0.10 → 0.70
+[p.13] • public_opinion: +0.05 → 0.60
+[p.13] • leadership_unity: +0.05 → 0.60
+[p.13] Alternative Path 2 - Turn 2 Results
+[p.13] U.S. Leadership Consolidation + Soviet Back-Channel: Applying Strong_Leadership
+[p.13] • tension: -0.05 → 0.95
+[p.13] • diplomatic_support: +0.05 → 0.53
+[p.13] • public_opinion: +0.10 → 0.58
+[p.13] • leadership_unity: +0.10 → 0.55

@@ -1,0 +1,152 @@
+[p.7] [Civil Unrest Risk]
+[p.7] [RECONFIRM VARIABLE STATUS - COMBINATION 3]
+[p.7] • tension: 0.95
+[p.7] • diplomatic_support: 0.42
+[p.7] • military_posture: Diplomatic with Military Readiness
+[p.7] • public_opinion: 0.30
+[p.7] • leadership_unity: 0.70
+[p.7] Retry
+[p.7] Analyzed data
+[p.7] View analysis
+[p.8] SCENARIO 1: MOST PLAUSIBLE PATH
+[p.8] United States Strategic Options (Tension=1.0, Unity=0.56)
+[p.8] Option 1: Maintain Blockade with Selective Enforcement
+[p.8] • Rationale: Despite high tension, Kennedy's medium risk tolerance and
+[p.8] preference for measured response continues. The successful inspection
+[p.8] shows the blockade works.
+[p.8] • Next Event Triggers:
+[p.8] • Inevitable: More Soviet ships approach, continued confrontations
+[p.8] • Potential: Soviet submarine detection, accidental engagement
+[p.8] Option 2: Escalate to DEFCON 2 and Prepare Invasion
+[p.8] • Rationale: Defense Department (25% power) pushes for escalation given
+[p.8] maximum tension. Military action is "Aggressive" per matrix.
+[p.8] • Next Event Triggers:
+[p.8] • Inevitable: Soviet counter-escalation, global alarm
+[p.8] • Potential: Pre-emptive Soviet action, allied concerns
+[p.8] Soviet Union Strategic Options (Tension=1.0, Unity=0.65)
+[p.8] Option 1: Order Ships to Turn Back
+[p.8] • Rationale: Party Presidium's medium-high conflict avoidance and
+[p.8] Khrushchev's need to "avoid triggering nuclear war" per constraints.
+[p.8] • Next Event Triggers:
+[p.8] • Inevitable: Internal military resistance, face-saving demands
+[p.8] • Potential: Secret negotiation channels, tactical nuclear preparation
+[p.8] Option 2: Test Blockade with Submarine Escort
+[p.8] • Rationale: Soviet Armed Forces' deterrence orientation and Khrushchev's
+[p.8] high risk tolerance for "brinkmanship rather than capitulation."
+[p.8] • Next Event Triggers:
+[p.9] • Inevitable: U.S. anti-submarine warfare response
+[p.9] • Potential: Underwater confrontation, communication breakdown
+[p.9] Most Plausible Combination: Maintain Blockade + Ships
+[p.9] Turn Back
+[p.9] Logic: Both sides recognize maximum tension requires de-escalation steps while
+[p.9] maintaining face.
+[p.9] Alternative Path: Escalate to DEFCON 2 + Submarine Escort
+[p.9] Logic: Military pressures on both sides push toward dangerous confrontation.
+[p.9] SCENARIO 2: HARDLINE RESPONSE PATH
+[p.9] United States Strategic Options (Tension=1.0, Unity=0.36)
+[p.9] Option 1: Limited Air Strike on One Missile Site
+[p.9] • Rationale: With leadership unity below 0.5, "Radical Adoption" of military
+[p.9] action per matrix. Defense pressure overwhelming.
+[p.9] • Next Event Triggers:
+[p.9] • Inevitable: Soviet military response, casualties
+[p.9] • Potential: Nuclear escalation, global crisis
+[p.9] Option 2: Emergency Back-Channel Negotiation
+[p.9] • Rationale: Kennedy's personal diplomacy preference trying to override
+[p.9] "Confused Policy" state.
+[p.9] • Next Event Triggers:
+[p.9] • Inevitable: Public/military backlash if discovered
+[p.9] • Potential: Secret deal emergence, internal coup risk
+[p.9] Soviet Union Strategic Options (Tension=1.0, Unity=0.52)
+[p.9] Option 1: Tactical Nuclear Authorization to Cuba
+[p.9] • Rationale: Military's emphasis on deterrence with leadership unity stressed.
+[p.9] "Initiate military response, including possible tactical nuclear use."
+[p.9] • Next Event Triggers:
+[p.9] • Inevitable: U.S. detection and alarm
+[p.9] • Potential: Accidental use, loss of control
+[p.9] Option 2: Public Ultimatum with Deadline
+[p.9] • Rationale: Khrushchev attempts to regain initiative through "backchannel
+[p.9] and personal diplomacy."
+[p.9] • Next Event Triggers:
+[p.9] • Inevitable: U.S. counter-ultimatum
+[p.9] • Potential: Time pressure escalation, third-party intervention
+[p.9] Most Plausible Combination: Limited Air Strike + Tactical
+[p.10] Nuclear Authorization
+[p.10] Logic: Both sides' military factions dominate with catastrophic results.
+[p.10] Alternative Path: Back-Channel Negotiation + Public
+[p.10] Ultimatum
+[p.10] Logic: Leaders attempt to bypass military pressure through direct communication.
+[p.10] SCENARIO 3: DIPLOMATIC RESOLUTION PATH
+[p.10] United States Strategic Options (Tension=0.95, Unity=0.70)
+[p.10] Option 1: Tighten Blockade to All Ships
+[p.10] • Rationale: With public opinion at 0.3 ("Collapse Risk"), need strong action.
+[p.10] Unity allows coordinated response.
+[p.10] • Next Event Triggers:
+[p.10] • Inevitable: Soviet economic pressure, Cuban shortages
+[p.10] • Potential: Humanitarian crisis, Latin American opposition
+[p.10] Option 2: Public Offer of Missile Trade
+[p.10] • Rationale: State Department influence with high leadership unity enables
+[p.10] diplomatic initiative despite low public support.
+[p.10] • Next Event Triggers:
+[p.10] • Inevitable: Domestic political explosion
+[p.10] • Potential: Soviet acceptance, NATO fracture
+[p.10] Soviet Union Strategic Options (Tension=0.95, Unity=0.65)
+[p.10] Option 1: Complete Missile Deployment Rush
+[p.10] • Rationale: "Incomplete deployment" constraint drives urgency before
+[p.10] window closes.
+[p.10] • Next Event Triggers:
+[p.10] • Inevitable: U.S. detection of operational missiles
+[p.10] • Potential: Preemptive U.S. strike, fait accompli
+[p.10] Option 2: Propose Comprehensive Settlement
+[p.10] • Rationale: Presidium's preference for "face-saving resolution that protects
+[p.10] Soviet interests."
+[p.10] • Next Event Triggers:
+[p.10] • Inevitable: Complex negotiation process
+[p.10] • Potential: Deal acceptance, military revolt
+[p.10] Most Plausible Combination: Tighten Blockade +
+[p.10] Comprehensive Settlement
+[p.10] Logic: U.S. increases pressure while Soviets seek honorable exit.
+[p.11] Alternative Path: Missile Trade Offer + Deployment Rush
+[p.11] Logic: Both sides race against time with different objectives.
+[p.11] Analyzed data
+[p.11] View analysis
+[p.11] TURN 2 RESULT LOGS
+[p.11] [RESULT LOG - SCENARIO 1: MOST PLAUSIBLE PATH]
+[p.11] • Selected Actions: U.S. Maintains Blockade with Selective Enforcement +
+[p.11] Soviet Ships Turn Back
+[p.11] • Predicted Variable Change: tension 0.00, diplomatic_support +0.08,
+[p.11] public_opinion +0.03, leadership_unity 0.00
+[p.11] • Generated Triggers: [Military Conflict Risk], [Diplomatic Isolation]
+[p.11] [RECONFIRM VARIABLE STATUS - SCENARIO 1]
+[p.11] • tension: 1.00
+[p.11] • diplomatic_support: 0.50
+[p.11] • military_posture: High Alert/Controlled Confrontation
+[p.11] • public_opinion: 0.63
+[p.11] • leadership_unity: 0.56
+[p.12] [RESULT LOG - SCENARIO 2: HARDLINE RESPONSE PATH]
+[p.12] • Selected Actions: U.S. Limited Air Strike + Soviet Tactical Nuclear
+[p.12] Authorization
+[p.12] • Predicted Variable Change: tension 0.00, diplomatic_support -0.15,
+[p.12] public_opinion -0.20, leadership_unity -0.10
+[p.12] • Generated Triggers: [Military Conflict Risk], [Civil Unrest Risk], [Internal
+[p.12] Division Risk]
+[p.12] [RECONFIRM VARIABLE STATUS - SCENARIO 2]
+[p.12] • tension: 1.00
+[p.12] • diplomatic_support: 0.55
+[p.12] • military_posture: Active Combat/Nuclear Alert
+[p.12] • public_opinion: 0.40
+[p.12] • leadership_unity: 0.26
+[p.12] [RESULT LOG - SCENARIO 3: DIPLOMATIC RESOLUTION
+[p.12] PATH]
+[p.12] • Selected Actions: U.S. Tightens Blockade to All Ships + Soviet
+[p.12] Comprehensive Settlement Proposal
+[p.12] • Predicted Variable Change: tension 0.00, diplomatic_support +0.03,
+[p.12] public_opinion +0.08, leadership_unity +0.05
+[p.12] • Generated Triggers: [Military Conflict Risk], [Diplomatic Isolation], [Civil
+[p.12] Unrest Risk]
+[p.12] [RECONFIRM VARIABLE STATUS - SCENARIO 3]
+[p.12] • tension: 0.95
+[p.12] • diplomatic_support: 0.45
+[p.12] • military_posture: Enhanced Blockade/Negotiation Ready
+[p.12] • public_opinion: 0.38
+[p.12] • leadership_unity: 0.75
+[p.12] Retry

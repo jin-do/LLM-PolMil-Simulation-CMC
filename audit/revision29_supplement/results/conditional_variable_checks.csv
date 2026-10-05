@@ -1,0 +1,17 @@
+case_id,variable,recorded_prior,named_effects,unclipped,checked,reported,matches,clipped
+CLA-01-S1-T2,Tension,0.75,"{""Defense_Prep"": ""0.05"", ""Diplomatic_Success"": ""-0.05""}",0.75,0.75,0.75,True,False
+CLA-01-S1-T2,Diplomatic_Support,0.60,"{""Defense_Prep"": ""-0.02"", ""Diplomatic_Success"": ""0.10""}",0.68,0.68,0.70,False,False
+CLA-01-S1-T2,Public_Opinion,0.55,"{""Defense_Prep"": ""-0.02"", ""Diplomatic_Success"": ""0.05""}",0.58,0.58,0.55,False,False
+CLA-01-S1-T2,Leadership_Unity,0.85,"{""Defense_Prep"": ""-0.05"", ""Diplomatic_Success"": ""0.05""}",0.85,0.85,0.80,False,False
+CLA-01-S1-T3,Tension,0.75,"{""Diplomatic_Success"": ""-0.05"", ""Strong_Leadership"": ""-0.05""}",0.65,0.65,0.65,True,False
+CLA-01-S1-T3,Diplomatic_Support,0.70,"{""Diplomatic_Success"": ""0.10"", ""Strong_Leadership"": ""0.05""}",0.85,0.85,0.80,False,False
+CLA-01-S1-T3,Public_Opinion,0.55,"{""Diplomatic_Success"": ""0.05"", ""Strong_Leadership"": ""0.10""}",0.70,0.70,0.70,True,False
+CLA-01-S1-T3,Leadership_Unity,0.80,"{""Diplomatic_Success"": ""0.05"", ""Strong_Leadership"": ""0.10""}",0.95,0.95,0.95,True,False
+CLA-01-S1-T4,Tension,0.65,"{""Alliance_Strengthening"": ""-0.05"", ""Diplomatic_Success"": ""-0.05""}",0.55,0.55,0.55,True,False
+CLA-01-S1-T4,Diplomatic_Support,0.80,"{""Alliance_Strengthening"": ""0.10"", ""Diplomatic_Success"": ""0.10""}",1.00,1.00,1.00,True,False
+CLA-01-S1-T4,Public_Opinion,0.70,"{""Alliance_Strengthening"": ""0.05"", ""Diplomatic_Success"": ""0.05""}",0.80,0.80,0.80,True,False
+CLA-01-S1-T4,Leadership_Unity,0.95,"{""Alliance_Strengthening"": ""0.05"", ""Diplomatic_Success"": ""0.05""}",1.05,1.00,1.00,True,True
+CLA-01-S3-T4,Tension,0.85,"{""Diplomatic_Success"": ""-0.05"", ""Strong_Leadership"": ""-0.05""}",0.75,0.75,0.75,True,False
+CLA-01-S3-T4,Diplomatic_Support,0.65,"{""Diplomatic_Success"": ""0.10"", ""Strong_Leadership"": ""0.05""}",0.80,0.80,0.80,True,False
+CLA-01-S3-T4,Public_Opinion,0.70,"{""Diplomatic_Success"": ""0.05"", ""Strong_Leadership"": ""0.10""}",0.85,0.85,0.80,False,False
+CLA-01-S3-T4,Leadership_Unity,1.00,"{""Diplomatic_Success"": ""0.05"", ""Strong_Leadership"": ""0.10""}",1.15,1.00,1.00,True,True

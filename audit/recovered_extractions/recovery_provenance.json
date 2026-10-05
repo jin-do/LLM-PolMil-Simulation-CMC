@@ -1,0 +1,29 @@
+{
+  "recovery_date": "2026-10-05",
+  "historical_commit": "6867755772bfb74dd56c211df8c9a399607b5419",
+  "public_revision17_commit": "4acc5add26f9b61d63ca3f51e7dfcc51c4a4e3fa",
+  "historical_manifest_sha256": "599688fd2b8ca03550cc04b311d2d0c7edbc64356131d6c112db2e76fb220204",
+  "historical_manifest_rows": 1149,
+  "restored_files": 160,
+  "restored_bytes": 6849488,
+  "reference_instances": 1405,
+  "distinct_check_ids": 929,
+  "identity_basis": "All restored bytes match SHA-256 and size entries in the retained earlier package_contents.csv. The manifest is a preserved local archival record, not an independently timestamp-certified record. A retained Drive inventory dated during the September 20 review lists September 13 creation metadata for the package and extraction artifacts; no new extraction was performed.",
+  "historical_records_modified": false,
+  "new_extraction_performed": false,
+  "new_model_executions": 0,
+  "privacy_screen": {
+    "scope": "All 160 restored text/JSON files; pattern screening plus file-type/source inspection. This is not a formal privacy audit. Files contain extracted historical simulation text or keyed evidence windows, not survey respondents or correspondence.",
+    "patterns_with_matching_paths": {
+      "email": [],
+      "windows_user_path": [],
+      "credential_like": []
+    }
+  },
+  "limitations": [
+    "Recovered extraction windows improve inspectability but do not establish semantic-label correctness or complete review coverage.",
+    "Extraction defects and replacement characters are preserved.",
+    "The old availability CSV retains its accurate preparation-stage NOT_INCLUDED_IN_PUBLIC_CANDIDATE state; recovered_reference_instances.csv records the later recovery separately.",
+    "The full 1,149-row historical manifest is an integrity source; it is not a claim that all listed artifacts have been published."
+  ]
+}

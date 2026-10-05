@@ -1,0 +1,45 @@
+{
+  "scope": "Historical JSON/CSV judgments preserved byte-for-byte; public report and AI clarification copies omit manuscript insertion drafts or their links with explicit derivation records. No judgments or case evidence rewritten.",
+  "files": [
+    {
+      "path": "source_records/author_review_20260927.json",
+      "bytes": 199237,
+      "sha256": "5049d038623b23ca243c2e9d96e7bd469f35ebea5d21c8dbf41f6fb516c51aa5",
+      "retained_original_bytes": 199237,
+      "retained_original_sha256": "5049d038623b23ca243c2e9d96e7bd469f35ebea5d21c8dbf41f6fb516c51aa5",
+      "public_copy_edit": "NONE"
+    },
+    {
+      "path": "source_records/author_review_20260927.csv",
+      "bytes": 143286,
+      "sha256": "04a5432e8a436f3126c286c259027c61b0c2a4dcadabf1a18e90e3e7ff183496",
+      "retained_original_bytes": 143286,
+      "retained_original_sha256": "04a5432e8a436f3126c286c259027c61b0c2a4dcadabf1a18e90e3e7ff183496",
+      "public_copy_edit": "NONE"
+    },
+    {
+      "path": "source_records/author_review_report_20260927.md",
+      "bytes": 109053,
+      "sha256": "8233acb988ed9acd654c71200e96acdb70b6bf8ae983ead90aa1f719237a845f",
+      "retained_original_bytes": 109043,
+      "retained_original_sha256": "e17397ee5cf7989acfe0ba30dd788c09bcb5e9ac19c4fdde7f961582a71c700d",
+      "public_copy_edit": "One Markdown reference to an unpublished manuscript insertion draft replaced with plain text noting its exclusion. Judgments and evidence unchanged. Line endings preserved by explicit byte restoration below."
+    },
+    {
+      "path": "evidence_recheck/changed_12_cases_20260929.json",
+      "bytes": 49432,
+      "sha256": "e78b4f1f16e96ae9c27bc4a5c1f82ffaba4712db26493eecc95738d9b1f51447",
+      "retained_original_bytes": 54786,
+      "retained_original_sha256": "2366485f354e4cd576e9f6a5d6c53bee7ee0dceea01040fa1b29b65c134c2b97",
+      "public_copy_edit": "Omitted manuscript insertion drafts and internal working-file list; all 12 case records, evidence and interpretation limits preserved. Public copy is UTF-8 with LF line endings."
+    },
+    {
+      "path": "evidence_recheck/changed_12_cases_20260929.md",
+      "bytes": 34920,
+      "sha256": "5ed740d4fbad88d69aa0356b37c8edc039993c8e0e0644ee80ce6e9c44b688ed",
+      "retained_original_bytes": 38183,
+      "retained_original_sha256": "cd7d8f0ce2e09a7806f9878e4bd5483eafc4a5104bbc8456467342920504feae",
+      "public_copy_edit": "Omitted manuscript insertion drafts and internal working-file list; all 12 case records, evidence and interpretation limits preserved. Public copy is UTF-8 with LF line endings."
+    }
+  ]
+}

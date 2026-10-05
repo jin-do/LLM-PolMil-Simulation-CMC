@@ -1,0 +1,76 @@
+{
+  "module": "revision29-later-calculation-supplement",
+  "verified_repository_inputs": {
+    "top1": {
+      "path": "coding/top1_reanalysis/data/top1_source_recoding.csv",
+      "sha256": "71722afb2faff08f3e8ed7e647c3304a401aec46d723f7490f8e2a558f077efa",
+      "digest_kind": "sha256_bytes"
+    },
+    "vdm": {
+      "path": "vdm/Variable-Decision Matrix.json",
+      "sha256": "be0e56e182015348af3a6916d07b302c9382c54bd3624795f6aa51dcbbed4977",
+      "digest_kind": "sha256_lf_normalized"
+    },
+    "claude_01_pdf": {
+      "path": "runs/raw_logs/Claude_Opus_4/1. Strategic Decision Modeling Protocol.pdf",
+      "sha256": "40d5cae1d73766c272755651180a2bd68fc15bcba8e8b191d49ea919c615a314",
+      "digest_kind": "sha256_bytes"
+    }
+  },
+  "outcome_comparison": {
+    "executions": 120,
+    "classified": 104,
+    "withheld": 16,
+    "different": 61,
+    "same": 43,
+    "different_percent_of_classified": "58.7",
+    "interpretation": "Coding-record disagreement; not a verified error rate or correction."
+  },
+  "conditional_cases": [
+    {
+      "case_id": "CLA-01-S1-T2",
+      "table": "D2",
+      "turn": 2,
+      "scenario": "Scenario 1: Balanced Confrontation Path",
+      "recorded_prior": "(0.75, 0.60, 0.55, 0.85)",
+      "effect_names": "Defense_Prep + Diplomatic_Success",
+      "checked": "(0.75, 0.68, 0.58, 0.85)",
+      "reported": "(0.75, 0.70, 0.55, 0.80)",
+      "differing_components": "Diplomatic_Support; Public_Opinion; Leadership_Unity"
+    },
+    {
+      "case_id": "CLA-01-S1-T3",
+      "table": "D2",
+      "turn": 3,
+      "scenario": "Scenario 1: Balanced Confrontation Path",
+      "recorded_prior": "(0.75, 0.70, 0.55, 0.80)",
+      "effect_names": "Diplomatic_Success + Strong_Leadership",
+      "checked": "(0.65, 0.85, 0.70, 0.95)",
+      "reported": "(0.65, 0.80, 0.70, 0.95)",
+      "differing_components": "Diplomatic_Support"
+    },
+    {
+      "case_id": "CLA-01-S1-T4",
+      "table": "D2",
+      "turn": 4,
+      "scenario": "Scenario 1: Balanced Confrontation Path",
+      "recorded_prior": "(0.65, 0.80, 0.70, 0.95)",
+      "effect_names": "Diplomatic_Success + Alliance_Strengthening",
+      "checked": "(0.55, 1.00, 0.80, 1.00)",
+      "reported": "(0.55, 1.00, 0.80, 1.00)",
+      "differing_components": "None"
+    },
+    {
+      "case_id": "CLA-01-S3-T4",
+      "table": "A2",
+      "turn": 4,
+      "scenario": "Scenario 3: Maximum Danger Path",
+      "recorded_prior": "(0.85, 0.65, 0.70, 1.00)",
+      "effect_names": "Strong_Leadership + Diplomatic_Success",
+      "checked": "(0.75, 0.80, 0.85, 1.00)",
+      "reported": "(0.75, 0.80, 0.80, 1.00)",
+      "differing_components": "Public_Opinion"
+    }
+  ],
+  "scope": "Fixed coding comparison and conditional local calculations, not new simulations, semantic recoding, or independent validation."
+}

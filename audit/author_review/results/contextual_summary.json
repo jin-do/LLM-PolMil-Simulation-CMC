@@ -1,0 +1,63 @@
+{
+  "source_record_sha256": "5049d038623b23ca243c2e9d96e7bd469f35ebea5d21c8dbf41f6fb516c51aa5",
+  "contextual_counts": {
+    "A": 27,
+    "R": 10,
+    "I": 3
+  },
+  "counts_by_membership": {
+    "common_selected": {
+      "A": 27,
+      "R": 8,
+      "I": 3
+    },
+    "purpose_selected_trace": {
+      "R": 2
+    }
+  },
+  "transition_counts": [
+    {
+      "earlier_ai_status": "C",
+      "A": 15,
+      "R": 0,
+      "I": 0,
+      "total": 15
+    },
+    {
+      "earlier_ai_status": "V",
+      "A": 3,
+      "R": 10,
+      "I": 0,
+      "total": 13
+    },
+    {
+      "earlier_ai_status": "U",
+      "A": 9,
+      "R": 0,
+      "I": 3,
+      "total": 12
+    }
+  ],
+  "changed_interpretation_ids": [
+    "HR-004",
+    "HR-010",
+    "HR-011",
+    "HR-016",
+    "HR-019",
+    "HR-023",
+    "HR-026",
+    "HR-028",
+    "HR-029",
+    "HR-035",
+    "HR-037",
+    "HR-038"
+  ],
+  "author_confirmation_date": "2026-09-27",
+  "actual_review_date": null,
+  "clarification_date": "2026-09-29",
+  "clarification_origin": "AI-only source recheck; no new human labels",
+  "independent_human_label_set_collected": false,
+  "blinded": false,
+  "common_1320_labels_changed": false,
+  "meaning": "A/R/I describe contextual acceptability, revision need, or indeterminacy under a different criterion; they do not replace C/V/U in the common assessment. Counts are not accuracy or agreement estimates."
+}

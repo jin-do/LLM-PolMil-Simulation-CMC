@@ -1,0 +1,228 @@
+[p.8] Generated Triggers:
+[p.8] • UN Security Council convening
+[p.8] • Military timetable pressure increasing
+[p.8] Selected Actor: Soviet Union
+[p.8] • Selected Action: Accelerate Deployment While Denying
+[p.8] • Predicted Variable Change:
+[p.8] • tension: +0.45 (covert_detection effect per Soviet effect_rules)
+[p.8] • diplomatic_room: x0.6 (proportional reduction per covert_detection)
+[p.8] • leadership_unity: +0.65 (covert_detection effect)
+[p.8] • public_opinion: No direct effect
+[p.8] Generated Triggers:
+[p.8] • Continued U.S. surveillance detecting acceleration
+[p.8] • "Incomplete deployment" constraint activated
+[p.8] RECONFIRM VARIABLE STATUS - Combination 3
+[p.8] • tension: 0.90 (0.5 - 0.05 + 0.45)
+[p.8] • diplomatic_support: 0.36 (0.5 + 0.10, then x0.6 for diplomatic_room reduction)
+[p.8] • military_posture: Asymmetric (US diplomatic, Soviet military)
+[p.8] • public_opinion: 0.55 (0.5 + 0.05)
+[p.8] • leadership_unity: US: 0.55, Soviet: 1.0 (capped)
+[p.8] Critical Alert: Tension at 0.90 exceeds 0.8 threshold - "Diplomatic Negotiation
+[p.8] Disabled, Military Options Preferred" activated. Diplomatic_support below 0.5
+[p.8] triggers "Diplomatic Solution Blocked" condition.
+[p.8] Retry
+[p.9] Turn 2 Analysis: DEFCON 3 and Naval
+[p.9] Interception
+[p.9] Scenario 1: "Measured Confrontation Path"
+[p.9] Current Variables: tension: 0.75, diplomatic_support: 0.60, leadership_unity: US: 1.0,
+[p.9] Soviet: 0.55
+[p.9] United States Strategic Alternatives
+[p.9] 1. Maintain Quarantine with Selective Enforcement
+[p.9] • Rationale: Kennedy's "balanced crisis management" approach and current
+[p.9] diplomatic_support >0.5 enables diplomatic options
+[p.9] • Next Triggers:
+[p.9] • Inevitable: More Soviet ships approaching quarantine line
+[p.10] • Potential: Soviet escalation if military cargo intercepted
+[p.10] • Potential: Allied pressure for stronger/weaker action
+[p.10] 2. Escalate to Full Blockade
+[p.10] • Rationale: Defense Department's preference for "decisive action" and
+[p.10] successful initial interception
+[p.10] • Next Triggers:
+[p.10] • Inevitable: Soviet military response consideration
+[p.10] • Potential: Soviet submarine activity increase
+[p.10] • Potential: Cuban defensive preparations
+[p.10] 3. Propose Direct Negotiations
+[p.10] • Rationale: State Department's "diplomacy-first approach" and
+[p.10] diplomatic_support at 0.60
+[p.10] • Next Triggers:
+[p.10] • Inevitable: Soviet response to negotiation offer
+[p.10] • Potential: Military criticism of "weakness"
+[p.10] • Potential: Time pressure from ongoing deployments
+[p.10] Soviet Union Strategic Alternatives
+[p.10] 1. Test Quarantine with Non-Military Ships
+[p.10] • Rationale: Khrushchev's "backchannel and personal diplomacy" preference
+[p.10] while avoiding direct confrontation
+[p.10] • Next Triggers:
+[p.10] • Inevitable: U.S. boarding procedures
+[p.10] • Potential: Incident during inspection
+[p.10] • Potential: Public opinion shift if peaceful
+[p.10] 2. Naval Escort for Future Shipments
+[p.10] • Rationale: Military's "emphasis on strategic deterrence" and need to
+[p.10] "protect Soviet homeland and allies"
+[p.10] • Next Triggers:
+[p.10] • Inevitable: U.S.-Soviet naval standoff
+[p.10] • Potential: Accidental engagement
+[p.10] • Potential: Global tension spike
+[p.10] 3. Shift to Air Transport
+[p.10] • Rationale: Bypass blockade while continuing "Operation Anadyr" per
+[p.10] military goals
+[p.10] • Next Triggers:
+[p.10] • Inevitable: U.S. detection of air operations
+[p.10] • Potential: U.S. air interception attempts
+[p.10] • Potential: Cuban airspace violations
+[p.10] Most Plausible Combinations - Scenario 1
+[p.10] Primary Path: U.S. Maintain Selective Quarantine + Soviet Test with Non-Military
+[p.10] Ships
+[p.11] • Logic: Both sides probe boundaries without escalating. Fits current
+[p.11] moderate tension (0.75)
+[p.11] Alternative Path 1: U.S. Propose Negotiations + Soviet Naval Escort
+[p.11] • Logic: Diplomatic attempt meets military posturing, testing resolve
+[p.11] Alternative Path 2: U.S. Maintain Quarantine + Soviet Air Transport
+[p.11] • Logic: Tactical adaptation maintaining confrontation at current level
+[p.11] RESULT LOG - Scenario 1 Primary Path
+[p.11] • U.S. Action: Maintain Quarantine with Selective Enforcement
+[p.11] • Variable Changes: Defense_Prep effects (+0.05 tension, -0.02
+[p.11] diplomatic_support)
+[p.11] • New Values: tension: 0.80, diplomatic_support: 0.58
+[p.11] Soviet Action: Test with Non-Military Ships
+[p.11] • Variable Changes: No aggressive action, minimal change
+[p.11] • Final Values: tension: 0.80, diplomatic_support: 0.58,
+[p.11] leadership_unity: US: 0.95, Soviet: 0.55
+[p.11] Trigger Alert: Tension at 0.80 threshold - "Diplomatic Negotiation Disabled"
+[p.11] activated
+[p.11] Scenario 2: "Escalatory Brinkmanship Path"
+[p.11] Current Variables: tension: 1.0 (max), diplomatic_support: 0.45, leadership_unity:
+[p.11] US: 1.0, Soviet: 1.0
+[p.11] United States Strategic Alternatives
+[p.11] 1. Full Military Enforcement
+[p.11] • Rationale: Tension at 1.0 means "Military Options Preferred" per Decision
+[p.11] Matrix
+[p.11] • Next Triggers:
+[p.11] • Inevitable: Soviet military response
+[p.11] • Potential: Armed clash at sea
+[p.11] • Potential: Soviet retaliation elsewhere
+[p.11] 2. Surgical Air Strike Preparation
+[p.11] • Rationale: Defense Department's "if blockade fails, move to air
+[p.11] strike/invasion plan"
+[p.11] • Next Triggers:
+[p.11] • Inevitable: Soviet detection of preparations
+[p.11] • Potential: Preemptive Soviet action
+[p.11] • Potential: Allied alarm
+[p.11] 3. Emergency Back-Channel Communication
+[p.11] • Rationale: Despite high tension, Kennedy's "avoid nuclear war" priority (0.3
+[p.11] weight)
+[p.12] • Next Triggers:
+[p.12] • Inevitable: Soviet response assessment
+[p.12] • Potential: Military opposition
+[p.12] • Potential: Public discovery
+[p.12] Soviet Union Strategic Alternatives
+[p.12] 1. Force Blockade with Military Escort
+[p.12] • Rationale: Maximum tension requires "Military Options Preferred," military
+[p.12] at "full readiness"
+[p.12] • Next Triggers:
+[p.12] • Inevitable: Naval confrontation
+[p.12] • Potential: Exchange of fire
+[p.12] • Potential: Nuclear forces alert
+[p.12] 2. Tactical Nuclear Demonstration
+[p.12] • Rationale: Military preference for "tactical nuclear weapons if war breaks
+[p.12] out"
+[p.12] • Next Triggers:
+[p.12] • Inevitable: U.S. nuclear response planning
+[p.12] • Potential: Global panic
+[p.12] • Potential: Alliance fractures
+[p.12] 3. Emergency Diplomatic Initiative
+[p.12] • Rationale: Khrushchev's "avoid nuclear war" constraint despite military
+[p.12] pressure
+[p.12] • Next Triggers:
+[p.12] • Inevitable: U.S. response evaluation
+[p.12] • Potential: Military resistance
+[p.12] • Potential: Face-saving requirements
+[p.12] Most Plausible Combinations - Scenario 2
+[p.12] Primary Path: U.S. Full Enforcement + Soviet Military Escort
+[p.12] • Logic: Maximum tension drives military confrontation per Decision Matrix
+[p.12] Alternative Path 1: U.S. Air Strike Prep + Soviet Tactical Demo
+[p.12] • Logic: Escalation ladder climbing toward nuclear threshold
+[p.12] Alternative Path 2: U.S. Back-Channel + Soviet Emergency Diplomacy
+[p.12] • Logic: Leadership recognition of catastrophic risk overrides military
+[p.12] preference
+[p.12] RESULT LOG - Scenario 2 Primary Path
+[p.12] • U.S. Action: Full Military Enforcement
+[p.12] • Variable Changes: Strike effects (+0.15 tension, -0.05
+[p.12] diplomatic_support, -0.10 leadership_unity)
+[p.12] • New Values: tension: 1.0 (capped), diplomatic_support: 0.40,
+[p.12] leadership_unity: 0.90
+[p.13] Soviet Action: Force Blockade with Military Escort
+[p.13] • Variable Changes: Strike effects (+0.15 tension, -0.05
+[p.13] diplomatic_support, -0.10 leadership_unity)
+[p.13] • Final Values: tension: 1.0, diplomatic_support: 0.35, leadership_unity:
+[p.13] US: 0.90, Soviet: 0.90
+[p.13] Critical Alert: Diplomatic_support <0.5 maintains "Diplomatic Solution Blocked"
+[p.13] Scenario 3: "Time Pressure Gambit Path"
+[p.13] Current Variables: tension: 0.90, diplomatic_support: 0.36, leadership_unity: US:
+[p.13] 0.55, Soviet: 1.0
+[p.13] United States Strategic Alternatives
+[p.13] 1. Immediate Air Strike
+[p.13] • Rationale: Tension >0.8 triggers "Military Options Preferred,"
+[p.13] diplomatic_support <0.5 blocks diplomacy
+[p.13] • Next Triggers:
+[p.13] • Inevitable: Soviet retaliation assessment
+[p.13] • Potential: Missile launches from Cuba
+[p.13] • Potential: Soviet action in Berlin
+[p.13] 2. Tighten Blockade Plus Ultimatum
+[p.13] • Rationale: Military preference with time pressure from "missiles ready in
+[p.13] about a week"
+[p.13] • Next Triggers:
+[p.13] • Inevitable: Soviet decision on ultimatum
+[p.13] • Potential: Accelerated deployment
+[p.13] • Potential: International mediation attempts
+[p.13] 3. Coalition Military Action
+[p.13] • Rationale: Low diplomatic_support requires allied backing for legitimacy
+[p.13] • Next Triggers:
+[p.13] • Inevitable: OAS/NATO coordination
+[p.13] • Potential: Soviet counter-coalition
+[p.13] • Potential: Global alignment
+[p.13] Soviet Union Strategic Alternatives
+[p.13] 1. Complete Deployment at All Costs
+[p.13] • Rationale: Leadership unity at 1.0 enables decisive action, "Operation
+[p.13] Anadyr" priority
+[p.13] • Next Triggers:
+[p.13] • Inevitable: U.S. military response
+[p.13] • Potential: Operational missiles announcement
+[p.13] • Potential: Cuban integration issues
+[p.14] 2. Activate Cuban Tactical Nukes
+[p.14] • Rationale: "US_invasion_Cuba" trigger preparation, deterrent against air
+[p.14] strikes
+[p.14] • Next Triggers:
+[p.14] • Inevitable: U.S. intelligence detection
+[p.14] • Potential: Preemptive U.S. action
+[p.14] • Potential: Command/control problems
+[p.14] 3. Berlin Counter-Pressure
+[p.14] • Rationale: Strategic leverage per "offset U.S. nuclear superiority" goal
+[p.14] • Next Triggers:
+[p.14] • Inevitable: NATO response
+[p.14] • Potential: European crisis
+[p.14] • Potential: Two-front confrontation
+[p.14] Most Plausible Combinations - Scenario 3
+[p.14] Primary Path: U.S. Tighten + Ultimatum vs Soviet Complete Deployment
+[p.14] • Logic: Race against time before full operationalization
+[p.14] Alternative Path 1: U.S. Air Strike vs Soviet Tactical Activation
+[p.14] • Logic: Military escalation with nuclear threshold approach
+[p.14] Alternative Path 2: U.S. Coalition Action vs Soviet Berlin Pressure
+[p.14] • Logic: Geographic expansion of crisis
+[p.14] RESULT LOG - Scenario 3 Primary Path
+[p.14] • U.S. Action: Tighten Blockade Plus Ultimatum
+[p.14] • Variable Changes: Defense_Prep (+0.05 tension, -0.02
+[p.14] diplomatic_support, -0.05 leadership_unity)
+[p.14] • New Values: tension: 0.95, diplomatic_support: 0.34, leadership_unity:
+[p.14] 0.50
+[p.14] Soviet Action: Complete Deployment at All Costs
+[p.14] • Variable Changes: Continued covert activity maintains previous
+[p.14] effects
+[p.14] • Final Values: tension: 0.95, diplomatic_support: 0.34,
+[p.14] leadership_unity: US: 0.50, Soviet: 1.0
+[p.14] Critical Alerts:
+[p.14] • U.S. leadership_unity at 0.50 threshold: "Decision Delay, Radical Policy
+[p.14] Preference"
+[p.14] • Diplomatic channels remain blocked
+[p.14] • Military confrontation appears inevitable
+[p.14] Retry

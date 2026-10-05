@@ -1,0 +1,185 @@
+[p.7] Scenario Combination Name: Diplomatic Resolution Path Selected Actor: United
+[p.7] States Selected Action: Diplomatic Freeze with UN Oversight Predicted Variable
+[p.7] Change: Based on Diplomatic_Success: tension -0.05, diplomatic_support +0.10,
+[p.7] public_opinion +0.05, leadership_unity +0.05 Selected Actor: Soviet Union Selected
+[p.7] Action: Propose Face-Saving Negotiation Predicted Variable Change: public_opinion
+[p.7] +0.55 (per Soviet effect rules for public_appeal) Generated Triggers: [UN Security
+[p.7] Council emergency session], [Bilateral negotiation framework established]
+[p.7] RECONFIRM VARIABLE STATUS 3
+[p.7] Starting from baseline 0.5 for all variables
+[p.7] • tension: 0.5 - 0.05 = 0.45
+[p.7] • diplomatic_support: 0.5 + 0.10 = 0.60
+[p.7] • military_posture: DEFENSIVE READINESS
+[p.7] • public_opinion: 0.5 + 0.05 + 0.55 = 1.0 (clamped to max 1.0)
+[p.7] • leadership_unity: 0.5 + 0.05 = 0.55
+[p.7] No Triggers Activated - All variables remain within acceptable thresholds for
+[p.7] continued diplomatic options.
+[p.7] Retry
+[p.8] SCENARIO 1: Most Plausible Path
+[p.8] Current Variables: tension: 1.0, diplomatic_support: 0.5, public_opinion: 0.5,
+[p.8] leadership_unity: 1.0 Active Trigger: Diplomatic Negotiation Disabled
+[p.8] United States Strategic Alternatives
+[p.8] 1. Maintain Blockade with Escalating Enforcement
+[p.8] • Rationale: With tension at 1.0 and diplomatic negotiation disabled, military
+[p.8] options are preferred. Defense Department's high military preference (0.25
+[p.8] power weight) influences continued pressure.
+[p.8] • Next Triggers:
+[p.8] • Inevitable: More Soviet ships approach blockade line
+[p.8] • Potential: Soviet ship attempts to run blockade (military clash)
+[p.8] • Potential: Soviet submarine detected (underwater confrontation)
+[p.8] 2. Prepare Air Strike While Maintaining Blockade
+[p.8] • Rationale: Defense Department's trigger threshold met for "Presidential
+[p.8] go-order" preparation. Military sees blockade as insufficient per JSON.
+[p.8] • Next Triggers:
+[p.8] • Inevitable: Soviet detection of strike preparations
+[p.8] • Potential: Preemptive Soviet military action
+[p.8] • Potential: Allied concerns about escalation
+[p.9] Soviet Union Strategic Alternatives
+[p.9] 1. Test Blockade with Military Cargo Ship
+[p.9] • Rationale: With tension at 1.0, military preference increases. Armed Forces
+[p.9] (0.2 power weight) advocate showing resolve per JSON.
+[p.9] • Next Triggers:
+[p.9] • Inevitable: Direct U.S.-Soviet naval confrontation
+[p.9] • Potential: Armed clash at sea
+[p.9] • Potential: Submarine involvement
+[p.9] 2. Accelerate Missile Deployment via Air
+[p.9] • Rationale: Complete Operation Anadyr mission per military goals. Bypass
+[p.9] naval blockade through airlift.
+[p.9] • Next Triggers:
+[p.9] • Inevitable: U.S. detection of air operations
+[p.9] • Potential: U.S. intercept attempts
+[p.9] • Potential: Missiles become operational
+[p.9] Most Plausible Combination: U.S. Maintains Blockade +
+[p.9] Soviet Tests with Military Ship
+[p.9] Logic: Both sides locked into military confrontation path with diplomatic options
+[p.9] disabled.
+[p.9] Alternative Path: U.S. Prepares Air Strike + Soviet
+[p.9] Accelerates via Air
+[p.9] Logic: Both sides escalate to bypass current stalemate.
+[p.9] RESULT LOG - SCENARIO 1 MOST PLAUSIBLE
+[p.9] • Selected Actor: United States
+[p.9] • Selected Action: Maintain Blockade with Escalating Enforcement
+[p.9] • Predicted Variable Change: tension +0.3, leadership_unity +0.8
+[p.9] • Selected Actor: Soviet Union
+[p.9] • Selected Action: Test Blockade with Military Cargo Ship
+[p.9] • Predicted Variable Change: tension +0.45, leadership_unity +0.65
+[p.9] • Generated Triggers: [Naval confrontation at blockade line], [Global military
+[p.9] alert escalation]
+[p.9] UPDATED VARIABLES - SCENARIO 1
+[p.9] • tension: 1.0 (already at max)
+[p.9] • diplomatic_support: 0.5
+[p.9] • public_opinion: 0.5
+[p.9] • leadership_unity: 1.0 (already at max)
+[p.9] • No new triggers (tension already maxed)
+[p.10] SCENARIO 2: Hardline Response Path
+[p.10] Current Variables: tension: 1.0, diplomatic_support: 0.45, public_opinion: 0.45,
+[p.10] leadership_unity: 1.0 Active Triggers: Diplomatic Negotiation Disabled, Diplomatic
+[p.10] Solution Blocked
+[p.10] United States Strategic Alternatives
+[p.10] 1. Execute Limited Air Strike on Operational Sites
+[p.10] • Rationale: With diplomatic options blocked and Defense Department
+[p.10] preference, strike operational missiles first.
+[p.10] • Next Triggers:
+[p.10] • Inevitable: Soviet military response
+[p.10] • Potential: Nuclear missile launch
+[p.10] • Potential: Soviet retaliation elsewhere
+[p.10] 2. Full Invasion Preparation with Ultimatum
+[p.10] • Rationale: Defense Department's ultimate goal - permanent solution to
+[p.10] "Cuba problem" per JSON.
+[p.10] • Next Triggers:
+[p.10] • Inevitable: Mass troop mobilization visible
+[p.10] • Potential: Soviet nuclear threat
+[p.10] • Potential: Allied opposition
+[p.10] Soviet Union Strategic Alternatives
+[p.10] 1. Authorize Tactical Nuclear Weapons Use
+[p.10] • Rationale: Military's trigger threshold for "direct attack" met. Tactical
+[p.10] nuclear response authorized per JSON.
+[p.10] • Next Triggers:
+[p.10] • Inevitable: Nuclear escalation
+[p.10] • Potential: U.S. nuclear response
+[p.10] • Potential: Global war
+[p.10] 2. Emergency Diplomatic Offer Through Third Party
+[p.10] • Rationale: Khrushchev's behavior algorithm shifts to negotiation when
+[p.10] nuclear war appears imminent.
+[p.10] • Next Triggers:
+[p.10] • Inevitable: U.S. response required
+[p.10] • Potential: Ceasefire possibility
+[p.10] • Potential: Face-saving compromise
+[p.10] Most Plausible Combination: U.S. Limited Air Strike +
+[p.10] Soviet Emergency Diplomatic Offer
+[p.10] Logic: U.S. military pressure forces Soviet diplomatic shift per Khrushchev's
+[p.10] algorithm.
+[p.11] Alternative Path: U.S. Full Invasion Prep + Soviet Tactical
+[p.11] Nuclear Authorization
+[p.11] Logic: Maximum escalation path with both militaries dominant.
+[p.11] RESULT LOG - SCENARIO 2 MOST PLAUSIBLE
+[p.11] • Selected Actor: United States
+[p.11] • Selected Action: Execute Limited Air Strike
+[p.11] • Predicted Variable Change: tension +0.15, diplomatic_support -0.05,
+[p.11] public_opinion -0.05, leadership_unity -0.10
+[p.11] • Selected Actor: Soviet Union
+[p.11] • Selected Action: Emergency Diplomatic Offer
+[p.11] • Predicted Variable Change: public_opinion +0.55
+[p.11] • Generated Triggers: [Soviet missile sites destroyed], [Urgent diplomatic
+[p.11] channel opened]
+[p.11] UPDATED VARIABLES - SCENARIO 2
+[p.11] • tension: 1.0 (already at max)
+[p.11] • diplomatic_support: 0.45 - 0.05 = 0.40
+[p.11] • public_opinion: 0.45 - 0.05 + 0.55 = 0.95
+[p.11] • leadership_unity: 1.0 - 0.10 = 0.90
+[p.11] • Public Opinion trigger nearly activated (0.95 > threshold)
+[p.11] SCENARIO 3: Diplomatic Resolution Path
+[p.11] Current Variables: tension: 0.45, diplomatic_support: 0.60, public_opinion: 1.0,
+[p.11] leadership_unity: 0.55 No Active Triggers
+[p.11] United States Strategic Alternatives
+[p.11] 1. Propose Mutual Concessions Framework
+[p.11] • Rationale: State Department preference with high diplomatic support. Seek
+[p.11] missile removal for non-invasion pledge.
+[p.11] • Next Triggers:
+[p.11] • Inevitable: Soviet counter-proposal
+[p.11] • Potential: Agreement framework
+[p.11] • Potential: Military opposition
+[p.11] 2. Tighten Blockade While Negotiating
+[p.11] • Rationale: President's balanced approach - maintain pressure during talks
+[p.11] per JSON preference.
+[p.11] • Next Triggers:
+[p.11] • Inevitable: Continued negotiations
+[p.11] • Potential: Soviet compliance
+[p.12] • Potential: Incident during enforcement
+[p.12] Soviet Union Strategic Alternatives
+[p.12] 1. Offer Missile Withdrawal for Security Guarantees
+[p.12] • Rationale: Khrushchev's goal to protect Cuba achieved through
+[p.12] negotiation. High public opinion (1.0) supports this.
+[p.12] • Next Triggers:
+[p.12] • Inevitable: U.S. guarantee terms
+[p.12] • Potential: Face-saving agreement
+[p.12] • Potential: Military resistance
+[p.12] 2. Propose Broader Disarmament Trade
+[p.12] • Rationale: Presidium's preference for "face-saving resolution" - link to
+[p.12] Turkey missiles.
+[p.12] • Next Triggers:
+[p.12] • Inevitable: Complex negotiations
+[p.12] • Potential: Comprehensive deal
+[p.12] • Potential: Allied complications
+[p.12] Most Plausible Combination: U.S. Mutual Concessions +
+[p.12] Soviet Security Guarantee Offer
+[p.12] Logic: Both sides' diplomatic corps align on achievable compromise.
+[p.12] Alternative Path: U.S. Tightens While Negotiating + Soviet
+[p.12] Broader Trade Proposal
+[p.12] Logic: More complex negotiation maintaining some pressure.
+[p.12] RESULT LOG - SCENARIO 3 MOST PLAUSIBLE
+[p.12] • Selected Actor: United States
+[p.12] • Selected Action: Propose Mutual Concessions Framework
+[p.12] • Predicted Variable Change: Diplomatic_Success: tension -0.05,
+[p.12] diplomatic_support +0.10, public_opinion +0.05, leadership_unity +0.05
+[p.12] • Selected Actor: Soviet Union
+[p.12] • Selected Action: Offer Missile Withdrawal for Security Guarantees
+[p.12] • Predicted Variable Change: public_opinion +0.55
+[p.12] • Generated Triggers: [Framework agreement initiated], [Verification
+[p.12] protocols discussed]
+[p.12] UPDATED VARIABLES - SCENARIO 3
+[p.12] • tension: 0.45 - 0.05 = 0.40
+[p.12] • diplomatic_support: 0.60 + 0.10 = 0.70
+[p.12] • public_opinion: 1.0 (already at max)
+[p.12] • leadership_unity: 0.55 + 0.05 = 0.60
+[p.12] • All variables support continued diplomatic resolution

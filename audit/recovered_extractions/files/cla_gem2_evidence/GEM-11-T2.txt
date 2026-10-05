@@ -1,0 +1,125 @@
+[p.8] Based on the progression of the Turn 2 event, the following result logs are generated for each of the three
+[p.8] ongoing scenarios. The analysis identifies the most plausible subsequent actions for the United States and the
+[p.8] Soviet Union, calculates the resulting variable changes according to the Variable-Decision Matrix.json, and
+[p.8] confirms the new status of each nation-state.
+[p.8] Scenario 1: Most Plausible Path (Quarantine in Effect)
+[p.8] Logic: The successful, non-lethal interception of a Soviet vessel proves the U.S. quarantine is effective and
+[p.8] demonstrates resolve. This strengthens President Kennedy's position. For the Soviets, the blockade is no
+[p.8] longer a bluff, and their "accelerate" strategy is failing. With their Leadership Unity already low (0.45), the
+[p.8] failure to break the blockade would likely cause it to drop further, prompting Khrushchev to shift tactics from
+[p.8] defiance to his preferred backchannel diplomacy to salvage his primary goals. The most plausible path is that
+[p.8] the U.S., having demonstrated strength, now offers a way out through diplomacy, while the Soviets, seeing
+[p.8] their military option stall, seek the same path.
+[p.8] [RESULT LOG]
+[p.8] Scenario Combination Name: Most Plausible Path
+[p.8] Selected Actor: United States
+[p.8] Selected Action: Maintain Naval Quarantine and Open Secret Backchannel
+[p.8] Predicted Variable Change: This action combines continued "Defense_Prep" with a successful diplomatic
+[p.8] initiative ("Diplomatic_Success").
+[p.8] Net Change: tension [0.00], diplomatic_support [+0.08], public_opinion [+0.03], leadership_unity [0.00]
+[p.8] Generated Triggers:
+[p.8] The "diplomatic_resolution_offer" trigger is presented to the Soviet Union.
+[p.8] Selected Actor: Soviet Union
+[p.8] Selected Action: Halt Shipments and Engage in Secret Negotiations
+[p.8] Predicted Variable Change: The failure of their ships to pass the blockade constitutes a "Diplomatic_Failure".
+[p.8] Net Change: tension [+0.10], diplomatic_support [-0.10], public_opinion [-0.05], leadership_unity [-0.05]
+[p.8] Generated Triggers:
+[p.8] Khrushchev's "diplomatic_resolution_offer" trigger is activated by the U.S. action, causing a shift to
+[p.8] negotiation.
+[p.8] The continued decline in Leadership Unity solidifies the "Internal Division" trigger.
+[p.8] [RECONFIRM VARIABLE STATUS]
+[p.8] United States (From Turn 1 state):
+[p.8] tension: 0.50 (0.50 + 0.00)
+[p.8] diplomatic_support: 0.61 (0.53 + 0.08)
+[p.8] military_posture: Stable (Tension < 0.8)
+[p.8] public_opinion: 0.61 (0.58 + 0.03)
+[p.8] leadership_unity: 0.55 (0.55 + 0.00)
+[p.9] Soviet Union (From Turn 1 state):
+[p.9] tension: 0.65 (0.55 + 0.10)
+[p.9] diplomatic_support: 0.38 (0.48 - 0.10)
+[p.9] military_posture: Stable (Tension < 0.8)
+[p.9] public_opinion: 0.43 (0.48 - 0.05)
+[p.9] leadership_unity: 0.40 (0.45 - 0.05)
+[p.9] Trigger Warning: Diplomatic Support has fallen below 0.5, and Public Opinion is now below 0.4. This blocks
+[p.9] open diplomatic solutions, weakens leadership, and triggers "Civil Unrest, Chaos". Leadership Unity remains
+[p.9] below the 0.5 threshold, making policy confused and radical. The situation is internally critical.
+[p.9] Scenario 2: Military Escalation Path (Post-Strike)
+[p.9] Logic: In this scenario, the initial strikes have already occurred, and both nations are operating with degraded
+[p.9] leadership and disabled diplomatic options. The event of a naval blockade is not a de-escalation but a new
+[p.9] phase of the ongoing military conflict. Given the low Leadership Unity (<0.5) on both sides, the preference is
+[p.9] for "Radical Policy" and "Aggressive" military action. The U.S. logical next step after a non-decisive strike is
+[p.9] to prepare for the invasion advocated by the DoD. The Soviets, facing an invasion, would activate their
+[p.9] last-resort trigger: authorizing tactical nuclear use for defense.
+[p.9] [RESULT LOG]
+[p.9] Scenario Combination Name: Military Escalation Path
+[p.9] Selected Actor: United States
+[p.9] Selected Action: Enforce Blockade and Prepare Full-Scale Invasion
+[p.9] Predicted Variable Change: This continued military action constitutes another "Strike".
+[p.9] Net Change: tension [+0.15], diplomatic_support [-0.05], public_opinion [-0.05], leadership_unity [-0.10]
+[p.9] Generated Triggers:
+[p.9] The move toward invasion is the final trigger for the DoD's military plans.
+[p.9] Selected Actor: Soviet Union
+[p.9] Selected Action: Authorize Use of Tactical Nuclear Weapons Against Invading Forces
+[p.9] Predicted Variable Change: This is an extreme form of "Defense_Prep".
+[p.9] Net Change: tension [+0.05], diplomatic_support [-0.02], public_opinion [-0.02], leadership_unity [-0.05]
+[p.9] Generated Triggers:
+[p.9] Khrushchev's "US_invasion_Cuba" trigger is fully met, authorizing a "military response, including possible
+[p.9] tactical nuclear use".
+[p.9] Tension for the U.S. will cross the 0.8 threshold, triggering "Military Conflict Risk Increased".
+[p.9] [RECONFIRM VARIABLE STATUS]
+[p.9] United States (From Turn 1 state):
+[p.9] tension: 0.80 (0.65 + 0.15)
+[p.10] diplomatic_support: 0.40 (0.45 - 0.05)
+[p.10] military_posture: Aggressive (Tension >= 0.8)
+[p.10] public_opinion: 0.40 (0.45 - 0.05)
+[p.10] leadership_unity: 0.30 (0.40 - 0.10)
+[p.10] Trigger Warning: Tension has hit the 0.8 threshold, disabling diplomacy and requiring an Emergency Response.
+[p.10] Public Opinion is now at the 0.4 threshold, risking leadership collapse and chaos.
+[p.10] Soviet Union (From Turn 1 state):
+[p.10] tension: 0.70 (0.65 + 0.05)
+[p.10] diplomatic_support: 0.43 (0.45 - 0.02)
+[p.10] military_posture: Stable (Tension < 0.8)
+[p.10] public_opinion: 0.43 (0.45 - 0.02)
+[p.10] leadership_unity: 0.35 (0.40 - 0.05)
+[p.10] Trigger Warning: All variables remain in a critical state, with policy decisions guided by "Radical Adoption"
+[p.10] and "Severe Internal Conflict" due to extremely low Leadership Unity.
+[p.10] Scenario 3: Diplomatic Stalemate Path
+[p.10] Logic: In this timeline, public diplomacy at the UN has already failed, and the U.S. has pivoted to a blockade.
+[p.10] The success of the blockade interception confirms that this new, more forceful strategy is working. Given that
+[p.10] Diplomatic Support is already critically low (0.40) for both sides, neither is likely to return to public
+[p.10] diplomacy. The U.S., now in a position of strength, would plausibly issue a hardline ultimatum to force a
+[p.10] resolution. The Soviets, with public diplomacy shattered and the blockade working, would see Khrushchev's
+[p.10] preferred backchannel as their only remaining viable option to avoid total capitulation or war.
+[p.10] [RESULT LOG]
+[p.10] Scenario Combination Name: Diplomatic Stalemate Path
+[p.10] Selected Actor: United States
+[p.10] Selected Action: Deliver an Ultimatum for Missile Removal with a Deadline
+[p.10] Predicted Variable Change: This aggressive diplomatic move under military pressure constitutes a "Strike".
+[p.10] Net Change: tension [+0.15], diplomatic_support [-0.05], public_opinion [-0.05], leadership_unity [-0.10]
+[p.10] Generated Triggers:
+[p.10] The ultimatum sets a firm deadline, activating the President's trigger to move to an air strike/invasion if it is
+[p.10] not met.
+[p.10] Selected Actor: Soviet Union
+[p.10] Selected Action: Respond to Ultimatum by Initiating Secret Backchannel Talks
+[p.10] Predicted Variable Change: Being forced into a corner by the ultimatum is a "Diplomatic_Failure".
+[p.10] Net Change: tension [+0.10], diplomatic_support [-0.10], public_opinion [-0.05], leadership_unity [-0.05]
+[p.10] Generated Triggers:
+[p.11] The "diplomatic_resolution_offer" trigger is activated as a last resort in response to the ultimatum.
+[p.11] [RECONFIRM VARIABLE STATUS]
+[p.11] United States (From Turn 1 state):
+[p.11] tension: 0.75 (0.60 + 0.15)
+[p.11] diplomatic_support: 0.35 (0.40 - 0.05)
+[p.11] military_posture: Stable (Tension < 0.8)
+[p.11] public_opinion: 0.40 (0.45 - 0.05)
+[p.11] leadership_unity: 0.35 (0.45 - 0.10)
+[p.11] Trigger Warning: Public Opinion has hit the 0.4 threshold, triggering "Civil Unrest, Chaos". Leadership Unity
+[p.11] and Diplomatic Support are critically low, forcing an "Urgent" Emergency Response and risking leadership
+[p.11] collapse.
+[p.11] Soviet Union (From Turn 1 state):
+[p.11] tension: 0.70 (0.60 + 0.10)
+[p.11] diplomatic_support: 0.30 (0.40 - 0.10)
+[p.11] military_posture: Stable (Tension < 0.8)
+[p.11] public_opinion: 0.40 (0.45 - 0.05)
+[p.11] leadership_unity: 0.40 (0.45 - 0.05)
+[p.11] Trigger Warning: All variables are now at or below critical thresholds. Diplomatic solutions are blocked, the
+[p.11] public is restless, and leadership is prone to radical decisions due to severe internal conflict.
